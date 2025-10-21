@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "productName": "MadMapper",
+    "productSlug": "madmapper",
+    "productVersions": [
+      {
+        "num": "6",
+        "version": "v6"
+      }
+    ],
+    "lang": [
+      "en"
+    ]
+  }
+]
