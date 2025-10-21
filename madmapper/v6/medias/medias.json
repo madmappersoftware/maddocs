@@ -1,1 +1,216 @@
-[]
+[
+  {
+    "mediaId": "iY6kOvAyzx",
+    "filename": "pechmerle.jpg",
+    "imgName": "pechmerle",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/pechmerle.jpg",
+    "captions": {
+      "en": "Pech Merle cave"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-21T10:21:56.064Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "MfhssUasab",
+    "filename": "chauvet.jpg",
+    "imgName": "chauvet",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/chauvet.jpg",
+    "captions": {
+      "en": "Chauvet cave, France"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-21T10:22:55.921Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "7plq8lDcXq",
+    "filename": "pere borell.jpg",
+    "imgName": "pere borell",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/pere borell.jpg",
+    "captions": {
+      "en": "Pere Borell Del Caso"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-21T10:24:20.787Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "YN0Yf1aFI2",
+    "filename": "saintignazio.jpg",
+    "imgName": "saintignazio",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/saintignazio.jpg",
+    "captions": {
+      "en": "The Apotheosis of St Ignatius, Andrea-Pozzo 1685"
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-21T10:26:26.352Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "ac1myJp0pc",
+    "filename": "hanswaltermuller.jpg",
+    "imgName": "hanswaltermuller",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/hanswaltermuller.jpg",
+    "captions": {
+      "en": "Hans Walter Muller, \"Topoprojection\", France, 1979"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-21T10:30:04.694Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "fvNO9AOwEY",
+    "filename": "naimark.png",
+    "imgName": "naimark",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/naimark.png",
+    "captions": {
+      "en": "Michael Naimark, \"Displacements\", 1984"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-21T10:31:53.148Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  }
+]
