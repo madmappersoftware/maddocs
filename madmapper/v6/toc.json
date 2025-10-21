@@ -12,7 +12,8 @@
         "pageSlug": "madmapper-v6-at-a-glance",
         "pageType": "empty",
         "minorVersion": "6",
-        "subpage": []
+        "subpage": [],
+        "publish": true
       },
       {
         "pageSuid": "SYKeWyRxZh",
@@ -20,10 +21,11 @@
         "pageSlug": "release-notes",
         "pageType": "empty",
         "minorVersion": "6",
-        "subpage": []
+        "subpage": [],
+        "publish": true
       }
     ],
-    "publish": false
+    "publish": true
   },
   {
     "pageSuid": "f3UoO6jWFz",
@@ -31,6 +33,225 @@
     "pageSlug": "the-history-of-mapping",
     "pageType": "empty",
     "minorVersion": "0",
+    "subpage": [],
+    "publish": true
+  },
+  {
+    "pageSuid": "SHnUKVrkbF",
+    "pageTitle": "MadMapper Legacy",
+    "pageSlug": "madmapper-legacy",
+    "pageType": "card",
+    "minorVersion": "6",
+    "subpage": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageTitle": "Meet MadMapper",
+        "pageSlug": "meet-madmapper",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageTitle": "Evolution of MadMapper",
+        "pageSlug": "evolution-of-madmapper",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      }
+    ],
+    "publish": true
+  },
+  {
+    "pageSuid": "VItu9oKKNm",
+    "pageTitle": "Getting Started",
+    "pageSlug": "getting-started",
+    "pageType": "card",
+    "minorVersion": "6",
+    "subpage": [
+      {
+        "pageSuid": "0yIEG8azhm",
+        "pageTitle": "Hardware & System Essentials",
+        "pageSlug": "hardware-and-system-essentials",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "Tj08gThYjn",
+        "pageTitle": "Licensing",
+        "pageSlug": "licensing",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageTitle": "MadMapper Account",
+        "pageSlug": "madmapper-account",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageTitle": "Software Installation",
+        "pageSlug": "software-installation",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "VgqPuF3O8p",
+        "pageTitle": "Authorizing MadMapper",
+        "pageSlug": "authorizing-madmapper",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "WLPRb6ReP9",
+        "pageTitle": "Seats Usage Good Practice",
+        "pageSlug": "seats-usage-good-practice",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "rRg6DLZxfz",
+        "pageTitle": "First Launch and New Project",
+        "pageSlug": "first-launch-and-new-project",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "nBi9Vk0pWM",
+        "pageTitle": "Workspaces",
+        "pageSlug": "workspaces",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "cYhyTFKBg3",
+        "pageTitle": "Troubleshooting",
+        "pageSlug": "troubleshooting",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      }
+    ],
+    "publish": true
+  },
+  {
+    "pageSuid": "XRAg1d7EWb",
+    "pageTitle": "Learn the Fundamentals",
+    "pageSlug": "learn-the-fundamentals",
+    "pageType": "card",
+    "minorVersion": "6",
+    "subpage": [
+      {
+        "pageSuid": "Biuw0Z767c",
+        "pageTitle": "Interface Overview",
+        "pageSlug": "interface-overview",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageTitle": "Media Pool",
+        "pageSlug": "media-pool",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageTitle": "Sufaces",
+        "pageSlug": "sufaces",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageTitle": "Fixtures",
+        "pageSlug": "fixtures",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "NXy9BMBaQi",
+        "pageTitle": "Projectors Setup",
+        "pageSlug": "projectors-setup",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageTitle": "Modules",
+        "pageSlug": "modules",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "WhevrbYA4M",
+        "pageTitle": "Master Tab",
+        "pageSlug": "master-tab",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "arFDfOAHk1",
+        "pageTitle": "Advanced Tools",
+        "pageSlug": "advanced-tools",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "lGAwFxCVEO",
+        "pageTitle": "Menus and Preferences",
+        "pageSlug": "menus-and-preferences",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      }
+    ],
+    "publish": true
+  },
+  {
+    "pageSuid": "adDlVVcHKA",
+    "pageTitle": "FAQ",
+    "pageSlug": "faq",
+    "pageType": "empty",
+    "minorVersion": "6",
     "subpage": [],
     "publish": true
   }
