@@ -1,5 +1,31 @@
 [
   {
+    "pageSuid": "MG8sM211wn",
+    "pageTitle": "What's New",
+    "pageSlug": "what's-new",
+    "pageType": "card",
+    "minorVersion": "0",
+    "subpage": [
+      {
+        "pageSuid": "3hgIot1RBf",
+        "pageTitle": "MadMapper v6 at a Glance",
+        "pageSlug": "madmapper-v6-at-a-glance",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": []
+      },
+      {
+        "pageSuid": "SYKeWyRxZh",
+        "pageTitle": "Release Notes",
+        "pageSlug": "release-notes",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": []
+      }
+    ],
+    "publish": false
+  },
+  {
     "pageSuid": "f3UoO6jWFz",
     "pageTitle": "The History of Mapping",
     "pageSlug": "the-history-of-mapping",
