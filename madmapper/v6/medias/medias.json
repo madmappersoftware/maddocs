@@ -212,5 +212,118 @@
         "pageSlug": "the-history-of-mapping"
       }
     ]
+  },
+  {
+    "mediaId": "AD2BjlYXXG",
+    "filename": "wodickzko.jpg",
+    "imgName": "wodickzko",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/wodickzko.jpg",
+    "captions": {
+      "en": "Wodiczko"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-21T10:37:19.188Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "fg88LSoeJD",
+    "filename": "decrecy_1024.png",
+    "imgName": "decrecy_1024",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/decrecy_1024.png",
+    "captions": {
+      "en": "SquareCube, 1024 architecture, 2007"
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-21T10:42:06.997Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "lb8QAeZukd",
+    "filename": "mmv3.png",
+    "imgName": "mmv3",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/mmv3.png",
+    "captions": {
+      "en": "MadMapper, version 3"
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-21T10:43:51.184Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
   }
 ]
