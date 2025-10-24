@@ -21,7 +21,17 @@
         "pageSlug": "release-notes",
         "pageType": "empty",
         "minorVersion": "6",
-        "subpage": [],
+        "subpage": [
+          {
+            "pageSuid": "985xnkp4H2",
+            "pageTitle": "Deprecated Notes",
+            "pageSlug": "deprecated-notes",
+            "pageType": "empty",
+            "minorVersion": "3",
+            "subpage": [],
+            "publish": true
+          }
+        ],
         "publish": true
       }
     ],

@@ -1,0 +1,485 @@
+<h2 class="int-link-anchors">MadMapper Deprecated Release Notes</h2>
+<h3>MadMapper v5</h3>
+<h4>MadMapper 5.6.0 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added support for media multi-selection: edit, duplicate and delete multiple media at once<br>+ Controls:<br>&nbsp; &nbsp; + Added a checkbox to enable / disable Controls<br>&nbsp; &nbsp; + Added an option to setup a custom Curve transform in Controls<br>&nbsp; &nbsp; + Handle multi-selection / edition of Controls<br>+ MadLaser: Added a collection of 40 atmospheric Laser Materials<br>+ Added Color Palette as an option in all color parameters, color palette is editable from Master tab and global for the project<br>+ Added options in surfaces contextual menu in output preview: Enable/Disable Perspective, Match Media Size &amp; Match Media Ratio<br>+ Handle editing a multi-selection of Modules<br>+ Calendar Scheduler module: added control to send an OSC string with an ICS file path to load<br>+ Added Generator "Chrono"</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Update NDI to version 6.0.1<br>* Button grid settings allows to create controls for each button separately now<br>* Handle editing Input geometry (position/size/rotation) of a multi-selection of surfaces<br>* ArtNet output now uses a fixed frame rate to fix compatibility with some devices on the market<br>* Made selected Mesh Warping handles more visible</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed possible network issues on Windows that could affect ArtNet, sACN (when controlling lots of universes) or Ponk (MadLaser) when sending lots of content<br>- Fixed soft-edge size issue for video surfaces (when using Auto Setup)<br>- Fixed soft-edge after adding mesh warping points<br>- Fixed various Video-Output bugs when Destination had sub-screens<br>- Fixed Testcard on Video-Output's preview<br>- Fixed splash-screen (Windows)<br>- Fixed control surface with Launchpad X<br>- Firmata: fixed sending value on project load if output/servo/pwm value == 0<br>- Fixed possible issue playing a movie when audio track ends before video track<br>- MadLaser / Ponk: improved handling packets when netowrk is not perfect<br>- Fixed possible issue with Laser Surface soft close color<br>- Fixed moving a multi-selection of surfaces with SHIFT key pressed (contrained move)</p>
+<h4>MadMapper 5.5.6 Release Notes</h4>
+<p><span style="text-decoration: underline;">FIXES</span><br>- MadLaser: Fixed possible issue in PONK output with large ILDA frames<br>- MiniMad Video: Fixed movie aspect-ratio in Fullscreen maximum quality mode in some cases<br>- Audio Player: Fixed the absence of feedback when loading an audio file with no audio-output selected in the preferences<br>- Windows: fixed opening a project file with unicode characters in path by double clicking file<br>- Editing mesh warping could affect soft-edge<br>- Fixed movie play once with audio playback enabled on Windows<br>- Improved undoing many mesh warping changes (merging changes in a single undo command)<br>- Fixed broken surface manipulation after loading a project at startup in some cases</p>
+<h4>MadMapper 5.5.5 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added a preference to enable audio playback by default when importing a movie<br>+ MiniMad Video: Added a blanking time on media-change advanced export setting<br>+ MiniMad Light: Added audio-level control using Blue + Up / Down</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Updated NDI to version 5.6.0<br>* MiniMad Video: Improved random playback when connected</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed using multiple units of same MIDI device on macOS<br>- MadLaser: fixed color issue with shape soft-close when laser master is low<br>- Fixed MadMapperProjectData/ folder being created even though AutoSave and Project Backup are disabled in preferences</p>
+<h4>MadMapper 5.5.4 Release Notes</h4>
+<p><span style="text-decoration: underline;">FIXES</span><br>- PJLink module: fixed a communication issue on older projector models<br>- Fixed possible image distortion in Quad with mesh warping and masks with feathering<br>- MadLaser: fixed possible issue when cueing Laser Text surface Font<br>- MadLaser: fixed masking inside Laser Quad in some circumstances</p>
+<p><br>MadMapper 5.5.3 Release Notes</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- MadLaser: fixed Laser Output when lowering a color level in Laser Output</p>
+<h4>MadMapper 5.5.2 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Improved toolbar</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed UI when refusing to recover an Untitled AutoSave<br>- Fixed AutoSave recovery interrupting silent mode<br>- MadProjector Control: fixed Mute command not always working on Panasonic projectors<br>- Fixed NDI output framerate information when Engine FPS is set to Manual<br>- Fixed first Video Snapshot<br>- Fixed Calendar Scheduler with exclusions in repeating events<br>- Fixed Audio Player module "position" update</p>
+<p><br>MadMapper 5.5.1 Release Notes</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- MadLaser: fixed Fixed scan speed<br>- Fixed possible in Demo version</p>
+<h4>MadMapper 5.5.0 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added AutoSave project (to be disabled before performance / permanent install)<br>+ MadLaser: Added Laser Scanner<br>+ Added project backup that saved previous project states in MadMapperProjectBackups/<br>+ Added MadLight Player module<br>+ Added Cue Starter module to start a cue when loading a project<br>+ Added Idle Cue module to start a cue after current cue bank went idle for a defined time<br>+ Added Device Activity module: after some inactivity on a MIDI / OSC / Keyboard or Firmata device, change a channel value to be used in Controls - ie to start a Cue<br>+ Added 3D Particles generator<br>+ Added support for HapR codec (Windows only)<br>+ Added Import SVG &amp; Export SVG button on masks &amp; lines surfaces<br>+ Added an option to make snapshots of video outputs (in output inspector)<br>+ Added Fullscreen button on main window<br>+ Added Arm Lasers item in Output menu<br>+ MiniMad Video: added "adjust movie framerate" advanced export setting</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Control Surface module: separated Step parameter in two Step X &amp; Step Y<br>* Improved video playback on Windows with an audio track active and audio output is set to DirectShow<br>* MadLaser: improved laser output "info" for etherdream (shows IP mistakes &amp; recommandations)<br>+ MadLaser: huge improvement in dispatching when using vectorized contect (follow shapes from frame to frame to maintain them on same laser output)<br>* Space Scanner (video): image cleanup, you'll see a huge improvement<br>* MadLaser: Laser Render settings to define how to handle beams (single point), Auto or Fixed point count</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed issue with video-inputs when image is bigger vertically than horizontally<br>- Fixed issue when changing Lines surface thickness for hundreds of line elements<br>- Fixed newly connected video-inputs not always being detected using Check for devices<br>- Fixed searching file using relative path when project was saved on Windows and loaded on macOS<br>- MiniMad Video: fixed audio playback problem with some movie files<br>- Fixed reloading &ldquo;enableMsaa&rdquo; on video outputs<br>- BlackMagic runtime device check could lead in hickups in the output with some black magic devices connected</p>
+<h4>MadMapper 5.4.4 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Optimized modules<br>* MadLaser: with vectorization / Find Pathes, consider a path smaller than "thickness" to be a beam (sometimes video compression artefacts make it a small line)<br>* MadLaser: improved Soft Closing in low luminosity</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed updating Fixture Definition "Ignore Alpha" setting and handle undo<br>- Updated ShowNET library to avoid possible crash when changing network setup<br>- Fixed Record ILDA Movie</p>
+<p>MadMapper 5.4.3 Release Notes</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Optimised laser process (major speed boost on Windows)</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed application not starting on some macOS 10.13 systems<br>- Fixed possible connexion issues with some Moncha DACs<br>- Undoing activation of multiple modules is now done with a single undo<br>- Various fixes</p>
+<h4>MadMapper 5.4.2 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added MadLight Player module, to playback DMX sequences recorded in MadLight recorder</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Laser Quad point intensity is zero by default (for auto), and can be adjusted to define a fix number of ILDA points for beams<br>* Color Profile for medias can be adjusted even if information is provided (some H264 encoders donnot give correct profile, so user can adjust)<br>* Updated to FFMPEG 6.0 for better video playback (good boost with AV1 codec)</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed possible issue when a surface FX contains multiple shaders<br>- Fixed possible issue with video Test Pattern on many displays (or in very high resolution)<br>- Control Surface module: Fixed scrolling using supported AKAI APC controllers' arrow keys<br>- Control Surface module: Fixed APC mini Mk2 initialisation<br>- Fixed masking in Laser Quad with masks attached to input</p>
+<h4>MadMapper 5.4.1 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added MadLight Player module, to playback DMX sequences recorded in MadLight recorder<br>+ Added Master preferences to choose to reset settings on new project, and load settings from the project</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Updated Control Surface module guide</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed Cue Color table adding items when reloading project<br>- Fixed Video-cursor when video-output was flipped<br>- Fixed Authorisation being stuck in rare circumstances</p>
+<p>MadMapper 5.4.0 Release Notes</p>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Control Surface module for triggering cue banks with colored pads - compatible with AKAI APC40 mk2, AKAI APC Mini mk2 &amp; Novation LaunchPad Mk2, Launchpad Mini Mk3 &amp; Launchpad X<br>+ Stream Deck plugin to trigger MadMapper scenes, cues and control parameters from any Stream Deck device (Stream Deck support must be enabled in Preferences)<br>+ Notes Editor: added a new editor to write some notes that are save in the projects<br>+ MadLaser: supports Lottie animations (vector based animations exported from After Effects with Bodynmovin plugin) to create precise vector based animation for any show with a tool many people know<br>+ MadLaser: Added IDN (ILDA Network) DAC support<br>+ Osc Query now supports websocket &amp; LISTEN / PATH ADDED / PATH CHANGED / PATH REMOVED<br>+ Added "Reload file" menu entry on file-based media</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* FFMPEG video player ensures first frame is shown when starting a Scene/Cue<br>* MadLaser: improved laser dispatching algorithm<br>* MiniMad manual remote-connection parameters are now saved for later usage<br>* Allow multiple media selection and check in Export to MiniMad Video<br>* Cue Grid supports custom colors (useful with Control Surface)</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Media Player module does no more send loop notification if media is just playing in a preview<br>- Some MIDI device do not receive all MIDI feedback from MadMapper depending on the OS, so MadMapper now limits MIDI out data rate to avoid this issue<br>- Fixed create video wall (was creating a laser project)<br>- Audio Player module: don't restore playback position when reloading project<br>- Fixed VideoWall template landscape 180&deg;<br>- Fixed media remaining black on 3D surfaces in certain conditions<br>- Fixed issue when using popup menu / "Center" on a multi-selection of surfaces in input preview<br>- Fixed possible issue in Quad geometry in some weird situations<br>- Fixed a few issues in Firmata module (reconnection on project load in rare cases, unplug-replug)</p>
+<h4>MadMapper 5.3.2 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Optimized changing cue bank when there are hundreds of cues<br>* Demo version: show info text when in laser output blackout (demo limitation)<br>* Handled "restart" / "reset" in all ISF generators (damper, linear filter, ease filter...)<br>* Ableton Link as Global BPM source: added an option to allow MadMapper to change BPM or not<br>* Restored Engine Speed at application startup</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed a few issues when using multiple cue banks (with undo/redo and when deleting cued objects - ie surface, media, module...)<br>- Fixed possible issue with MadRouter to Enttec Pro/Mk2 on macOS<br>- Fixed possible issue in BlackMagic output if starting device failed (used by another application ?)<br>- Better handling of errors when iterating over Spout sources<br>- Fixed an issue when using MadLight recorder with ArtNet as input and no ethernet devices<br>- Fixed Laser Text with stick fonts on Windows<br>- Fixed using FX with mipmapping on video loopack sources<br>- MadLaser: fixed possible issues when combining laser quad mask &amp; laser output mask<br>- MadLaser: fixed showing ILDA points on Windows<br>- Fixed possible issue triggering cue changing a Material with Render To Texture<br>- Fixed possible issue with cues when starting a Surface FX and changing its parameters<br>- MadLight: on Windows, in some conditions, not all network adapters were available<br>- When restarting an FFMPEG movie from a cue, last decoding frame could show up first (now always starts on first loop frame)</p>
+<h4>MadMapper 5.3.1 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ MadLaser: added "Preserve FPS" mode on Laser Outputs when laser expert mode is enabled<br>+ Added the Space Scanner user-guide</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Improved Space Scanner ergonomics</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed fullscreen upside down when using frame delay with D3D output (Windows)<br>- ArtNet / sACN interfaces are reconnected automatically even if network adapter become online long after application startup<br>- Fixed possible issue when stopping AVFoundation camera<br>- Fixed possible issue restarting Text Generator auto scroll from cue<br>- When fixture opacity is zero, process it anyway if it has channels set to not fade with luminosity<br>- Allow scrolling in list views (surfaces...) with scrollbar when editing cues or controls<br>- Fixed setting cue item local transition ease curve</p>
+<h4>MadMapper 5.3.0 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added support for Blackmagic video-output devices<br>+ Added support for Sony cameras (Spatial Scanner &amp; Live Inputs)<br>+ Added Windows Media Foundation for live video inputs (DirectShow is still available with a preference)<br>+ Added Frame Delay on video outputs (to improve projectors / laser projectors sync)<br>+ MadLaser:<br>&nbsp; &nbsp; + Added Fixed Scan speed option on laser surfaces<br>&nbsp; &nbsp; + When using a laser output loopaback on a Laser Quad (ie for dispatching), let user choose if he wants to preserve source render settings or to override<br>&nbsp; &nbsp; + Added Freeze Laser Outputs<br>&nbsp; &nbsp; + Added SVG Folder Player (svg sequence) with color handling<br>+ Added a "Check for devices" item in the Edit menu, to force newly connected/disconnected devices detection<br>+ Added a "Automatically check for video-inputs devices" preference<br>+ Added Expert Mode in Preferences / General / User Interface to enable a few more options<br>+ Added Output settings to position a Quad surface precisely in pixels<br>+ Added menu Edit / Cut</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Updated to latest NDI SDK (solves some issues on Windows in rare cases)<br>* Updated ShowNET library (solves crash when changing network adapters setup)<br>* Improved movie looping with heavy compression (preload from loop start when close to end)<br>* Added Copy/Paste settings on Modules (right click popup)<br>* Controls: added an option to handle feedback per control<br>* MadLaser:<br>&nbsp; &nbsp; * Improved Laser Beam Preview<br>&nbsp; &nbsp; * Improved handling closed shapes when vectorized or from Surface 3D<br>&nbsp; &nbsp; * When Laser expert mode is enabled, show "RGB Samples" settings on Laser Lines / Laser Text to setup the precision of the color/position sampling<br>* Improved performance of Blackmagic video capture with ARGB pixel-format<br>* Improved Syphon fluidity<br>* MiniMad Light: save / restore &amp; display audio level<br>* Handle feedback (MIDI / OSC) on /medias/selected children</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- MadLaser:<br>&nbsp; &nbsp; - Fixed possible issue restoring laser mask opacity<br>&nbsp; &nbsp; - Fixed smoothness with multiple Helios DACs<br>- In some conditions, an output could be moved while being locked<br>- Fixed issue when re-authorizing MadMapper without internet connection<br>- Fixed a potential issue when changing pixel-format on Blackmagic video-capture cards<br>- Update a Scene was not updating modules settings<br>- Fixed possible issue when deleting a Video Output<br>- Fixed sending sACN multicast on localhost on macOS<br>- On Apple M1 &lt; M1 Max, using a GPU intensive shader could lead to low view refresh<br>- Fixed some FX (ie Gaussian Blur...) on internal video loopback<br>- Fixed flickering of fixtures when using internal Video loopback<br>- Fixed video lines with texture mode "Match Output Geometry"<br>- Fixed DMX Fixtures compatibility with some materials defining PI<br>- Fixed uncueing a module by pressing backspace on module in edit cues mode<br>- Fixed User Interface slow refresh on Windows 11 when engine is running at full FPS<br>- Fixed using Teensy/arduino or BlinkyTape for LED output on macOS Monterey<br>- Fixed Image Folder Player not reacting correctly when images were removed<br>- Fixed Midi Out module showing controls unrelated to the control-type<br>- Fixed rotation handlers rendering on Windows with AMD GPU</p>
+<h4>MadMapper 5.2.4 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ MadLaser: Added Laser Visualization option for LA.preview</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Calendar Schedule now display time in local time zone (not UTC)<br>* Laser Output with etherdream DAC shows its IP address</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed MiniMad Light not playing back<br>- Fixed a potential crash when authorising<br>- Fixed audio playback after changing audio output preference<br>- Fixed running macOS Apple Silicon version on macOS 11<br>- Fixed running macOS Intel version with Kinect on macOS 10.13<br>- Fixed Calendar Scheduler timezone issue on ICS files exported with Apple Calendar<br>- Fixed audio playback with more than 8 Channels (in FFMPEG Movie Player or Audio Player)<br>- Fixed cueing Count Down "Reset" button</p>
+<h4>MadMapper 5.2.3 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added a menu to access the log files<br>+ Added a preference to select workspace path at startup</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* MadLight Recorder: set the Sync Audio to DMX on by default<br>* MadLight Recorder: warn about unsupported filenames while exporting to the MiniMad</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Renamed the material instance when duplicating it in the Code Editor<br>- MadLaser: Fixed output smoothness when using multiple Helios on macOS<br>- Fixed OSC Controls being triggerred when reloading a project (ie starting a cue...)<br>- Fixed possible deadlock when quitting the application<br>- Fixed media colors burning with live-steam on Windows<br>- Fixed Master Color widgets (Video/Laser/DMX) showing invalid color after restarting the app<br>- Fixed Calendar Scheduler in some cases (UTC handling)<br>- Fixed YUVA 4444 P12 pixel format handling with FFMPEG (invalid colors)<br>- Fixed mouse interactions in preview panels after loading a project</p>
+<h4>MadMapper 5.2.2 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added manual MiniMad network connection in the export dialogs</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Updated to latest spout SDK<br>* MadLaser:<br>&nbsp; &nbsp; * Show IP address in display name for ShowNET devices<br>&nbsp; &nbsp; * Added aspect ratio in grid generator<br>&nbsp; &nbsp; * Reconnect to Pangolin Beyond after Beyond restart</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed a crash using NDI output<br>- Fixed snapping being disabled in some cases<br>- Solved possible issues restoring Mesh Warping from scenes/cues stored with MadMappper 5.1 or earlier<br>- Cue Auto Player in "loop once" mode was not restarting from beginning<br>- Fixed possible issue with camera inputs (AVFoundation &amp; BlackMagic)<br>- Cue / "Play Next when movie reaches loop end" was not working with AVFoundation movie player or with FFMPEG when audio is playing<br>- Fixed warning dialog appearing when switching fullscreen on Windows<br>- Fixed possible issue driving several Pangolin Beyond projectors<br>- Fixed window potentially moving screen when loading a project</p>
+<h4>MadMapper 5.2.1 Release Notes</h4>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed Text Generator on Windows<br>- Fixed editing Image Folder FPS<br>- Fixed MIDI virtual input on macOS<br>- Fixed Movie Folder Player generator<br>- Fixed DMX Fixture / Definition / Edit button in some cases<br>- Fixed two possible issues when quitting the application<br>- Fixed possible issue with OSC controls with filtering<br>- Fixed Kinect Infrared camera on Apple M1<br>- Fixed Laser Text "Stick Fonts" on Windows in some cases<br>- Count Down is in seconds (no more linked to global BPM / Engine Speed)<br>- Fixed windows minimisation on macOS<br>- Fixed "Always minimize at startup" on macOS<br>- Fixed loading a project with main window collapsed<br>- Fixed UI restoration when maximized on Windows</p>
+<h4>MadMapper 5.2.0 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added support for Kinect ONE (v2) on Windows, macOS Intel &amp; macOS Silicon (M1) &amp; improved Kinect Masker generator<br>+ Added support for Intel RealSense on Windows (&amp; macOS versions up to Monterey)<br>+ Added support for Xbox controllers (wired and bluetooth on Windows, bluetooth only on macOS)<br>+ MadLaser: added Laser 3D surfaces<br>+ MadLaser: added delay setting on laser outputs to better synchronize video &amp; laser projection<br>+ MadLaser: added PONK support (in &amp; out). PONK stands for "Pathes Over NetworK", it's an open source protocol to transmit geometry over network (mostly designed for laser)<br>+ MadLaser: added Laser Generators - Polyline Mixer, Countdown &amp; Text Generators<br>+ New Generators<br>&nbsp; &nbsp; + Video Sampler<br>&nbsp; &nbsp; + New Text Generator (supports all installed fonts, multiline, text alignment...)<br>&nbsp; &nbsp; + Count Down<br>+ MadProjectorControl: Added projector lamps lifetime info<br>+ User Interface: restore windows / splitters states &amp; selections when reloading a project<br>+ Added YUV (YCrCb) Color-Profile control in video-inputs / NDI / FFmpeg (autodetected if possible, user setting if not) for better color accuracy<br>+ DMX Fixtures CSV import: handle fixture name &amp; group hierarchy<br>+ Added "CUE ALL", "Copy Settings", "Paste Settings" &amp; "Reset to default values" when right clicking on parameter groups (for Surface FX, Materials etc.)<br>+ Added Copy/Paste Output Geometry / Input Geometry / FX Settings / Laser Settings on surface context menu</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Quad &amp; Laser Quad: When adding / removing mesh warping points or generating a mesh grid in bezier mode, preserve transformation as much as possible<br>* Improved media sampling on surfaces (black outside media rectangle while preserving pixel perfect mapping)<br>* Revamped Preferences dialog with new Startup section<br>* Improved UI-state restoration, now saved in project as well<br>* Enable anti-aliasing on output when using NDI/Spout/Syphon/Internal Loopback<br>* Open only selected MIDI devices &amp; other MIDI improvements<br>* Handle disconnection / reconnection of cameras on macOS<br>* Enabled multisample antialiasing on Syphon / NDI output / Internal Loopbacks</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed MIDI port naming when using multiple devices (annoying with MIDI Out module &amp; feedback device assignment)<br>- Fixed game-controllers Y axis being upside-down<br>- Fixed a crash when exporting to MiniMad on macOS 10.13<br>- Fixed AVFoundation video-inputs not functionning when reconnected&nbsp;<br>- Fixed possible issue in MadLight Recorder if audio file is missing<br>- Fixed memory leak when using NDI output and changing pixel format<br>- Fixed an issue in Export to MiniMad Light on macOS 10.13<br>- Prevent maximizing MadMapper user interface on macOS (to avoid possible fullscreen issue on Monterey)<br>- Fixed undesired movie restart in "play once" when just changing media selection<br>- Fixed MIDI port naming when using multiple devices (annoying with MIDI Out module &amp; feedback device assignment)<br>- Fixed controlling / Cueing of fixture response parameter<br>- Fixed DMX Fixture 16 bits Slider of Expressions channels<br>- When video projector is flipped, Output / Show Info was not flipping displayed info<br>- Fixed possible issue enumerating video capture devices on Windows<br>- Fixed reloading Laser Lines pathes min ilda points<br>- Fixed cue input geometry for Fixture Line<br>- Fixed detecting connected display changes in some circumstances on macOS<br>- Fixed control /cues/active_bank node (not updating when renaming bank)<br>- Fixed an issue on Windows with latest AMD drivers &amp; Direct3D Output</p>
+<h4>MadMapper 5.1.6 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added back support for Canon EDSDK in Apple Silicon (M1) build</p>
+<p>IMPROVEMENTS<br>* Rotating lines / masks elements of surfaces supports SHIFT+rotate to jump by 22.5 degrees</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed Fixture parameters display issue when a fixture definition name is too long<br>- Changing media selection could restart a movie in "play once" mode when it finished<br>- Spatial Scanner was listing video loopbacks as camera sources<br>- Fixed publishing resources in the online library depending on system locale<br>- Fixed laser vizualization "device number" when a video projector comes first in the list<br>- Fixed cue bank auto play in "left to right once" mode<br>- Fixed rotation issue in bezier element items (lines or masks)<br>- Fixed trigger controls (ie "start cue" / "media restart"...) being executed on project load with DMX channels even if value is zero<br>- Fixed a possible issue publishing Materials or FX to online library depending on computer locale region<br>- Fixed sACN universe number when importing DMX Fixtures from CSV &amp; accept "," and ";" as separator<br>- Fixed issue in space scanner when MadLaser is not available<br>- Fixed scrolling in list when duplicating a module<br>- MadLaser: fixed possible issue driving multiple AVB outputs<br>- Fixed Enttec Pro Mk2 second output with D2XX<br>- Fixed engine smoothness when adjusting audio input level on Windows<br>- Fixed Controls with toggle enabled when on/off is received within one frame time<br>- Fixed an issue in Laser Dispatching introduced in version 5.1.3<br>- Fixed DualShock3 (PS3 controller) with macOS Monterey (still not working on Windows)<br>- Fixed Moncha Laser DAC on Apple M1</p>
+<h4>MadMapper 5.1.5 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* DirectShow Cameras: added a button to reset the device (will update available video resolution/formats which might change when switching video input on a device)<br>* Improved Fixture import from CSV: respect CSV order, accept "," &amp; ";" as separator &amp; fixed universe number when using sACN output</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- MadLaser: Fixed issue when selecting multiple laser outputs<br>- Fixed latency when using Enttec Pro D2XX as input<br>- Fixed garageCube USB DMX as input on Windows<br>- Fixed issue when unplugging the active audio input device on Windows<br>- Fixed issue with some MadMapper password when connecting to library<br>- Fixed possible Mach port leaks with some BlackMagic devices on macOS</p>
+<h4>MadMapper 5.1.4 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Direct access to MadMapper channels (ie Oscillator...) from widget / "Add Control" menus<br>* MadLaser: improved laser output test pattern / render masks options<br>* MadLaser: increased beam point size in previews<br>* Improved performances in NDI output</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed movie audio playback issue in some cases when starting movie from a scene / cue<br>- MadLaser: fixed some issues when the ILDA FPS is very very low (much too many paths to render)<br>- MadLaser: fixed an issue with LaserDock USB on macOS<br>- MadLaser: LaserCube network buffer could be too small in some conditions<br>- MadLaser: fixed issue controlling multiple AVB devices<br>- MadLaser: solved issue with Laser Master when dispatching to multiple outputs<br>- MadLaser: fixed possible issue with multiple Moncha DACs<br>- GPU Particles: solved an issue in some rare cases<br>- Fixed an issue with MadLight recorder when recording external DMX input<br>- MiniMad: fixed MiniMad not quitting remote-export in rare cases (Windows)<br>- MiniMad Video: fixed an export error message not appearing when not in fullscreen<br>- Fixed media-selector thumbnails aspect ratio<br>- Fixed issue in Calendar Scheduler</p>
+<h4>MadMapper 5.1.3 Release Notes</h4>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed YUV =&gt; RGB color conversion color profile with some NDI sources<br>- Fixed issue with Space Scanner</p>
+<h4>MadMapper 5.1.2 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Canon EDSDK is now supported on Apple M1/Silicon builds</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed masks precision in some cases<br>- Fixed Oscilator module<br>- Fixed undesired scroll in cue bank when deleting/inserting a column/row<br>- When opening a project with Cue Auto Play active in loop, start on first column<br>- Fixed video cursor &amp; laser cursor group box display when vertical resolution is low<br>- Fixed possible leak on windows when enumerating available camera inputs</p>
+<h4>MadMapper 5.1.1 Release Notes</h4>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed possible lag each second on Windows<br>- Fixed possible startup issue on Windows<br>- Fixed possible issue in MIDI / OSC feedback when triggering cues<br>- Fixed audio player when file path contains unicode characters on Windows</p>
+<h4>MadMapper 5.1.0 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added a new extension MadProjectorControl to remotely control video-projectors<br>+ Added PJLink protocol support (PJLink module included in the MadProjectorControl extension)<br>+ Added Generator GPU Particles<br>+ MadLaser: Added Visualisation support for Capture, Depence2 &amp; WYSIWYG<br>+ MadLaser: support Moncha DAC support (https://www.showtacle.com/moncha-go-2/)<br>+ MadLaser: support AVB / Dante to drive lasers (for Laser Animation projectors)<br>+ MadLaser: Added Soft-Edge support on Laser Quad (don't expect it to work in any situation or with any content, but it's working in some interesting situations)<br>+ MadLaser: Added option on ILDA file to use source ILDA points or re-rasterize geometry using MadLaser algorithms<br>+ New builtin Laser Materials &amp; Laser Lines FX<br>+ Video &amp; Laser Lines surfaces: added an option to merge two paths (now you have split &amp; merge)<br>+ Command-line-interface authorisation<br>+ MadLight: added support for Enttec Open USB DMX<br>+ Added 2D FX "Curve RGBA" &amp; "Curve Luma"</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Materials can use last frame data for more complex creations<br>* Optimisation: don't render Video Loopback projector if not used by any visible surface<br>* Global BPM with Audio beat detection now supports specifying BPM range<br>* Video &amp; Laser Lines surfaces: when adding a handle in creation mode, it can directly be adjusted with arrow keys<br>* Increased MiniMad Light mini-jack audio level to 0dB<br>* Oscilator module now has "Strob" option<br>* Improved code-editor tabulation handling</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed Video Output Internal Loopback when using FX that require MipMapping (ie Gaussian Blur)<br>- When disabling/re-enabling Laser Output connected to Pangolin Beyond, stream was off until you start some content within Pangolin<br>- Fixed cueing Materials / Laser Materials ISF event inputs<br>- Fixed Cmd-Ctrl+click to reset value on range widgets &amp; right click for controls menu<br>- Fixed possible issue reconnecting ArtNet/sACN to the right network adapter on Windows after reboot (identify network adapter using its name)<br>- Fixed editing quad mask when surface opacity is zero</p>
+<h4>MadMapper 5.0.7 Release Notes</h4>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed Text Generator not availabled on macOS 12.3 / Apple M1<br>- Locked projectors could still be moved in preview<br>- Fixed possible issue when stopping AVFoundation movie playback on macOS 12<br>- Fixed possible issue when un-publishing &amp; republishing video output to NDI</p>
+<h4>MadMapper 5.0.6 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Unofficial support of LaserDock USB on Windows (not officially supported but users reported it works)</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Optimized Quad geometry computation in some cases</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed for macOS 12.3 compatibility<br>- Fixed changing fixture input size from inspector<br>- Fixed a possible fullscreen issue on macOS<br>- Fixed a possible issue reloading Audio Player modules<br>- Fixed an issue with FX using a second media</p>
+<h4>MadMapper 5.0.5 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added support for Playstation 5 Controller</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Quit fullscreen when opening a MiniMad export dialog to avoid being stuck if the display got disconnected<br>* Updated MiniMad user-guide</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed possible fullscreen issue appearing on the wrong screen (macOS)<br>- Fixed video-output resolution not corresponding to the display's resolution (macOS)<br>- Fixed authorisation failing with error 400 (Windows)<br>- Fixed login using some emails with long domain extensions<br>- Fixed Library not showing the right resource type at startup<br>- Fixed Laser-Output being listed in Export Vide Mapping to MiniMad<br>- MiniMad Light: Fixed audio playback using the mini-jack<br>- Fixed generating video lines from DMX Fixture Circle<br>- Fixed possible issue when dragging controls to reorder them<br>- Fixed possible issues cueing Global BPM or Cue Scheduler</p>
+<h4>MadMapper 5.0.4 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* In countries where comma is the decimal separator, accept both comma &amp; point in sliders etc.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed showing test pattern options for video outputs<br>- Fixed handling general master level for laser outputs<br>- Fixed Cue Scheduler "Go Next Now" when automation timing source is BPM<br>- ShowNET outputs were flipped on x axis</p>
+<h4>MadMapper 5.0.3 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added Show Test Pattern on Laser Outputs<br>+ Added the option to Laser Projector Show ILDA Points in output preview</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Improved Laser Beam Preview (can be adjusted from preferences)<br>* Improved MiniMad remote-export<br>* Updated ShowNET library (solves issue when disconnecting network adapter + IP address is now displayed)<br>* When surface is too small, handles are hidden so we can still move the surface<br>* Preserve Master Levels / Colors when restarting MadMapper<br>* Handle disconnection / reconnection of Etherdream on Windows</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed deleting a single point in a line surface by pressing delete in the output preview<br>- MiniMad Video: fixed exporting incorrect mapping in certain conditions<br>- Fixed sACN if nentwork interface wasn't ready when MadMapper was started<br>- Fixed memory leak if a Material or FX references an non existing image file<br>- Fixed possible glitches on Windows with some connected USB hardware<br>- Fixed sending crash reports<br>- Oscilator module wasn't completely paused with BPM Sync and speed = 0<br>- Fixed fading surface colors with cues</p>
+<h4>MadMapper 5.0.2 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Improved Laser Lines item selection in preview<br>* Improved Library login dialog</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Workaround an Intel GPU driver issue on macOS<br>- Fixed authorization failing in rare cases</p>
+<h4>MadMapper 5.0.1 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Improved licenses listing in Authorization Manager</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed computer potentially being authorized several times (Windows)<br>- Fixed issue in LED Scanner</p>
+<h4>MadMapper 5.0.0 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Native Apple Silicon Build<br>+ MadLaser: the laser projector extension for MadMapper !<br>+ Added input channels "Media Playback" to create controls reacting to a movie loop etc.<br>+ Added internal loopback for video projectors (a bit more performant than Syphon/Spout)<br>+ Added feedback on Scenes / Cues</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Many optimizations<br>* Switched to a new licensing / activation server with a MadMapper user account etc.<br>* Online resource library now using MadMapper user account login<br>* Updated to latest NDI SDK / Canon EDSDK / FFMPEG player<br>* Improved surface inspector by grouping parameters in collapsable groups</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed Y flipped fullscreen when using a video projector loopback on Windows<br>- Various fixes</p>
+<h3>MadMapper v4</h3>
+<h4>MadMapper 4.2.1 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Fixed possible issue executing cues on some parameters after modifying it by hand</div>
+<div>- Fixed Cues Scheduler with Beat sync automation after a "Resync" in Global BPM</div>
+<div>- Fixed Image Folder Controls for position / speed / looping mode etc.</div>
+<h4>MadMapper 4.2.0 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">ADDITIONS</span></div>
+<div>+ MiniMad Export: Added remote-export to export your show though the network</div>
+<div>+ MiniMad Export: Added default settings loading</div>
+<div>+ MiniMad Video: Added the possibility to update the mapping or the media separately</div>
+<div>+ MiniMad Controller: added up, down, left, right mapping buttons for precise adjustments + MiniMad Controller: make all mapping and image controls mappable</div>
+<div>+ Controls can now be ordered by internal drag</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">IMPROVEMENTS</span></div>
+<div>* MadLight Recorder: Improved support for very large sequences</div>
+<div>* MiniMad Light: Boosted the default analog audio-jack output level</div>
+<div>* MiniMad Light Export: Better export progress</div>
+<div>* Better handle video-inputs reconnection</div>
+<div>* Handle camera disconnection / reconnection on Windows</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- MadLight Recorder: Fixed newly recorded sequence not being checked and selected</div>
+<div>- MiniMad Export: Fixed MiniMad SD-card not loading in rare situation (Mac)</div>
+<div>- MiniMad Video: Fixed exporting surfaces with mesh-warping and lots of control points</div>
+<div>- MiniMad Video Export: Fixed possible issue with default output frequency</div>
+<div>- MiniMad Controller: Fixed possible issue with shutdown function</div>
+<div>- Fixed a problem with audio playback of movies using AVFoundation (Mac)</div>
+<div>- Fixed possible problem in Weather module</div>
+<div>- Fixed possible problem in Firmata module</div>
+<div>- Fixed an issue with Firmata on Windows</div>
+<div>- Fixed a problem with material thumbnail generation</div>
+<div>- Fixed problems in cue edition</div>
+<div>- Fixed output cursor when projector is flipped</div>
+<div>- Fixed sACN network interface not being saved correctly</div>
+<div>- Fixed sACN Input network interface selection in preferences</div>
+<div>- Fixed possible issue with PS3/4 Controls after reloading a project</div>
+<div>- Fixed Output Cursor when video projector is flipped</div>
+<div>- Fixed possible issue cueing multiple FX on the same surface</div>
+<div>- Fixed possible issue with AVFoundation movie player audio playback</div>
+<div>- Fixed a problem in Weather module</div>
+<div>- Fixed cueing Osc Output "Send Now" button</div>
+<div>- Fixed specific blending modes (Multiply-Stencil Luma...) on lines (broken since 4.1)</div>
+<div>- Fixed PS3/4 controls after reloading project if gamepad is connected on a different port</div>
+<h4>MadMapper 4.1.1 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">IMPROVEMENTS</span></div>
+<div>* Accept dropping a visual on a media selector widget (in FX / media parameters)</div>
+<div>* Improved error reporting in Material / FX code editor</div>
+<div>* Changed NDI source medias naming convention to follow NDI specification</div>
+<div>* Prevent mouse cursor from appearing on fullscreen views on macOS</div>
+<div>* Various optimizations</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- MiniMad Video: a mesh warped Quad could be positionned incorrectly in some circumstances</div>
+<div>- Fixed possible geometry issue on MiniMad Video with Mesh Warping</div>
+<div>- Fixed importing SVG lines / fixtures from a file path containing unicode characters on Windows</div>
+<div>- Fixed displaying 3D surface latitude value</div>
+<div>- Updated NDI SDK to version 4.6</div>
+<div>- Fixed possible issue when there are errors in serial port device</div>
+<div>- Solved reloading movie parameters from project in some situations</div>
+<div>- Fixed showing surface 3D calibration line &amp; handles on fullscreen output</div>
+<div>- Fixed sending a value to a triggger control that is not a boolean (ie /application/medias/add)</div>
+<div>- Cue Scheduler: fixed reloading Automation mode "Use Auto Play Timings"</div>
+<div>- Fixed Blackmagic drivers version check</div>
+<div>- Fixed possible triangulation issue of Quad surfaces when using feathering &amp; masks</div>
+<div>- Fixed Lines Surface "Match Output Geometry" handling</div>
+<h4>MadMapper 4.1.0 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">ADDITIONS</span></div>
+<div>+ Online library for Surface FX (2D, 3D, Lines)</div>
+<div>+ Surface FX are now editable in code editor and can be published online as materials</div>
+<div>+ Firmata Module: simply communicate with your Arduino (in &amp; out)</div>
+<div>+ Weather and Pollution Modules (drive your MadMapper from online weather / pollution data)</div>
+<div>+ Controls Combiner Module (ie drive a parameter with a MIDI fader and a MIDI button with various combiations)</div>
+<div>+ MiniMad: Added manual network configuration for Video &amp; Light</div>
+<div>+ MiniMad: Added shutdown OSC command in Video, Light and MiniMad Controller</div>
+<div>+ MiniMad: New unified TouchOSC layout with shutdown function (available on MadMapper Yourspace)</div>
+<div>+ New resource selector (materials, generators, surface FX, modules)</div>
+<div>+ Materials: added an option to render materials into a texture (improving performances in some cases)</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">IMPROVEMENTS</span></div>
+<div>* Improved Surface3D shadow quality</div>
+<div>* Resource Library grid view with thumbnails</div>
+<div>* Materials: handle mipmapping in IMPORTED images and INPUTS of type image</div>
+<div>* MadLight Recorder settings are now saved in project</div>
+<div>* MiniMad Light settings are now saved in project</div>
+<div>* MiniMad Light now fades DMX and audio while shutting down</div>
+<div>* MiniMad Video now fades video and audio while shutting down</div>
+<div>* Updated MiniMad user-guide</div>
+<div>* Improved Code Editor</div>
+<div>* Canon Cameras appears as a media in MM, with a button to take a new picture</div>
+<div>* Many others...</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Fixed possible issues with eGPU on macOS (in this situation use the dedicated build on yourspace)</div>
+<div>- Fixed rendering surfaces in syphon / spout loopback in some cases</div>
+<div>- Fixed DMX recorder FPS issue when recording external output</div>
+<h4>MadMapper 4.0.9 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">ADDITIONS</span></div>
+<div>+ Added new Guides in Help menu</div>
+<div>+ Added seeeduino support in ArtNet to USB LED (Arduino)</div>
+<div>+ Added "replace file" option for ISFs</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Fixed possible issues with external GPU on macOS</div>
+<div>- Fixed possible startup issue on Windows depending on system locale</div>
+<div>- Fixed issue on macOS when main window is maximized and we enable syphon on a projector</div>
+<div>- Fixed issue when pasting a cue (inserting useless columns)</div>
+<h4>MadMapper 4.0.8 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Fixed possible issue with previews rendering on macOS</div>
+<h4>MadMapper 4.0.7 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">IMPROVEMENTS</span></div>
+<div>- Cues: Donnot include DMX Router, MIDI Out or OSC Out by default in Scenes</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Cue Scheduler: fixed issue with automation / switch on movie loop end when pausing / unpausing module</div>
+<div>- FFMPEG: fixed an issue playing audio in some situations</div>
+<div>- Fixed rendering to Windows fullscreens when spout output is active &amp; using D3D outputs</div>
+<div>- Fixed fullscreen cursor on macOS</div>
+<div>- MiniMad Video: fixed exporting circle surface with movie</div>
+<h4>MadMapper 4.0.6 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Fixed startup issue on macOS 10.13</div>
+<div>- Fixed playback jumps with FFMPEG video plaback when activating / deactivating movie audio track while it&rsquo;s playing</div>
+<div>- Fixed fixture list "Shift Addresses&hellip;" option when both a group and some child fixtures are selected</div>
+<div>- Midi Out module: increased CC number range to 0-127</div>
+<h4>MadMapper 4.0.5 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">ADDITIONS</span></div>
+<div>+ Addition "Center" and "Entier Media (Preserve Ratio)" options in Input View popup menu</div>
+<div>+ Added FX Voronoize &amp; Emboss</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">IMPROVEMENTS</span></div>
+<div>* Permit user to edit a slider value while being in &ldquo;Edit Cues" mode (SHIFT+cllick)</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Fixed some UI refresh issues on macOS Big Sur</div>
+<div>- Fixed NDI on macOS Big Sur</div>
+<div>- Fixed few other macOS Big Sur issues</div>
+<div>- Material Generatos were Y flipped</div>
+<div>- Fixed mask "link tangents" popup menu entry</div>
+<div>- Fixed setting DMX fixture handle position with numerical fields</div>
+<h4>MadMapper 4.0.4 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">ADDITIONS</span></div>
+<div>+ Added FX "Channels Shuffle"</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">IMPROVEMENTS</span></div>
+<div>* Line Surfaces: in creation mode when Show Info is enable, display stronger line to mouse on the projector</div>
+<div>* Line / Mask edition: improved undo/redo behaviour in creation mode</div>
+<div>* MadLight Recorder: when recording DMX input, use interface url selected in preferences / DMX Input</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Fixed material shader files from templates not being correctly named</div>
+<div>- MiniMad Light: Fixed glitches in audio playback when playing sequence in loop</div>
+<div>- MiniMad Light: Fixed OSC sequence trigger&nbsp;&nbsp;</div>
+<div>- MiniMad Light: Fixed OSC playing status after changing sequence</div>
+<div>- MiniMad: Fixed faulty OSC commands in embedded user-guide</div>
+<div>- Cameras on Windows: fixed possible issue when a device is not supported by MadMapper</div>
+<div>- Fixed Cue Scheduler issue with multiple Cue Banks</div>
+<div>- Audio Player &amp; Movie Audio: fixed audio glitches with some codecs</div>
+<div>- Fixed showing media popup menu by right clicking a media text view</div>
+<div>- Fixed a possible fullscreen issue with Spatial Scanner on Windows</div>
+<div>- sACN in: join multicast goup with selected network interface (on macOS it was only getting sACN fom the first active network interface in the OS)</div>
+<div>- Fixed controls / cueing for surface 3D lighting enabled + wireframe_enabled</div>
+<h4>MadMapper 4.0.3 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">IMPROVEMENTS</span></div>
+<div>* Added spill suppressor parameter to Chroma Key surface FX</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Fixed discarding some physical or virtual DirectShow video-input devices, including nVidia Broadcast and Spout Virtual Webcam (Windows)</div>
+<h4>MM 4.0.2 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">ADDITIONS</span></div>
+<div>+ Added an option to copy mesh warping (right click on surface in output preview or surface list to copy, then select the target surface and paste)</div>
+<div>+ Added support for new frequencies in MiniMad Video: 24, 25, 30</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">IMPROVEMENTS</span></div>
+<div>* BlackMagic: warning when installed Desktop Video version is outdated (can be disabled in preferences)</div>
+<div>* ArtNet / sACN: add "localhost" interface on Windows</div>
+<div>* Cue Scheduler:</div>
+<div>&nbsp; &nbsp;- When using movie loop end switch, be accurate (donnot check only once per second)</div>
+<div>&nbsp; &nbsp;- Changed the Play Once mode behavior so it restarts when entering schedule time range again + added "Go First Now" button to reset playback</div>
+<div>&nbsp; &nbsp;- Accept Scheduler End Hour/Minutes lower than Start Hour/Minutes, meaning end time is on the next day</div>
+<div>* Handle "CUE ALL" + "select" Control on textual media list &amp; fixed dragging item in Edit Cues mode</div>
+<div>* Improved MiniMad Light performance driving many universes</div>
+<div>* Code Editor current zoom is now saved in the settings</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Blackmagic: fixed possible issue with devices that supports several pixel-formats for the same input connection &amp; resolution</div>
+<div>- Fixed editing line surface / line thickness in pixels when surface is rotated</div>
+<div>- Fixed bug when exporting several times the same media to MiniMad Video</div>
+<div>- Fixed issue with triangles in MiniMad Video</div>
+<div>- Fixed audio glitches in Audio Player and WAV or uncompressed audio files</div>
+<div>- Fixed Audio Player playing at max volume when audio level was changed when stopped</div>
+<div>- Fixed handling cue column settings when deleting a column</div>
+<div>- Material Player generator wasn't handling &ldquo;restart (button &amp; control)</div>
+<div>- sACN: ignore DMX packets with specific DMX start code different (solves issue controlling MadMapper through sACN from some controllers)</div>
+<div>- Fixed multiple selection in MadLight Recorder</div>
+<div>- Fixed issue when zooming in an empty Code Editor</div>
+<h4>MadMapper 4.0.1 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">ADDITIONS</span></div>
+<div>+ Added Shatter FX for Quads, Circles and Triangles</div>
+<div>+ Added Material Build shortcut in Edit menu</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">IMPROVEMENTS</span></div>
+<div>* Added materials &amp; libraries documentation in Help menu</div>
+<div>* Show warning message when installed version of BlackMagic Desktop Video is incompatible with the SDK used in MadMapper release</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">FIXES</span></div>
+<div>- Fixed behaviour when moving mask handles while bezier handles are selected</div>
+<div>- Bug fix when user has a Python path set in environment variables</div>
+<div>- Fixed possible issue listing Bonjour devices</div>
+<div>- Fixed possible issue when exporting images to MiniMad Video</div>
+<div>- Fixed exporting Video Wall to MiniMads in some conditions</div>
+<div>- Fixed an issue with BlackMagic video inputs</div>
+<div>- Fixed possible issue when loading hundreds of ISFs on Windows</div>
+<div>- Fixed a possible crash when expanding previews on startup</div>
+<div>- Fixed audio input Control issue after using an older version of MadMapper</div>
+<div>- Fixed possible issue when creating a new line or mask surface on macOS Catalina</div>
+<div>- Fixed module Cue Scheduler when scheduling on a specific "Year"</div>
+<div>- Fixed issue when creating an Audio Player module while not audio output is available</div>
+<h4>MadMapper 4.0.0 Release Notes</h4>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">ADDITIONS</span></div>
+<div>+ Surfaces:</div>
+<div>&nbsp; &nbsp; - Quad, Circle and Mask surfaces can have multiple masks, user drawn, made of editable Bezier Paths</div>
+<div>- Added Feathering on Quad, Circle, Triangle, Mask &amp; Lines and on surface sub-masks</div>
+<div>- Quad / Circle Masks can be drawn and attached to the input media (attach to Quad / Input or Nothing)</div>
+<div>&nbsp; &nbsp; - Lines have been completely rewritten to be bezier paths, with user defined shape and joins</div>
+<div>&nbsp; &nbsp; - Added an option to generate lines from surfaces/fixtures outlines</div>
+<div>&nbsp; &nbsp; - Lines: improved animations and performances (single draw call for a whole line container)</div>
+<div>- Surface Groups have their own opacity / color levels - child surface will be affected (their opacity / RGB will be multiplied by their parents)</div>
+<div>&nbsp; &nbsp; - Surface Groups remember their perspective transform (stored in project)</div>
+<div>+ New Quad mesh warping:</div>
+<div>&nbsp; &nbsp; - Points can be added freely in the quad (Alt+Click)</div>
+<div>&nbsp; &nbsp; - Added possibility to select and move a mesh warping horizontal/vertical segment / line</div>
+<div>+ Added Surface Preview Groups: groups of surfaces that will made visible in the preview while being invisible in the output</div>
+<div>+ Scenes / Cues:</div>
+<div>&nbsp; &nbsp; - Added the possibility to create / remove Cue Banks</div>
+<div>&nbsp; &nbsp; - Cue Bank "Live mode": pressing a cell will trigger the cue, no editing possibilities, just live triggers (nice with touch screens)</div>
+<div>+ Workspace: added the possibility to define a folder at any location on the filesystem as the workspace, enabling sharing MadMapper resources in between machines through a file-sharing service like Dropbox, using specific workspaces for different projects, etc</div>
+<div>+ Audio Player module: drag &amp; drop your audio files (mp3, wav, aiff, etc) in MadMapper, create cues with it...</div>
+<div>+ New integrated Shader Editor (to edit Materials)</div>
+<div>+ MadLight Recorder:</div>
+<div>&nbsp; &nbsp; - Added an option to record incoming DMX (from another application / light desk)&nbsp;</div>
+<div>&nbsp; &nbsp; - Added support for audio playback (with multichannel support) with audio/DMX tracks synchronisation option</div>
+<div>&nbsp; &nbsp; - Added playback modes</div>
+<div>&nbsp; &nbsp; - Added a sequence edition mode</div>
+<div>&nbsp; &nbsp; - Recording Start &amp; Stop buttons are mappable / cueable&nbsp;</div>
+<div>+ miniMAD Light:</div>
+<div>&nbsp; &nbsp; - Support playing back audio file (with multichannel support - plugging a USB audio card to the miniMAD) with audio/DMX tracks synchronisation option</div>
+<div>&nbsp; &nbsp; - Support Artnet unicast with devices which don't handle ArtNet Polling (using the unicast table defined in MadMapper)</div>
+<div>+ miniMAD Video:</div>
+<div>&nbsp; &nbsp; - Support surface Feathering / masks (with feathering) / mesh warping for Quads</div>
+<div>&nbsp; &nbsp; - Support Quads, Circles, Triangles, Masks</div>
+<div>&nbsp; &nbsp; - Added a "direct-to-framebuffer" video playback mode for optimal performance when used on a screen (when no mapping / perspective correction is required)</div>
+<div>&nbsp; &nbsp; - Optimised graphics engine</div>
+<div>+ UI:&nbsp;</div>
+<div>&nbsp; &nbsp; - Cue Bank, Material Library, Fixture Editor, DMX Monitor etc. can be integrated in the UI or extracted and moved to an external screen</div>
+<div>&nbsp; &nbsp; - Focused widget (Surfaces, Fixtures, Media, Modules, Masks...) is reflected by a lighter color, it will handle copy/paste/duplicate etc.</div>
+<div>+ Improved editing in preview:</div>
+<div>&nbsp; &nbsp; - Single click to enter / leave edition of a mask / line</div>
+<div>&nbsp; &nbsp; - Click and release on actually selected surface will select the first surface behind it (circular selection)</div>
+<div>&nbsp; &nbsp; - When a surface is selected TAB =&gt; select next surfaces, when a handle is select =&gt; Alt+TAB select first handle of next surface...</div>
+<div>+ Added Master Levels in master tab: Master (video and DMX) / Video Master / DMX Master / Audio Master</div>
+<div>+ New DMX Monitor with definable column count</div>
+<div>+ Multi-instance for videos, image folders &amp; Quartz file: you can import the same movie twice and control them independently</div>
+<div>+ DMX Fixtures: added an option to define if a fixture slider should be affected by fixture luminosity (control a beamer PAN / TILT, luminosity will only affect RGB)</div>
+<div>+ Calendar Scheduler module: put your scene/cues triggers in a google calendar or another calendar application, export it to standardized format ICS, and import it in MadMapper! No internet required, safe for install!</div>
+<div>+ New FXs</div>
+<div>+ New Generator: Audio Graph</div>
+<div>+ New Oscillator Bank module</div>
+<div>+ DMX</div>
+<div>&nbsp; &nbsp; - Support DMX Input control through sACN</div>
+<div>&nbsp; &nbsp; - Added an option to deactivate ArtNet / sACN synchronisation (some device don't handle it properly)</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;">IMPROVEMENTS</span></div>
+<div>* Overall user interface improvements</div>
+<div>* Improved Material Library, supports drag &amp; drop of a local or online material on previews or in media list</div>
+<div>* Better feedback when a DMX / Audio input/output device failed to start</div>
+<div>* Improvement playing back movie audio tracks</div>
+<div>* BackMagic: Added a new preference to enable Blackmagic devices through system compliant drivers (some BlackMagic devices must be handled with OS component - ie Web Presenter)</div>
+<div>* Updated to NDI 4.1 (supports NDI Hx, ie 4k streaming from NDI Camera mobile app)</div>
+<div>* Align / distribute / Resize when surface groups are selected handle group as an item (not treating each child surface individually)</div>
+<div>* When dropping visual files to output preview, create surfaces in current surface group</div>
+<div>* Improved MadLight sequence edition</div>
+<h3>MadMapper v3</h3>
+<h4>MadMapper 3.7.5 Release Notes&nbsp;</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Update to NDI SDK 4.1<br>* Show information about active audio input/output devices in preferences</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed generating visual instance thumbnail<br>- In some conditions, movies could be shortened when changing cues<br>- Fixed possible issue with Cue auto play "Play next when the first movie loop finishes" when using column local auto play settings<br>- Fixed handling first events on a Control with "Toggle" set<br>- Fixed an issue cueing Fixtures Sliders</p>
+<h4>MadMapper 3.7.4 Release Notes</h4>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed possible startup issue on Windows on multi-GPU computers<br>- Fixed possible crash while exiting application on macOS 10.15</p>
+<h4>MadMapper 3.7.3 Release Notes</h4>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed generating visual instance thumbnail<br>- Fixed switching on/off cue grid cell "Use Pixmap" setting<br>- Fixed possible issue after reloading line surfaces</p>
+<h4>MadMapper 3.7.2 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* miniMAD Light activates the Artnet interface when available<br>* miniMAD: improved jack analog output quality (mini-jack)<br>* Show real screen resolution in projector "screen" combo box (handling HDPI - screen scaling for macOS and Windows)<br>* Handle disconnecting/reconnecting a playstation controller at runtime<br>* Optiomizations in rendering engine<br>* When updating a scene, add missing entries but for existing entries, just update value (keep transition settings)<br>* Optimized ISF files rendering<br>* Added Control on /medias/selected/assign<br>* Updated to latest Canon EOS SDK - EDSDK<br>* Updated Syphon SDK<br>* Notarize macOS installers for macOS Catalina</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed a possible issue with high FPS Camera input on Windows<br>- Fixed MadLight playback not looping in some circumstances<br>- Fixed miniMAD Light playback not looping in some circumstances<br>- Computer sleep could be completely disable by MadMapper on macOS 10.14 even when closing laptop screen<br>- Scrolling in surfaces with arrow keys was expanding surface groups on macOS 10.12 or later<br>- Fixed possible issue on macOS when loading a project at computer startup<br>- Fixed oscilators 1D/2D modules Phase setting<br>- Changing multiProjector<br>- Fixed possible issue on windows when disconnecting screens<br>- Fixed handles position controls for selected surface<br>- Donnot show the GPU changed dialog when silent mode has been activated<br>- Fixed memory leak on Windows when stopping / starting spout streams</p>
+<h4>MadMapper 3.7.1 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* When storing a Scene, set "restart" media ON only for medias actually assigned to a surface or DMX fixture (solved fading media between scenes)<br>* Store &amp; restore custom colors in color selection dialogs</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed possible issue editing ArtNet unicast table<br>- Fixed issue enumerating NDI devices when NDI is not supported on system (Windows only)<br>- Fixed possible issue when using dozens of Text Generators (macOS only)<br>- FX on surfaces were not reloaded from project in some conditions</p>
+<h4>MadMapper 3.7.0 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Cues:<br>&nbsp; &nbsp; Added autoplay settings per column<br>&nbsp; &nbsp; Added an option to set cue thumbnail from one of the visuals it's referencing<br>&nbsp; &nbsp; Restart media is set to ON by default (use cue inspector to deactivate)<br>+ Native support of HapQ Alpha &amp; optimized HAP decoding in general<br>+ Oscillator: replaced Master Oscillator by an Oscillator module that can be created as many times as wanted, as well as a 2D Oscillator (projects made with previous releases will still work like before)<br>+ Added drag&amp;drop possibility in textual Media List<br>+ NDI output: added a checkbox to enable alpha channel in stream (compressing with alpha channel is slower and useless in most cases)<br>+ DMX output: possibility to use media Alpha channel in fixtures (using expressions) and to ignore alpha channel for R,G,B,W,L,C,M,Y,K values (useful to driver RGBW LEDs from a RGBA movie or syphon/spout stream)<br>+ Added bpm_phase_sync parameter to TimeBase generator/filter (for user materials)<br>+ Added beat indicator in master BPM</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Major optimisation on Windows when using multiple outputs with AMD graphics card<br>* Various optimisations<br>* When dropping a visual (file or internal drag) to the preview, create a quad surface with the visual where we released the mouse<br>* Updated to latest NDI SDK (3.8)<br>* Updated to latest Canon SDK<br>* Improved crash reporter on Windows<br>* Improved audio spectrum reactivity (higher update rate and lower delay)<br>* Improved Video Wall template bezel setup<br>* Improved Video Wall Projectors naming<br>* Updated miniMAD Light to version 3.7<br>* Optimized DmxRecorder &amp; DmxPlayer</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">FIXES</span><br>- Fixed a possible issue when reloading a file at startup<br>- Cue auto-play "Play next when movie loop ends" was sometimes not working when movie audio track is active<br>- It could happen that movie was shorten when reaching the end (depending on the codec &amp; how the movie was created)<br>- Fixed issue with Folder Player last frame<br>- Fixed possible issue when connecting / disconnecting screens<br>- ArtNet Unicast: fixed possible issue when polling for devices from preferences<br>- ArtNet Unicast: fixed possible issue when several devices are listening to the same universe<br>- Fixed Kinect Masker (macOS only)<br>- Fixed LED Scanner generated fixture size in case of single pixel fixtures<br>- Solved an issue on Windows when ASIO driver is selected in Audio preferences<br>- Fixed an issue when cueing Solid Color generator<br>- Fixed some warning messages when exporting to miniMAD<br>- Fixed resolution displayed for Dual/TripleHead2Go on macOS<br>- Fixed Clone Surface shortcut on macOS</p>
