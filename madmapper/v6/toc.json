@@ -29,7 +29,8 @@
             "pageType": "empty",
             "minorVersion": "3",
             "subpage": [],
-            "publish": false
+            "publish": true,
+            "breadcrumb": "What's New > Release Notes"
           }
         ],
         "publish": true
