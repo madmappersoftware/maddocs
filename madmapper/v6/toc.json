@@ -8,8 +8,8 @@
     "subpage": [
       {
         "pageSuid": "3hgIot1RBf",
-        "pageTitle": "MadMapper v6 at a Glance",
-        "pageSlug": "madmapper-v6-at-a-glance",
+        "pageTitle": "MadMapper 6 at a Glance",
+        "pageSlug": "madmapper-6-at-a-glance",
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
@@ -29,7 +29,7 @@
             "pageType": "empty",
             "minorVersion": "3",
             "subpage": [],
-            "publish": true
+            "publish": false
           }
         ],
         "publish": true

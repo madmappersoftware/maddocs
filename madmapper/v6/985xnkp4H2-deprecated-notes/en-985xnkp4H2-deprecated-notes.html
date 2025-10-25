@@ -1,5 +1,9 @@
 <h2 class="int-link-anchors">MadMapper Deprecated Release Notes</h2>
-<h3>MadMapper v5</h3>
+<h3>MadMapper 5</h3>
+<h4>MadMapper 5.7.1 Release Notes</h4>
+<p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* MadAI: if the AI generates code with array of arrays, report an error before compiling because macOS drivers would crash on compilation<br>* Updated Canon SDK to version 13.19.10 (fixes compatibility with macOS Sequoia)<br><br><span style="text-decoration: underline;">FIXES</span><br>- Fixed potentential issue in ArtNet output<br>- Fixed issue with laser 3D surfaces on case sensitive file system<br>- Graphics engine optimization<br>- MadLaser: fixed issue with etherdream if ILDA frame is over 4000 points when enabling output</p>
+<h4>MadMapper 5.7.0 Release Notes</h4>
+<p><span style="text-decoration: underline;">ADDITIONS</span><br> + MadAI: MadMapper AI to generate visuals (Materials &amp; Laser Materials) or Surface 2D FX<br><br><span style="text-decoration: underline;">IMPROVEMENTS</span><br> * Optimized DMX Output with many universes<br> * Updated ShowNET library to handle properly network disconnections / reconnections<br><br><span style="text-decoration: underline;">FIXES</span><br> - Fixed possible issue with Open USB DMX on Windows<br> - Fixed ISF compatibility with standard "long" type in INPUTS<br> - Fixed issue with Laser Quad when using mesh warping in input<br> - Fixed generating lines surface geometry in some cases<br> - Fixed posible uv issue with mesh warping + mask feathering (use intersections with mesh warping segments)</p>
 <h4>MadMapper 5.6.0 Release Notes</h4>
 <p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added support for media multi-selection: edit, duplicate and delete multiple media at once<br>+ Controls:<br>&nbsp; &nbsp; + Added a checkbox to enable / disable Controls<br>&nbsp; &nbsp; + Added an option to setup a custom Curve transform in Controls<br>&nbsp; &nbsp; + Handle multi-selection / edition of Controls<br>+ MadLaser: Added a collection of 40 atmospheric Laser Materials<br>+ Added Color Palette as an option in all color parameters, color palette is editable from Master tab and global for the project<br>+ Added options in surfaces contextual menu in output preview: Enable/Disable Perspective, Match Media Size &amp; Match Media Ratio<br>+ Handle editing a multi-selection of Modules<br>+ Calendar Scheduler module: added control to send an OSC string with an ICS file path to load<br>+ Added Generator "Chrono"</p>
 <p>&nbsp;</p>
@@ -22,7 +26,7 @@
 <p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Improved toolbar</p>
 <p>&nbsp;</p>
 <p><span style="text-decoration: underline;">FIXES</span><br>- Fixed UI when refusing to recover an Untitled AutoSave<br>- Fixed AutoSave recovery interrupting silent mode<br>- MadProjector Control: fixed Mute command not always working on Panasonic projectors<br>- Fixed NDI output framerate information when Engine FPS is set to Manual<br>- Fixed first Video Snapshot<br>- Fixed Calendar Scheduler with exclusions in repeating events<br>- Fixed Audio Player module "position" update</p>
-<p><br>MadMapper 5.5.1 Release Notes</p>
+<h4>MadMapper 5.5.1 Release Notes</h4>
 <p><span style="text-decoration: underline;">FIXES</span><br>- MadLaser: fixed Fixed scan speed<br>- Fixed possible in Demo version</p>
 <h4>MadMapper 5.5.0 Release Notes</h4>
 <p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Added AutoSave project (to be disabled before performance / permanent install)<br>+ MadLaser: Added Laser Scanner<br>+ Added project backup that saved previous project states in MadMapperProjectBackups/<br>+ Added MadLight Player module<br>+ Added Cue Starter module to start a cue when loading a project<br>+ Added Idle Cue module to start a cue after current cue bank went idle for a defined time<br>+ Added Device Activity module: after some inactivity on a MIDI / OSC / Keyboard or Firmata device, change a channel value to be used in Controls - ie to start a Cue<br>+ Added 3D Particles generator<br>+ Added support for HapR codec (Windows only)<br>+ Added Import SVG &amp; Export SVG button on masks &amp; lines surfaces<br>+ Added an option to make snapshots of video outputs (in output inspector)<br>+ Added Fullscreen button on main window<br>+ Added Arm Lasers item in Output menu<br>+ MiniMad Video: added "adjust movie framerate" advanced export setting</p>
@@ -34,7 +38,7 @@
 <p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Optimized modules<br>* MadLaser: with vectorization / Find Pathes, consider a path smaller than "thickness" to be a beam (sometimes video compression artefacts make it a small line)<br>* MadLaser: improved Soft Closing in low luminosity</p>
 <p>&nbsp;</p>
 <p><span style="text-decoration: underline;">FIXES</span><br>- Fixed updating Fixture Definition "Ignore Alpha" setting and handle undo<br>- Updated ShowNET library to avoid possible crash when changing network setup<br>- Fixed Record ILDA Movie</p>
-<p>MadMapper 5.4.3 Release Notes</p>
+<h4>MadMapper 5.4.3 Release Notes</h4>
 <p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Optimised laser process (major speed boost on Windows)</p>
 <p>&nbsp;</p>
 <p><span style="text-decoration: underline;">FIXES</span><br>- Fixed application not starting on some macOS 10.13 systems<br>- Fixed possible connexion issues with some Moncha DACs<br>- Undoing activation of multiple modules is now done with a single undo<br>- Various fixes</p>
@@ -50,7 +54,7 @@
 <p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Updated Control Surface module guide</p>
 <p>&nbsp;</p>
 <p><span style="text-decoration: underline;">FIXES</span><br>- Fixed Cue Color table adding items when reloading project<br>- Fixed Video-cursor when video-output was flipped<br>- Fixed Authorisation being stuck in rare circumstances</p>
-<p>MadMapper 5.4.0 Release Notes</p>
+<h4>MadMapper 5.4.0 Release Notes</h4>
 <p><span style="text-decoration: underline;">ADDITIONS</span><br>+ Control Surface module for triggering cue banks with colored pads - compatible with AKAI APC40 mk2, AKAI APC Mini mk2 &amp; Novation LaunchPad Mk2, Launchpad Mini Mk3 &amp; Launchpad X<br>+ Stream Deck plugin to trigger MadMapper scenes, cues and control parameters from any Stream Deck device (Stream Deck support must be enabled in Preferences)<br>+ Notes Editor: added a new editor to write some notes that are save in the projects<br>+ MadLaser: supports Lottie animations (vector based animations exported from After Effects with Bodynmovin plugin) to create precise vector based animation for any show with a tool many people know<br>+ MadLaser: Added IDN (ILDA Network) DAC support<br>+ Osc Query now supports websocket &amp; LISTEN / PATH ADDED / PATH CHANGED / PATH REMOVED<br>+ Added "Reload file" menu entry on file-based media</p>
 <p>&nbsp;</p>
 <p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* FFMPEG video player ensures first frame is shown when starting a Scene/Cue<br>* MadLaser: improved laser dispatching algorithm<br>* MiniMad manual remote-connection parameters are now saved for later usage<br>* Allow multiple media selection and check in Export to MiniMad Video<br>* Cue Grid supports custom colors (useful with Control Surface)</p>
@@ -163,7 +167,7 @@
 <p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Many optimizations<br>* Switched to a new licensing / activation server with a MadMapper user account etc.<br>* Online resource library now using MadMapper user account login<br>* Updated to latest NDI SDK / Canon EDSDK / FFMPEG player<br>* Improved surface inspector by grouping parameters in collapsable groups</p>
 <p>&nbsp;</p>
 <p><span style="text-decoration: underline;">FIXES</span><br>- Fixed Y flipped fullscreen when using a video projector loopback on Windows<br>- Various fixes</p>
-<h3>MadMapper v4</h3>
+<h3>MadMapper 4</h3>
 <h4>MadMapper 4.2.1 Release Notes</h4>
 <div>&nbsp;</div>
 <div><span style="text-decoration: underline;">FIXES</span></div>
@@ -460,7 +464,7 @@
 <div>* Align / distribute / Resize when surface groups are selected handle group as an item (not treating each child surface individually)</div>
 <div>* When dropping visual files to output preview, create surfaces in current surface group</div>
 <div>* Improved MadLight sequence edition</div>
-<h3>MadMapper v3</h3>
+<h3>MadMapper 3</h3>
 <h4>MadMapper 3.7.5 Release Notes&nbsp;</h4>
 <p><span style="text-decoration: underline;">IMPROVEMENTS</span><br>* Update to NDI SDK 4.1<br>* Show information about active audio input/output devices in preferences</p>
 <p>&nbsp;</p>
