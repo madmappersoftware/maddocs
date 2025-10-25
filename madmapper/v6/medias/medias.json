@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "mediaId": "yx9sCq0gCf",
+    "filename": "MadMapper 6 Splashscreen.png",
+    "imgName": "MadMapper 6 Splashscreen",
+    "ext": "png",
+    "mimetype": "image/png",
+    "url": "/MadMapper 6 Splashscreen.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-25T16:48:32.066Z",
+    "pages": [
+      {
+        "pageSuid": "MG8sM211wn",
+        "pageSlug": "what's-new"
+      }
+    ]
+  }
+]
