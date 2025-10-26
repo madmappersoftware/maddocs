@@ -281,33 +281,5 @@
     "subpage": [],
     "publish": false,
     "breadcrumb": "What's New > MadMapper Legacy > Getting Started > Learn the Fundamentals"
-  },
-  {
-    "pageSuid": "ewMgTeXDOQ",
-    "pageTitle": "About MadMapper 2",
-    "pageSlug": "about-madmapper-2",
-    "pageType": "empty",
-    "minorVersion": "0",
-    "subpage": [
-      {
-        "pageSuid": "Cr11J3KDTe",
-        "pageTitle": "Meet MadMapper 2",
-        "pageSlug": "meet-madmapper-2",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": true
-      },
-      {
-        "pageSuid": "wLAh6ODHLV",
-        "pageTitle": "Evolution of MadMapper 2",
-        "pageSlug": "evolution-of-madmapper-2",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": true
-      }
-    ],
-    "publish": true
   }
 ]
