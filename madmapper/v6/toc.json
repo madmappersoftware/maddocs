@@ -36,7 +36,7 @@
         "publish": true
       }
     ],
-    "publish": true
+    "publish": false
   },
   {
     "pageSuid": "f3UoO6jWFz",
@@ -89,7 +89,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": true,
+        "publish": false,
         "breadcrumb": "What's New > MadMapper Legacy > Getting Started"
       },
       {
