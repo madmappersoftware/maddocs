@@ -289,6 +289,10 @@
       {
         "pageSuid": "hY3zyDQlLz",
         "pageSlug": "evolution-of-madmapper"
+      },
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
       }
     ]
   },
@@ -375,6 +379,10 @@
       {
         "pageSuid": "hY3zyDQlLz",
         "pageSlug": "evolution-of-madmapper"
+      },
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
       }
     ]
   },
@@ -453,6 +461,232 @@
       {
         "pageSuid": "hY3zyDQlLz",
         "pageSlug": "evolution-of-madmapper"
+      },
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "G4uca8k4xY",
+    "filename": "Madmapper the mapping software.jpg",
+    "imgName": "Madmapper the mapping software",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/Madmapper the mapping software.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-26T12:27:38.155Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "P1DKjyWD57",
+    "filename": "Madmapper warping.jpg",
+    "imgName": "Madmapper warping",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/Madmapper warping.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-26T12:29:31.797Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "NyO69j2lTi",
+    "filename": "Madmapper warping snapshot.jpg",
+    "imgName": "Madmapper warping snapshot",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/Madmapper warping snapshot.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-26T12:31:17.356Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "EfsKs5KQxc",
+    "filename": "madmapper orb.jpg",
+    "imgName": "madmapper orb",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/madmapper orb.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-26T12:32:10.165Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "z8pdYOaBnv",
+    "filename": "madmapper vortex.jpg",
+    "imgName": "madmapper vortex",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/madmapper vortex.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-26T12:35:06.831Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "5CnXimvHyd",
+    "filename": "minimad export.jpg",
+    "imgName": "minimad export",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/minimad export.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-10-26T12:47:22.257Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
       }
     ]
   }
