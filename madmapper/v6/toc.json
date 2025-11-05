@@ -115,7 +115,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > About MadMapper > Getting Started"
       },
       {
@@ -179,7 +179,8 @@
         "breadcrumb": "What's New > About MadMapper > Getting Started"
       }
     ],
-    "publish": false
+    "publish": true,
+    "breadcrumb": "What's New > About MadMapper"
   },
   {
     "pageSuid": "XRAg1d7EWb",

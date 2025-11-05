@@ -103,5 +103,48 @@
         "pageSlug": "getting-started"
       }
     ]
+  },
+  {
+    "mediaId": "sECGJYQMnM",
+    "filename": "MadMapper Import License.png",
+    "imgName": "MadMapper Import License",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Import License.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-05T15:33:34.095Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
   }
 ]
