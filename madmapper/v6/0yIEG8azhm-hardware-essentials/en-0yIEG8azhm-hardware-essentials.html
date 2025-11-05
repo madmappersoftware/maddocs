@@ -111,9 +111,9 @@
 <p>Always transport the equipment in protective cases, avoid sudden shocks or vibrations, and allow the projector to cool down completely before packing it.</p>
 <p>Proper handling and regular precautions help preserve both the optical quality and the internal components over time.</p>
 <h3>Light Mapping</h3>
-<p data-start="162" data-end="457"><strong>MadMapper</strong>'s <strong data-start="226" data-end="238">MadLight</strong> native feature dedicated to light mapping, seamlessly supports <strong data-start="316" data-end="323">DMX,</strong>&nbsp;<strong data-start="328" data-end="339">Art-Net</strong> and <strong>sACN</strong> protocols, allowing you to control LED fixtures, moving heads, and other lighting devices.</p>
+<p data-start="162" data-end="457"><strong>MadMapper</strong>'s <strong data-start="226" data-end="238">MadLight</strong> native feature dedicated to light mapping seamlessly supports <strong data-start="316" data-end="323">DMX,</strong>&nbsp;<strong data-start="328" data-end="339">Art-Net</strong> or <strong>sACN</strong> protocols, allowing you to control LED fixtures, moving heads, and other compatible lighting devices.</p>
 <h4 data-start="162" data-end="457">DMX Protocol</h4>
-<p data-start="180" data-end="498"><strong data-start="180" data-end="187">DMX</strong> (short for <em data-start="199" data-end="218">Digital Multiplex</em>) is the industry-standard protocol used to control lighting equipment such as LED fixtures, dimmers, moving heads, and other stage devices. It was originally developed for theater and live events, but has since become a cornerstone of interactive and audiovisual installations. DMX works by sending digital signals, allowing precise control over parameters.</p>
+<p data-start="180" data-end="498"><strong data-start="180" data-end="187">DMX</strong> (short for <em data-start="199" data-end="218">Digital Multiplex</em>) is the industry-standard protocol used to control lighting equipment such as LED fixtures, dimmers, moving heads, and other stage devices. It was originally developed for theater and live events but has since become a cornerstone of interactive and audiovisual installations. DMX works by sending digital signals, allowing precise control over parameters.</p>
 <h4 data-start="180" data-end="498">Art-Net, sACN Protocol</h4>
 <p data-start="126" data-end="388">These are network-based protocols designed to transmit <strong data-start="187" data-end="199">DMX data</strong> over standard Ethernet.</p>
 <p data-start="126" data-end="388">It was created to make large-scale lighting setups more flexible and easier to manage, allowing you to send multiple DMX universes through a single network cable.</p>
@@ -134,7 +134,6 @@
 <div class="alert-banner-notes">
 <p class="p1">While this hardware works seamlessly with <strong>MadMapper</strong>, you are of course free to use&nbsp;<strong data-start="336" data-end="374">any other DMX-compatible equipment</strong> that fits your project.</p>
 </div>
-<p data-start="162" data-end="457">&nbsp;</p>
 <h4 data-start="162" data-end="457">Usb-Dmx Controllers</h4>
 <p class="p1">To enable communication between your computer (and <strong>MadMapper</strong>) and your <strong>DMX</strong> hardware, you&rsquo;ll need a dedicated controller.&nbsp;This device will basically interpret the transmitted signal. It's mandatory!</p>
 <p class="p1">&nbsp;</p>
@@ -153,26 +152,59 @@
 <p class="p1">It's also considered the most reliable option as well as the most versatile one since it allows you to control <strong>other</strong> DMX devices.</p>
 </div>
 <h3>Laser DAC</h3>
-<p>LaserCube</p>
-<p>Ether Dream</p>
-<p>ShowNet</p>
-<p>Helios USB</p>
-<p>FB3/FB4 on Windows (Pangolin Beyond license required)</p>
-<p>AVB / Dante</p>
-<p>IDN</p>
-<p>Moncha</p>
-<p>&nbsp;</p>
-<p>MadMapper supports multiple DACs :</p>
-<ul>
-<li><a href="https://www.laserworld.com/" target="_blank" rel="noopener">ShowNet</a></li>
-<li>Helios USB</li>
-<li><a href="https://ether-dream.com/" target="_blank" rel="noopener">Etherdream</a></li>
-<li><a href="https://www.laseros.com/" target="_blank" rel="noopener">Lasercube</a></li>
-<li><a href="https://pangolin.com/" target="_blank" rel="noopener">FB4 (through Pangolin on Windows)</a></li>
-<li><a href="https://www.showtacle.com/" target="_blank" rel="noopener">Moncha DAC</a></li>
-<li><a href="https://laseranimation.com/" target="_blank" rel="noopener">AVB/Dante</a></li>
-</ul>
+<p class="p1">Since <strong>MadMapper 5</strong>, you can extend the software's functionality with extensions such as <strong>MadLaser</strong>.</p>
+<p class="p1"><strong>MadLaser</strong> allows you to do laser mapping while benefiting from the <strong>MadMapper</strong> workflow, including realtime control.</p>
+<p class="p1">&nbsp;</p>
+<p class="p1">You will need a compatible <strong>Laser DAC</strong> though! DACs being the bridge between the software and the laser hardware.</p>
+<p class="p1">Compatible DACs are listed below. More to come!</p>
+<h4>LaserCube</h4>
+<p><a href="https://www.laseros.com" target="_blank" rel="noopener">https://www.laseros.com</a></p>
+<div class="alert-banner-notes">
+<p>We support <strong>LaserCube</strong> Wifi, Ethernet and usb on all platforms.</p>
+<p>Although both protocols are supported, prefer Ethernet over Wi-Fi. Please note that the USB version is Mac only.</p>
+</div>
+<h4>Ether Dream</h4>
+<p><a href="https://ether-dream.com" target="_blank" rel="noopener">https://ether-dream.com</a></p>
+<div class="alert-banner-notes">
+<p>Ether Dream (ethernet - 16 bits XY) needs to run on a clean network without other traffic. For instance, don&rsquo;t mix Art-Net and Etherdream on the same network or you&rsquo;ll get disconnections. You can safely put a bunch of Ether Dream on the same network though.</p>
+</div>
+<h4>ShowNET</h4>
+<p><a href="https://www.laserworld.com" target="_blank" rel="noopener">https://www.laserworld.com</a></p>
+<div class="alert-banner-notes">
+<p><strong>MadMapper</strong> supports ShowNET protocol - DAC, so any LaserWorld projector with ShowNET will work directly with just a network cable (Auto IP works fine). Also prefer putting your ShowNET devices on a network without other traffic for best smoothness.</p>
+<p>Check your laser device documentation to see how to set the ShowNET dipswitch for the network mode you&rsquo;re using (DHCP / Auto-IP or static IP).</p>
+</div>
+<div class="alert-banner-warning">
+<p>If your ShowNET device appears as a destination in <strong>MadMapper</strong> Laser Output destinations but does not connect (status keeps &ldquo;Disconnected&rdquo;), verify that you don&rsquo;t have multiple network interfaces on the same IP address range (ie 192.168.0.xxx / 255.255.255.0).</p>
+<p>If you have a wifi or another network in the same IP range, either disable your other network adapter or change its IP address, or change the ShowNET pins for &ldquo;Auto-IP&rdquo; mode (&amp; your computer interface in DHCP so your system setups an AutoIP address too (169.254.xxx.xxx / 255.255.0.0).</p>
+</div>
+<h4>Helios USB</h4>
+<p>(Information coming soon)</p>
+<h4>FB3/FB4 (Windows Only)</h4>
+<p><a href="https://pangolin.com" target="_blank" rel="noopener">https://pangolin.com</a></p>
+<div class="alert-banner-warning">
+<p><strong>It's Windows only, and it requires a Pangolin Beyond license.</strong></p>
+<p>Please note too that <strong>MadLaser</strong> can&rsquo;t work with Pangolin QuickShow. It only works with Pangolin Beyond 5. FB3/ FB4 are proprietary protocols from Pangolin.</p>
+</div>
+<h4>AVB / Dante</h4>
+<p><a href="https://laseranimation.com" target="_blank" rel="noopener">https://laseranimation.com</a></p>
+<h4>Moncha</h4>
+<p>(Information coming soon)</p>
+<h4>Recommend Laser device for testing</h4>
+<p>It depends on the budget and possible projects. For graphics (needs accurate scanning, precise and small beam, so low divergence and good diodes alignment) or for atmospheric.</p>
+<p>For video projection + laser on top, a small beam (low divergence) may be better. For architectural mapping, atmospheric, clubbing or festival, we would prefer power over sharpness. But for a museum piece for instance it&rsquo;s better to choose a low power/sharp beam one.</p>
+<p>An exemple would be the LaserWorld Tarm 3W : good whites (not need to lower blue by 50%), sharp enough and 3W is ok for atmospheric.</p>
+<p>Note that lot of laser devices look close in term of quality. LaserWorld is nice because they have an ethernet DAC inside (ShowNET) so you don't need an external DAC (ethernet or USB -&gt; ILDA).</p>
+<h4>Safety Recommendations</h4>
+<p>Lasers are powerful and dangerous, hence they should be handled with care and safety for the audience in mind.&nbsp;So please comply with your local regulations.</p>
+<p>Please note that <strong>MadMapper</strong> cannot be hold responsible for misusage of laser equipment.</p>
+<div class="alert-banner-warning">
+<p>Above all, don&rsquo;t shoot rays towards your audience, always use a safety switch on your hardware and specify a safety area.</p>
+<p>Avoid burning your laser hardware by limiting the laser scan rate too.</p>
+</div>
 <h3>Other Hardware</h3>
-<h4>MIDI controllers</h4>
-<h4>Acquisition Cards</h4>
+<p>What else could you possibly need?</p>
+<p><br>For example, a <strong>MIDI</strong> controller for your live performances, or a capture card such as a <strong>BlackMagic's DeckLink</strong>.</p>
 <p>&nbsp;</p>
+<p>As for controllers, as long as it supports <strong>MIDI</strong>, you're good to go. We don't have any particular models or formats to recommend. It all depends on your tastes and budget.</p>
+<p>Today's <strong>MIDI</strong> controllers come in a wide variety of models, with knobs, faders, or more pad-oriented designs, and in all price ranges.</p>
