@@ -45,7 +45,7 @@
     "pageSuid": "VItu9oKKNm",
     "pageSlug": "getting-started",
     "lang": "en",
-    "content": "<h2 class=\"int-link-anchors\">Getting Started</h2>\n<p><img src=\"https://download.madmapper.com/madshop_prod/MadMapper_get_started.jpg\" width=\"800\" height=\"541\" data-media-id=\"OsBxo5Ue6R\"></p>\n<h4>Wanna jump into MadMapper?</h4>\n<p>Start by exploring the essentials in these sections, from understanding the basics of licensing to getting&nbsp;<strong>MadMapper</strong> installed and running smoothly.</p>\n<p>It&rsquo;s all you need to get started and make the most out of your first experience!</p>"
+    "content": "<h2 class=\"int-link-anchors\">Getting Started</h2>\n<p><img src=\"https://download.madmapper.com/madshop_prod/MadMapper_get_started.jpg\" width=\"800\" height=\"541\" data-media-id=\"OsBxo5Ue6R\"></p>\n<h4>First time with MadMapper?</h4>\n<p>Start by exploring the essentials in these sections, from understanding the basics of licensing to getting&nbsp;<strong>MadMapper</strong> installed and running smoothly.</p>\n<p>It&rsquo;s all you need to get started and make the most out of your first experience!</p>"
   },
   {
     "pageSuid": "0yIEG8azhm",
@@ -63,7 +63,7 @@
     "pageSuid": "kwciF95sFo",
     "pageSlug": "madmapper-account",
     "lang": "en",
-    "content": ""
+    "content": "<h2 class=\"int-link-anchors\">MadMapper User Account</h2>\n<h3>Create a user account</h3>\n<h3>Forgotten password</h3>\n<h3>User Account Tabs</h3>\n<h4>Account Details</h4>\n<h4>Licenses</h4>\n<h4>Import</h4>\n<p><img src=\"https://download.madmapper.com/madshop_prod/MadMapper_Import_License.png\" width=\"800\" height=\"188\" data-media-id=\"sECGJYQMnM\"></p>\n<p>&nbsp;</p>\n<p>If you own a <strong>MadMapper 1 through 4</strong> license, simply enter your serial number using the provided field and click IMPORT.</p>\n<p>Your license will be automatically added to your account and will be ready for immediate use.</p>\n<p><strong>Redeem keys</strong> function as activation codes. When you import an RK, the system automatically generates the corresponding license and assigns it to your account.</p>\n<div class=\"alert-banner-warning\">\n<p data-start=\"113\" data-end=\"335\">Please note that a license can only be linked to <strong>one</strong> account at a time.</p>\n<p data-start=\"113\" data-end=\"335\">If you receive an error message such as&nbsp;&ldquo;<strong>License already imported</strong>&rdquo;, it means the license is already associated with another account.</p>\n<p data-start=\"113\" data-end=\"335\">In that case, please contact our <a href=\"mailto:support@madmapper.com\" target=\"_blank\" rel=\"noopener\">support team</a> for assistance.</p>\n</div>\n<div class=\"alert-banner-tips\">\n<p>If you acquire <strong>MadMapper</strong> now, your license will be automatically linked to your account. No further action is required.</p>\n</div>\n<h4>Orders</h4>\n<h4>Downloads</h4>"
   },
   {
     "pageSuid": "66c3K4wgWL",
