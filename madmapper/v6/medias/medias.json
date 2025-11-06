@@ -146,5 +146,126 @@
         "pageSlug": "madmapper-account"
       }
     ]
+  },
+  {
+    "mediaId": "8NIzXk77gQ",
+    "filename": "Capture d’écran 2025-11-06 à 15.19.00.png",
+    "imgName": "Capture d’écran 2025-11-06 à 15.19.00",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Capture d’écran 2025-11-06 à 15.19.00.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-06T14:20:31.174Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "n7AkHZdPvg",
+    "filename": "MadMapper Create Account 1.png",
+    "imgName": "MadMapper Create Account 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Create Account 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-06T14:22:31.535Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "F498FtgYLI",
+    "filename": "MadMapper Create Account 2.png",
+    "imgName": "MadMapper Create Account 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Create Account 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-06T14:26:15.513Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
   }
 ]
