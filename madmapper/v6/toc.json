@@ -125,47 +125,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started"
-      },
-      {
-        "pageSuid": "VgqPuF3O8p",
-        "pageTitle": "Authorizing MadMapper",
-        "pageSlug": "authorizing-madmapper",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started"
-      },
-      {
-        "pageSuid": "WLPRb6ReP9",
-        "pageTitle": "Seats Usage Good Practice",
-        "pageSlug": "seats-usage-good-practice",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started"
-      },
-      {
-        "pageSuid": "rRg6DLZxfz",
-        "pageTitle": "First Launch and New Project",
-        "pageSlug": "first-launch-and-new-project",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started"
-      },
-      {
-        "pageSuid": "nBi9Vk0pWM",
-        "pageTitle": "Workspaces",
-        "pageSlug": "workspaces",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > About MadMapper > Getting Started"
       },
       {
