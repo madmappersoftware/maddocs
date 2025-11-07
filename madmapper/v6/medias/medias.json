@@ -697,5 +697,145 @@
         "pageSlug": "madmapper-account"
       }
     ]
+  },
+  {
+    "mediaId": "jPkiLXJscF",
+    "filename": "MadMapper Installation 1.png",
+    "imgName": "MadMapper Installation 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Installation 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-07T15:03:19.676Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "sLckXD1E07",
+    "filename": "MadMapper splash screen.png",
+    "imgName": "MadMapper splash screen",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper splash screen.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-07T15:12:13.269Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "A8CQO3D4aj",
+    "filename": "MadMapper Authorization Manager 1.png",
+    "imgName": "MadMapper Authorization Manager 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Authorization Manager 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-07T15:16:35.259Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "ZnautNk8OH",
+    "filename": "MadMapper Authorization Manager 2.png",
+    "imgName": "MadMapper Authorization Manager 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Authorization Manager 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-07T15:17:27.282Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
   }
 ]
