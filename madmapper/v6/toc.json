@@ -127,16 +127,6 @@
         "subpage": [],
         "publish": true,
         "breadcrumb": "What's New > About MadMapper > Getting Started"
-      },
-      {
-        "pageSuid": "cYhyTFKBg3",
-        "pageTitle": "Troubleshooting",
-        "pageSlug": "troubleshooting",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started"
       }
     ],
     "publish": true,
@@ -250,7 +240,16 @@
     "pageType": "empty",
     "minorVersion": "6",
     "subpage": [],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
+  },
+  {
+    "pageSuid": "nVh3znXLrj",
+    "pageTitle": "Troubleshooting",
+    "pageSlug": "troubleshooting",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [],
+    "publish": true
   }
 ]
