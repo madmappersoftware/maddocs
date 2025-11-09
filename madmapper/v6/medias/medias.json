@@ -1090,5 +1090,75 @@
         "pageSlug": "software-installation"
       }
     ]
+  },
+  {
+    "mediaId": "eQNpnF9kkP",
+    "filename": "MadMapper Logout 1.png",
+    "imgName": "MadMapper Logout 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Logout 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-09T10:21:00.640Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "NiUs3qUHI3",
+    "filename": "MadMapper Logout 2.png",
+    "imgName": "MadMapper Logout 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Logout 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-09T10:23:27.570Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
   }
 ]
