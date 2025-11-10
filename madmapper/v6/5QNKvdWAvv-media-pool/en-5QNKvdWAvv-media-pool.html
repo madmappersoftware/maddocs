@@ -1,0 +1,79 @@
+<h2 class="int-link-anchors">Media Pool</h2>
+<h3>Basics</h3>
+<p>The&nbsp;<strong>Media Pool</strong> is your central media hub organized into two sections: the <strong>Media Bin</strong> and the <strong>Media Inspector</strong>.</p>
+<h4>Location</h4>
+<p>Access your <strong>Media Pool</strong> by clicking on <strong>Media</strong> (manage Media) at the top left of the interface:</p>
+<p>&nbsp;</p>
+<p><img src="MadMapper Media 2.png" width="400" height="46" data-media-id="2nHXzAdgkM"></p>
+<div class="alert-banner-notes">
+<p>Keyboard shortcut: Cmd + 1</p>
+</div>
+<h4>View options</h4>
+<p>&nbsp;</p>
+<h3>Media Bin</h3>
+<p class="p1">The <strong>Media Bin</strong> displays every available media, sorted into <strong>type categories</strong>.</p>
+<h4>Generators</h4>
+<p><img src="MadMapper Media Generators.png" width="400" height="246" data-media-id="m1MUvRv4Zr"></p>
+<p class="p1">&nbsp;</p>
+<p class="p1">The generators are built-in and are initially intended for testing and calibration. They are rendered at a specified pixel size in a texture.</p>
+<div class="alert-banner-notes">
+<p class="p1">Note that generators also include the <strong>Text Generator</strong>&nbsp;as well <strong>Materials</strong> if you drag and drop one in the&nbsp;<strong>Generators</strong> list.</p>
+</div>
+<h4>Materials</h4>
+<p><img src="MadMapper Media Materials Snapshot.png" width="400" height="242" data-media-id="tS1UFZweGk"></p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><strong>Materials</strong> are generative shaders, rendered directly on the output destination (projector or preview windows).</p>
+<p class="p1">Unlike generators where only one rendering will be done regardless of their number in your surfaces, the materials are rendered separately on each of the surfaces where they are used. The materials are allowing extra precision at high resolution, at the expense of rendering speed.</p>
+<div class="alert-banner-tips">
+<p class="p2">https://en.wikipedia.org/wiki/Shader</p>
+</div>
+<div class="alert-banner-notes">
+<p class="p1">Materials can be dragged to the Generators category in order to convert them to a rendered texture at the same specified rendering dimensions.</p>
+</div>
+<h4>Laser Materials</h4>
+<p><img src="MadMapper Media Laser Materials.png" width="400" height="244" data-media-id="hENsmTog11"></p>
+<h4>Laser Generators</h4>
+<p><img src="MadMapper Media Laser Generators.png" width="400" height="144" data-media-id="HfIOutf2Q9"></p>
+<h4>ISFs</h4>
+<p class="p1">Interactive Shader Format files are GLSL fragment&nbsp;shaders, just like the materials.</p>
+<p class="p2">https://isf.video</p>
+<p class="p1">Note that MadMapper doesn&rsquo;t support multi-pass ISF.</p>
+<h4>Quartz Composer</h4>
+<p class="p1">Quartz Composer files, the node-based visual programming language.</p>
+<p class="p2">https://en.wikipedia.org/wiki/Quartz_Composer</p>
+<h4>Images</h4>
+<p class="p1">Gathers all types of supported images.</p>
+<h4>Movies</h4>
+<p class="p1">All your imported video files.&nbsp;Playback performance may vary depending&nbsp;on codec/resolution.&nbsp;Preferred coded are HAP (for scrubbing) and H264&nbsp;(for linear forward playback).</p>
+<h4>Images Folders</h4>
+<p class="p1">Add image folders in your media bin.&nbsp;If pictures are added to this folder, the folder&nbsp;will automatically update in MadMapper (watchdog&nbsp;feature).</p>
+<h4>Syphon/Spout /NDI</h4>
+<p class="p1">Texture data that can be shared between applications&nbsp;using different protocols such as Syphon (Mac), Spout&nbsp;(Win), NDI (Mac/Win).</p>
+<p class="p1">The data source is live, continuous, e.g. displaying your&nbsp;work done in parallel in Modul8.</p>
+<p class="p2">http://syphon.v002.info</p>
+<p class="p2">https://spout.zeal.co</p>
+<h4>Live Input</h4>
+<p class="p1">Live feeds that can be streamed into MadMapper, such&nbsp;as webcams or BlackMagic capture cards.</p>
+<h3>Media Inspector</h3>
+<p class="p1">The Media Inspector&nbsp;provides access to the selected media&rsquo;s informations, settings and parameters.</p>
+<p class="p1">&nbsp;</p>
+<p class="p1">The Media Inspector will display for all media a</p>
+<p class="p1">preview (which can be disabled) and options to update</p>
+<p class="p1">the thumbnail of the selected media when a visual is</p>
+<p class="p1">running (update instance in the thumbnail list).</p>
+<p class="p1">The Media Inspector then displays for instance the</p>
+<p class="p1">media&rsquo;s informations such as the resolution, duration,</p>
+<p class="p1">frame rate and codec (movies).</p>
+<p class="p1">&nbsp;</p>
+<p class="p1">Access play mode as well for movies, within the</p>
+<p class="p1">Inspector.</p>
+<p class="p1">Choose the decompression method for the movie:</p>
+<p class="p1">Using the CPU (processor) of your computer with</p>
+<p class="p1">FFMPEG (default) or using the GPU (graphic card)</p>
+<p class="p1">of your computer for hardware accelerated</p>
+<p class="p1">decompression.</p>
+<p class="p1">All these settings and parameters are specific</p>
+<p class="p1">to the media.</p>
+<p class="p1">For instance, these are many&nbsp;</p>
+<p class="p1">options to tweak</p>
+<p class="p1">the Line Patterns shader.</p>
