@@ -171,12 +171,12 @@
       },
       {
         "pageSuid": "cyHfGqwmSP",
-        "pageTitle": "Fixtures",
-        "pageSlug": "fixtures",
+        "pageTitle": "DMX Fixtures",
+        "pageSlug": "dmx-fixtures",
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
       },
       {
