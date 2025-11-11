@@ -2564,5 +2564,527 @@
         "pageSlug": "video-surfaces"
       }
     ]
+  },
+  {
+    "mediaId": "oBvYp4y2eu",
+    "filename": "MadMapper Video Quad.png",
+    "imgName": "MadMapper Video Quad",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Video Quad.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:03:00.559Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "E0aFyAz4TA",
+    "filename": "MadMapper Line.png",
+    "imgName": "MadMapper Line",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Line.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:04:16.301Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "BgLcakdhDR",
+    "filename": "MadMapper Triangle.png",
+    "imgName": "MadMapper Triangle",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Triangle.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:05:01.218Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "4snraiaDnd",
+    "filename": "MadMapper Circle.png",
+    "imgName": "MadMapper Circle",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Circle.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:05:48.334Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "X65UljbWeW",
+    "filename": "MadMapper 3D surface.png",
+    "imgName": "MadMapper 3D surface",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper 3D surface.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:07:34.667Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "kqt5JiYnos",
+    "filename": "MadMapper Surface Inspector 1.png",
+    "imgName": "MadMapper Surface Inspector 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:12:24.382Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "7Fh665N3dn",
+    "filename": "MadMapper Surface Inspector 2.png",
+    "imgName": "MadMapper Surface Inspector 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:15:23.649Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "ObhuUaeDni",
+    "filename": "MadMapper Video Surfaces 2.png",
+    "imgName": "MadMapper Video Surfaces 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Video Surfaces 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:17:11.864Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "ai7pZ0eALS",
+    "filename": "MadMapper Surface Inspector 3.png",
+    "imgName": "MadMapper Surface Inspector 3",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 3.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:21:52.432Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "dTF2baOGYv",
+    "filename": "MadMapper Surface Inspector 4.png",
+    "imgName": "MadMapper Surface Inspector 4",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 4.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:22:09.963Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "VlutYJiitW",
+    "filename": "MadMapper Surface Inspector 5.png",
+    "imgName": "MadMapper Surface Inspector 5",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 5.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:22:32.232Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "OWah2D3B8F",
+    "filename": "MadMapper Surface Inspector 6.png",
+    "imgName": "MadMapper Surface Inspector 6",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 6.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:22:54.679Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "xZrAWR3xOC",
+    "filename": "MadMapper Surface Inspector 7.png",
+    "imgName": "MadMapper Surface Inspector 7",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 7.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:23:09.247Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "7lyO5D4vdY",
+    "filename": "MadMapper Surface Inspector 1.png",
+    "imgName": "MadMapper Surface Inspector 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T15:28:49.872Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
   }
 ]
