@@ -1768,5 +1768,110 @@
         "pageSlug": "media-pool"
       }
     ]
+  },
+  {
+    "mediaId": "f3q0W6nHKn",
+    "filename": "MadMapper Media Inspector 1.png",
+    "imgName": "MadMapper Media Inspector 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Inspector 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T09:41:21.619Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "n5cdtn3nvA",
+    "filename": "MadMapper Media Inspector 2.png",
+    "imgName": "MadMapper Media Inspector 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Inspector 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T09:45:39.031Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "5TQm5SGrBd",
+    "filename": "MadMapper Media Inspector 4.png",
+    "imgName": "MadMapper Media Inspector 4",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Inspector 4.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-11T09:48:49.481Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
   }
 ]
