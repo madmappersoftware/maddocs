@@ -134,8 +134,8 @@
   },
   {
     "pageSuid": "XRAg1d7EWb",
-    "pageTitle": "Learn the Fundamentals",
-    "pageSlug": "learn-the-fundamentals",
+    "pageTitle": "Discover the interface",
+    "pageSlug": "discover-the-interface",
     "pageType": "card",
     "minorVersion": "6",
     "subpage": [
@@ -189,7 +189,7 @@
         "publish": true
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "What's New > About MadMapper > Before You Start"
   },
   {
