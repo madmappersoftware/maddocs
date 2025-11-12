@@ -140,16 +140,6 @@
     "minorVersion": "6",
     "subpage": [
       {
-        "pageSuid": "Biuw0Z767c",
-        "pageTitle": "Interface Overview",
-        "pageSlug": "interface-overview",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
-      },
-      {
         "pageSuid": "5QNKvdWAvv",
         "pageTitle": "Media Pool",
         "pageSlug": "media-pool",
@@ -180,53 +170,13 @@
         "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
       },
       {
-        "pageSuid": "NXy9BMBaQi",
-        "pageTitle": "Projectors Setup",
-        "pageSlug": "projectors-setup",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
-      },
-      {
         "pageSuid": "Zu9lM5wmy5",
         "pageTitle": "Modules",
         "pageSlug": "modules",
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
-      },
-      {
-        "pageSuid": "WhevrbYA4M",
-        "pageTitle": "Master Tab",
-        "pageSlug": "master-tab",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
-      },
-      {
-        "pageSuid": "arFDfOAHk1",
-        "pageTitle": "Advanced Tools",
-        "pageSlug": "advanced-tools",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
-      },
-      {
-        "pageSuid": "lGAwFxCVEO",
-        "pageTitle": "Menus and Preferences",
-        "pageSlug": "menus-and-preferences",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
       }
     ],

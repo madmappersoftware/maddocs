@@ -469,5 +469,225 @@
         "pageSlug": "dmx-fixtures"
       }
     ]
+  },
+  {
+    "mediaId": "K4ulE7V58S",
+    "filename": "MadMapper Module Firmata.png",
+    "imgName": "MadMapper Module Firmata",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Firmata.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T05:59:18.678Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "pgKUmhnZ1l",
+    "filename": "MadMapper Module Audio Player.png",
+    "imgName": "MadMapper Module Audio Player",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Audio Player.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T06:02:59.828Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "S8o9nqvDkk",
+    "filename": "MadMapper Module DMX Router.png",
+    "imgName": "MadMapper Module DMX Router",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module DMX Router.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T06:05:42.744Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "EF4l3llZia",
+    "filename": "MadMapper Module Calendar Scheduler.png",
+    "imgName": "MadMapper Module Calendar Scheduler",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Calendar Scheduler.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T06:07:30.627Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "YJUXU7Ck0f",
+    "filename": "MadMapper Module MiniMad Controller.png",
+    "imgName": "MadMapper Module MiniMad Controller",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module MiniMad Controller.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T06:09:18.110Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "nv70onwGQE",
+    "filename": "MadMapper Module Midi Out.png",
+    "imgName": "MadMapper Module Midi Out",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Midi Out.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T06:10:42.893Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "LyESmk1M06",
+    "filename": "MadMapper Module OSC Out.png",
+    "imgName": "MadMapper Module OSC Out",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module OSC Out.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T06:11:46.142Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "o8ABb1OyLq",
+    "filename": "MadMapper Module Oscillator.png",
+    "imgName": "MadMapper Module Oscillator",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Oscillator.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T06:13:18.376Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "d61pGeCCx1",
+    "filename": "MadMapper Module Oscillator 2d.png",
+    "imgName": "MadMapper Module Oscillator 2d",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Oscillator 2d.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T06:15:33.908Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "m2LxlrMcKL",
+    "filename": "MadMapper Module Oscillator Bank.png",
+    "imgName": "MadMapper Module Oscillator Bank",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Oscillator Bank.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T06:15:52.024Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
   }
 ]
