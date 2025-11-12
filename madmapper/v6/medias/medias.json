@@ -689,5 +689,40 @@
         "pageSlug": "modules"
       }
     ]
+  },
+  {
+    "mediaId": "ruymaRq0Z7",
+    "filename": "MM_v6_at_a_glance.jpg",
+    "imgName": "MM_v6_at_a_glance",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/MM_v6_at_a_glance.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T08:34:22.977Z",
+    "pages": [
+      {
+        "pageSuid": "3hgIot1RBf",
+        "pageSlug": "madmapper-6-at-a-glance"
+      }
+    ]
   }
 ]
