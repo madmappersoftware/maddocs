@@ -4443,5 +4443,292 @@
         "pageSlug": "master-settings"
       }
     ]
+  },
+  {
+    "mediaId": "qVcyyywot4",
+    "filename": "MadMapper Interface Overview 7.png",
+    "imgName": "MadMapper Interface Overview 7",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 7.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:45:13.832Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "3khRakpPmJ",
+    "filename": "MadMapper Interface Overview 6.png",
+    "imgName": "MadMapper Interface Overview 6",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 6.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:45:13.846Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "s1hNDUa4kc",
+    "filename": "MadMapper Interface Overview 5.png",
+    "imgName": "MadMapper Interface Overview 5",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 5.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:45:13.887Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "Cw3gNKVDlC",
+    "filename": "MadMapper Interface Overview 4.png",
+    "imgName": "MadMapper Interface Overview 4",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 4.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:45:13.896Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "64G8cmiyJF",
+    "filename": "MadMapper Interface Overview 3.png",
+    "imgName": "MadMapper Interface Overview 3",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 3.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:45:13.913Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "yr6AqZYUie",
+    "filename": "MadMapper Interface Overview 2.png",
+    "imgName": "MadMapper Interface Overview 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:45:13.983Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "TX3Jso5whs",
+    "filename": "MadMapper Interface Overview 1.png",
+    "imgName": "MadMapper Interface Overview 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:45:14.264Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "dsl5mUepRr",
+    "filename": "Capture d’écran 2025-11-12 à 19.14.58.png",
+    "imgName": "Capture d’écran 2025-11-12 à 19.14.58",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Capture d’écran 2025-11-12 à 19.14.58.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:48:08.547Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
   }
 ]
