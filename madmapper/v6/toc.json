@@ -178,6 +178,15 @@
         "subpage": [],
         "publish": true,
         "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
+      },
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageTitle": "Master Tab",
+        "pageSlug": "master-tab",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
       }
     ],
     "publish": false,
