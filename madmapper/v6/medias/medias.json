@@ -1,1 +1,4447 @@
-[]
+[
+  {
+    "mediaId": "D29KugHYIB",
+    "filename": "MadMapper 6 Splashscreen.png",
+    "imgName": "MadMapper 6 Splashscreen",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper 6 Splashscreen.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T18:56:18.683Z",
+    "pages": [
+      {
+        "pageSuid": "MG8sM211wn",
+        "pageSlug": "what's-new"
+      },
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageSlug": "evolution-of-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "5Nfs0pYwz3",
+    "filename": "pechmerle.jpg",
+    "imgName": "pechmerle",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/pechmerle.jpg",
+    "captions": {
+      "en": "Pech Merle cave"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T18:57:05.614Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "vRqLVf50lh",
+    "filename": "pere borell.jpg",
+    "imgName": "pere borell",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/pere borell.jpg",
+    "captions": {
+      "en": "Pere Borell Del Caso"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T18:57:39.035Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "IvY3HX2sid",
+    "filename": "saintignazio.jpg",
+    "imgName": "saintignazio",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/saintignazio.jpg",
+    "captions": {
+      "en": "The Apotheosis of St Ignatius, Andrea-Pozzo 1685"
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T18:58:13.661Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "hoLeGbxWLp",
+    "filename": "hanswaltermuller.jpg",
+    "imgName": "hanswaltermuller",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/hanswaltermuller.jpg",
+    "captions": {
+      "en": "Hans Walter Muller, \"Topoprojection\", France, 1979"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T18:58:50.968Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "8bnmCXcvYl",
+    "filename": "naimark.png",
+    "imgName": "naimark",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/naimark.png",
+    "captions": {
+      "en": "Michael Naimark, \"Displacements\", 1984"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T18:59:25.084Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "qE2L2CoiPY",
+    "filename": "wodickzko.jpg",
+    "imgName": "wodickzko",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/wodickzko.jpg",
+    "captions": {
+      "en": "Wodiczko"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T18:59:51.915Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "5l12fBFOuX",
+    "filename": "decrecy_1024.png",
+    "imgName": "decrecy_1024",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/decrecy_1024.png",
+    "captions": {
+      "en": "SquareCube, 1024 architecture, 2007"
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:00:33.235Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "tlWeaG6V5w",
+    "filename": "mmv3.png",
+    "imgName": "mmv3",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/mmv3.png",
+    "captions": {
+      "en": "MadMapper, version 3"
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:01:03.984Z",
+    "pages": [
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "LW09a17rZ1",
+    "filename": "Madmapper the mapping software.jpg",
+    "imgName": "Madmapper the mapping software",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/Madmapper the mapping software.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:01:55.930Z",
+    "pages": [
+      {
+        "pageSuid": "SHnUKVrkbF",
+        "pageSlug": "about-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "R7YGLeIsU8",
+    "filename": "madmapper vortex.jpg",
+    "imgName": "madmapper vortex",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/madmapper vortex.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:02:24.185Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "57iHI9Kp6p",
+    "filename": "Madmapper warping snapshot.jpg",
+    "imgName": "Madmapper warping snapshot",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/Madmapper warping snapshot.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:04:51.113Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "aeumGyDWAV",
+    "filename": "madmapper orb.jpg",
+    "imgName": "madmapper orb",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/madmapper orb.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:05:32.534Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "k09H6xycQh",
+    "filename": "Madmapper MadLaser.png",
+    "imgName": "Madmapper MadLaser",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Madmapper MadLaser.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:06:06.985Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      },
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageSlug": "evolution-of-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "iQWGYBRmF8",
+    "filename": "MadMapper madprojectorcontrol.jpg",
+    "imgName": "MadMapper madprojectorcontrol",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/MadMapper madprojectorcontrol.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:06:45.736Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      },
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageSlug": "evolution-of-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "ih0n7xnRmY",
+    "filename": "MadMapper MAD AI city.jpg",
+    "imgName": "MadMapper MAD AI city",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/MadMapper MAD AI city.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:07:11.036Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      },
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageSlug": "evolution-of-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "txn4l7fAUk",
+    "filename": "minimad export.jpg",
+    "imgName": "minimad export",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/minimad export.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:07:36.213Z",
+    "pages": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageSlug": "meet-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "wWl9wRnbDM",
+    "filename": "MadMapper Laser Scanner.png",
+    "imgName": "MadMapper Laser Scanner",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Laser Scanner.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:08:55.966Z",
+    "pages": [
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageSlug": "evolution-of-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "urh7KoB2Rv",
+    "filename": "MadMapper 4.0.png",
+    "imgName": "MadMapper 4.0",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper 4.0.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:09:56.070Z",
+    "pages": [
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageSlug": "evolution-of-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "SkAkV59McJ",
+    "filename": "MadMapper 3.0.png",
+    "imgName": "MadMapper 3.0",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper 3.0.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:10:12.842Z",
+    "pages": [
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageSlug": "evolution-of-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "bZ06EyuLiu",
+    "filename": "MadMapper - MiniMad.png",
+    "imgName": "MadMapper - MiniMad",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper - MiniMad.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:10:43.670Z",
+    "pages": [
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageSlug": "evolution-of-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "qHZpuIRZfn",
+    "filename": "MadMapper 2.0.png",
+    "imgName": "MadMapper 2.0",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper 2.0.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:11:00.899Z",
+    "pages": [
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageSlug": "evolution-of-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "NYlZyfbIw1",
+    "filename": "MadMapper Mad Orb.png",
+    "imgName": "MadMapper Mad Orb",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Mad Orb.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:11:27.667Z",
+    "pages": [
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageSlug": "evolution-of-madmapper"
+      }
+    ]
+  },
+  {
+    "mediaId": "IiJEr9oKT8",
+    "filename": "MadMapper get started.jpg",
+    "imgName": "MadMapper get started",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/MadMapper get started.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:12:00.919Z",
+    "pages": [
+      {
+        "pageSuid": "VItu9oKKNm",
+        "pageSlug": "before-you-start"
+      }
+    ]
+  },
+  {
+    "mediaId": "wdLxEJ24bZ",
+    "filename": "Capture d’écran 2025-11-06 à 15.19.00.png",
+    "imgName": "Capture d’écran 2025-11-06 à 15.19.00",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Capture d’écran 2025-11-06 à 15.19.00.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:13:05.607Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "j9Gpn0O46h",
+    "filename": "MadMapper Create Account 1.png",
+    "imgName": "MadMapper Create Account 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Create Account 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:13:47.517Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "8feerwkQq0",
+    "filename": "MadMapper Create Account 2.png",
+    "imgName": "MadMapper Create Account 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Create Account 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:14:15.317Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "TrHSMIEuwU",
+    "filename": "MadMapper account details 7.png",
+    "imgName": "MadMapper account details 7",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper account details 7.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:14:38.802Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "X5SqdimbpU",
+    "filename": "MadMapper account details 2.png",
+    "imgName": "MadMapper account details 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper account details 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:15:03.217Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "049skSI8cS",
+    "filename": "MadMapper account details 3.png",
+    "imgName": "MadMapper account details 3",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper account details 3.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:15:34.354Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "BscIdBjs41",
+    "filename": "MadMapper account details 4.png",
+    "imgName": "MadMapper account details 4",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper account details 4.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:15:34.498Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "1Kdh4PdpvW",
+    "filename": "MadMapper account details 8.png",
+    "imgName": "MadMapper account details 8",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper account details 8.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:16:10.949Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "31YmKvbt6v",
+    "filename": "MadMapper Import License.png",
+    "imgName": "MadMapper Import License",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Import License.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:16:26.271Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "bj9asrCsLE",
+    "filename": "MadMapper account details 9.png",
+    "imgName": "MadMapper account details 9",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper account details 9.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:17:08.621Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "aUqRGfMgSW",
+    "filename": "MadMapper Downloads.png",
+    "imgName": "MadMapper Downloads",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Downloads.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:17:08.733Z",
+    "pages": [
+      {
+        "pageSuid": "kwciF95sFo",
+        "pageSlug": "madmapper-account"
+      }
+    ]
+  },
+  {
+    "mediaId": "bFdYKu9N9s",
+    "filename": "MadMapper Installation 1.png",
+    "imgName": "MadMapper Installation 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Installation 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:19:08.244Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "OmllAs93X7",
+    "filename": "MadMapper Authorization Manager 7.png",
+    "imgName": "MadMapper Authorization Manager 7",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Authorization Manager 7.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:19:08.261Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "aAZxS76920",
+    "filename": "MadMapper Authorization Manager 5.png",
+    "imgName": "MadMapper Authorization Manager 5",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Authorization Manager 5.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:19:08.372Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "63tNbJvfMA",
+    "filename": "MadMapper Authorization Manager 6.png",
+    "imgName": "MadMapper Authorization Manager 6",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Authorization Manager 6.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:19:08.437Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "F9Vw3uxoG3",
+    "filename": "MadMapper Authorization Manager 8.png",
+    "imgName": "MadMapper Authorization Manager 8",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Authorization Manager 8.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:19:08.480Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "OLb54Rqway",
+    "filename": "MadMapper Authorization Manager 2.png",
+    "imgName": "MadMapper Authorization Manager 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Authorization Manager 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:19:08.521Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "lSycb8d6Yh",
+    "filename": "MadMapper Authorization Manager 3.png",
+    "imgName": "MadMapper Authorization Manager 3",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Authorization Manager 3.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:19:08.591Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "sE6y6DsB8S",
+    "filename": "MadMapper Logout 2.png",
+    "imgName": "MadMapper Logout 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Logout 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:20:38.834Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "9WZNPXZca1",
+    "filename": "MadMapper Logout 1.png",
+    "imgName": "MadMapper Logout 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Logout 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:20:38.931Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "Nwst54TSGE",
+    "filename": "MadMapper Launch.png",
+    "imgName": "MadMapper Launch",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Launch.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:20:38.957Z",
+    "pages": [
+      {
+        "pageSuid": "66c3K4wgWL",
+        "pageSlug": "software-installation"
+      }
+    ]
+  },
+  {
+    "mediaId": "S3bQIGJ3xK",
+    "filename": "MadMapper Media 2.png",
+    "imgName": "MadMapper Media 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:21:50.072Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "WZFswrcPyj",
+    "filename": "MadMapper Media Add Media.png",
+    "imgName": "MadMapper Media Add Media",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Add Media.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:22:50.370Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "pDucAQWIEJ",
+    "filename": "MadMapper Media Right Clic.png",
+    "imgName": "MadMapper Media Right Clic",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Right Clic.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:23:47.374Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "oZjTIBELYF",
+    "filename": "MadMapper Media Instances.png",
+    "imgName": "MadMapper Media Instances",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Instances.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:23:47.393Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "Uhpgl4rzTo",
+    "filename": "MadMapper Media Fold Unfold.png",
+    "imgName": "MadMapper Media Fold Unfold",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Fold Unfold.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:23:47.427Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "DKMWaJ7BPd",
+    "filename": "MadMapper Media Used Infos.png",
+    "imgName": "MadMapper Media Used Infos",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Used Infos.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:24:47.426Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "3FZsMga5bd",
+    "filename": "MadMapper Media Generators.png",
+    "imgName": "MadMapper Media Generators",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Generators.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:24:47.443Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "bHi9EeXXzX",
+    "filename": "MadMapper Media Materials Snapshot.png",
+    "imgName": "MadMapper Media Materials Snapshot",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Materials Snapshot.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:24:47.461Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "q0faRim3z4",
+    "filename": "MadMapper Media Laser Materials.png",
+    "imgName": "MadMapper Media Laser Materials",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Laser Materials.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:29:42.235Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "mtNkd05uvt",
+    "filename": "MadMapper Media Quartz Composer.png",
+    "imgName": "MadMapper Media Quartz Composer",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Quartz Composer.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:29:42.258Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "PvZC5MRpI9",
+    "filename": "MadMapper Media Laser Generators.png",
+    "imgName": "MadMapper Media Laser Generators",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Laser Generators.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:29:42.295Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "1O2JVRqN5E",
+    "filename": "MadMapper Media ISF.png",
+    "imgName": "MadMapper Media ISF",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media ISF.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:29:42.314Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "WPz2V89e89",
+    "filename": "MadMapper Media Materials.png",
+    "imgName": "MadMapper Media Materials",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Materials.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:29:42.349Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "kLFIPyj8Pi",
+    "filename": "MadMapper Media Movies.png",
+    "imgName": "MadMapper Media Movies",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Movies.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:31:19.911Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "9iYril0ldF",
+    "filename": "MadMapper Media Inspector 2.png",
+    "imgName": "MadMapper Media Inspector 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Inspector 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:31:19.970Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "6TMMGXsm0x",
+    "filename": "MadMapper Media Inspector 4.png",
+    "imgName": "MadMapper Media Inspector 4",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Inspector 4.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:31:20.027Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "ehnJklmz73",
+    "filename": "MadMapper Media Montages.png",
+    "imgName": "MadMapper Media Montages",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Montages.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:31:20.038Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "CtOwQadVPQ",
+    "filename": "MadMapper Media Inspector 1.png",
+    "imgName": "MadMapper Media Inspector 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Inspector 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:31:20.060Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "UicAJEIx7Q",
+    "filename": "MadMapper Media Images.png",
+    "imgName": "MadMapper Media Images",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Images.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:31:20.075Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "olyU4C4Qj2",
+    "filename": "MadMapper Media Image Folder.png",
+    "imgName": "MadMapper Media Image Folder",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Image Folder.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:31:20.091Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "2NE3Ko7aeK",
+    "filename": "MadMapper Media Live Input.png",
+    "imgName": "MadMapper Media Live Input",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Live Input.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:31:48.828Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "th0DcoKw5E",
+    "filename": "MadMapper Media Syphon.png",
+    "imgName": "MadMapper Media Syphon",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Media Syphon.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:32:16.160Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-pool"
+      }
+    ]
+  },
+  {
+    "mediaId": "bRh6ScCMDh",
+    "filename": "MadMapper Video Surfaces 1.png",
+    "imgName": "MadMapper Video Surfaces 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Video Surfaces 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:33:57.066Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "c8VNd9u4ws",
+    "filename": "MadMapper Video Surfaces 2.png",
+    "imgName": "MadMapper Video Surfaces 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Video Surfaces 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:33:57.095Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "P6KvQTUjAA",
+    "filename": "MadMapper Video Surfaces 5.png",
+    "imgName": "MadMapper Video Surfaces 5",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Video Surfaces 5.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:33:57.160Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "fsp5WqNN7V",
+    "filename": "MadMapper Video Surfaces 3.png",
+    "imgName": "MadMapper Video Surfaces 3",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Video Surfaces 3.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:33:57.182Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "WK1MRfHDRI",
+    "filename": "MadMapper Video Surfaces 4.png",
+    "imgName": "MadMapper Video Surfaces 4",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Video Surfaces 4.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:33:57.216Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "2eOgzMBfX3",
+    "filename": "MadMapper Video Quad.png",
+    "imgName": "MadMapper Video Quad",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Video Quad.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:33:57.244Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "or0H5IjzFk",
+    "filename": "MadMapper Triangle.png",
+    "imgName": "MadMapper Triangle",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Triangle.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:33:57.539Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "cjhu70sHlW",
+    "filename": "MadMapper 3D surface.png",
+    "imgName": "MadMapper 3D surface",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper 3D surface.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:33:57.823Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "E50r2nocYt",
+    "filename": "MadMapper Circle.png",
+    "imgName": "MadMapper Circle",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Circle.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:33:58.223Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "v50y8EkqjZ",
+    "filename": "MadMapper Line.png",
+    "imgName": "MadMapper Line",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Line.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:40:13.469Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "0wNN3IOhmZ",
+    "filename": "MadMapper Surface Inspector 7.png",
+    "imgName": "MadMapper Surface Inspector 7",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 7.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:44:23.327Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "xiUbiiZMjF",
+    "filename": "MadMapper Surface Inspector 5.png",
+    "imgName": "MadMapper Surface Inspector 5",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 5.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:44:23.339Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "AhchGmvaEE",
+    "filename": "MadMapper Surface Inspector 2.png",
+    "imgName": "MadMapper Surface Inspector 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:44:23.379Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "WhxZwwh68Q",
+    "filename": "MadMapper Surface Inspector 3.png",
+    "imgName": "MadMapper Surface Inspector 3",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 3.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:44:23.386Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "3qGY72PrHC",
+    "filename": "MadMapper Surface Inspector 4.png",
+    "imgName": "MadMapper Surface Inspector 4",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 4.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:44:23.410Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "dIOdMvi2aS",
+    "filename": "MadMapper Surface Inspector 6.png",
+    "imgName": "MadMapper Surface Inspector 6",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 6.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:44:23.428Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "fSXYc7wfYE",
+    "filename": "MadMapper Surface Inspector 1.png",
+    "imgName": "MadMapper Surface Inspector 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Surface Inspector 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T19:44:23.441Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "21dL46LsdU",
+    "filename": "MadMapper DMX Fixtures 1.png",
+    "imgName": "MadMapper DMX Fixtures 1",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 1.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:10.989Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "IBYl2DGKdJ",
+    "filename": "MadMapper DMX Fixtures 13.png",
+    "imgName": "MadMapper DMX Fixtures 13",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 13.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.009Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "lag7Pli6is",
+    "filename": "MadMapper DMX Fixtures 12.png",
+    "imgName": "MadMapper DMX Fixtures 12",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 12.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.041Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "WenATagUIh",
+    "filename": "MadMapper DMX Fixtures 11.png",
+    "imgName": "MadMapper DMX Fixtures 11",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 11.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.059Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "lodBg0wA4u",
+    "filename": "MadMapper DMX Fixtures 10.png",
+    "imgName": "MadMapper DMX Fixtures 10",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 10.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.076Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "OVSGDW2hVQ",
+    "filename": "MadMapper DMX Fixtures 9.png",
+    "imgName": "MadMapper DMX Fixtures 9",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 9.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.084Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "W97RxHMh07",
+    "filename": "MadMapper DMX Fixtures 8.png",
+    "imgName": "MadMapper DMX Fixtures 8",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 8.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.105Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "d2tzH8sHJG",
+    "filename": "MadMapper DMX Fixtures 7.png",
+    "imgName": "MadMapper DMX Fixtures 7",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 7.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.132Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "SEHEU2BpTw",
+    "filename": "MadMapper DMX Fixtures 6.png",
+    "imgName": "MadMapper DMX Fixtures 6",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 6.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.287Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "YXcb3A9FxB",
+    "filename": "MadMapper DMX Fixtures 5.png",
+    "imgName": "MadMapper DMX Fixtures 5",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 5.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.462Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "1vF1VMgxo5",
+    "filename": "MadMapper DMX Fixtures 4.png",
+    "imgName": "MadMapper DMX Fixtures 4",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 4.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.617Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "y5lMCSwjtG",
+    "filename": "MadMapper DMX Fixtures 3.png",
+    "imgName": "MadMapper DMX Fixtures 3",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 3.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.650Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "JBijGkMJmR",
+    "filename": "MadMapper DMX Fixtures 2.png",
+    "imgName": "MadMapper DMX Fixtures 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper DMX Fixtures 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:12:11.677Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "kyBbEVzWJA",
+    "filename": "MadMapper Module Audio Player.png",
+    "imgName": "MadMapper Module Audio Player",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Audio Player.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.647Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "0WGmtr1rTT",
+    "filename": "MadMapper Modules Tab.png",
+    "imgName": "MadMapper Modules Tab",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Modules Tab.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.671Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "jOiWbvI6WE",
+    "filename": "MadMapper Modules List.png",
+    "imgName": "MadMapper Modules List",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Modules List.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.687Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "pJIlKTWncy",
+    "filename": "MadMapper Module Weather.png",
+    "imgName": "MadMapper Module Weather",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Weather.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.737Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "2kAqFPDqHu",
+    "filename": "MadMapper Module Timeline Scheduler.png",
+    "imgName": "MadMapper Module Timeline Scheduler",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Timeline Scheduler.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.750Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "irMvvsfyAk",
+    "filename": "MadMapper Module Timeline Automatic.png",
+    "imgName": "MadMapper Module Timeline Automatic",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Timeline Automatic.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.769Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "2AXKjT518e",
+    "filename": "MadMapper Module Startup Timeline.png",
+    "imgName": "MadMapper Module Startup Timeline",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Startup Timeline.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.787Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "DmkVNxY6Fw",
+    "filename": "MadMapper Module RandomNoise.png",
+    "imgName": "MadMapper Module RandomNoise",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module RandomNoise.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.799Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "Lam8oam6ZO",
+    "filename": "MadMapper Module Pollution.png",
+    "imgName": "MadMapper Module Pollution",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Pollution.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.810Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "dbhtCBpBmI",
+    "filename": "MadMapper Module Oscillator.png",
+    "imgName": "MadMapper Module Oscillator",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Oscillator.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.816Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "KqUA88tnNt",
+    "filename": "MadMapper Module Oscillator Bank.png",
+    "imgName": "MadMapper Module Oscillator Bank",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Oscillator Bank.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.827Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "EukMyzcVeo",
+    "filename": "MadMapper Module Oscillator 2d.png",
+    "imgName": "MadMapper Module Oscillator 2d",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Oscillator 2d.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.835Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "iHfD0WiW5P",
+    "filename": "MadMapper Module OSC Out.png",
+    "imgName": "MadMapper Module OSC Out",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module OSC Out.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.848Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "NIrRxsuQ32",
+    "filename": "MadMapper Module MiniMad Controller.png",
+    "imgName": "MadMapper Module MiniMad Controller",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module MiniMad Controller.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.853Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "xWSuuudHL7",
+    "filename": "MadMapper Module Midi Out.png",
+    "imgName": "MadMapper Module Midi Out",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Midi Out.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.862Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "FC3QJlJ563",
+    "filename": "MadMapper Module MadLight Player.png",
+    "imgName": "MadMapper Module MadLight Player",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module MadLight Player.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.866Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "yYv3v9eogq",
+    "filename": "MadMapper Module Instances.png",
+    "imgName": "MadMapper Module Instances",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Instances.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.871Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "f6oWBZacL7",
+    "filename": "MadMapper Module Idle Timeline.png",
+    "imgName": "MadMapper Module Idle Timeline",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Idle Timeline.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.878Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "dC0KWFwzZ6",
+    "filename": "MadMapper Module Firmata.png",
+    "imgName": "MadMapper Module Firmata",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Firmata.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.883Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "5mkNXTSu7n",
+    "filename": "MadMapper Module DMX Router.png",
+    "imgName": "MadMapper Module DMX Router",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module DMX Router.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.891Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "2N0LenJVW3",
+    "filename": "MadMapper Module Device Activity.png",
+    "imgName": "MadMapper Module Device Activity",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Device Activity.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.896Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "VGMVua6Zob",
+    "filename": "MadMapper Module Controls Combiner.png",
+    "imgName": "MadMapper Module Controls Combiner",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Controls Combiner.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.901Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "DM4CLmqNUB",
+    "filename": "MadMapper Module Control Surface.png",
+    "imgName": "MadMapper Module Control Surface",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Control Surface.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.908Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "YfUXYheXf9",
+    "filename": "MadMapper Module Calendar Scheduler.png",
+    "imgName": "MadMapper Module Calendar Scheduler",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Module Calendar Scheduler.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:14:18.913Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "8szq9NPAlM",
+    "filename": "MadMapper Master Tab Additional Settings.png",
+    "imgName": "MadMapper Master Tab Additional Settings",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Master Tab Additional Settings.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:16:08.216Z",
+    "pages": [
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageSlug": "master-settings"
+      }
+    ]
+  },
+  {
+    "mediaId": "zuaqEr5mVx",
+    "filename": "MadMapper Master Tab Video Cursor.png",
+    "imgName": "MadMapper Master Tab Video Cursor",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Master Tab Video Cursor.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:16:08.237Z",
+    "pages": [
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageSlug": "master-settings"
+      }
+    ]
+  },
+  {
+    "mediaId": "rR6SAxQtUh",
+    "filename": "MadMapper Master Tab Speed.png",
+    "imgName": "MadMapper Master Tab Speed",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Master Tab Speed.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:16:08.273Z",
+    "pages": [
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageSlug": "master-settings"
+      }
+    ]
+  },
+  {
+    "mediaId": "6ft6tEUBq7",
+    "filename": "MadMapper Master Tab Output.png",
+    "imgName": "MadMapper Master Tab Output",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Master Tab Output.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:16:08.280Z",
+    "pages": [
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageSlug": "master-settings"
+      }
+    ]
+  },
+  {
+    "mediaId": "WV4qk9VKVl",
+    "filename": "MadMapper Master Tab Laser Cursor.png",
+    "imgName": "MadMapper Master Tab Laser Cursor",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Master Tab Laser Cursor.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:16:08.303Z",
+    "pages": [
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageSlug": "master-settings"
+      }
+    ]
+  },
+  {
+    "mediaId": "j1ajr7OlXw",
+    "filename": "MadMapper Master Tab Input.png",
+    "imgName": "MadMapper Master Tab Input",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Master Tab Input.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:16:08.313Z",
+    "pages": [
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageSlug": "master-settings"
+      }
+    ]
+  },
+  {
+    "mediaId": "a3nAhYouoT",
+    "filename": "MadMapper Master Tab Icon.png",
+    "imgName": "MadMapper Master Tab Icon",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Master Tab Icon.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:16:08.331Z",
+    "pages": [
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageSlug": "master-settings"
+      }
+    ]
+  },
+  {
+    "mediaId": "Ro9OrIjuwH",
+    "filename": "MadMapper Master Tab Global BPM.png",
+    "imgName": "MadMapper Master Tab Global BPM",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Master Tab Global BPM.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:16:08.336Z",
+    "pages": [
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageSlug": "master-settings"
+      }
+    ]
+  },
+  {
+    "mediaId": "GFljhThsJR",
+    "filename": "MadMapper Master Tab Equalizer.png",
+    "imgName": "MadMapper Master Tab Equalizer",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Master Tab Equalizer.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:16:08.356Z",
+    "pages": [
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageSlug": "master-settings"
+      }
+    ]
+  },
+  {
+    "mediaId": "JRh2cIiZKH",
+    "filename": "MadMapper Master Tab Color Palette.png",
+    "imgName": "MadMapper Master Tab Color Palette",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Master Tab Color Palette.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-12T20:16:08.384Z",
+    "pages": [
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageSlug": "master-settings"
+      }
+    ]
+  }
+]
