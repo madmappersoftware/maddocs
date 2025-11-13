@@ -5085,5 +5085,48 @@
         "pageSlug": "interface-overview"
       }
     ]
+  },
+  {
+    "mediaId": "s7AOBfFdFB",
+    "filename": "MadMapper Interface Overview 19.png",
+    "imgName": "MadMapper Interface Overview 19",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 19.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T11:37:52.137Z",
+    "pages": [
+      {
+        "pageSuid": "XRAg1d7EWb",
+        "pageSlug": "discover-the-interface"
+      }
+    ]
   }
 ]
