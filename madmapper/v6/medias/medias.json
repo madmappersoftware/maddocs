@@ -4730,5 +4730,348 @@
         "pageSlug": "interface-overview"
       }
     ]
+  },
+  {
+    "mediaId": "NRZVWECIsy",
+    "filename": "MadMapper Interface Overview 8.png",
+    "imgName": "MadMapper Interface Overview 8",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 8.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:24:12.075Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "V8hCD4NtRK",
+    "filename": "MadMapper Interface Overview 9.png",
+    "imgName": "MadMapper Interface Overview 9",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 9.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:25:46.371Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "y5rFwlF7JW",
+    "filename": "MadMapper Interface Overview 10.png",
+    "imgName": "MadMapper Interface Overview 10",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 10.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:28:27.202Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "GzJfnoebeN",
+    "filename": "MadMapper Interface Overview 11.png",
+    "imgName": "MadMapper Interface Overview 11",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 11.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:34:51.813Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "4O1ZKnKh9N",
+    "filename": "MadMapper Interface Overview 12.png",
+    "imgName": "MadMapper Interface Overview 12",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 12.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:35:09.995Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "JwConL077s",
+    "filename": "MadMapper Interface Overview 13.png",
+    "imgName": "MadMapper Interface Overview 13",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 13.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:35:20.877Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "pfBuf8V460",
+    "filename": "MadMapper Interface Overview 14.png",
+    "imgName": "MadMapper Interface Overview 14",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 14.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:35:32.944Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "Bz5boOVETm",
+    "filename": "MadMapper Interface Overview 15.png",
+    "imgName": "MadMapper Interface Overview 15",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 15.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:35:44.212Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "OzA41ZdfoE",
+    "filename": "MadMapper Interface Overview 16.png",
+    "imgName": "MadMapper Interface Overview 16",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 16.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:35:54.611Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "ZssuDvCGl4",
+    "filename": "MadMapper Interface Overview 17.png",
+    "imgName": "MadMapper Interface Overview 17",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 17.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:36:08.327Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "HPJjaBDeoz",
+    "filename": "MadMapper Interface Overview 18.png",
+    "imgName": "MadMapper Interface Overview 18",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 18.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:36:19.043Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "A95JUAONLh",
+    "filename": "MadMapper Interface Overview 18.png",
+    "imgName": "MadMapper Interface Overview 18",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Interface Overview 18.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2025-11-13T07:37:32.442Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
   }
 ]
