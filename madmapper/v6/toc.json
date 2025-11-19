@@ -93,27 +93,9 @@
         "minorVersion": "6",
         "subpage": [
           {
-            "pageSuid": "rZWy8rigOn",
-            "pageTitle": "Mass Deploy Installation",
-            "pageSlug": "mass-deploy-installation",
-            "pageType": "empty",
-            "minorVersion": "0",
-            "subpage": [],
-            "publish": false
-          },
-          {
-            "pageSuid": "bWkDncpXvw",
-            "pageTitle": "Software Activation",
-            "pageSlug": "software-activation",
-            "pageType": "empty",
-            "minorVersion": "0",
-            "subpage": [],
-            "publish": false
-          },
-          {
-            "pageSuid": "khl1fFDveH",
-            "pageTitle": "Deauthorize MadMapper",
-            "pageSlug": "deauthorize-madmapper",
+            "pageSuid": "DGQKvOvaZZ",
+            "pageTitle": "Activate MadMapper",
+            "pageSlug": "activate-madmapper",
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
@@ -129,9 +111,27 @@
             "publish": false
           },
           {
+            "pageSuid": "khl1fFDveH",
+            "pageTitle": "Deauthorize MadMapper",
+            "pageSlug": "deauthorize-madmapper",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          },
+          {
             "pageSuid": "t0olM4Mvz8",
             "pageTitle": "Extensions and Demo Versions",
             "pageSlug": "extensions-and-demo-versions",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          },
+          {
+            "pageSuid": "rZWy8rigOn",
+            "pageTitle": "Mass Deploy Installation",
+            "pageSlug": "mass-deploy-installation",
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
