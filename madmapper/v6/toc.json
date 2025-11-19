@@ -22,7 +22,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New"
       },
       {
@@ -32,11 +32,11 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": ""
   },
   {
@@ -53,7 +53,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": true
       },
       {
         "pageSuid": "0yIEG8azhm",
@@ -62,7 +62,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > MadMapper Legacy > Getting Started"
       },
       {
@@ -82,7 +82,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > About MadMapper > Getting Started"
       },
       {
@@ -99,7 +99,7 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": true
           },
           {
             "pageSuid": "B7iL0PtpSL",
@@ -108,7 +108,7 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": true
           },
           {
             "pageSuid": "khl1fFDveH",
@@ -138,11 +138,11 @@
             "publish": false
           }
         ],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > About MadMapper > Getting Started"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "What's New > About MadMapper"
   },
   {
@@ -188,7 +188,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
       },
       {
@@ -198,7 +198,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": true
       },
       {
         "pageSuid": "Zu9lM5wmy5",
@@ -256,7 +256,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > MadMapper Legacy"
       },
       {
@@ -266,7 +266,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > MadMapper Legacy"
       },
       {
@@ -276,7 +276,7 @@
         "pageType": "empty",
         "minorVersion": "3",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "What's New > Release Notes"
       }
     ],
