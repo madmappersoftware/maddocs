@@ -1,0 +1,30 @@
+<h4>Mass Deploy Script</h4>
+<p>Use the script below to deploy remote activations.</p>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<pre class="language-glsl"><code>- Authorisation example:
+Mac: sudo /Applications/MadMapper\ 6.0.0.app/Contents/MacOS/MadMapper --authorise --serial=AAAA-BBBB-CCCC-DDDD-EEEE --username=myAccount --password=myPassword
+Windows: C:\Program Files\MadMapper 6.0.0&gt; .\MadMapper.exe --authorise --serial=AAAA-BBBB-CCCC-DDDD-EEEE --username=myAccount --password=myPassword
+
+- Deauthorisation example:
+Mac: sudo /Applications/MadMapper\ 6.0.0.app/Contents/MacOS/MadMapper --deauthorise --product=MadMapper
+Windows: C:\Program Files\MadMapper 6.0.0&gt; .\MadMapper.exe --deauthorise --product=MadMapper
+
+- Login user to the Library
+Mac: /Applications/MadMapper\ 6.0.0.app/Contents/MacOS/MadMapper --login --username=myUsername --password=myPassword
+Windows: C:\Program Files\MadMapper 6.0.0&gt; .\MadMapper.exe --login --username=myUsername --password=myPassword
+
+- List products &amp; authorisations:
+Mac: /Applications/MadMapper\ 6.0.0.app/Contents/MacOS/MadMapper --authInfo
+Windows: C:\Program Files\MadMapper 6.0.0&gt; .\MadMapper.exe --authInfo
+
+- Remark: on Windows, the application's log doesn't appear in the terminal, but the log-files are located there:
+C:\Users\your_login\AppData\Roaming\Garagecube\MadMapper\Logs\</code></pre>
+</div>
+<div class="alert-banner-notes">
+<p>The sudo usage in the examples is used to allow <strong>MadMapper</strong> to write authorisation files to the filesystem, it's accessible to all users on the system.</p>
+</div>
+<div class="alert-banner-warning">
+<p>&ldquo;6.0.0.&rdquo; is an example. Be sure to replace it with the <strong>actual version you are using whenever the version is mentioned.</strong></p>
+</div>
+<h3>&nbsp;</h3>
