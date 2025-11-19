@@ -117,7 +117,8 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": true,
+            "breadcrumb": "What's New > Getting Started > Software Installation"
           },
           {
             "pageSuid": "t0olM4Mvz8",
@@ -126,7 +127,8 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": true,
+            "breadcrumb": "What's New > Getting Started > Software Installation"
           },
           {
             "pageSuid": "rZWy8rigOn",
@@ -135,7 +137,8 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": true,
+            "breadcrumb": "What's New > Getting Started > Software Installation"
           }
         ],
         "publish": true,
@@ -159,7 +162,8 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false
+        "publish": true,
+        "breadcrumb": "What's New > Getting Started > Discover the interface"
       },
       {
         "pageSuid": "5QNKvdWAvv",
