@@ -1,47 +1,5 @@
 [
   {
-    "pageSuid": "MG8sM211wn",
-    "pageTitle": "What's New",
-    "pageSlug": "what's-new",
-    "pageType": "card",
-    "minorVersion": "0",
-    "subpage": [
-      {
-        "pageSuid": "3hgIot1RBf",
-        "pageTitle": "MadMapper 6 at a Glance",
-        "pageSlug": "madmapper-6-at-a-glance",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New"
-      },
-      {
-        "pageSuid": "SYKeWyRxZh",
-        "pageTitle": "Release Notes",
-        "pageSlug": "release-notes",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [
-          {
-            "pageSuid": "985xnkp4H2",
-            "pageTitle": "Deprecated Notes",
-            "pageSlug": "deprecated-notes",
-            "pageType": "empty",
-            "minorVersion": "3",
-            "subpage": [],
-            "publish": true,
-            "breadcrumb": "What's New > Release Notes"
-          }
-        ],
-        "publish": true,
-        "breadcrumb": "What's New"
-      }
-    ],
-    "publish": true,
-    "breadcrumb": ""
-  },
-  {
     "pageSuid": "f3UoO6jWFz",
     "pageTitle": "The History of Mapping",
     "pageSlug": "the-history-of-mapping",
@@ -51,62 +9,61 @@
     "publish": true
   },
   {
-    "pageSuid": "SHnUKVrkbF",
-    "pageTitle": "About MadMapper",
-    "pageSlug": "about-madmapper",
+    "pageSuid": "MG8sM211wn",
+    "pageTitle": "What's New",
+    "pageSlug": "what's-new",
     "pageType": "card",
-    "minorVersion": "6",
+    "minorVersion": "0",
     "subpage": [
       {
-        "pageSuid": "fGXMx4IhnL",
-        "pageTitle": "Meet MadMapper",
-        "pageSlug": "meet-madmapper",
+        "pageSuid": "3hgIot1RBf",
+        "pageTitle": "MadMapper v6",
+        "pageSlug": "madmapper-v6",
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > MadMapper Legacy"
+        "publish": false,
+        "breadcrumb": "What's New"
       },
       {
-        "pageSuid": "hY3zyDQlLz",
-        "pageTitle": "Evolution of MadMapper",
-        "pageSlug": "evolution-of-madmapper",
+        "pageSuid": "SYKeWyRxZh",
+        "pageTitle": "Release Notes v6",
+        "pageSlug": "release-notes-v6",
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > MadMapper Legacy"
+        "publish": false,
+        "breadcrumb": "What's New"
       }
     ],
-    "publish": true,
-    "breadcrumb": "What's New"
+    "publish": false,
+    "breadcrumb": ""
   },
   {
     "pageSuid": "VItu9oKKNm",
-    "pageTitle": "Before You Start",
-    "pageSlug": "before-you-start",
+    "pageTitle": "Getting Started",
+    "pageSlug": "getting-started",
     "pageType": "card",
     "minorVersion": "6",
     "subpage": [
       {
-        "pageSuid": "0yIEG8azhm",
-        "pageTitle": "Hardware Considerations",
-        "pageSlug": "hardware-considerations",
+        "pageSuid": "1bW11Yyv5e",
+        "pageTitle": "Requirements",
+        "pageSlug": "requirements",
         "pageType": "empty",
-        "minorVersion": "6",
+        "minorVersion": "0",
         "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > MadMapper Legacy > Getting Started"
+        "publish": false
       },
       {
-        "pageSuid": "Tj08gThYjn",
-        "pageTitle": "MadMapper Licensing",
-        "pageSlug": "madmapper-licensing",
+        "pageSuid": "0yIEG8azhm",
+        "pageTitle": "Additional Hardware",
+        "pageSlug": "additional-hardware",
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > About MadMapper > Getting Started"
+        "publish": false,
+        "breadcrumb": "What's New > MadMapper Legacy > Getting Started"
       },
       {
         "pageSuid": "kwciF95sFo",
@@ -119,17 +76,73 @@
         "breadcrumb": "What's New > About MadMapper > Getting Started"
       },
       {
+        "pageSuid": "Tj08gThYjn",
+        "pageTitle": "Licensing Options",
+        "pageSlug": "licensing-options",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "What's New > About MadMapper > Getting Started"
+      },
+      {
         "pageSuid": "66c3K4wgWL",
         "pageTitle": "Software Installation",
         "pageSlug": "software-installation",
         "pageType": "empty",
         "minorVersion": "6",
-        "subpage": [],
-        "publish": true,
+        "subpage": [
+          {
+            "pageSuid": "rZWy8rigOn",
+            "pageTitle": "Mass Deploy Installation",
+            "pageSlug": "mass-deploy-installation",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          },
+          {
+            "pageSuid": "bWkDncpXvw",
+            "pageTitle": "Software Activation",
+            "pageSlug": "software-activation",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          },
+          {
+            "pageSuid": "khl1fFDveH",
+            "pageTitle": "Deauthorize MadMapper",
+            "pageSlug": "deauthorize-madmapper",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          },
+          {
+            "pageSuid": "B7iL0PtpSL",
+            "pageTitle": "Update MadMapper",
+            "pageSlug": "update-madmapper",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          },
+          {
+            "pageSuid": "t0olM4Mvz8",
+            "pageTitle": "Extensions and Demo Versions",
+            "pageSlug": "extensions-and-demo-versions",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          }
+        ],
+        "publish": false,
         "breadcrumb": "What's New > About MadMapper > Getting Started"
       }
     ],
-    "publish": true,
+    "publish": false,
     "breadcrumb": "What's New > About MadMapper"
   },
   {
@@ -146,7 +159,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": true
+        "publish": false
       },
       {
         "pageSuid": "5QNKvdWAvv",
@@ -175,8 +188,17 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": true,
+        "publish": false,
         "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
+      },
+      {
+        "pageSuid": "1YGq30hgJF",
+        "pageTitle": "Laser surfaces",
+        "pageSlug": "laser-surfaces",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
       },
       {
         "pageSuid": "Zu9lM5wmy5",
@@ -219,5 +241,46 @@
     "minorVersion": "0",
     "subpage": [],
     "publish": true
+  },
+  {
+    "pageSuid": "SHnUKVrkbF",
+    "pageTitle": "About MadMapper",
+    "pageSlug": "about-madmapper",
+    "pageType": "card",
+    "minorVersion": "6",
+    "subpage": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageTitle": "Meet MadMapper",
+        "pageSlug": "meet-madmapper",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "What's New > MadMapper Legacy"
+      },
+      {
+        "pageSuid": "hY3zyDQlLz",
+        "pageTitle": "MadMapper History",
+        "pageSlug": "madmapper-history",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "What's New > MadMapper Legacy"
+      },
+      {
+        "pageSuid": "985xnkp4H2",
+        "pageTitle": "Release Notes History",
+        "pageSlug": "release-notes-history",
+        "pageType": "empty",
+        "minorVersion": "3",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "What's New > Release Notes"
+      }
+    ],
+    "publish": true,
+    "breadcrumb": "What's New"
   }
 ]
