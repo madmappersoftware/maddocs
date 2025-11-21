@@ -182,8 +182,8 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
+        "publish": true,
+        "breadcrumb": "What's New > Getting Started > Discover the interface"
       },
       {
         "pageSuid": "cyHfGqwmSP",
@@ -202,7 +202,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": true,
+        "breadcrumb": "What's New > Getting Started > Discover the interface"
       },
       {
         "pageSuid": "Zu9lM5wmy5",
