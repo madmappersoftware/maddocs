@@ -98,7 +98,27 @@
 <p class="p1"><img src="MadMapper Module Startup Timeline.png" width="100" height="74" data-media-id="cs99TEDTif"></p>
 <p class="p1">&nbsp;</p>
 <p class="p1">More <strong>Timeline</strong>(s) controls!</p>
-<h4>Timeline Automatic / Scheduler</h4>
-<p class="p1"><img src="MadMapper Module Timeline Automatic.png" width="100" height="74" data-media-id="BjL4GMEQ8d">&nbsp;&nbsp;&nbsp;&nbsp;<img src="MadMapper Module Timeline Scheduler.png" width="100" height="73" data-media-id="ZmL9njSWlk"></p>
+<h4>Timeline Scheduler</h4>
+<p><img src="Timeline Scheduler icon.png" width="100" height="74" data-media-id="IIQZEge89T"></p>
+<p>&nbsp;</p>
+<p><strong>Timeline Scheduler</strong> ensure a <strong>timeline</strong> get started when we&rsquo;re inside the time range, between <em>Start time</em> (hour/minute/seconds) &amp; <em>End time</em>, if the &ldquo;<em>Date</em>&rdquo; settings matches current day.</p>
+<p>&nbsp;</p>
+<p><strong>In Depth:</strong></p>
+<p>&nbsp;</p>
+<p>The&nbsp;<strong>timeline</strong> (a scene or a cue, animated or not) will be started when:</p>
+<ul>
+<li>Loading the project and we&rsquo;re inside the time range.</li>
+<li>When entering the time range (because time elapses or because we&rsquo;re editing <em>Start/End time</em>).</li>
+</ul>
+<p>The <strong>timeline</strong> will be stopped when:</p>
+<ul>
+<li>Leaving the time range (because time elapses or because we&rsquo;re editing <em>Start/End time</em>) while the <strong>timeline</strong> was started by this same module.</li>
+</ul>
+<div class="alert-banner-notes">
+<p class="p1">If "<em>End/Stop on Loop End</em>&rdquo; is enabled, the <strong>timeline</strong> will be paused when reaching loop end (except if playhead is after loop end).</p>
+</div>
 <p class="p1">&nbsp;</p>
-<p class="p1">More <strong>Timeline</strong>(s) controls too!</p>
+<p class="p1">If the target bank is not the current bank, the scheduler will not change current bank but it will start the <strong>timeline</strong> in the desired bank.</p>
+<p class="p1">When <strong>timeline</strong> is started, if grid has horizontal or grid exclusivity, it will be handled, like if user clicked the play button.</p>
+<p class="p1">So <em>End time</em> doesn&rsquo;t change anything for a non animated scene or cue, except when loading project (so on computer startup in an fixed installation with project loading at computer start).</p>
+<p class="p1">&nbsp;</p>
