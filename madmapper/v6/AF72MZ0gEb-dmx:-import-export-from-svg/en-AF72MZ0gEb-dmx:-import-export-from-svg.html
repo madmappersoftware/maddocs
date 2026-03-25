@@ -1,0 +1,65 @@
+<h1>DMX:&nbsp;Import / Export from SVG</h1>
+<p><strong>MadMapper 6.1</strong> comes with <strong>B&eacute;zier Fixtures</strong> which allows new possibilities for importing fixtures from SVG. While MadMapper 5 was only import "line" elements from SVG, <strong>MadMapper 6.1</strong> can load "line","rect","circle","ellipse","polygon","polyline","path".</p>
+<p>&nbsp;</p>
+<p>Also in <strong>MadMapper 6.1</strong> a fixture definition can be set to LED Strip mode or LED Matrix mode. In this case, you can specify the strip length (or matrix size) for each fixture. So if you have a strip with 160 pixels, one with 165, one with 100 pixels, they can all use the Fixture Definition &laquo; LED Strip RGB &raquo; and you specify the size for each Fixture. Same for matrices.</p>
+<p>&nbsp;</p>
+<p>We've also added options to specify fixtures parameters directly your your vector file editor (ie Illustrator, Inkscape etc.). For instance DMX patching (universe / channel) can be specified from the layer "id" exported in SVG file. It is also possible to generate an SVG from a script or with an AI and add DMX patching info as XML tags of the geometry elements in the SVG.</p>
+<div class="alert-banner-notes">
+<p>Another improvement : when imported from SVG, layer groups in the SVG will generate fixture groups in <strong>MadMapper</strong>, it will respect and reproduce the hierarchy.</p>
+</div>
+<p>&nbsp;</p>
+<p>Exporting fixtures to SVG and importing it in a new project will recreate the original setup (fixture types, geometry, line/circle thickness, DMX patching (universe / channel), group hierarchy etc. This make new workflows easy:</p>
+<ul>
+<li>Create fixture setup in <strong>MadMapper</strong>, export as SVG and use it in a software like After Effects to create a video animation easiely that will perfectly match fixtures.</li>
+<li>Create fixture setup in an SVG file from a vector editor (Illustrator) or with an AI and import it, it can also be used in a video editing software to create content.</li>
+</ul>
+<div class="alert-banner-notes">
+<p class="p1">This document describes how an SVG file will be interpreted by <strong>MadMapper</strong> when using File / Import Fixtures and choosing an SVG file (CSV import has not been modified).</p>
+</div>
+<h3>Additional settings extracted from "id"</h3>
+<p class="p1">The id of a layer can include all necessary parameters to create the fixtures. If the layer id is &laquo; MySuperLedStrip &raquo;, it will just create a fixture with name &laquo;&nbsp; MySuperLedStrip &raquo; (fixture type will be deduced from svg geometry type : line, rect etc.).</p>
+<p class="p1">&nbsp;</p>
+<p class="p1">But the id can include extra info. For instance if the id is &laquo; MySuperLedStrip__UN__10__CH__12 &raquo;, the fixture name will be &laquo; MySuperLedStrip &raquo; and MadMapper will set UNiverse to 10 and CNannel to 12.</p>
+<h4>Supported data</h4>
+<p class="p1">- &laquo;&nbsp;__UN__&nbsp;&raquo;&nbsp;: Universe number (0-32767)</p>
+<p class="p1">- &laquo;&nbsp;__CH__&nbsp;&raquo;&nbsp;: Channel number (1-512)</p>
+<p class="p1">- &laquo;&nbsp;__FT__&nbsp;&raquo;&nbsp;: Fixture Type to create. Possible values&nbsp;: &laquo;&nbsp;fixture_bezier&nbsp;&raquo;, &laquo;&nbsp;fixture_line&nbsp;&raquo;, &laquo;&nbsp;fixture_circle&nbsp;&raquo;, &laquo;&nbsp;fixture_quad&nbsp;&raquo;</p>
+<p class="p1">- &laquo;&nbsp;__FD__&nbsp;&raquo;&nbsp;: Fixture Definition, for instance &laquo;&nbsp;Generic &ndash; Pixel RGB&nbsp;&raquo; or &laquo;&nbsp;GarageCube - SFX-01 W 1m&nbsp;&raquo; (Group[space]-[space]Name)</p>
+<p class="p1">- &laquo;&nbsp;__SL__&nbsp;&raquo;&nbsp;: Strip Length (for fixture definition set to LED Strip mode)</p>
+<p class="p1">- &laquo;&nbsp;__MW__&nbsp;&raquo; and &laquo;&nbsp;__MH__&nbsp;&raquo;&nbsp;: Matrix Width / Height (for fixture definition set to Matrix mode)</p>
+<p class="p1">- &laquo; __TH__ &raquo; : Thickness in pixels of the line &amp; bezier, or thickness pourcentage for circle fixture</p>
+<h3>Additional settings in XML elements</h3>
+<p class="p1">This data can also be added as attributes of the geometry XML element if editing from a text editor / script or with an AI, it avoid having very long and cryptic Ids:</p>
+<p class="p1">- &laquo;&nbsp;universe&nbsp;&raquo;&nbsp;: Universe number (0-32767)</p>
+<p class="p1">- &laquo;&nbsp;channel&nbsp;&raquo;&nbsp;: Channel number (1-512)</p>
+<p class="p1">- &laquo;&nbsp;fixture_type&nbsp;&raquo;&nbsp;: Fixture Type to create. Possible values&nbsp;: &laquo;&nbsp;fixture_bezier&nbsp;&raquo;, &laquo;&nbsp;fixture_line&nbsp;&raquo;, &laquo;&nbsp;fixture_circle&nbsp;&raquo;, &laquo;&nbsp;fixture_quad&nbsp;&raquo;</p>
+<p class="p1">- &laquo;&nbsp;fixture_definition&nbsp;&raquo;&nbsp;: Fixture Definition, for instance &laquo;&nbsp;Generic &ndash; Pixel RGB&nbsp;&raquo; or &laquo;&nbsp;GarageCube - SFX-01 W 1m&nbsp;&raquo; (Group[space]-[space]Name)</p>
+<p class="p1">- &laquo;&nbsp;strip_length&nbsp;&raquo;&nbsp;: Strip Length (for fixture definition set to LED Strip mode)</p>
+<p class="p1">- &laquo;&nbsp;matrix_width&nbsp;&raquo; and &laquo;&nbsp;matrix_height&nbsp;&raquo;&nbsp;: Matrix Width / Height (for fixture definition set to Matrix mode)</p>
+<p class="p1">- &laquo; thickness &raquo; : Thickness in pixels of the line &amp; bezier, or thickness pourcentage for circle fixture</p>
+<h3>What fixture type will be created</h3>
+<p class="p1">- If &laquo; fixture_type&nbsp;&raquo; (&laquo;&nbsp;__FT__&nbsp;&raquo;) is specified, MadMapper will create a fixture of the chosen type (refer to previous section)</p>
+<p class="p1">- If the SVG geometry element is a &laquo;&nbsp;line&nbsp;&raquo; MadMapper will create an &laquo;&nbsp;Fixture Line&nbsp;&raquo; surface</p>
+<p class="p1">- If the SVG geometry element is a &laquo;&nbsp;rect&nbsp;&raquo; and is not rounded (with rx &amp; ry), MadMapper will create an &laquo;&nbsp;Fixture Quad&nbsp;&raquo; surface</p>
+<p class="p1">- For any other type it will create a &laquo; Fixture Bezier &raquo;</p>
+<h3>Example</h3>
+<p class="p1">An export from <strong>MadMapper</strong> opened in InkScape :</p>
+<p class="p2">&nbsp;</p>
+<p class="p2"><img src="MadMapper svg.png" width="600" height="563" data-media-id="29VUBSqur3"></p>
+<h4>SVG File</h4>
+<p class="p3">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</p>
+<p class="p3">&lt;svg xmlns="http://www.w3.org/2000/svg" width="4762" height="2890" viewBox="-57 -1082 4761 2889"&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; </span>&lt;title&gt;MadMapper SVG Fixtures export&lt;/title&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; </span>&lt;desc&gt;MadMapper SVG Fixtures export&lt;/desc&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; </span>&lt;style&gt;svg { background: black; }* { stroke: white; fill: none; }&lt;/style&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; </span>&lt;g id="Fixture Group"&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; </span>&lt;g id="Mixed"&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>&lt;path id="Fixture-Bezier-1__UN__0__CH__181__FT__fixture_bezier__FD__GarageCube - SFX-01 W 1m" d="M -45.102 573.445 C -66.9632 688.851, 5.75395 664.246, 55.2027 632.524 C 439.67 385.883, 490.866 1221.75, 761.343 894.004 C 798.674 848.77, 1154.66 848.52, 1154.66 789.757" thickness="55.3574"/&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>&lt;path id="Fixture-Circle-1__UN__0__CH__121__FT__fixture_circle__FD__GarageCube - SFX-01 W 1m" d="M 1320.64 838.929 C 1488.12 838.929, 1623.88 702.35, 1623.88 533.871 C 1623.88 365.392, 1488.12 228.813, 1320.64 228.813 C 1153.17 228.813, 1017.4 365.392, 1017.4 533.871 C 1017.4 702.35, 1153.17 838.929, 1320.64 838.929 " thickness="0.1" arc="360"/&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>&lt;line id="Fixture-Line-1__UN__0__CH__61__FT__fixture_line__FD__GarageCube - SFX-01 W 1m" x1="-45.102" y1="573.445" x2="826.496" y2="321.414" thickness="88.9802"/&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>&lt;polygon id="Fixture-1__UN__0__CH__1__FT__fixture_quad__FD__GarageCube - SFX-01 W 1m" points="63.5253,321.414 826.496,321.414 826.496,118.581 63.5253,118.581"/&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; </span>&lt;/g&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; </span>&lt;polygon id="TEST 2__UN__2__CH__241__FT__fixture_quad__FD__GarageCube - SFX-01 W 1m" points="2078.34,1807.35 3983.65,1807.35 3983.65,1329.79 2078.34,1329.79"/&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; </span>&lt;/g&gt;</p>
+<p class="p3">&lt;/svg&gt;</p>
+<p class="p3">&nbsp;</p>

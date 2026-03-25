@@ -20,5 +20,44 @@
         "pageSlug": "modules"
       }
     ]
+  },
+  {
+    "mediaId": "29VUBSqur3",
+    "filename": "MadMapper svg.png",
+    "imgName": "MadMapper svg",
+    "ext": "png",
+    "mimetype": "image/png",
+    "url": "/MadMapper svg.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-03-25T10:53:21.898Z",
+    "pages": [
+      {
+        "pageSuid": "AF72MZ0gEb",
+        "pageSlug": "dmx:-import-export-from-svg"
+      }
+    ]
   }
 ]

@@ -34,6 +34,15 @@
         "subpage": [],
         "publish": true,
         "breadcrumb": "What's New"
+      },
+      {
+        "pageSuid": "AF72MZ0gEb",
+        "pageTitle": "DMX: Import / Export from SVG",
+        "pageSlug": "dmx:-import-export-from-svg",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": true
       }
     ],
     "publish": true,
