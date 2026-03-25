@@ -37,5 +37,197 @@
         "pageSlug": "dmx:-import-export-from-svg"
       }
     ]
+  },
+  {
+    "mediaId": "GsET6M1LXN",
+    "filename": "MadMapper dmx.png",
+    "imgName": "MadMapper dmx",
+    "ext": "png",
+    "mimetype": "image/png",
+    "url": "/MadMapper dmx.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-03-25T14:16:12.323Z",
+    "pages": [
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageSlug": "dmx-fixtures"
+      }
+    ]
+  },
+  {
+    "mediaId": "UdK1ew2j9D",
+    "filename": "MadMapper input stage views 2026 03.png",
+    "imgName": "MadMapper input stage views 2026 03",
+    "ext": "png",
+    "mimetype": "image/png",
+    "url": "/MadMapper input stage views 2026 03.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-03-25T14:18:08.924Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "SgJnQl7GUO",
+    "filename": "MadMapper stage 2026 03.png",
+    "imgName": "MadMapper stage 2026 03",
+    "ext": "png",
+    "mimetype": "image/png",
+    "url": "/MadMapper stage 2026 03.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-03-25T14:19:49.256Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "quJkValUdJ",
+    "filename": "MadMapper generators 2026 03.png",
+    "imgName": "MadMapper generators 2026 03",
+    "ext": "png",
+    "mimetype": "image/png",
+    "url": "/MadMapper generators 2026 03.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-03-25T14:21:48.823Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-bin"
+      }
+    ]
+  },
+  {
+    "mediaId": "W6AG6LGV3F",
+    "filename": "Macro module icon.png",
+    "imgName": "Macro module icon",
+    "ext": "png",
+    "mimetype": "image/png",
+    "url": "/Macro module icon.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-03-25T14:23:30.507Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
+  },
+  {
+    "mediaId": "VUJrgMyGOF",
+    "filename": "Dmx to osc module icon.png",
+    "imgName": "Dmx to osc module icon",
+    "ext": "png",
+    "mimetype": "image/png",
+    "url": "/Dmx to osc module icon.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-03-25T14:25:50.577Z",
+    "pages": [
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageSlug": "modules"
+      }
+    ]
   }
 ]
