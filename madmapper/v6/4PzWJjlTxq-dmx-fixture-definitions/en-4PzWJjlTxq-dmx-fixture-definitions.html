@@ -1,0 +1,222 @@
+<h1 class="text-text-100 mt-3 -mb-1 text-[1.375rem] font-bold">DMX Fixture Definitions</h1>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Overview</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">A <strong>DMX Fixture Definition</strong> describes the channel layout of a DMX lighting device so MadMapper knows how to control it. MadMapper ships with a built-in library of common fixtures (generic RGB pixels, RGBW strips, etc.), but you can create custom definitions for any DMX device &mdash; moving heads, laser fixtures, LED bars, fog machines, or complex multi-channel fixtures like the Minuit Une IVL Dice.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Fixture definitions are stored as <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mmfl</code> files (MadMapper Fixture Library). These files can be imported, exported, and shared between projects and users.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><img class="retina" src="DMX Fixture Definition Library.png" width="800" height="359" data-media-id="0rMbeQs5aS"></p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Fixture Editor</h3>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Opening the Editor</h4>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Go to the <strong>DMX Fixtures</strong> tab (Cmd+4 / Ctrl+4)</li>
+<li class="whitespace-normal break-words pl-2">Click <strong>DMX +</strong> to create a new fixture</li>
+<li class="whitespace-normal break-words pl-2">In the fixture's properties, click <strong>Edit</strong> next to <strong>Fixture Library</strong></li>
+</ol>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">This opens the <strong>Fixture Editor</strong> panel, which lists all available fixture definitions &mdash; both built-in and custom.</p>
+<div class="alert-banner-tips">
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Keyboard shortcut to open the Fixture Editor panel directly: <strong>Option+Cmd+F</strong> (Mac) / <strong>Alt+Ctrl+F</strong> (Windows)</p>
+</div>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Creating a New Fixture</h4>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">In the Fixture Editor, click the <strong>+</strong> button</li>
+<li class="whitespace-normal break-words pl-2">Set the fixture <strong>name</strong> and <strong>group</strong> (used for organization in the library)</li>
+<li class="whitespace-normal break-words pl-2">Define the <strong>pixel grid</strong> dimensions (Width &times; Height) &mdash; use 1&times;1 for non-pixel fixtures</li>
+<li class="whitespace-normal break-words pl-2">Set the <strong>Pixel Type</strong> to <strong>Custom</strong> for non-standard channel layouts</li>
+<li class="whitespace-normal break-words pl-2">Add channels in order, specifying each channel's <strong>type</strong>, <strong>label</strong>, and <strong>bit depth</strong></li>
+</ol>
+<p><strong><img class="retina" src="Fixture Editior.png" width="300" height="282" data-media-id="GQWf7QxInc"></strong></p>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Fixture Properties</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">When creating or editing a fixture in the Fixture Editor, the <strong>Properties</strong> panel provides the following options:</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><img class="retina" src="Fixture Properties.png" width="300" height="425" data-media-id="7Pf5Fzi0LB"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Size Mode</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Option</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Fixed Size</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Manually set the pixel grid dimensions (Width &times; Height)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">LED Strip Mode</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Configure as a linear strip of pixels</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Matrix Mode</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Configure as a 2D pixel grid</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Pixel Type</strong> &mdash; Select the color model for the fixture's pixels: RGB, RGBW, or Custom (for non-standard channel layouts like the IVL Dice).</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Pixel Size</strong> &mdash; The number of DMX channels per pixel (e.g., 3 for RGB, 4 for RGBW). Check <strong>Advanced</strong> to access per-channel type and label configuration.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Assignation</strong> &mdash; Defines the pixel scanning/addressing order for LED strips and matrices. The 16 arrow pattern icons represent different ways pixels can be wired through the grid: left-to-right then top-to-bottom (Z-pattern), serpentine/zigzag, bottom-to-top, column-first, and their mirrored and reversed variants. Select the pattern that matches how your LEDs are physically wired. Click <strong>Clear</strong> to reset.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Skip channels 511&ndash;512</strong> &mdash; When enabled, MadMapper will leave DMX channels 511 and 512 empty at the end of each universe. Some DMX devices reserve these channels, and enabling this avoids addressing conflicts at universe boundaries.</p>
+<h4>Channel Types</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Each channel in a fixture definition has a type that tells MadMapper how to interpret it:</p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Type</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Typical Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">R</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Red</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">RGB/RGBW color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">G</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Green</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">RGB/RGBW color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">B</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Blue</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">RGB/RGBW color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">W</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">White</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">RGBW fixtures</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">L</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Luminance</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Single-channel brightness</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">C</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Cyan</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">CMY color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">M</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Magenta</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">CMY color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Y</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Yellow</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">CMY color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Slider</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Generic DMX value (0&ndash;255)</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Dimmer, pan, tilt, speed, gobo, or any non-color channel with manual control</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Expression</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">GLSL expression</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Computed channel value driven by a formula (see Expression Channels below)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Unused</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Empty/skipped channel</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Placeholder for reserved or unneeded channels in the fixture's DMX footprint</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Bit Depth</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Channels can be set to <strong>8 Bits</strong> (single channel, 0&ndash;255) or <strong>16 Bits</strong> (two channels, coarse + fine, 0&ndash;65535). For 16-bit control using 8-bit channels, create two consecutive entries &mdash; a coarse and a fine &mdash; as seen in the IVL Dice example (e.g., "Index" and "Index Fine"). Alternatively, set a single channel to 16 Bits and MadMapper will handle both DMX channels automatically.</p>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Expression Channels</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Expression channels let you compute a DMX value using a GLSL expression instead of a fixed slider or color input. This is useful for deriving channel values from other parameters &mdash; for example, calculating a checksum, inverting a value, or mixing multiple inputs mathematically.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The following variables are available inside an expression:</p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Variable</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">R</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">G</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">B</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Current red, green, and blue color values</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">L</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Luminance value</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">W</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">White value</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">C</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">M</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Y</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Cyan, magenta, and yellow values</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">INDEX</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">The pixel index within the fixture</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">posX</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">posY</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Normalized pixel position within the fixture grid</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">COMP</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Component index</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">time</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Current time value</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Slider names</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">The values of any Slider channels, referenced by their label name</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="alert-banner-notes">
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Expressions follow GLSL syntax, so standard math functions like <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">sin()</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">clamp()</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">mix()</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">step()</code>, etc. are available.</p>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Real-World Example: Minuit Une IVL Dice (Mode 1, 33 Channels)</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">For standard pixel mapping with addressable RGBW LED pixels, a fixture will not require this comprehensive of a definition. But this example shows how MadMapper fixtures can be customized to work with any DMX protocol device &mdash; a two-channel hazer that uses sliders to regulate haze and fan speeds, a DMX drop system, a moving head, or in this case, a laser fixture with dozens of parameters.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">This fixture has four independent laser emitters, each with tilt, dimmer, and RGB control, plus global parameters for shutter, beam count, rotation, and beam size. It uses a 1&times;1 pixel grid with type Custom because it is not a pixel-mapped device &mdash; each channel serves a specific mechanical or optical function. The RGB values have been assigned to the corresponding color channels from the manufacturer's channel layout.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><img class="retina" src="IVL Dice Fixture Definition.png" width="312" height="662" data-media-id="vkXr125yzM"> <img class="retina" src="IVL Dice Custom Fixture.png" width="260" height="555" data-media-id="4u5JvNnVRC"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<div class="overflow-x-auto w-full px-2 mb-6">&nbsp;</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Importing and Exporting</h3>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Import a Fixture Definition</h4>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Open the <strong>Fixture Editor</strong> (click <strong>Edit</strong> next to Fixture Library on any fixture, or use Option+Cmd+F / Alt+Ctrl+F)</li>
+<li class="whitespace-normal break-words pl-2">Click <strong>Import...</strong></li>
+<li class="whitespace-normal break-words pl-2">Select a <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mmfl</code> file</li>
+<li class="whitespace-normal break-words pl-2">The fixture appears in the library and is ready to assign</li>
+</ol>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Export a Fixture Definition</h4>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Open the <strong>Fixture Editor</strong></li>
+<li class="whitespace-normal break-words pl-2">Select the fixture you want to export</li>
+<li class="whitespace-normal break-words pl-2">Click <strong>Export...</strong></li>
+<li class="whitespace-normal break-words pl-2">Save the <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mmfl</code> file to share or back up</li>
+</ol>
+<div class="alert-banner-notes">
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Exported <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mmfl</code> files can be shared with other MadMapper users, committed to a Git repository, or included with a project archive.</p>
+</div>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Import Fixtures from CSV</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">For large installations with many fixtures, MadMapper supports <strong>CSV import</strong> to batch-create fixtures with names, groups, and DMX addresses. Since MadMapper 5.2, the CSV can include group hierarchy using <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">/</code> notation (e.g., "Stage Fixtures/Fixture 1"). See <strong>File &gt; Import DMX Fixtures from CSV</strong> for details.</p>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Import Fixtures from SVG</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">For spatial layouts, MadMapper can import fixture positions from <strong>SVG files</strong> created in Illustrator or similar tools. This is especially useful for complex LED installations where fixture placement and DMX patching need to match a physical design precisely.</p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Tips for Custom Fixtures</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Naming conventions</strong> &mdash; Use clear, descriptive channel labels. Include "Fine" in the label for the LSB channel of 16-bit pairs so operators can quickly identify coarse/fine relationships.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Modes</strong> &mdash; Many fixtures have multiple DMX modes with different channel counts. Create a separate definition for each mode and include the mode in the product name (e.g., "Minuit Une IVL Dice Mode 1").</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Testing</strong> &mdash; After creating a fixture definition, use the <strong>DMX Monitor</strong> panel (Option+Cmd+M / Alt+Ctrl+M) to verify that channels are mapping correctly and values are reaching the expected DMX addresses.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Color channel types</strong> &mdash; Use the correct R/G/B/W/C/M/Y types for color channels rather than Slider. This allows MadMapper's color engine to properly drive them with pixel-mapped media, materials, and color pickers.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Cross-universe fixtures</strong> &mdash; If your fixture spans more than 512 channels or if its DMX address places it near the end of a universe, enable <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">avoidCrossUniversePixels</code> to prevent a single pixel's channels from being split across two universes.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Backup</strong> &mdash; Keep your custom <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mmfl</code> files in a shared location or version control. Fixture definitions are stored within MadMapper's library, but having external backups ensures you can quickly rebuild on a new machine.</p>

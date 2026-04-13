@@ -1,0 +1,267 @@
+<h1 data-path-to-node="0">The Outputs Tab</h1>
+<p data-path-to-node="0"><img class="retina" src="Outputs Tab.png" width="800" height="448" data-media-id="9pUjPpm8uz"></p>
+<p data-path-to-node="2">The Outputs tab represents the final stage of your MadMapper pipeline. This is where your digital workspace is translated and routed to physical hardware or virtual destinations. It provides comprehensive tools for managing multi-projector setups, configuring laser routing, establishing global safety masks, and creating off-screen buffers.</p>
+<div class="alert-banner-tips">
+<p data-path-to-node="2"><strong data-path-to-node="1,0" data-index-in-node="0">Note:</strong> You can quickly access the Outputs tab using the keyboard shortcut <strong data-path-to-node="1,0" data-index-in-node="73">Cmd + 5</strong>&nbsp;on macOS or <strong data-path-to-node="1,0" data-index-in-node="93">Ctrl + 5</strong>&nbsp;on Windows.</p>
+</div>
+<h2 data-path-to-node="3">Creating &amp; Managing Outputs</h2>
+<p data-path-to-node="4">At the top of the Outputs list, you can define the physical or virtual hardware that MadMapper will communicate with.</p>
+<p data-path-to-node="4"><img class="retina" src="add outputs.png" width="300" height="48" data-media-id="QTwL4mgQtV"></p>
+<ul data-path-to-node="5">
+<li>
+<p data-path-to-node="5,0,0"><strong data-path-to-node="5,0,0" data-index-in-node="0">Video Output:</strong> Add standard video outputs for connected displays, projectors, or LED wall processors.</p>
+</li>
+<li>
+<p data-path-to-node="5,1,0"><strong data-path-to-node="5,1,0" data-index-in-node="0">Laser Output:</strong> Configure dedicated routes to your ILDA laser DACs (Digital-to-Analog Converters) or network-based laser controllers.</p>
+</li>
+<li>
+<p data-path-to-node="5,2,0"><strong data-path-to-node="5,2,0" data-index-in-node="0">DMX Output:</strong> Set up universes and network protocols (such as Art-Net or sACN) for your patched lighting fixtures and pixel-mapped LED tape.</p>
+</li>
+<li>
+<p data-path-to-node="5,3,0"><strong data-path-to-node="5,3,0" data-index-in-node="0">Buffers:</strong> Create off-screen rendering targets (<strong>Video or Laser</strong>) to composite and manipulate content before sending it to a physical output.</p>
+</li>
+</ul>
+<p><img class="retina" src="Output Layer Settings.png" width="300" height="219" data-media-id="uIBPigRIRi"></p>
+<p>Similar to other aspects of MadMapper, in this menu you can enable/disable outputs and lock/unlock them.</p>
+<p>&nbsp;</p>
+<div class="alert-banner-warning">
+<p>Warning: Disabling an active output during a show will immediately close its fullscreen projection.</p>
+</div>
+<h2 data-path-to-node="13">Output Settings Reference Guide</h2>
+<p data-path-to-node="14">When you select an output or buffer in the Outputs List, the settings panel at the bottom of the screen populates with specific parameters for that device. Below is a breakdown of the available settings for each output type.</p>
+<h3 data-path-to-node="15">Video Output Settings</h3>
+<p><img class="retina" src="video output settings.png" width="290" height="632" data-media-id="LyD93tCypc"></p>
+<p data-path-to-node="16">These settings control how your digital canvas is routed to physical displays, projectors, or other software.</p>
+<ul data-path-to-node="17">
+<li>
+<p data-path-to-node="17,0,0"><strong data-path-to-node="17,0,0" data-index-in-node="0">Destination:</strong> Select the physical display (e.g., Built-in Retina Display, connected projectors) or virtual destination. It displays hardware info such as GPU, Resolution, and Frequency.</p>
+</li>
+<li>
+<p data-path-to-node="17,1,0"><strong data-path-to-node="17,1,0" data-index-in-node="0">Output Size:</strong> Define the exact pixel resolution (Width x Height). You can lock the aspect ratio or toggle fullscreen.</p>
+</li>
+<li>
+<p data-path-to-node="17,2,0"><strong data-path-to-node="17,2,0" data-index-in-node="0">Flip:</strong> Quickly mirror the output horizontally, vertically, or both (essential for rear projection).</p>
+</li>
+<li>
+<p data-path-to-node="17,3,0"><strong data-path-to-node="17,3,0" data-index-in-node="0">Delay:</strong> Add a frame delay to synchronize mixed hardware outputs.</p>
+</li>
+<li>
+<p data-path-to-node="17,4,0"><strong data-path-to-node="17,4,0" data-index-in-node="0">Enable Antialiasing (MSAA):</strong> Smooths jagged edges on 3D geometry and masks.</p>
+</li>
+<li>
+<p data-path-to-node="17,5,0"><strong data-path-to-node="17,5,0" data-index-in-node="0">Routing Buttons:</strong></p>
+<ul data-path-to-node="17,5,1">
+<li>
+<p data-path-to-node="17,5,1,0,0"><strong data-path-to-node="17,5,1,0,0" data-index-in-node="0">Desktop Window:</strong> Opens the output in a floating window.</p>
+</li>
+<li>
+<p data-path-to-node="17,5,1,1,0"><strong data-path-to-node="17,5,1,1,0" data-index-in-node="0">Publish to Syphon / Spout:</strong> Sends the video output to other visual software on the same computer.</p>
+</li>
+<li>
+<p data-path-to-node="17,5,1,2,0"><strong data-path-to-node="17,5,1,2,0" data-index-in-node="0">Publish to NDI:</strong> Broadcasts the video output over your local network.</p>
+</li>
+<li>
+<p data-path-to-node="17,5,1,3,0"><strong data-path-to-node="17,5,1,3,0" data-index-in-node="0">Publish Internal Loopback:</strong> Routes the output back into MadMapper's Media Bin as a live source.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="17,6,0"><strong data-path-to-node="17,6,0" data-index-in-node="0">Show Test Pattern:</strong> Toggles a built-in test card for alignment.</p>
+</li>
+<li>
+<p data-path-to-node="17,7,0"><strong data-path-to-node="17,7,0" data-index-in-node="0">Background &amp; Mask:</strong> Load custom reference images or apply global masks, complete with adjustable <strong data-path-to-node="17,7,0" data-index-in-node="96">Opacity</strong> sliders.</p>
+</li>
+<li>
+<p data-path-to-node="17,8,0"><strong data-path-to-node="17,8,0" data-index-in-node="0">Save Video Snapshot:</strong> Captures the current frame of the output to a specified format (e.g., PNG 8 bits RGBA).</p>
+</li>
+</ul>
+<h3 data-path-to-node="18">Laser Output Settings</h3>
+<p><img class="retina" src="Laser Output Settings Collapsed.png" width="300" height="649" data-media-id="0hTbjSW8OP"></p>
+<p data-path-to-node="19">MadMapper provides extensive hardware control for ILDA laser projectors to ensure safe and accurate rendering.</p>
+<ul data-path-to-node="20">
+<li>
+<p data-path-to-node="20,0,0"><strong data-path-to-node="20,0,0" data-index-in-node="0">Destination:</strong> Select your connected laser DAC. MadMapper natively supports Etherdream, ShowNet, Helios USB, and Pangolin FB4.</p>
+</li>
+<li>
+<p data-path-to-node="20,1,0"><strong data-path-to-node="20,1,0" data-index-in-node="0">Output Size &amp; Flip:</strong> Defines the size of the output rectangle in the preview interface. <em data-path-to-node="20,1,0" data-index-in-node="87">Note: This does not affect the physical output data; it is strictly for positioning surfaces relatively in the UI.</em></p>
+</li>
+<li>
+<p data-path-to-node="20,2,0"><strong data-path-to-node="20,2,0" data-index-in-node="0">Publishing &amp; Dispatch:</strong></p>
+<ul data-path-to-node="20,2,1">
+<li>
+<p data-path-to-node="20,2,1,0,0"><strong data-path-to-node="20,2,1,0,0" data-index-in-node="0">Publish Internal Loopback:</strong> This powerful feature renders your laser composition into a new source in the Media List. This allows you to apply Mesh Warping to an entire complex laser composition at once on a secondary projector.</p>
+</li>
+<li>
+<p data-path-to-node="20,2,1,1,0"><strong data-path-to-node="20,2,1,1,0" data-index-in-node="0">Publish to PONK:</strong> Broadcasts the laser data over the network using the PONK protocol.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="20,3,0"><strong data-path-to-node="20,3,0" data-index-in-node="0">Device:</strong></p>
+<ul data-path-to-node="20,3,1">
+<li>
+<p data-path-to-node="20,3,1,0,0"><strong data-path-to-node="20,3,1,0,0" data-index-in-node="0">PPS (Points Per Second):</strong> Set the scanning speed to match your hardware manufacturer's specifications. <em data-path-to-node="20,3,1,0,0" data-index-in-node="102">Warning: Setting a value over 45kpps generally does not improve quality and can overheat or damage your galvos.</em></p>
+</li>
+<li>
+<p data-path-to-node="20,3,1,1,0"><strong data-path-to-node="20,3,1,1,0" data-index-in-node="0">Delay:</strong> Adjust synchronization.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="20,4,0"><strong data-path-to-node="20,4,0" data-index-in-node="0">ILDA Engine:</strong></p>
+<ul data-path-to-node="20,4,1">
+<li>
+<p data-path-to-node="20,4,1,0,0"><strong data-path-to-node="20,4,1,0,0" data-index-in-node="0">Desired FPS:</strong> The target frame rate. Rates under 35 FPS will produce noticeable flickering.</p>
+</li>
+<li>
+<p data-path-to-node="20,4,1,1,0"><strong data-path-to-node="20,4,1,1,0" data-index-in-node="0">Point Count &amp; ILDA FPS:</strong> MadMapper calculates the real scan rate based on this formula: <code data-path-to-node="20,4,1,1,0" data-index-in-node="87">ILDA FPS = PPS / Point Count</code>.</p>
+</li>
+<li>
+<p data-path-to-node="20,4,1,2,0"><strong data-path-to-node="20,4,1,2,0" data-index-in-node="0">Scan Area:</strong> Sets boundaries to prevent the beam from hitting the physical edge of the scanner. <em data-path-to-node="20,4,1,2,0" data-index-in-node="94">Note: Setting this value too low can cause the galvos to enter a security mode or cause damage. Listen to your scanner; the sound should remain smooth.</em></p>
+</li>
+<li>
+<p data-path-to-node="20,4,1,3,0"><strong data-path-to-node="20,4,1,3,0" data-index-in-node="0">Blank Delay:</strong> The time the laser takes to shut off, move, and turn back on between drawn paths. Increase this if your projected shapes have unwanted connecting lines.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="20,5,0"><strong data-path-to-node="20,5,0" data-index-in-node="0">Masks:</strong></p>
+<ul data-path-to-node="20,5,1">
+<li>
+<p data-path-to-node="20,5,1,0,0">Draw zones to protect cameras or audiences. Applying a mask at a lower <strong data-path-to-node="20,5,1,0,0" data-index-in-node="71">Opacity</strong> (e.g., 10%) allows you to safely scan an audience by significantly decreasing the luminosity in that specific region. Includes tools to <strong data-path-to-node="20,5,1,0,0" data-index-in-node="215">Invert Mask</strong>, <strong data-path-to-node="20,5,1,0,0" data-index-in-node="228">Mask Beams Only</strong>, and apply <strong data-path-to-node="20,5,1,0,0" data-index-in-node="255">Feathering</strong>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="20,6,0"><strong data-path-to-node="20,6,0" data-index-in-node="0">Test Pattern:</strong> Toggles specifically designed for laser calibration: <strong data-path-to-node="20,6,0" data-index-in-node="67">Enable Scan Area</strong>, <strong data-path-to-node="20,6,0" data-index-in-node="85">Enable Geometry</strong>, <strong data-path-to-node="20,6,0" data-index-in-node="102">Enable Name</strong>, <strong data-path-to-node="20,6,0" data-index-in-node="115">Enable Color</strong>, and <strong data-path-to-node="20,6,0" data-index-in-node="133">Enable Masks</strong>.</p>
+</li>
+<li>
+<p data-path-to-node="20,7,0"><strong data-path-to-node="20,7,0" data-index-in-node="0">Color Calibration:</strong></p>
+<ul data-path-to-node="20,7,1">
+<li>
+<p data-path-to-node="20,7,1,0,0"><strong data-path-to-node="20,7,1,0,0" data-index-in-node="0">Color Levels:</strong> Master RGB output limits.</p>
+</li>
+<li>
+<p data-path-to-node="20,7,1,1,0"><strong data-path-to-node="20,7,1,1,0" data-index-in-node="0">Min Voltage:</strong> Laser diodes have varying thresholds before producing light. Set this minimum level to ensure colors (like red) shut off completely when rendering dark greys.</p>
+</li>
+<li>
+<p data-path-to-node="20,7,1,2,0"><strong data-path-to-node="20,7,1,2,0" data-index-in-node="0">Response:</strong> Fine-tune the linearity of the RGB diodes using customizable curve graphs.</p>
+</li>
+<li>
+<p data-path-to-node="20,7,1,3,0"><strong data-path-to-node="20,7,1,3,0" data-index-in-node="0">Color Delay:</strong> Compensates for hardware lag between the XY galvo position and the RGB diode firing by offsetting the color channels in time.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="20,8,0"><strong data-path-to-node="20,8,0" data-index-in-node="0">Distortion:</strong> Correct physical projection warping using <strong data-path-to-node="20,8,0" data-index-in-node="54">Level X</strong> and <strong data-path-to-node="20,8,0" data-index-in-node="66">Level Y</strong>.</p>
+</li>
+<li>
+<p data-path-to-node="20,9,0"><strong data-path-to-node="20,9,0" data-index-in-node="0">Recording:</strong> Options to <strong data-path-to-node="20,9,0" data-index-in-node="22">Store Ilda Frame</strong> or <strong data-path-to-node="20,9,0" data-index-in-node="42">Record Ilda Movie</strong> to your Workspace folder. The <strong data-path-to-node="20,9,0" data-index-in-node="90">Movie Mode</strong> dropdown offers two capture methods:</p>
+<ul data-path-to-node="20,9,1">
+<li>
+<p data-path-to-node="20,9,1,0,0"><strong data-path-to-node="20,9,1,0,0" data-index-in-node="0">Record at fixed frame rate:</strong> Captures at a consistent rate. Use this if you plan to play the file back <em data-path-to-node="20,9,1,0,0" data-index-in-node="102">inside</em> MadMapper or other video software.</p>
+</li>
+<li>
+<p data-path-to-node="20,9,1,1,0"><strong data-path-to-node="20,9,1,1,0" data-index-in-node="0">Record as ILDA stream:</strong> Captures the raw, variable-frame-rate point data. Use this if you are exporting the file to an SD card to be played back directly by laser hardware.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 data-path-to-node="21">DMX Output Settings</h3>
+<p><img class="retina" src="DMX Output Settings.png" width="300" height="206" data-media-id="8tv4L28vuO"></p>
+<p data-path-to-node="22">Used for routing pixel-mapped data to lighting fixtures via Art-Net or sACN.</p>
+<ul data-path-to-node="23">
+<li>
+<p data-path-to-node="23,0,0"><strong data-path-to-node="23,0,0" data-index-in-node="0">Output Size:</strong> Defines the coordinate space for the DMX output.</p>
+</li>
+<li>
+<p data-path-to-node="23,1,0"><strong data-path-to-node="23,1,0" data-index-in-node="0">Definition:</strong> Choose to keep the resolution the <strong data-path-to-node="23,1,0" data-index-in-node="46">Same as Output Size</strong>, or define a <strong data-path-to-node="23,1,0" data-index-in-node="79">Custom</strong> X/Y resolution depending on your pixel-mapping needs.</p>
+</li>
+<li>
+<p data-path-to-node="23,2,0"><strong data-path-to-node="23,2,0" data-index-in-node="0">Background &amp; Opacity:</strong> Load a stage plot or CAD drawing to trace your fixture layout.</p>
+</li>
+</ul>
+<h3 data-path-to-node="24">Video Buffer Settings</h3>
+<p><img class="retina" src="Video Buffer Settings.png" width="300" height="310" data-media-id="WSIjzrz2v5"></p>
+<p data-path-to-node="25">Buffers allow you to create intermediate, off-screen rendering targets that can be manipulated before being sent to a final physical output.</p>
+<ul data-path-to-node="26">
+<li>
+<p data-path-to-node="26,0,0"><strong data-path-to-node="26,0,0" data-index-in-node="0">Output Size:</strong> Define the resolution of the buffer.</p>
+</li>
+<li>
+<p data-path-to-node="26,1,0"><strong data-path-to-node="26,1,0" data-index-in-node="0">Enable Antialiasing (MSAA):</strong> Smooths the rendered geometry within the buffer.</p>
+</li>
+<li>
+<p data-path-to-node="26,2,0"><strong data-path-to-node="26,2,0" data-index-in-node="0">Format:</strong> Select the exact pixel format and color bit-depth for the buffer. Options include:</p>
+<ul data-path-to-node="26,2,1">
+<li>
+<p data-path-to-node="26,2,1,0,0">8-bit formats: <code data-path-to-node="26,2,1,0,0" data-index-in-node="15">PF_U8_BGRA</code>, <code data-path-to-node="26,2,1,0,0" data-index-in-node="27">PF_U8_RGB</code>, <code data-path-to-node="26,2,1,0,0" data-index-in-node="38">PF_U8_L</code>, <code data-path-to-node="26,2,1,0,0" data-index-in-node="47">PF_U8_RG</code></p>
+</li>
+<li>
+<p data-path-to-node="26,2,1,1,0">32-bit float formats: <code data-path-to-node="26,2,1,1,0" data-index-in-node="22">PF_F32_RGBA</code>, <code data-path-to-node="26,2,1,1,0" data-index-in-node="35">PF_F32_RGB</code>, <code data-path-to-node="26,2,1,1,0" data-index-in-node="47">PF_F32_R</code></p>
+</li>
+<li>
+<p data-path-to-node="26,2,1,2,0">16-bit float formats: <code data-path-to-node="26,2,1,2,0" data-index-in-node="22">PF_F16_RGBA</code>, <code data-path-to-node="26,2,1,2,0" data-index-in-node="35">PF_F16_RGB</code>, <code data-path-to-node="26,2,1,2,0" data-index-in-node="47">PF_F16_R</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="26,3,0"><strong data-path-to-node="26,3,0" data-index-in-node="0">Include Alpha channel:</strong> Toggle transparency support for the buffer.</p>
+</li>
+<li>
+<p data-path-to-node="26,4,0"><strong data-path-to-node="26,4,0" data-index-in-node="0">Background &amp; Opacity:</strong> Add a reference image to the buffer canvas.</p>
+</li>
+<li>
+<p data-path-to-node="26,5,0"><strong data-path-to-node="26,5,0" data-index-in-node="0">Save Video Snapshot:</strong> Export a still image of the current buffer state.</p>
+</li>
+</ul>
+<h3 data-path-to-node="27">Laser Buffer Settings</h3>
+<p><img class="retina" src="Laser Buffer Output Settings.png" width="300" height="236" data-media-id="GgP5rmMpdO"></p>
+<p data-path-to-node="28">Similar to Video Buffers, these allow you to composite multiple laser generators or lines off-screen before routing them to physical DACs.</p>
+<ul data-path-to-node="29">
+<li>
+<p data-path-to-node="29,0,0"><strong data-path-to-node="29,0,0" data-index-in-node="0">Output Size:</strong> Define the resolution bounds of the laser buffer.</p>
+</li>
+<li>
+<p data-path-to-node="29,1,0"><strong data-path-to-node="29,1,0" data-index-in-node="0">Dispatch to [X] outputs:</strong> Automatically distribute the rendered laser paths across multiple connected laser projectors.</p>
+</li>
+<li>
+<p data-path-to-node="29,2,0"><strong data-path-to-node="29,2,0" data-index-in-node="0">Masks:</strong> Apply masking directly to the buffer level.</p>
+</li>
+<li>
+<p data-path-to-node="29,3,0"><strong data-path-to-node="29,3,0" data-index-in-node="0">Background &amp; Opacity:</strong> Load reference images to guide your laser composition.</p>
+</li>
+</ul>
+<h2 data-path-to-node="6">Destinations &amp; Display Routing</h2>
+<p data-path-to-node="7">Once an output is created, you configure its <strong data-path-to-node="7" data-index-in-node="45">Destination</strong>. This determines exactly how the pixel data is mapped and modified before leaving the graphics card.</p>
+<ul data-path-to-node="8">
+<li>
+<p data-path-to-node="8,0,0"><strong data-path-to-node="8,0,0" data-index-in-node="0">Matrix Splitting:</strong> Destinations allow you to easily split your canvas across multiple physical displays (for example, breaking a 4K output into a 2x2 matrix of 1080p outputs for a video wall controller).</p>
+</li>
+<li>
+<p data-path-to-node="8,1,0"><strong data-path-to-node="8,1,0" data-index-in-node="0">Geometry Adjustments:</strong> You can precisely adjust the output size and position, or apply horizontal/vertical flips (useful for rear-projection setups).</p>
+</li>
+<li>
+<p data-path-to-node="8,2,0"><strong data-path-to-node="8,2,0" data-index-in-node="0">Frame Delay:</strong> Add micro-delays to specific outputs to perfectly synchronize older projectors with newer, faster displays in a mixed hardware setup.</p>
+</li>
+<li>
+<p data-path-to-node="8,3,0"><strong data-path-to-node="8,3,0" data-index-in-node="0">Loopbacks &amp; External Routing:</strong> Configure virtual destinations to manage internal and external video routing. You can loop your output back into MadMapper as a new media source, or send it out to other software using protocols like Syphon (Mac), Spout (PC), or NDI.</p>
+</li>
+</ul>
+<p><img class="retina" src="Video Output Settings.png" width="290" height="632" data-media-id="J8CFzgMZQA"></p>
+<h2 data-path-to-node="9">Backgrounds &amp; Scanning Integration</h2>
+<p data-path-to-node="10">To assist with the physical alignment of your surfaces, you can load reference images directly into the Output workspace.</p>
+<ul data-path-to-node="11">
+<li>
+<p data-path-to-node="11,0,0"><strong data-path-to-node="11,0,0" data-index-in-node="0">Custom Backgrounds:</strong> Set a static image or blueprint of your stage design as the output background to trace over.</p>
+</li>
+<li>
+<p data-path-to-node="11,1,0"><strong data-path-to-node="11,1,0" data-index-in-node="0">Spatial &amp; Laser Scanner Import:</strong> If you are using MadMapper's Spatial Scanner (for projectors) or Laser Scanner tools, you can import the generated structured-light scans directly into the background. This allows you to accurately map complex 3D architecture from the comfort of your computer screen, even if you are entirely offline.</p>
+</li>
+</ul>
+<p><img class="retina" src="Backgrounds .png" width="300" height="67" data-media-id="AgqtIgprjk"></p>
+<p>&nbsp;</p>
+<div class="alert-banner-tips">
+<p>See the Space scanner and Laser Scanner Guides</p>
+</div>
+<h2 data-path-to-node="13">&nbsp;</h2>

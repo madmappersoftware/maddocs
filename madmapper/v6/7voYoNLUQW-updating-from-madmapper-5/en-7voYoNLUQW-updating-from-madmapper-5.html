@@ -1,0 +1,40 @@
+<h3 data-path-to-node="2">Updating from MadMapper 5</h3>
+<p data-path-to-node="3">Updating your workflow from MadMapper 5 to MadMapper 6 requires adjusting to the new timeline-based system and the updated project workspace structure.</p>
+<p data-path-to-node="4">When opening a MadMapper 5 project in MadMapper 6, the software is designed to automatically and safely translate your existing setup into the new engine without overwriting your original files.</p>
+<h4 data-path-to-node="5">Migration Guide</h4>
+<p data-path-to-node="6"><strong data-path-to-node="6" data-index-in-node="0">1. Opening and Converting a Legacy Project</strong> Updating a project from MadMapper 5 to MadMapper 6 will automatically put the new project into a self-contained <code data-path-to-node="6" data-index-in-node="155">.madproject</code> folder that you can assign when converting.</p>
+<p data-path-to-node="4">&nbsp;</p>
+<p data-path-to-node="5"><code data-path-to-node="5" data-index-in-node="0"><img class="retina" src="Legacy Project Import Dialog.png" width="712" height="258" data-media-id="7awtwNhXer"></code></p>
+<p data-path-to-node="8,0,0"><strong data-path-to-node="8,0,0" data-index-in-node="0">Workspace Path:</strong> When you first open the <code data-path-to-node="8,0,0" data-index-in-node="40">.mad</code> file, you will be prompted to choose a directory for this new workspace. You can <strong data-path-to-node="8,0,0" data-index-in-node="126">Browse</strong> for a specific location or <strong data-path-to-node="8,0,0" data-index-in-node="160">Reset to default</strong> (which places it in your <code data-path-to-node="8,0,0" data-index-in-node="202">Documents / MadMapper</code> folder).</p>
+<p data-path-to-node="8,0,0">&nbsp;</p>
+<p data-path-to-node="9"><strong data-path-to-node="9" data-index-in-node="0">2. Safe Conversion &amp; Saving</strong> Once a path is selected, MadMapper will display a confirmation warning detailing how the file is being handled:</p>
+<p data-path-to-node="8"><code data-path-to-node="8" data-index-in-node="0"><img class="retina" src="Legacy Project Dialog Warning.png" width="532" height="323" data-media-id="zWvqDnIZQ9"></code></p>
+<ul data-path-to-node="11">
+<li>
+<p data-path-to-node="11,0,0"><strong data-path-to-node="11,0,0" data-index-in-node="0">The old MadMapper 5 project remains completely intact</strong> and can still be loaded using MadMapper 5.</p>
+</li>
+<li>
+<p data-path-to-node="11,1,0"><strong data-path-to-node="11,1,0" data-index-in-node="0">The new project is loaded as an "Untitled" project</strong> until you save it.</p>
+</li>
+<li>
+<p data-path-to-node="11,2,0"><strong data-path-to-node="11,2,0" data-index-in-node="0">Action Required:</strong> Immediately go to <strong data-path-to-node="11,2,0" data-index-in-node="35">File &gt; Save Project As...</strong> to give your newly converted show file a name and secure it within its new workspace.</p>
+</li>
+</ul>
+<p data-path-to-node="12"><strong data-path-to-node="12" data-index-in-node="0">3. Consolidate Your Assets</strong> Because your legacy project was just imported, it is likely still referencing media scattered across your hard drive rather than utilizing the new folder structure.</p>
+<ul data-path-to-node="13">
+<li>
+<p data-path-to-node="13,0,0"><strong data-path-to-node="13,0,0" data-index-in-node="0">Action Required:</strong> Navigate to <strong data-path-to-node="13,0,0" data-index-in-node="29">File &gt; Collect External Resources...</strong> to copy all your existing V5 media directly into the new, localized <code data-path-to-node="13,0,0" data-index-in-node="134">.madproject</code> folder.</p>
+</li>
+</ul>
+<p data-path-to-node="14"><strong data-path-to-node="14" data-index-in-node="0">4. Review Cues and Logic</strong> The traditional snapshot-style Cues from version 5 have been fundamentally replaced by dynamic Timelines and Clips in version 6.</p>
+<ul data-path-to-node="15">
+<li>
+<p data-path-to-node="15,0,0"><strong data-path-to-node="15,0,0" data-index-in-node="0">Action Required:</strong> Your previous Cues will be automatically adapted to fit the new Timeline structure. You must manually review your show control logic&mdash;especially MIDI or OSC triggers that previously fired specific Cues&mdash;to ensure they are correctly mapped to the new Timeline or MAD Clips playback.</p>
+</li>
+</ul>
+<p data-path-to-node="16"><strong data-path-to-node="16" data-index-in-node="0">5. Verify Preferences and Routing</strong> The preferences menu has been reorganized. Settings are now strictly divided between <strong data-path-to-node="16" data-index-in-node="119">Application Settings</strong> (global hardware routing, audio devices, etc.) and <strong data-path-to-node="16" data-index-in-node="191">Project Settings</strong> (show-specific safety limits, OSC/MIDI outputs).</p>
+<ul data-path-to-node="17">
+<li>
+<p data-path-to-node="17,0,0"><strong data-path-to-node="17,0,0" data-index-in-node="0">Action Required:</strong> Verify your hardware and network routing in the Preferences menu (<code data-path-to-node="17,0,0" data-index-in-node="83">Cmd + ,</code> or <code data-path-to-node="17,0,0" data-index-in-node="94">Ctrl + ,</code>) before arming your outputs or lasers.</p>
+</li>
+</ul>

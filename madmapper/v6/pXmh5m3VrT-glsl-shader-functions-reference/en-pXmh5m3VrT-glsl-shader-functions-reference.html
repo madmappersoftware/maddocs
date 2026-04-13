@@ -1,0 +1,806 @@
+<h1 class="text-text-100 mt-3 -mb-1 text-[1.375rem] font-bold">GLSL Shader Functions Reference</h1>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">This page is a quick reference for the built-in GLSL libraries available in MadMapper Materials, Surface FX, and Laser Materials. These libraries can also be used through <strong>MadAI</strong>.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">All three libraries are included by adding the appropriate <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">#include</code> statement after your ISF header and before your shader code.</p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Libraries Overview</h3>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Library</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Include Statement</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">MadCommon</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">#include "MadCommon.glsl"</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Constants, color conversion, and utility functions</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">MadNoise</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">#include "MadNoise.glsl"</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D and 3D procedural noise generation</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">MadSDF</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">#include "MadSDF.glsl"</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D shape drawing using Signed Distance Fields</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">All shaders are compiled using GLSL version <strong>150 core with </strong>OpenGL 3.2 contexts.</p>
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">MadCommon.glsl</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Common constants and color utility functions.</p>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-100" tabindex="0" role="group" aria-label="Code">
+<div class="overflow-x-auto">
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed p-3.5"><code>#include "MadCommon.glsl"</code></pre>
+</div>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Constants</h3>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Name</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">PI</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3.1415926535897932384626433832795</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Shortcut Macros</h3>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Macro</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Equivalent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">saturate(x)</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">clamp( x, 0.0, 1.0 )</code></td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">lerp(x,y,t)</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">mix( x, y, t )</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Functions</h3>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float luma( vec3 color )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Returns the luminance of an RGB color</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float luminance( vec3 color )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Returns the luminance of an RGB color</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 linearToRgb( vec3 color, vec3 range )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Luminance-based linear to RGB conversion</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 rgbToLinear( vec3 color, vec3 range )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Luminance-based RGB to linear conversion</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 applyContrastSaturationBrightness( vec3 color, float contrast, float saturation, float brightness )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Adjusts contrast, saturation, and brightness. 1.0 = 100%, 0.5 = 50%, 1.5 = 150%</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 rgb2hsv( vec3 color )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Converts RGB to HSV</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 hsv2rgb( vec3 color )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Converts HSV to RGB</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float rgb2hue( vec3 color )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Returns the hue value from an RGB color</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">MadNoise.glsl</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">A procedural noise library by Simon Geilfus. Provides a wide range of 2D and 3D noise functions for use in Materials, Surface FX, and Laser Materials.</p>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-100" tabindex="0" role="group" aria-label="Code">
+<div class="overflow-x-auto">
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed p-3.5"><code>#include "MadNoise.glsl"</code></pre>
+</div>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Performance Optimization</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Most noise functions can be optimized using a lookup texture. To enable this, define <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">NOISE_TEXTURE_BASED</code> before the include and add the <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">noiseLUT.png</code> texture to your IMPORTED section:</p>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-100" tabindex="0" role="group" aria-label="Code">
+<div class="overflow-x-auto">
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed p-3.5"><code>#define NOISE_TEXTURE_BASED
+</code>#include "MadNoise.glsl"</pre>
+</div>
+</div>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-100" tabindex="0" role="group" aria-label="json code">
+<div class="sticky opacity-0 group-hover/copy:opacity-100 group-focus-within/copy:opacity-100 top-2 py-2 h-12 w-0 float-right">
+<div class="absolute right-0 h-8 px-2 items-center inline-flex z-10">
+<div class="relative">
+<div class="transition-all opacity-100 scale-100">&nbsp;</div>
+</div>
+</div>
+</div>
+<div class="text-text-500 font-small p-3.5 pb-0">json header</div>
+<div class="overflow-x-auto">
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed p-3.5">&nbsp;</pre>
+<pre class="language-glsl"><code>"IMPORTED": [
+    {
+        "NAME": "noiseLUT",
+        "PATH": "noiseLUT.png",
+        "GL_TEXTURE_MIN_FILTER": "LINEAR",
+        "GL_TEXTURE_MAG_FILTER": "LINEAR",
+        "GL_TEXTURE_WRAP": "REPEAT"
+    }
+]</code></pre>
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed p-3.5">&nbsp;</pre>
+</div>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Value Noise</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Smooth, interpolated noise. Output range: <strong>[0, 1]</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float vnoise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D value noise</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float vnoise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D value noise</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dvnoise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D value noise with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dvnoise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D value noise with derivatives</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Simplex Noise</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Gradient-based noise with fewer directional artifacts than value noise. Output range: <strong>[-1, 1]</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float noise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D simplex noise</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float noise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D simplex noise</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dnoise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D simplex noise with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dnoise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D simplex noise with derivatives</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Worley / Cellular Noise</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Cell-based noise useful for organic textures. Output range: <strong>[0, 1]</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float worleyNoise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D cellular noise (default)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float worleyNoise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D cellular noise (default)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 worleyNoise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D cellular noise returning F1 and F2 (requires <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">NOISE_WORLEY_ASHIMA_IMPL</code>)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 worleyNoise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D cellular noise returning F1 and F2 (requires <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">NOISE_WORLEY_ASHIMA_IMPL</code>)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dWorleyNoise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D cellular noise with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dWorleyNoise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D cellular noise with derivatives</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Flow Noise</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Simplex noise with rotating gradients, useful for animated fluid effects. Output range: <strong>[-1, 1]</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float flowNoise( vec2 pos, float rot )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D flow noise</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dFlowNoise( vec2 pos, float rot )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D flow noise with derivatives</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Billowed Noise</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Absolute value of simplex noise, creating soft cloud-like shapes. Output range: <strong>[0, 1]</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float billowedNoise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D billowed noise</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float billowedNoise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D billowed noise</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dBillowedNoise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D billowed noise with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dBillowedNoise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D billowed noise with derivatives</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Ridged Noise</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Inverted billowed noise creating sharp ridge-like features. Output range: <strong>[0, 1]</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float ridgedNoise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D ridged noise</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float ridgedNoise( vec2 p, float ridge )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D ridged noise with custom ridge value</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float ridgedNoise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D ridged noise</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float ridgedNoise( vec3 p, float ridge )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D ridged noise with custom ridge value</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dRidgedNoise( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D ridged noise with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dRidgedNoise( vec2 p, float ridge )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D ridged noise with derivatives and custom ridge</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dRidgedNoise( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D ridged noise with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dRidgedNoise( vec3 p, float ridge )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D ridged noise with derivatives and custom ridge</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Curl Noise</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Divergence-free noise useful for particle movement and fluid simulation. Output range: <strong>[-1, 1]</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 curlNoise( vec2 v )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D curl of simplex noise</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 curlNoise( vec2 v, float t )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D curl of simplex flow noise (animated)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Fractal Brownian Motion (fBm)</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Layered simplex noise at multiple octaves for natural-looking complexity. Output range: <strong>[-1, 1]</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float fBm( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D fBm (default octaves)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float fBm( vec2 p, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D fBm with custom parameters</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float fBm( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D fBm (default octaves)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float fBm( vec3 p, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D fBm with custom parameters</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dfBm( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D fBm with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dfBm( vec2 p, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D fBm with derivatives and custom parameters</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dfBm( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D fBm with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dfBm( vec3 p, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D fBm with derivatives and custom parameters</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Billowy Turbulence</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Fractal sum of billowed noise. Output range: <strong>[-1, 1]</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float billowyTurbulence( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D billowy turbulence</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float billowyTurbulence( vec2 p, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D with custom parameters</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float billowyTurbulence( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D billowy turbulence</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float billowyTurbulence( vec3 p, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D with custom parameters</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dBillowyTurbulence( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dBillowyTurbulence( vec2 p, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D with derivatives and custom parameters</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dBillowyTurbulence( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dBillowyTurbulence( vec3 p, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D with derivatives and custom parameters</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Ridged Multi-Fractal</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Fractal sum of ridged noise, great for terrain and rock-like textures. Output range: <strong>[-1, 1]</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float ridgedMF( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D ridged multi-fractal</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float ridgedMF( vec2 p, float ridgeOffset )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D with ridge offset</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float ridgedMF( vec2 p, float ridgeOffset, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D fully parameterized</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float ridgedMF( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D ridged multi-fractal</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float ridgedMF( vec3 p, float ridgeOffset )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D with ridge offset</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float ridgedMF( vec3 p, float ridgeOffset, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D fully parameterized</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dRidgedMF( vec2 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dRidgedMF( vec2 p, float ridgeOffset )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D with derivatives and ridge offset</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 dRidgedMF( vec2 p, float ridgeOffset, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">2D fully parameterized with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dRidgedMF( vec3 p )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D with derivatives</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dRidgedMF( vec3 p, float ridgeOffset )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D with derivatives and ridge offset</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 dRidgedMF( vec3 p, float ridgeOffset, int octaves, float lacunarity, float gain )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">3D fully parameterized with derivatives</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">MadSDF.glsl</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">A 2D Signed Distance Fields library by Simon Geilfus. Allows fast, clean, resolution-independent 2D shape rendering in Materials and Surface FX.</p>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-100" tabindex="0" role="group" aria-label="Code">
+<div class="overflow-x-auto">
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed p-3.5"><code>#include "MadSDF.glsl"</code></pre>
+</div>
+</div>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">SDF functions work in three stages: set up a <strong>domain</strong>, create a <strong>distance field</strong> from a primitive, then <strong>color</strong> the result. For a full tutorial with visual examples, see the <a class="underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current" href="https://github.com/madmappersoftware/MadMapper-Materials/blob/main/Libraries/MadSDF.md">MadSDF documentation on GitHub</a>.</p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Distance Field Primitives</h3>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float circle( vec2 p, float radius )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Circle at origin</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float rectangle( vec2 p, float radius );</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Circle at position</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float rectangle( vec2 p, vec2 size )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Box at origin</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float rectangle( vec2 p, vec2 size )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Rectangle at origin</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float rectangle( vec2 p, vec2 center, float radius )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Box at position</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float rectangle( vec2 p, vec2 center, vec2 size )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Rectangle at position</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float roundedRectangle( vec2 p, vec2 size, float cornerRadius )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Rounded rectangle at origin</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float roundedRectangle( vec2 p, vec2 center, vec2 size, float cornerRadius )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Rounded rectangle at position</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float triangle( vec2 p, float radius )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Triangle at origin</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float triangle( vec2 p, vec2 center, float radius )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Triangle at position</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float hexagon( vec2 p, float radius )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Hexagon at origin</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float hexagon( vec2 p, vec2 center, float radius )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Hexagon at position</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float line( vec2 p, vec2 start, vec2 end, float width )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Line segment</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float arc( vec2 p, float radius, float angle, float width )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Arc</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Coloring Functions</h3>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 fill( vec3 background, vec3 color, float dist )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Fills the interior of a shape</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 fill( vec4 background, vec4 color, float dist )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Fill with alpha</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 stroke( vec3 background, vec3 color, float dist, float width )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Draws the outline of a shape</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 stroke( vec4 background, vec4 color, float dist, float width )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Stroke with alpha</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec3 glow( vec3 color, float dist, float width )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Additive glow effect (use with <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">+=</code>)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec4 glow( vec4 color, float dist, float width )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Glow with alpha</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Distance Operators</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Combine two distance fields using boolean-style operations.</p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float blend( float d1, float d2 )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Union of two shapes</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float smoothBlend( float d1, float d2, float k )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Smooth union with blending factor <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">k</code></td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float subtract( float d1, float d2 )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Subtract second shape from first</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">float intersect( float d1, float d2 )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Intersection of two shapes</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">2D Transforms</h3>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 translate( vec2 p, vec2 t )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Move the domain</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 rotate( vec2 p, float a )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Rotate the domain (radians)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 transform( vec2 p, mat2 m )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Apply a 2x2 matrix transform</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Domain Transforms</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Repeat and tile shapes across the domain. These are applied <strong>before</strong> creating the distance field.</p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Function</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 repeat( vec2 p, vec2 offset )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Repeat every <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">offset</code></td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 repeat( vec2 p, vec2 offset, out vec2 cellId )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Repeat with cell ID output</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 repeat( vec2 p, vec2 offset, vec2 a, vec2 b )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Repeat with row offset (brick pattern)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 repeat( vec2 p, vec2 offset, vec2 a, vec2 b, out vec2 cellId )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Brick pattern with cell ID</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 repeatRadial( vec2 p, float angle )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Radial repetition</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 repeatRadial( vec2 p, float angle, out vec2 cellId )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Radial repetition with cell ID</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 repeatRadial( vec2 p, float angle, float angleOffset )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Radial repetition with start offset</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">vec2 repeatRadial( vec2 p, float angle, float angleOffset, out vec2 cellId )</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Radial with offset and cell ID</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="alert-banner-tips">
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Tip:</strong> The <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">cellId</code> variants let you apply per-cell variation using noise or random functions &mdash; for example, varying size or color across a grid of repeated shapes.</p>
+</div>
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Quick Usage Example</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">A simple Material using all three libraries:</p>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-100" tabindex="0" role="group" aria-label="glsl code">
+<div class="sticky opacity-0 group-hover/copy:opacity-100 group-focus-within/copy:opacity-100 top-2 py-2 h-12 w-0 float-right">
+<div class="absolute right-0 h-8 px-2 items-center inline-flex z-10">
+<div class="relative">
+<div class="transition-all opacity-100 scale-100">&nbsp;</div>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="transition-all opacity-0 scale-50">
+<pre class="language-glsl"><code>/*{
+    "CREDIT": "Your Name",
+    "DESCRIPTION": "Noisy glowing circle",
+    "INPUTS": [
+        {"LABEL": "Radius", "NAME": "mat_radius", "TYPE": "float", "DEFAULT": 0.25, "MIN": 0.0, "MAX": 0.5}
+    ]
+}*/
+
+#include "MadCommon.glsl"
+#include "MadNoise.glsl"
+#include "MadSDF.glsl"
+
+vec4 materialColorForPixel(vec2 texCoord)
+{
+    vec2 uv = texCoord - vec2(0.5);
+
+    // Distort the domain with noise
+    float n = noise(uv * 10.0 + TIME) * 0.02;
+
+    // Create a circle using SDF
+    float sdf = circle(uv + n, mat_radius);
+
+    // Color it using MadCommon's hsv2rgb
+    vec3 col = hsv2rgb(vec3(TIME * 0.1, 0.8, 1.0));
+
+    vec3 color = vec3(0.0);
+    color = fill(color, col, sdf);
+    color += glow(col * 0.5, sdf, 0.1);
+
+    return vec4(color, 1.0);
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Related Documentation</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">For deeper coverage of the shader system beyond this function reference, see:</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Materials Documentation</strong> &mdash; ISF header format, INPUTS, IMPORTED textures, GENERATORS (time_base, animator, damper, ADR, etc.), rasterization settings, and waveform/spectrum textures.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Surface FX Documentation</strong> &mdash; FX-specific macros (<code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">FX_NORM_PIXEL</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">FX_IMG_SIZE</code>), vertex shaders, media settings, and per-surface-type variables.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Laser Materials Documentation</strong> &mdash; The <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">laserMaterialFunc</code> function, RENDER_SETTINGS (point count, scan speed, angle optimization), and last-frame data access.</li>
+<li class="whitespace-normal break-words pl-2"><strong>ISF Specification</strong> &mdash; <a class="underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current" href="http://interactiveshaderformat.com/">interactiveshaderformat.com</a></li>
+<li class="whitespace-normal break-words pl-2"><strong>MadSDF Visual Tutorial</strong> &mdash; <a class="underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current" href="https://github.com/madmappersoftware/MadMapper-Materials/blob/main/Libraries/MadSDF.md">GitHub: MadMapper-Materials/Libraries/MadSDF.md</a></li>
+</ul>
