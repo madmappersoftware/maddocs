@@ -1,0 +1,72 @@
+<h1 data-path-to-node="0">Expert Mode</h1>
+<p data-path-to-node="1">MadMapper includes a dedicated <strong data-path-to-node="1" data-index-in-node="31">Expert Mode</strong> designed for advanced users, permanent installations, and complex show control networks. When enabled in the MadMapper Preferences, this mode unhides a variety of highly specific system controls, rendering optimizations, and advanced routing capabilities that are typically hidden to keep the standard interface streamlined.</p>
+<p data-path-to-node="2">To enable these features, navigate to your Preferences menu and check the box for <strong data-path-to-node="2" data-index-in-node="82">Expert Mode</strong>.</p>
+<p data-path-to-node="2">&nbsp;</p>
+<p data-path-to-node="2"><img class="retina" src="Enable Expert Mode.png" width="800" height="549" data-media-id="W36ntVdyhp"></p>
+<h2 data-path-to-node="3">Application &amp; System Controls</h2>
+<p data-path-to-node="4">Expert Mode exposes powerful system-level commands, which is particularly useful for controlling unattended or permanent architectural installations via OSC, MIDI, or DMX.</p>
+<ul data-path-to-node="5">
+<li>
+<p data-path-to-node="5,0,0"><strong data-path-to-node="5,0,0" data-index-in-node="0">System Commands:</strong> You gain access to trigger the following core commands remotely:</p>
+<ul data-path-to-node="5,0,1">
+<li>
+<p data-path-to-node="5,0,1,0,0"><code data-path-to-node="5,0,1,0,0" data-index-in-node="0">/application/exit</code> (Quits MadMapper)</p>
+</li>
+<li>
+<p data-path-to-node="5,0,1,1,0"><code data-path-to-node="5,0,1,1,0" data-index-in-node="0">/application/shutdown_computer</code> (Turns off the machine)</p>
+</li>
+<li>
+<p data-path-to-node="5,0,1,2,0"><code data-path-to-node="5,0,1,2,0" data-index-in-node="0">/application/restart_computer</code> (Reboots the machine)</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 data-path-to-node="6">Advanced Rendering &amp; Outputs</h2>
+<p data-path-to-node="7">Expert mode unlocks deeper control over how MadMapper processes and publishes pixel data, allowing you to optimize your graphics pipeline.</p>
+<ul data-path-to-node="8">
+<li>
+<p data-path-to-node="8,0,0"><strong data-path-to-node="8,0,0" data-index-in-node="0">Materials (Render to Texture):</strong> The specific <strong data-path-to-node="8,0,0" data-index-in-node="44">Pixel Format</strong> dropdown is unhidden, allowing you to manually define the exact bit-depth and color channels for your rendered materials.</p>
+</li>
+<li>
+<p data-path-to-node="8,1,0"><strong data-path-to-node="8,1,0" data-index-in-node="0">Video Loopbacks:</strong> The <strong data-path-to-node="8,1,0" data-index-in-node="21">Pixel Format</strong> settings for internal loopbacks are exposed. <em data-path-to-node="8,1,0" data-index-in-node="79">(Note: When Expert Mode is disabled, loopbacks default automatically to standard RGBA 8 bpc).</em></p>
+</li>
+<li>
+<p data-path-to-node="8,2,0"><strong data-path-to-node="8,2,0" data-index-in-node="0">Dynamic Output Controls:</strong> It enables mappable controls for your video outputs, allowing you to dynamically toggle the publishing states on the fly. This exposes:</p>
+<ul data-path-to-node="8,2,1">
+<li>
+<p data-path-to-node="8,2,1,0,0"><code data-path-to-node="8,2,1,0,0" data-index-in-node="0">show_desktop_window</code></p>
+</li>
+<li>
+<p data-path-to-node="8,2,1,1,0"><code data-path-to-node="8,2,1,1,0" data-index-in-node="0">publish_to_syphon_spout</code></p>
+</li>
+<li>
+<p data-path-to-node="8,2,1,2,0"><code data-path-to-node="8,2,1,2,0" data-index-in-node="0">publish_to_ndi</code></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 data-path-to-node="9">Geometry &amp; Layer Optimizations</h2>
+<p data-path-to-node="10">For intricate mapping and laser routing, Expert Mode provides additional parameters for vector-based surfaces.</p>
+<ul data-path-to-node="11">
+<li>
+<p data-path-to-node="11,0,0"><strong data-path-to-node="11,0,0" data-index-in-node="0">Lines &amp; Laser Lines:</strong> * <strong data-path-to-node="11,0,0" data-index-in-node="23">Geometry Precision Slider:</strong> Becomes available to manually fine-tune the mathematical resolution and vertex count of your line paths.</p>
+<ul data-path-to-node="11,0,1">
+<li>
+<p data-path-to-node="11,0,1,0,0"><strong data-path-to-node="11,0,1,0,0" data-index-in-node="0">Dynamic Bounding Rect:</strong> This option is unhidden. It is an advanced optimization setting that forces the software to dynamically recalculate the exact bounding box of animated or changing line geometry frame-by-frame, which can be critical for highly specific tracking or masking scenarios.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 data-path-to-node="12">Advanced Timeline Features</h2>
+<p data-path-to-node="13">Expert Mode fundamentally expands how Timelines can be structured and synchronized, removing the standard limitations of the MAD Conductor.</p>
+<ul data-path-to-node="14">
+<li>
+<p data-path-to-node="14,0,0"><strong data-path-to-node="14,0,0" data-index-in-node="0">Nested Timeline Players:</strong> You are no longer restricted to placing Timeline Player tracks only on the master Conductor. Expert mode allows you to add Timeline Player tracks directly inside <em data-path-to-node="14,0,0" data-index-in-node="187">other</em> individual timelines, enabling complex, nested sequencing.</p>
+</li>
+<li>
+<p data-path-to-node="14,1,0"><strong data-path-to-node="14,1,0" data-index-in-node="0">Per-Timeline External Sync:</strong> You can assign External Sync (such as SMPTE/LTC or MIDI Timecode) directly to individual timelines, allowing different parts of your show to sync to different external sources simultaneously without relying solely on the master Conductor.</p>
+</li>
+</ul>
+<div class="alert-banner-notes">
+<p data-path-to-node="16,0"><strong data-path-to-node="16,0" data-index-in-node="0">Note:</strong> Enabling Expert Mode also unlocks a variety of advanced calibration and rendering features specific to the <strong data-path-to-node="16,0" data-index-in-node="113">Laser Module</strong>. These specific parameters are detailed in the advanced sections of the MadLaser documentation.</p>
+</div>

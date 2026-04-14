@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "mediaId": "W36ntVdyhp",
+    "filename": "Enable Expert Mode.png",
+    "imgName": "Enable Expert Mode",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Enable Expert Mode.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-14T19:46:56.919Z",
+    "pages": [
+      {
+        "pageSuid": "vmdcYrOGSL",
+        "pageSlug": "expert-mode"
+      }
+    ]
+  }
+]

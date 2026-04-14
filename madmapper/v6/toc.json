@@ -149,6 +149,15 @@
         "minorVersion": "0",
         "subpage": [
           {
+            "pageSuid": "vmdcYrOGSL",
+            "pageTitle": "Expert Mode",
+            "pageSlug": "expert-mode",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          },
+          {
             "pageSuid": "voKJvIStfJ",
             "pageTitle": "MadLaser Preferences",
             "pageSlug": "madlaser-preferences",
