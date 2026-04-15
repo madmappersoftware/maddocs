@@ -858,5 +858,40 @@
         "pageSlug": "timeline-export"
       }
     ]
+  },
+  {
+    "mediaId": "R6JqzLqS57",
+    "filename": "Reveal My Material in Finder.png",
+    "imgName": "Reveal My Material in Finder",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Reveal My Material in Finder.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-15T03:13:36.802Z",
+    "pages": [
+      {
+        "pageSuid": "JlnYYvfMmj",
+        "pageSlug": "online-material-library"
+      }
+    ]
   }
 ]

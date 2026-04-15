@@ -14,7 +14,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "What's New > MadMapper Legacy"
+        "breadcrumb": "Introduction"
       },
       {
         "pageSuid": "MCCPIumwP7",
@@ -23,7 +23,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction"
       },
       {
         "pageSuid": "3HP0yeywsY",
@@ -32,7 +33,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction"
       },
       {
         "pageSuid": "f3UoO6jWFz",
@@ -42,10 +44,11 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": ""
+        "breadcrumb": "Introduction"
       }
     ],
-    "publish": false
+    "publish": false,
+    "breadcrumb": ""
   },
   {
     "pageSuid": "XRAg1d7EWb",
@@ -62,7 +65,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "What's New > Getting Started > Discover the interface"
+        "breadcrumb": "Introduction > Discover the Interface"
       },
       {
         "pageSuid": "5QNKvdWAvv",
@@ -72,7 +75,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
+        "breadcrumb": "Introduction > Discover the Interface"
       },
       {
         "pageSuid": "7Wad2UTltR",
@@ -92,7 +95,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "What's New > Getting Started > Discover the interface"
+        "breadcrumb": "Introduction > Discover the Interface"
       },
       {
         "pageSuid": "cyHfGqwmSP",
@@ -102,7 +105,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
+        "breadcrumb": "Introduction > Discover the Interface"
       },
       {
         "pageSuid": "WwXLi7xy0e",
@@ -111,7 +114,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
       },
       {
         "pageSuid": "Zu9lM5wmy5",
@@ -121,7 +125,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
+        "breadcrumb": "Introduction > Discover the Interface"
       },
       {
         "pageSuid": "T8NLmL3QvA",
@@ -139,7 +143,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
       },
       {
         "pageSuid": "JRpYYgJibn",
@@ -155,7 +160,8 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": false,
+            "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
           },
           {
             "pageSuid": "voKJvIStfJ",
@@ -164,10 +170,12 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": false,
+            "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
           }
         ],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
       },
       {
         "pageSuid": "zh2cdkGNYK",
@@ -176,7 +184,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
       },
       {
         "pageSuid": "qok6q3e9JR",
@@ -185,7 +194,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
       }
     ],
     "publish": true,
@@ -329,7 +339,7 @@
       }
     ],
     "publish": false,
-    "breadcrumb": "What's New > About MadMapper"
+    "breadcrumb": "Introduction > Discover the Interface > What's New"
   },
   {
     "pageSuid": "r79I9iCia8",
@@ -345,7 +355,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
       },
       {
         "pageSuid": "pXmh5m3VrT",
@@ -354,7 +365,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
       },
       {
         "pageSuid": "4PzWJjlTxq",
@@ -363,7 +375,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
       },
       {
         "pageSuid": "AF72MZ0gEb",
@@ -381,7 +394,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
       },
       {
         "pageSuid": "eK1P14xklL",
@@ -390,10 +404,12 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
       }
     ],
-    "publish": false
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes"
   },
   {
     "pageSuid": "nVh3znXLrj",
@@ -409,7 +425,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced > Troubleshooting"
       },
       {
         "pageSuid": "7voYoNLUQW",
@@ -418,7 +435,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced > Troubleshooting"
       }
     ],
     "publish": true
