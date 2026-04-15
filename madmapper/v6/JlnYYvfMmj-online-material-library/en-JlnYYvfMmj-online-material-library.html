@@ -1,0 +1,130 @@
+<h1 data-path-to-node="2">Online Material Library</h1>
+<p data-path-to-node="3">MadMapper includes an integrated Public Material Library that allows users to browse, download, publish, and share generative visual effects with the global community.</p>
+<p data-path-to-node="4">MadMapper Materials are generative visual assets built using GLSL shader code (specifically the ISF - Interactive Shader Format). Because they are mathematically generated in real-time by your GPU, they are resolution-independent and highly optimized for live performance.</p>
+<p data-path-to-node="2">&nbsp;</p>
+<p data-path-to-node="2"><img class="retina" src="Online Public Materials Library.png" width="800" height="417" data-media-id="AZk3sZvZ2c"></p>
+<h2 data-path-to-node="5">Accessing the Library</h2>
+<p data-path-to-node="6">To access the community repository, navigate to the top menu bar and select <strong data-path-to-node="6" data-index-in-node="76">Tools &gt; Library</strong>.</p>
+<p data-path-to-node="7">This opens the Library in the advanced toolbar. From there, select <strong data-path-to-node="7" data-index-in-node="67">Public</strong> to view the lists of widely available Materials, Laser Materials, 2D FX, 3D FX, Line FX, and Laser Line FX from the MadMapper community.</p>
+<p data-path-to-node="8">From here, you can click the star icon to add an item to your Favorites, or click <strong data-path-to-node="8" data-index-in-node="82">Install + Add to Project</strong> to place it directly into your Media Bin.</p>
+<p data-path-to-node="5"><img class="retina" src="Media Bin Install and Add to Project.png" width="300" height="147" data-media-id="Wqx5wKwp9P"></p>
+<h2 data-path-to-node="9">Creating and Authoring Materials</h2>
+<p data-path-to-node="10">If you are comfortable writing GLSL code or modifying existing shaders, you can create your own custom materials directly within MadMapper's built-in Code Editor, or use MadAI to generate them with a few simple prompts.</p>
+<p data-path-to-node="11">There are three primary ways to create your own Materials directly inside MadMapper:</p>
+<ol start="1" data-path-to-node="12">
+<li>
+<p data-path-to-node="12,0,0"><strong data-path-to-node="12,0,0" data-index-in-node="0">Use MadAI:</strong> Quickly generate a new Material with a few simple text prompts.</p>
+</li>
+<li>
+<p data-path-to-node="12,1,0"><strong data-path-to-node="12,1,0" data-index-in-node="0">Duplicate and Modify:</strong> Duplicate an existing Material and edit it in the Code Editor.</p>
+</li>
+<li>
+<p data-path-to-node="12,2,0"><strong data-path-to-node="12,2,0" data-index-in-node="0">Create from Scratch:</strong> Build your own Material from a blank template using the Code Editor, referencing the MadMaterials Documentation and GLSL Shader Function References.</p>
+</li>
+</ol>
+<h3 data-path-to-node="13">Using MadAI</h3>
+<div class="alert-banner-notes">
+<p><strong data-path-to-node="14,0" data-index-in-node="0">Note:</strong> MadAI will only work with Materials, 2D Surface FX, and Laser Materials.</p>
+</div>
+<p data-path-to-node="14">Open the Code Editor by going to <strong data-path-to-node="14" data-index-in-node="33">Tools &gt; AI / Code Editor</strong>. With the Code Editor open, click the <strong data-path-to-node="14" data-index-in-node="96">+</strong> icon and select what you would like to create.</p>
+<p><img class="retina" src="Creating Mad Materials.png" width="300" height="150" data-media-id="f1BRYgi9yo"></p>
+<p>&nbsp;</p>
+<p>From there, you can choose a template or select <strong data-path-to-node="16" data-index-in-node="48">Using MadAI</strong>.</p>
+<p><img class="retina" src="Creating a New Material.png" width="300" height="195" data-media-id="NCJ8YAs9tz"></p>
+<p>&nbsp;</p>
+<p>You will be provided with a default material and a text field to start prompting MadAI to create your vision.</p>
+<p>&nbsp;</p>
+<p data-path-to-node="8"><img class="retina" src="Using MadAI to Generate .png" width="800" height="421" data-media-id="GlOfg8XtbV"></p>
+<p data-path-to-node="8">&nbsp;</p>
+<p data-path-to-node="8">Type in your prompt and click <strong data-path-to-node="20" data-index-in-node="30">Send</strong>.</p>
+<p data-path-to-node="8"><strong><img class="retina" src="MadAI Prompting.png" width="800" height="564" data-media-id="jaBVoOkEev"></strong></p>
+<p data-path-to-node="8">&nbsp;</p>
+<p data-path-to-node="8">&nbsp;</p>
+<p data-path-to-node="8">MadAI will process your request, return a newly generated Material, and keep your saved prompts in the History tab.</p>
+<p data-path-to-node="8">&nbsp;</p>
+<p data-path-to-node="8"><img class="retina" src="Generated MadAI Material.png" width="800" height="564" data-media-id="SBmbXKrTvS"></p>
+<p data-path-to-node="8">&nbsp;</p>
+<p data-path-to-node="8">If you click on the <strong data-path-to-node="24" data-index-in-node="20">Code</strong> tab, you can view the underlying GLSL code that was generated.</p>
+<p data-path-to-node="8">&nbsp;</p>
+<p data-path-to-node="8"><img class="retina" src="Generated MadAI Code.png" width="800" height="418" data-media-id="cxULE5quP1"></p>
+<p data-path-to-node="26">&nbsp;</p>
+<p data-path-to-node="26">From here, you can make manual changes to the code, add your author name, or return to the MadAI tab to continue prompting and refining your content.</p>
+<p data-path-to-node="27">Before sharing a custom material with the world, it is best practice to embed your name and authorship details directly into the code's metadata:</p>
+<ol start="1" data-path-to-node="28">
+<li>
+<p data-path-to-node="28,0,0">Select your custom material in the Media Bin.</p>
+</li>
+<li>
+<p data-path-to-node="28,1,0">Open the material editor to view the source code.</p>
+</li>
+<li>
+<p data-path-to-node="28,2,0">At the very top of the code, locate the JSON header block (enclosed in <code data-path-to-node="28,2,0" data-index-in-node="71">/* ... */</code>).</p>
+</li>
+<li>
+<p data-path-to-node="28,3,0">Add or modify the <code data-path-to-node="28,3,0" data-index-in-node="18">"CREDIT"</code> field to include your name or studio. For example: <code data-path-to-node="28,3,0" data-index-in-node="78">"CREDIT": "Your Name"</code></p>
+</li>
+</ol>
+<p data-path-to-node="29">After you have created a new material, you can find it in your Library under the <strong data-path-to-node="29" data-index-in-node="81">Project &gt; Custom</strong> tab.</p>
+<p>&nbsp;</p>
+<p><img class="retina" src="Custom Content Library.png" width="800" height="418" data-media-id="wqzOSP1RKN"></p>
+<p>&nbsp;</p>
+<h3 data-path-to-node="31">Duplicating an Existing Material</h3>
+<p data-path-to-node="32">To modify a pre-existing Material, select it in your Media Bin, right-click, and choose <strong data-path-to-node="32" data-index-in-node="88">Open in Editor</strong>.</p>
+<h4><img class="retina" style="font-family: sans-serif;" src="Open in Editor Material.png" width="300" height="306" data-media-id="TBScOEhTzl"></h4>
+<div class="alert-banner-notes">
+<p><strong data-path-to-node="34,0" data-index-in-node="0">Note:</strong> Some core Materials are read-only and must be duplicated before they can be modified.</p>
+</div>
+<p>&nbsp;</p>
+<p>Click on the three dots (<code data-path-to-node="35" data-index-in-node="25">...</code>) in the editor and select <strong data-path-to-node="35" data-index-in-node="55">New Material from [Material Name]</strong>.</p>
+<p>&nbsp;</p>
+<p><img class="retina" src="Duplicating Mad Material.png" width="800" height="233" data-media-id="n2PtT9xkzX"></p>
+<p>&nbsp;</p>
+<p>This will prompt you to name the new material and will place the editable copy into your Media Bin.</p>
+<p>&nbsp;</p>
+<p><img class="retina" src="Duplicate Material.png" width="300" height="159" data-media-id="FTFBKZFBSk"></p>
+<p data-path-to-node="39">From here, you can modify the code to your liking.</p>
+<p>&nbsp;</p>
+<div class="alert-banner-warning">
+<p data-path-to-node="40,0"><strong data-path-to-node="40,0" data-index-in-node="0">Warning: Code Ethics and Copyright</strong> When duplicating and modifying existing shaders, it is crucial to respect the intellectual property and licensing of the original author. Many shaders are released under specific open-source licenses that dictate how the code can be adapted, shared, or used commercially.</p>
+<ul data-path-to-node="40,1">
+<li>
+<p data-path-to-node="40,1,0,0"><strong data-path-to-node="40,1,0,0" data-index-in-node="0">Maintain Original Credits:</strong> As a general courtesy and ethical standard, always retain the original author's name, contact information, and any license headers within the code comments.</p>
+</li>
+<li>
+<p data-path-to-node="40,1,1,0"><strong data-path-to-node="40,1,1,0" data-index-in-node="0">Add, Don't Erase:</strong> If you heavily modify someone else's work, add your name as an editor or contributor (e.g., <code data-path-to-node="40,1,1,0" data-index-in-node="110">"CREDIT": "Original by [Name], Modified by [Your Name]"</code>), rather than deleting their attribution.</p>
+</li>
+<li>
+<p data-path-to-node="40,1,2,0"><strong data-path-to-node="40,1,2,0" data-index-in-node="0">Comply with Licenses:</strong> Legally and respectfully comply with any usage restrictions embedded in the original code before performing with it publicly or publishing it back to the community library.</p>
+</li>
+</ul>
+</div>
+<p>&nbsp;</p>
+<h4>&nbsp;</h4>
+<h3 data-path-to-node="41">New Material from Scratch</h3>
+<p data-path-to-node="42">Similar to the methods above, click the <strong data-path-to-node="42" data-index-in-node="40">+</strong> icon in the Code Editor to create a new material. Select <strong data-path-to-node="42" data-index-in-node="99">From Empty Template</strong>, and you will be provided with a clean slate containing a working JSON header structure. If you would like to learn more about programming your own MadMapper Materials, please see the MadMaterials Documentation, #included Libraries, and the GLSL Shader Functions Reference.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img class="retina" src="New MadMaterial.png" width="800" height="418" data-media-id="tKenov1BF5"></p>
+<h2 data-path-to-node="43">Publishing to the Community</h2>
+<p data-path-to-node="44">Once your material is finalized and credited, you can contribute it back to the MadMapper community.</p>
+<p data-path-to-node="45">From the <strong data-path-to-node="45" data-index-in-node="9">Library &gt; Project &gt; Custom</strong> tab, select your created Material and click <strong data-path-to-node="45" data-index-in-node="80">Publish</strong>.</p>
+<p data-path-to-node="13,0,0">&nbsp;</p>
+<p data-path-to-node="13,0,0"><img class="retina" src="Publish Material.png" width="300" height="166" data-media-id="1WoGECulU8"></p>
+<p data-path-to-node="13,0,0">&nbsp;</p>
+<p data-path-to-node="47">You can now choose to publish your Material either <strong data-path-to-node="47" data-index-in-node="51">Privately</strong> or <strong data-path-to-node="47" data-index-in-node="64">Publicly</strong>:</p>
+<ul data-path-to-node="48">
+<li>
+<p data-path-to-node="48,0,0"><strong data-path-to-node="48,0,0" data-index-in-node="0">Public:</strong> The material will immediately become available to the global MadMapper community in the Online Library.</p>
+</li>
+<li>
+<p data-path-to-node="48,1,0"><strong data-path-to-node="48,1,0" data-index-in-node="0">Private:</strong> The material will be backed up to your MadMapper account servers and will only be available to you.</p>
+</li>
+</ul>
+<p data-path-to-node="13,0,0">&nbsp;</p>
+<p data-path-to-node="13,0,0"><img class="retina" src="Publish Material PopUp.png" width="400" height="229" data-media-id="ShUzguEkY2"></p>
+<h2 data-path-to-node="49">Backing Up Private Custom Materials</h2>
+<p data-path-to-node="50">Not every custom material needs to be shared or uploaded. If you are developing proprietary visual effects, generative branding, or specific shaders for a client, you do not need to publish them to the Online Library. Instead, you can opt to publish to your own Private library, or back the files up yourself manually.</p>
+<div class="alert-banner-notes">
+<p data-path-to-node="15"><strong data-path-to-node="51,0" data-index-in-node="0">Note:</strong> To back up a private custom material locally and ensure it stays with your show, you must rely on MadMapper 6's workspace structure. Custom materials used in your show are automatically stored inside your project's local folder. Simply back up the <code data-path-to-node="51,0" data-index-in-node="254">[YourProjectName].madproject</code> folder to an external drive or cloud storage. This ensures your proprietary shader code is safely archived without ever being published to a public server.</p>
+</div>
+<p data-path-to-node="16,0"><img class="retina" src="MadMaterial Manual Backup.png" width="500" height="457" data-media-id="lvsRIkGoBE"></p>
