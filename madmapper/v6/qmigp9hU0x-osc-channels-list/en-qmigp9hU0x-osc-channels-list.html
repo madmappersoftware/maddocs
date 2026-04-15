@@ -1,0 +1,508 @@
+<h1 data-path-to-node="0">OSC Channels List</h1>
+<p data-path-to-node="1">MadMapper allows you to map any OSC address to any parameter using the Controls dialog found under the Edit menu. However, all parameters also have predefined addresses, allowing you to directly send OSC messages to those addresses to change parameters. Using predefined addresses means you bypass any input range, output range, or filtering settings within MadMapper.</p>
+<p data-path-to-node="2">You can find predefined OSC addresses using the following methods:</p>
+<ul data-path-to-node="3">
+<li>
+<p data-path-to-node="3,0,0">Right-clicking a widget and choosing "Copy OSC address".</p>
+</li>
+<li>
+<p data-path-to-node="3,1,0">Pressing the "+" button in the Controls Dialog to view the address hierarchy.</p>
+</li>
+<li>
+<p data-path-to-node="3,2,0">Selecting a control from the list on the left and using the Edit/Copy command.</p>
+</li>
+<li>
+<p data-path-to-node="3,3,0">Exploring the network using an OSC Query-enabled application.</p>
+</li>
+</ul>
+<h3 data-path-to-node="4">OSC Query Support</h3>
+<p data-path-to-node="5">MadMapper fully supports the <strong data-path-to-node="5" data-index-in-node="29">OSC Query</strong> protocol. OSC Query acts as a dynamic network directory, allowing software to expose its entire OSC address space to the local network.</p>
+<p data-path-to-node="6">Because of this, you do not have to memorize or manually type out predefined addresses. You can use OSC Query-compatible software&mdash;such as the <strong data-path-to-node="6" data-index-in-node="142">OSC Query Browser</strong>, <strong data-path-to-node="6" data-index-in-node="161">Chataigne</strong>, or another copy of <strong data-path-to-node="6" data-index-in-node="175">MadMapper </strong>on another computer&mdash;to automatically discover MadMapper on your network. These external applications can actively browse MadMapper's available parameters, view current values, and instantly link commands to control MadMapper from outside sources.</p>
+<h5 data-path-to-node="7">OSC Routing &amp; Preferences</h5>
+<p data-path-to-node="8">To enable OSC Query, define your incoming and outgoing OSC network ports, or toggle network discovery, navigate to the <strong data-path-to-node="8" data-index-in-node="119">Preferences &gt; OSC / MIDI</strong> tab. It is crucial to ensure your external controllers and MadMapper are communicating over the correct ports (typically Port 8000 for incoming OSC data).</p>
+<p data-path-to-node="8">&nbsp;</p>
+<p data-path-to-node="8"><img class="retina" src="OSCQuery Browser.png" width="600" height="507" data-media-id="PmDpxRDimg"></p>
+<hr>
+<h3 dir="ltr">OSC Channels List</h3>
+<p dir="ltr">Understanding the basic data types is essential when sending OSC commands to MadMapper. Depending on the parameter, you will need to send a specific type of value:</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">(BOOL) - Boolean: A simple 1 (On) or 0 (Off) switch. Used for toggling checkboxes or play/pause states.</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">(FLOAT) - Floating-Point Number: A decimal number (e.g., 0.5). Used for continuous parameters like opacity, position, or color values.</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">(INT) - Integer: A whole number (e.g., 5). Used for discrete selections like index numbers.</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">(STRING): Text characters (e.g., "My_Video.mp4"). Used for names or file paths.</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">(nil) - No Argument: Requires no value. Simply sending the address acts as a trigger (e.g., restarting a clip).</p>
+</li>
+</ul>
+<p dir="ltr">Below is the consolidated list of MadMapper's internal OSC addresses.</p>
+<h4 dir="ltr">Application</h4>
+<p dir="ltr">System &amp; Session</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/exit (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/shutdown_computer (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/restart_computer (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/mad_light_recorder/start_recording (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/mad_light_recorder/stop_recording (nil)</p>
+</li>
+</ul>
+<p dir="ltr">View &amp; Interface</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/view/active_tab (STRING/INT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/view/fullscreen (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/view/mode (STRING/INT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/view/orientation (STRING/INT)</p>
+</li>
+</ul>
+<p dir="ltr">Preview Controls</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/preview/mode/output (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/preview/mode/previewed (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/preview/mode/previewed_plus_output (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/preview/mode/selection (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/preview/additional_text (STRING)</p>
+</li>
+</ul>
+<p dir="ltr">Media Management</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/media/add (STRING - File Path)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/application/media/remove (STRING - File Name)</p>
+</li>
+</ul>
+<h4 dir="ltr">Master</h4>
+<p dir="ltr">Levels &amp; Speed</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/master_level (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/master_video_level (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/master_audio_level (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/master_dmx_level (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/master_laser_level (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/audio_input_level (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/engine_speed (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/reset_engine_speed (nil)</p>
+</li>
+</ul>
+<p dir="ltr">Global BPM</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/Global_BPM/Ableton_Link (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/Global_BPM/BPM (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/Global_BPM/BPM_Source (INT/STRING)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/Global_BPM/Resync (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/Global_BPM/TAP (nil)</p>
+</li>
+</ul>
+<p dir="ltr">Engine &amp; Output Freezes</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/freeze_engine (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/freeze_video_output (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/freeze_dmx_output (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/freeze_laser_output (BOOL)</p>
+</li>
+</ul>
+<p dir="ltr">Master Color Control</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/video_color/rgba (Color)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/video_color/[red, green, blue, hue, saturation, value] (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/laser_color/rgba (Color)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/laser_color/[red, green, blue, hue, saturation, value] (FLOAT)</p>
+</li>
+</ul>
+<p dir="ltr">Output Cursors &amp; Overlays</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/show_info_on_outputs (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/test_pattern (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/output_video_cursor (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/output_video_cursor_size (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/output_video_cursor_color/[red, green, blue, hue, saturation, value, rgba]</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/output_laser_cursor (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/output_laser_cursor_level (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/output_laser_cursor_size (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/master/output_laser_cursor_color/[red, green, blue, hue, saturation, value, rgba]</p>
+</li>
+</ul>
+<h4 dir="ltr">Media</h4>
+<p dir="ltr">Note: Replace [media_name] with the exact name of the file in your media bin (e.g., My_Video or Lines). Generative materials and shaders will expose their own unique parameters under their media name.</p>
+<p dir="ltr">General Selection</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/select (INT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/select_by_name (STRING)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/next (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/previous (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/per_type_selection/next_[media_type] (nil) (Options: generator, image, image_folder, isf, laser_generator, laser_material, live_input, material, montage, movie, quartz, syphon)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/per_type_selection/previous_[media_type] (nil)</p>
+</li>
+</ul>
+<p dir="ltr">Specific Media Actions</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/[media_name]/select (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/[media_name]/assign (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/[media_name]/assign_to_all_surfaces (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/[media_name]/restart (nil)</p>
+</li>
+</ul>
+<p dir="ltr">Material/Generator Specific Parameters</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/media/[media_name]/[Parameter_Group]/[Parameter] (e.g., /media/Lines/Global/Line_Width or /media/Grid/Color/rgba). You can discover these custom paths by right-clicking the specific material parameter in MadMapper and selecting "Copy OSC Address".</p>
+</li>
+</ul>
+<h4 dir="ltr">Modules</h4>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/modules/select (INT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/modules/select_by_name (STRING)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/modules/select_next (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/modules/select_previous (nil)</p>
+</li>
+</ul>
+<h4 dir="ltr">Outputs</h4>
+<p dir="ltr">Note: Replace [1-X] with the specific hardware output or buffer number you are targeting (e.g., Video-Output-1).</p>
+<p dir="ltr">Video Outputs &amp; Buffers</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Video-Output-[1-X]/enabled (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Video-Output-[1-X]/publish_loopback (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Video-Output-[1-X]/publish_to_ndi (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Video-Output-[1-X]/publish_to_syphon_spout (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Video-Output-[1-X]/Save_Video_Snapshot (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Video-Output-[1-X]/show_desktop_window (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Video-Output-[1-X]/show_test_pattern (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Video-Buffer-[1-X]/enabled (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Video-Buffer-[1-X]/Save_Video_Snapshot (nil)</p>
+</li>
+</ul>
+<p dir="ltr">Laser Outputs &amp; Buffers</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/enabled (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/publish_loopback (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/show_test_pattern (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/Record_ILDA_Movie (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/Save_ILDA_Frame (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/Device/PPS (INT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/Device/Delay (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/ILDA/[Desired_FPS, Scan_Area, Blank_Delay] (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/Distortion/[Level_X, Level_Y] (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/Color_Levels/[Red, Green, Blue] (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/Color_Delay/[Red, Green, Blue] (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/Min_Voltage/[Red, Green, Blue] (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Output-[1-X]/Response/[Red, Green, Blue] (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Buffer-[1-X]/enabled (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Buffer-[1-X]/Record_ILDA_Movie (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/Laser-Buffer-[1-X]/Save_ILDA_Frame (nil)</p>
+</li>
+</ul>
+<p dir="ltr">DMX Outputs</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/outputs/DMX-Output-[1-X]/enabled (BOOL)</p>
+</li>
+</ul>
+<h4 dir="ltr">Timelines &amp; Conductor</h4>
+<p dir="ltr">Global Timeline Actions</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/active_bank (STRING)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/select (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/setup (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_name (STRING)</p>
+</li>
+</ul>
+<p dir="ltr">Timeline Editor</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/editor/[play, pause, record, loop] (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/editor/stop (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/editor/reenable_automation (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/editor/go_to_next_frame (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/editor/go_to_previous_frame (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/editor/go_to_next_marker (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/editor/go_to_previous_marker (nil)</p>
+</li>
+</ul>
+<p dir="ltr">Master Conductor Controls</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/[play, pause, loop_enabled] (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/[stop, play_from_beginning] (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/position (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/speed (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/loop_start (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/loop_end (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/go_to_next_marker (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/go_to_previous_marker (nil)</p>
+</li>
+</ul>
+<p dir="ltr">Conductor Markers</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/markers/go_to_marker_by_name (STRING)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/markers/[MarkerName]/enabled (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/markers/[MarkerName]/[go, go_and_play, actions] (nil)</p>
+</li>
+</ul>
+<p dir="ltr">Conductor Montage Parameters</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/conductor/Montage-[1-X]/[Media_Name]/[Property] (e.g., /timelines/Bank-1/conductor/Montage-1/My_Video/Scale)</p>
+</li>
+</ul>
+<p dir="ltr">Column Execution</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/columns/start_by_number (INT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/columns/start_next (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/columns/start_previous (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/columns/[1-16] (BOOL - Triggers specific column)</p>
+</li>
+</ul>
+<p dir="ltr">Cue Matrix (Grid Execution) Note: Replace [1-16] with your Column/Cell number, and [1-32] with your Row number. You can also use col_current to target the currently active column.</p>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/start_cell_on_next_column (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/start_cell_on_previous_column (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/start_cell_on_next_row (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/start_cell_on_previous_row (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/col_[1-16_OR_current]/cue_row_[1-32]/[play, pause, loop_enabled] (BOOL)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/col_[1-16_OR_current]/cue_row_[1-32]/[stop, play_from_beginning, update] (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/col_[1-16_OR_current]/cue_row_[1-32]/[go_to_next_marker, go_to_previous_marker] (nil)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/col_[1-16_OR_current]/cue_row_[1-32]/fade_time (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/col_[1-16_OR_current]/cue_row_[1-32]/position (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/col_[1-16_OR_current]/cue_row_[1-32]/loop_start (FLOAT)</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/col_[1-16_OR_current]/cue_row_[1-32]/loop_end (FLOAT)</p>
+</li>
+</ul>
+<p dir="ltr">(Scenes use the identical structure to cues, mapped as scene_row_1)</p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">/timelines/Bank-[1-X]/by_cell/col_[1-16_OR_current]/scene_row_1/[play, stop, position, etc.]</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

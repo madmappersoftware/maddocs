@@ -406,6 +406,15 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
+      },
+      {
+        "pageSuid": "qmigp9hU0x",
+        "pageTitle": "OSC Channels List",
+        "pageSlug": "osc-channels-list",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
       }
     ],
     "publish": false,
