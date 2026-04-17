@@ -272,6 +272,28 @@
 <div class="alert-banner-notes">
 <p data-path-to-node="9"><strong data-path-to-node="3,0" data-index-in-node="0">Advanced Laser Preferences</strong> For global hardware routing (such as AVB/Dante audio-to-laser networks) and critical project safety limits (including non-moving beam intensity and Expert Mode scan rates), please refer to the laser-specific settings detailed in the <strong data-path-to-node="3,0" data-index-in-node="260">MadLaser Preferences</strong> documentation.</p>
 </div>
+<p data-path-to-node="9">&nbsp;</p>
+<h4 data-path-to-node="24">Expert Mode Surface Features</h4>
+<p data-path-to-node="25">When <strong data-path-to-node="25" data-index-in-node="5">Expert Mode</strong> is enabled in your Project Preferences, the Laser Surface inspector unlocks several advanced, under-the-hood parameters designed for complex installations and high-end hardware.</p>
+<ul data-path-to-node="26">
+<li>
+<p data-path-to-node="26,0,0"><strong data-path-to-node="26,0,0" data-index-in-node="0">RGB Samples (Laser Lines &amp; Text):</strong> Increases the maximum allowable color sampling resolution up to 64k (default is 8k). <em data-path-to-node="26,0,0" data-index-in-node="119">Warning: 64k samples will have a heavy impact on software performance.</em></p>
+</li>
+<li>
+<p data-path-to-node="26,1,0"><strong data-path-to-node="26,1,0" data-index-in-node="0">Expanded Speed Ranges:</strong> Increases the maximum allowed values for the <strong data-path-to-node="26,1,0" data-index-in-node="68">Max Speed</strong> and <strong data-path-to-node="26,1,0" data-index-in-node="82">Fixed Speed</strong> parameters up to 5.0 (normally restricted to 3.0 to protect entry-level scanners).</p>
+</li>
+<li>
+<p data-path-to-node="26,2,0"><strong data-path-to-node="26,2,0" data-index-in-node="0">Start Repeat:</strong> Unhides a dedicated parameter allowing you to add extra dwell points specifically at the starting point of a path.</p>
+</li>
+<li>
+<p data-path-to-node="26,3,0"><strong data-path-to-node="26,3,0" data-index-in-node="0">Advanced Video Vectorization:</strong> Unlocks deeper, experimental variables when converting standard video or images into laser paths (using "Find Paths" or "Find Contours").</p>
+</li>
+<li>
+<p data-path-to-node="26,4,0"><strong data-path-to-node="26,4,0" data-index-in-node="0">Maximum Input Dimension:</strong> Allows the video vectorization engine to process media up to 16k resolution (normally limited to 8k). While real-time performance may degrade at 16k, this is an incredibly powerful feature for converting massive files into non-real-time ILDA exports via the Timeline.</p>
+</li>
+</ul>
 <div class="alert-banner-warning">
 <p data-path-to-node="9"><strong data-path-to-node="3,0" data-index-in-node="0">⚠️ CRITICAL LASER SAFETY WARNING ⚠️</strong> High-power lasers can cause permanent eye damage, skin burns, and fire. You are strictly responsible for complying with all local, regional, and national laser safety laws in your country (such as FDA variance reporting in the US, or equivalent local regulations). Always ensure beam paths are safely terminated, account for unpredictable live event variables like moving performers, and never operate without appropriate hardware safety monitoring systems engaged. Use at your own risk.</p>
 </div>
+<h4>Laser Drawing Order and Optimization</h4>
+<p data-path-to-node="23"><strong data-path-to-node="23" data-index-in-node="0">Does the layer order of Laser Surfaces determine their drawing order?</strong> No. Unlike video surfaces where the layer stack determines what is rendered on top, the Laser Output receives all paths from all active laser surfaces simultaneously. The software then mathematically calculates the most efficient rendering order to optimize "blanking time" and minimize the physical distance the scanner needs to travel. This ensures the fastest, cleanest global scan possible.</p>

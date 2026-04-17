@@ -1,4 +1,4 @@
-<h3 data-path-to-node="3">MadLaser Preferences</h3>
+<h2 data-path-to-node="3">MadLaser Preferences</h2>
 <p data-path-to-node="4">The foundational settings for laser output and safety are managed within the main MadMapper Preferences menu (<code data-path-to-node="4" data-index-in-node="110">Cmd + ,</code>&nbsp;on Mac /&nbsp;<code data-path-to-node="4" data-index-in-node="127">Ctrl + ,</code>&nbsp;on PC). Because lasers involve physical hardware and strict safety protocols, these settings are split between global application routing and project-specific safety limits.</p>
 <div class="alert-banner-notes">
 <p data-path-to-node="4"><strong data-path-to-node="6,0" data-index-in-node="0">Important Note:</strong>&nbsp;The settings detailed in the Laser tabs below are exclusive to the&nbsp;<strong data-path-to-node="6,0" data-index-in-node="83">MadLaser</strong>&nbsp;extension. These menus and options will only appear in your preferences if the MadLaser extension is currently licensed and activated on your system.</p>
@@ -6,10 +6,8 @@
 <div class="alert-banner-warning">
 <p data-path-to-node="5"><strong data-path-to-node="9,0" data-index-in-node="0">⚠️ WARNING: LASER HAZARD</strong> Laser projectors can cause permanent harm if used incorrectly. Ensure your beam zones are safely clear of audiences and performers. It is your legal responsibility to understand and follow all laser safety regulations and reporting laws specific to your country before outputting high-power beams.</p>
 </div>
-<h4 data-path-to-node="5">Application Tab &gt; Laser</h4>
+<h3 data-path-to-node="5">Application Tab &gt; Laser</h3>
 <p data-path-to-node="6"><code data-path-to-node="6" data-index-in-node="0"><img class="retina" src="MadLaser Application Dante Preferences.png" width="932" height="640" data-media-id="CSGAiKhOAQ"></code></p>
-<p data-path-to-node="6">&nbsp;</p>
-<p data-path-to-node="6">&nbsp;</p>
 <p data-path-to-node="7">These settings govern global audio-to-laser network protocols on your specific computer, regardless of which project file is open.</p>
 <ul data-path-to-node="8">
 <li>
@@ -22,56 +20,89 @@
 <p data-path-to-node="8,2,0"><strong data-path-to-node="8,2,0" data-index-in-node="0">Enable Scene Markers:</strong>&nbsp;Toggles the transmission of scene markers over the audio network.</p>
 </li>
 </ul>
+<p>&nbsp;</p>
 <blockquote data-path-to-node="9">
 <div class="alert-banner-notes">
 <p data-path-to-node="9,0"><strong data-path-to-node="9,0" data-index-in-node="0">Note:</strong> You must restart MadMapper for Audio Laser support to fully activate after changing these settings.</p>
 </div>
 </blockquote>
-<h4 data-path-to-node="10">Project Tab &gt; Laser</h4>
-<p data-path-to-node="11"><code data-path-to-node="11" data-index-in-node="0"><img class="retina" src="Laser Project Settings.png" width="932" height="640" data-media-id="k3yTW5jOhu"></code></p>
-<p data-path-to-node="11">&nbsp;</p>
-<p data-path-to-node="11">These settings contain critical safety and visualization parameters. Because they directly affect the physical output of the laser hardware, they are saved directly into your current&nbsp;<code data-path-to-node="12" data-index-in-node="183">.mad</code>&nbsp;project file.</p>
-<p data-path-to-node="13"><strong data-path-to-node="13" data-index-in-node="0">Security Settings</strong>&nbsp;By default, MadMapper limits certain laser parameters to protect both your audience and your hardware.</p>
+<h3 data-path-to-node="10">Project Tab &gt; Laser</h3>
+<p data-path-to-node="11">These settings contain critical safety and visualization parameters. Because they directly affect the physical output of the laser hardware, they are saved directly into your current <code data-path-to-node="12" data-index-in-node="183">.mad</code>&nbsp;project file.</p>
+<p data-path-to-node="11"><img class="retina" src="Laser Project Settings.png" width="932" height="640" data-media-id="k3yTW5jOhu"></p>
+<h4 data-path-to-node="13"><strong data-path-to-node="13" data-index-in-node="0">Security Settings</strong>&nbsp;</h4>
+<p data-path-to-node="13">By default, MadMapper limits certain laser parameters to protect both your audience and your hardware.</p>
 <ul data-path-to-node="14">
 <li>
 <p data-path-to-node="14,0,0"><strong data-path-to-node="14,0,0" data-index-in-node="0">Unlock Security Features:</strong>&nbsp;Checking this box prompts a warning regarding the dangers of high-intensity beams. Unlocking this allows you to bypass the default safety constraints.</p>
 <p data-path-to-node="14,0,1"><code data-path-to-node="14,0,1" data-index-in-node="0"><img class="retina" src="Unlock Project Laser Features Warning Box.png" width="532" height="349" data-media-id="RZ5KmoFaQj"></code></p>
 </li>
-<li>
+</ul>
 <p data-path-to-node="14,1,0"><strong data-path-to-node="14,1,0" data-index-in-node="0">Max non-moving Beam Intensity:</strong>&nbsp;MadMapper natively prevents static (non-moving) beams from outputting at full power. This slider dictates the maximum brightness allowed when the scanners stop moving.</p>
-<ul data-path-to-node="14,1,1">
-<li>
+<div class="alert-banner-warning">
 <p data-path-to-node="14,1,1,0,0"><em data-path-to-node="14,1,1,0,0" data-index-in-node="0">Safety Warning:</em>&nbsp;A full-power, static beam from a professional laser can easily ignite fires or burn skin. Never increase this limit unless you are absolutely certain the beam path is safely terminated and clear of the audience.</p>
-</li>
-</ul>
+</div>
 <p data-path-to-node="14,1,2"><code data-path-to-node="14,1,2" data-index-in-node="0"><img class="retina" src="Non-moving Beam Warning.png" width="960" height="293" data-media-id="2tJnKm8ZXm"></code></p>
-</li>
-<li>
-<p data-path-to-node="14,2,0"><strong data-path-to-node="14,2,0" data-index-in-node="0">Enable Expert Mode Settings:</strong>&nbsp;Checking this box unlocks advanced parameters within the Laser Surface Inspector (such as overriding the maximum scan rate).</p>
-<ul data-path-to-node="14,2,1">
-<li>
+<h4 data-path-to-node="14,2,0"><strong data-path-to-node="14,2,0" data-index-in-node="0">Enable Expert Mode Settings</strong></h4>
+<p data-path-to-node="14,2,0">Enabling Expert Mode in your Project Preferences unlocks advanced, under-the-hood parameters within both the Laser Surface Inspector and Laser Output settings, designed specifically for complex installations and high-end hardware.</p>
+<div class="alert-banner-warning">
 <p data-path-to-node="14,2,1,0,0"><em data-path-to-node="14,2,1,0,0" data-index-in-node="0">Hardware Warning:</em>&nbsp;Scanning too fast can overheat and permanently damage the delicate galvo-scanners inside your laser projector. Only use Expert Mode if you know the exact physical limitations of your hardware.</p>
-</li>
-</ul>
+</div>
 <p data-path-to-node="14,2,2"><code data-path-to-node="14,2,2" data-index-in-node="0"><img class="retina" src="Laser Expert Mode Warning.png" width="960" height="321" data-media-id="3WqwLmHrEd"></code></p>
-</li>
-</ul>
-<p data-path-to-node="15"><strong data-path-to-node="15" data-index-in-node="0">Visualisation &amp; Beam Preview</strong>&nbsp;These settings dictate how the laser output is simulated within MadMapper and sent to external pre-visualization software.</p>
+<p data-path-to-node="15"><strong data-path-to-node="15" data-index-in-node="0">Expert Mode unlocks the following Output-Level controls:</strong></p>
 <ul data-path-to-node="16">
 <li>
-<p data-path-to-node="16,0,0"><strong data-path-to-node="16,0,0" data-index-in-node="0">External Visualisation:</strong>&nbsp;Route the laser data to 3D simulation software (e.g., Capture, Depence 2, WYSIWYG).</p>
+<p data-path-to-node="16,0,0"><strong data-path-to-node="16,0,0" data-index-in-node="0">Custom PPS Range:</strong> Allows you to select "Custom" in your output device settings and manually define the scanning speed from 20 to 100,000 PPS. <em data-path-to-node="16,0,0" data-index-in-node="142">(Note: Pushing a low-end laser to 100kpps can permanently damage the hardware).</em></p>
 </li>
 <li>
-<p data-path-to-node="16,1,0"><strong data-path-to-node="16,1,0" data-index-in-node="0">Beam Preview:</strong>&nbsp;Adjust how the laser path is rendered on your computer screen.</p>
-<ul data-path-to-node="16,1,1">
-<li>
-<p data-path-to-node="16,1,1,0,0"><strong data-path-to-node="16,1,1,0,0" data-index-in-node="0">Level:</strong>&nbsp;Adjusts the overall brightness of the preview.</p>
+<p data-path-to-node="16,1,0"><strong data-path-to-node="16,1,0" data-index-in-node="0">Expanded Blank Delay:</strong> Allows you to push the ILDA blanking delay down to 50% (normally restricted to a minimum of 100%). Lower values can cause drawing artifacts but are useful for highly specific hardware calibrations.</p>
 </li>
 <li>
-<p data-path-to-node="16,1,1,1,0"><strong data-path-to-node="16,1,1,1,0" data-index-in-node="0">Beam Origin:</strong>&nbsp;Click and drag the node on the X/Y grid to simulate the physical location of the laser projector relative to the output surface.</p>
+<p data-path-to-node="16,2,0"><strong data-path-to-node="16,2,0" data-index-in-node="0">ILDA Mode (Preserve Image Quality vs. Preserve FPS):</strong> Unhides the ILDA Mode dropdown on your Laser Output.</p>
+<ul data-path-to-node="16,2,1">
+<li>
+<p data-path-to-node="16,2,1,0,0"><em data-path-to-node="16,2,1,0,0" data-index-in-node="0">Preserve Image Quality (Default):</em> MadMapper prioritizes drawing every point accurately. If the composition is complex, the actual output frame rate may drop below your "Desired FPS".</p>
 </li>
 <li>
-<p data-path-to-node="16,1,1,2,0"><strong data-path-to-node="16,1,1,2,0" data-index-in-node="0">Enable Fog:</strong> Toggles a simulated atmospheric fog effect in the preview window to help visualize volumetric beams.</p>
+<p data-path-to-node="16,2,1,1,0"><em data-path-to-node="16,2,1,1,0" data-index-in-node="0">Preserve FPS:</em> MadMapper guarantees your target frame rate (e.g., locking to 60 FPS for video sync). To maintain this speed, the software will dynamically degrade image quality by removing angle points, or dropping paths entirely if the frame is too heavy.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p data-path-to-node="24"><strong>Expert Mode Surface Features</strong></p>
+<ul data-path-to-node="26">
+<li>
+<p data-path-to-node="26,0,0"><strong data-path-to-node="26,0,0" data-index-in-node="0">RGB Samples (Laser Lines &amp; Text):</strong> Increases the maximum allowable color sampling resolution up to 64k (default is 8k). <em data-path-to-node="26,0,0" data-index-in-node="119">Warning: 64k samples will have a heavy impact on software performance.</em></p>
+</li>
+<li>
+<p data-path-to-node="26,1,0"><strong data-path-to-node="26,1,0" data-index-in-node="0">Expanded Speed Ranges:</strong> Increases the maximum allowed values for the <strong data-path-to-node="26,1,0" data-index-in-node="68">Max Speed</strong> and <strong data-path-to-node="26,1,0" data-index-in-node="82">Fixed Speed</strong> parameters up to 5.0 (normally restricted to 3.0 to protect entry-level scanners).</p>
+</li>
+<li>
+<p data-path-to-node="26,2,0"><strong data-path-to-node="26,2,0" data-index-in-node="0">Start Repeat:</strong> Unhides a dedicated parameter allowing you to add extra dwell points specifically at the starting point of a path.</p>
+</li>
+<li>
+<p data-path-to-node="26,3,0"><strong data-path-to-node="26,3,0" data-index-in-node="0">Advanced Video Vectorization:</strong> Unlocks deeper, experimental variables when converting standard video or images into laser paths (using "Find Paths" or "Find Contours").</p>
+</li>
+<li>
+<p data-path-to-node="26,4,0"><strong data-path-to-node="3,1,0" data-index-in-node="0">Maximum Input Dimension:</strong> When vectorizing standard video files or images, MadMapper normally limits the maximum processed resolution to 8k to maintain real-time performance. Expert Mode unlocks a <strong data-path-to-node="3,1,0" data-index-in-node="218">Maximum Input Dimension</strong> of 16k. While 16k video vectorization will likely cause real-time playback to stutter or drop frames, it is an incredibly powerful feature that allows you to use the Conductor Timeline to execute a non-real-time conversion of massive video files into high-resolution ILDA exports.</p>
+</li>
+</ul>
+<h4 data-path-to-node="17"><strong>Visualisation &amp; Beam Preview</strong></h4>
+<p data-path-to-node="18">These settings dictate how the laser output is simulated within MadMapper and sent to external pre-visualization software.</p>
+<ul data-path-to-node="19">
+<li>
+<p data-path-to-node="19,0,0"><strong data-path-to-node="19,0,0" data-index-in-node="0">External Visualisation:</strong> Route the laser data to 3D simulation software (e.g., Capture, Depence 2, WYSIWYG).</p>
+</li>
+<li>
+<p data-path-to-node="19,1,0"><strong data-path-to-node="19,1,0" data-index-in-node="0">Beam Preview:</strong> Adjust how the laser path is rendered on your computer screen.</p>
+<ul data-path-to-node="19,1,1">
+<li>
+<p data-path-to-node="19,1,1,0,0"><strong data-path-to-node="19,1,1,0,0" data-index-in-node="0">Level:</strong> Adjusts the overall brightness of the preview.</p>
+</li>
+<li>
+<p data-path-to-node="19,1,1,1,0"><strong data-path-to-node="19,1,1,1,0" data-index-in-node="0">Beam Origin:</strong> Click and drag the node on the X/Y grid to simulate the physical location of the laser projector relative to the output surface.</p>
+</li>
+<li>
+<p data-path-to-node="19,1,1,2,0"><strong data-path-to-node="19,1,1,2,0" data-index-in-node="0">Enable Fog:</strong> Toggles a simulated atmospheric fog effect in the preview window to help visualize volumetric beams.</p>
 </li>
 </ul>
 </li>

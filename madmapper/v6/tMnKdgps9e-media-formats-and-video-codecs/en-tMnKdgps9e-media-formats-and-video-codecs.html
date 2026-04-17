@@ -1,0 +1,108 @@
+<h1 data-path-to-node="2">Media Formats &amp; Video Codecs</h1>
+<p data-path-to-node="3">Selecting the appropriate video codec and media format is a critical factor for the performance and stability of MadMapper projects. Projection mapping frequently requires playing multiple high-resolution video streams simultaneously, which can heavily impact system resources if unoptimized formats are used.</p>
+<p data-path-to-node="4">While MadMapper utilizes native video engines and FFmpeg to leverage hardware decoding whenever possible, the formats you choose determine how efficiently your system can process the media.</p>
+<h2 data-path-to-node="5">Supported Media Formats</h2>
+<p data-path-to-node="6">MadMapper utilizes FFmpeg and FreeImage backends, providing broad compatibility for a massive variety of video, image, and audio containers.</p>
+<p data-path-to-node="7"><strong data-path-to-node="7" data-index-in-node="0">Supported Video Containers:</strong> <code data-path-to-node="7" data-index-in-node="28">mov</code>, <code data-path-to-node="7" data-index-in-node="33">mpeg</code>, <code data-path-to-node="7" data-index-in-node="39">mpg</code>, <code data-path-to-node="7" data-index-in-node="44">mp4</code>, <code data-path-to-node="7" data-index-in-node="49">m4v</code>, <code data-path-to-node="7" data-index-in-node="54">mkv</code>, <code data-path-to-node="7" data-index-in-node="59">avi</code>, <code data-path-to-node="7" data-index-in-node="64">wmv</code>, <code data-path-to-node="7" data-index-in-node="69">asf</code>, <code data-path-to-node="7" data-index-in-node="74">gif</code>, <code data-path-to-node="7" data-index-in-node="79">mts</code>, <code data-path-to-node="7" data-index-in-node="84">ts</code>, <code data-path-to-node="7" data-index-in-node="88">h264</code>, <code data-path-to-node="7" data-index-in-node="94">flv</code>, <code data-path-to-node="7" data-index-in-node="99">dnxhd</code>, <code data-path-to-node="7" data-index-in-node="106">m2ts</code>, <code data-path-to-node="7" data-index-in-node="112">vob</code>, <code data-path-to-node="7" data-index-in-node="117">dv</code>, <code data-path-to-node="7" data-index-in-node="121">webm</code></p>
+<p data-path-to-node="8"><strong data-path-to-node="8" data-index-in-node="0">Supported Image Containers:</strong> <code data-path-to-node="8" data-index-in-node="28">jpg</code>, <code data-path-to-node="8" data-index-in-node="33">jpeg</code>, <code data-path-to-node="8" data-index-in-node="39">jp2</code>, <code data-path-to-node="8" data-index-in-node="44">j2k</code>, <code data-path-to-node="8" data-index-in-node="49">jxl</code>, <code data-path-to-node="8" data-index-in-node="54">bmp</code>, <code data-path-to-node="8" data-index-in-node="59">png</code>, <code data-path-to-node="8" data-index-in-node="64">psd</code>, <code data-path-to-node="8" data-index-in-node="69">exr</code>, <code data-path-to-node="8" data-index-in-node="74">heic</code>, <code data-path-to-node="8" data-index-in-node="80">hdr</code>, <code data-path-to-node="8" data-index-in-node="85">raw</code>, <code data-path-to-node="8" data-index-in-node="90">tiff</code>, <code data-path-to-node="8" data-index-in-node="96">tif</code>, <code data-path-to-node="8" data-index-in-node="101">sgi</code>, <code data-path-to-node="8" data-index-in-node="106">ico</code>, <code data-path-to-node="8" data-index-in-node="111">tga</code>, <code data-path-to-node="8" data-index-in-node="116">dds</code>, <code data-path-to-node="8" data-index-in-node="121">webp</code>, <code data-path-to-node="8" data-index-in-node="127">pict</code>, <code data-path-to-node="8" data-index-in-node="133">pdf</code>, <code data-path-to-node="8" data-index-in-node="138">svg</code></p>
+<p data-path-to-node="9"><strong data-path-to-node="9" data-index-in-node="0">Supported Audio Containers:</strong> <code data-path-to-node="9" data-index-in-node="28">wav</code>, <code data-path-to-node="9" data-index-in-node="33">mp3</code>, <code data-path-to-node="9" data-index-in-node="38">aac</code>, <code data-path-to-node="9" data-index-in-node="43">flac</code>, <code data-path-to-node="9" data-index-in-node="49">ogg</code>, <code data-path-to-node="9" data-index-in-node="54">aif</code>, <code data-path-to-node="9" data-index-in-node="59">aiff</code>, <code data-path-to-node="9" data-index-in-node="65">m4a</code>, <code data-path-to-node="9" data-index-in-node="70">ac3</code>, <code data-path-to-node="9" data-index-in-node="75">wma</code></p>
+<p data-path-to-node="10"><strong data-path-to-node="10" data-index-in-node="0">Supported Vector Animation:</strong> <code data-path-to-node="10" data-index-in-node="28">json</code> (MadMapper supports Lottie format JSON files, allowing you to import vector animations directly from After Effects using the Bodymovin plugin).</p>
+<p data-path-to-node="11"><em data-path-to-node="11" data-index-in-node="0">(Note: NotchLC and DXV codecs are not currently supported).</em></p>
+<p data-path-to-node="11">&nbsp;</p>
+<h2 data-path-to-node="13">Optimized Video Codecs for Live Performance</h2>
+<h3 data-path-to-node="14">HAP Codec (Highly Recommended)</h3>
+<p data-path-to-node="15"><img class="retina" src="Hap Video Codecs.png" width="150" height="150" data-media-id="EVVbJHehV9"></p>
+<p data-path-to-node="15">HAP is the industry-standard codec for live performance and multi-layer projection mapping.</p>
+<ul data-path-to-node="16">
+<li>
+<p data-path-to-node="16,0,0"><strong data-path-to-node="16,0,0" data-index-in-node="0">How it works:</strong> HAP files are demuxed by FFmpeg, but MadMapper performs native HAP decoding directly on the GPU.</p>
+</li>
+<li>
+<p data-path-to-node="16,1,0"><strong data-path-to-node="16,1,0" data-index-in-node="0">The Benefit:</strong> This enables the playback of multiple extremely high-resolution video layers with minimal risk of dropped frames. It is perfectly suited for rapid triggering, reverse playback, timeline scrubbing, and chunked decoding.</p>
+</li>
+<li>
+<p data-path-to-node="16,2,0"><strong data-path-to-node="16,2,0" data-index-in-node="0">The Trade-off:</strong> HAP files require high disk read speeds and result in massive file sizes. Fast NVMe SSDs are required for multi-stream playback.</p>
+</li>
+<li>
+<p data-path-to-node="16,3,0"><strong data-path-to-node="16,3,0" data-index-in-node="0">Variants:</strong> HAP (Standard), HAP Alpha (supports transparency), HAP Q (highest image quality). <em data-path-to-node="16,3,0" data-index-in-node="92">Note: HAP R is currently supported on Windows only.</em></p>
+</li>
+</ul>
+<div class="alert-banner-tips">
+<p><em data-path-to-node="16,3,0" data-index-in-node="92"><strong data-path-to-node="7,4,0" data-index-in-node="0">More info at:</strong> <a class="ng-star-inserted" href="https://hap.video/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjF8unwi-aTAxUAAAAAHQAAAAAQqQo">https://hap.video/</a></em></p>
+</div>
+<h3 data-path-to-node="17">Apple ProRes</h3>
+<p data-path-to-node="18">ProRes is a high-quality alternative, exceptionally optimized for macOS.</p>
+<ul data-path-to-node="19">
+<li>
+<p data-path-to-node="19,0,0"><strong data-path-to-node="19,0,0" data-index-in-node="0">The Benefit:</strong> It offers visually lossless quality with smaller file sizes than HAP. On macOS, MadMapper enables hardware acceleration for ProRes by default via Apple's VideoToolbox, providing vastly superior performance over standard CPU decoding.</p>
+</li>
+<li>
+<p data-path-to-node="19,1,0"><strong data-path-to-node="19,1,0" data-index-in-node="0">The Trade-off:</strong> While highly efficient on Mac, ProRes generally requires more system resources than HAP when playing a high number of simultaneous layers, and is not recommended for Windows playback.</p>
+</li>
+</ul>
+<h3 data-path-to-node="4">H.264, HEVC (H.265), AV1, and H.266</h3>
+<p data-path-to-node="5">While MadMapper fully supports modern delivery codecs like H.264, HEVC, AV1, and H.266 (via FFmpeg), they require careful consideration when used for live projection mapping.</p>
+<ul data-path-to-node="6">
+<li>
+<p data-path-to-node="6,0,0"><strong data-path-to-node="6,0,0" data-index-in-node="0">The Challenge:</strong> These are highly compressed "inter-frame" codecs designed primarily to save file size rather than optimize real-time playback.</p>
+</li>
+<li>
+<p data-path-to-node="6,1,0"><strong data-path-to-node="6,1,0" data-index-in-node="0">The Result:</strong> They require significant CPU processing power to decode. Playing multiple heavily compressed clips simultaneously, reversing playback, or scrubbing the timeline may lead to dropped frames or stuttering. (Note: If forced to choose for file-size reasons, H.264 decodes faster than HEVC).</p>
+</li>
+<li>
+<p data-path-to-node="6,2,0"><strong data-path-to-node="6,2,0" data-index-in-node="0">The Workaround:</strong> If you are using H.264 for non-linear playback, rapid triggering, or timeline scratching, configure your video export settings to generate a keyframe for every single frame (often called an "All-Intra" setting or a Keyframe Distance of 1). This increases the file size but removes the heavy mathematical decoding calculations, significantly reducing CPU bottlenecks.</p>
+</li>
+</ul>
+<hr data-path-to-node="25">
+<h2 data-path-to-node="26">Hardware Decoding vs. FFmpeg Processing</h2>
+<p data-path-to-node="27">MadMapper handles hardware decoding differently depending on your operating system to ensure stability. If hardware acceleration fails or is unsupported for a specific file, MadMapper will seamlessly fall back to the FFmpeg CPU decoder.</p>
+<p data-path-to-node="27"><img class="retina" src="Hardware Acceleration.png" width="300" height="55" data-media-id="HQfs7u3skH"></p>
+<h3 data-path-to-node="28">macOS Decoding</h3>
+<ul data-path-to-node="29">
+<li>
+<p data-path-to-node="29,0,0"><strong data-path-to-node="29,0,0" data-index-in-node="0">ProRes:</strong> Hardware acceleration is enabled by default (via VideoToolbox) and is highly optimal.</p>
+</li>
+<li>
+<p data-path-to-node="29,1,0"><strong data-path-to-node="29,1,0" data-index-in-node="0">H.264 / HEVC Limitations:</strong> While users can enable hardware acceleration for these formats via Apple's AVFoundation framework, there is a known OS-level limitation regarding audio routing. AVFoundation forces audio to route to the macOS system default output, bypassing MadMapper's internal audio preferences. Because of this, it is generally recommended to leave hardware acceleration off for these formats and rely on MadMapper's highly optimized FFmpeg implementation to ensure proper audio routing.</p>
+</li>
+</ul>
+<h3 data-path-to-node="30">Windows (PC) Decoding</h3>
+<ul data-path-to-node="31">
+<li>
+<p data-path-to-node="31,0,0"><strong data-path-to-node="31,0,0" data-index-in-node="0">DXVA 2:</strong> On Windows, Hardware Acceleration is disabled by default. This is because non-Direct3D implementations require a GPU-to-CPU-to-GPU "ping-pong" data transfer that mitigates performance gains, and hardware drivers can occasionally be unstable with specific codecs.</p>
+</li>
+<li>
+<p data-path-to-node="31,1,0"><strong data-path-to-node="31,1,0" data-index-in-node="0">Enabling:</strong> You can manually enable Windows hardware decoding via DXVA 2 by going to <strong data-path-to-node="31,1,0" data-index-in-node="83">Project Preferences &gt; Engine &gt; Media</strong> and checking "Enable Hardware Acceleration Option".</p>
+</li>
+</ul>
+<hr data-path-to-node="32">
+<h2 data-path-to-node="33">Image Sequences (Folder Player)</h2>
+<p data-path-to-node="34">For pristine, uncompressed playback, MadMapper allows you to load entire folders of images and play them back as a video sequence.</p>
+<ul data-path-to-node="35">
+<li>
+<p data-path-to-node="35,0,0"><strong data-path-to-node="35,0,0" data-index-in-node="0">Naming Convention:</strong> To ensure proper playback order, files must be named sequentially with padded zeros (e.g., <code data-path-to-node="35,0,0" data-index-in-node="110">00001_image.png</code>, <code data-path-to-node="35,0,0" data-index-in-node="127">00002_image.png</code>, <code data-path-to-node="35,0,0" data-index-in-node="144">00003_image.png</code>).</p>
+</li>
+<li>
+<p data-path-to-node="35,1,0"><strong data-path-to-node="35,1,0" data-index-in-node="0">Limits:</strong> There is no maximum limit to the number of images in a folder sequence (1,000,000+ files will load seamlessly).</p>
+</li>
+<li>
+<p data-path-to-node="35,2,0"><strong data-path-to-node="35,2,0" data-index-in-node="0">Playback Controls:</strong> Image sequences feature the exact same playback modes as standard movies, allowing you to loop, ping-pong, hold, and scrub the sequence.</p>
+</li>
+</ul>
+<p><img class="retina" src="Image Player Example.png" width="311" height="608" data-media-id="naTB4FiDDs"></p>
+<h2 data-path-to-node="37">Advanced Image Formats</h2>
+<h3 data-path-to-node="38">EXR (32-bit Floating Point)</h3>
+<p data-path-to-node="39">MadMapper fully supports EXR image files. The software utilizes the FreeImage library to parse the EXR and converts it directly into a 32-bit floating-point format (either Red channel only, or full RGBA 32-bit float). This allows for massive dynamic range and precision, making EXR files exceptionally useful for driving custom shaders or high-end displacement maps.</p>
+<h3 data-path-to-node="40">SVG (Scalable Vector Graphics)</h3>
+<p data-path-to-node="41">MadMapper supports direct SVG imports.</p>
+<ul data-path-to-node="42">
+<li>
+<p data-path-to-node="42,0,0"><strong data-path-to-node="42,0,0" data-index-in-node="0">For Video Surfaces:</strong> You can manually define the exact pixel resolution you wish the SVG to render at, allowing for infinite scaling without rasterized pixelation.</p>
+</li>
+<li>
+<p data-path-to-node="42,1,0"><strong data-path-to-node="42,1,0" data-index-in-node="0">For Laser Surfaces:</strong> Render size parameters are ignored, as the laser engine directly traces the mathematically pure vector paths of the SVG for its scanner output.</p>
+</li>
+</ul>
+<p data-path-to-node="7,3,0">&nbsp;</p>
+<p>&nbsp;</p>
+<p data-path-to-node="8">&nbsp;</p>

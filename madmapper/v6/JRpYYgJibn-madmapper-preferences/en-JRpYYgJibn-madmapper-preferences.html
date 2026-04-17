@@ -1,63 +1,161 @@
-<h2 data-path-to-node="3">MadMapper Preferences</h2>
+<h1 data-path-to-node="3">MadMapper Preferences</h1>
 <p data-path-to-node="4">The Preferences menu (<code data-path-to-node="4" data-index-in-node="22">Cmd + ,</code> on Mac / <code data-path-to-node="4" data-index-in-node="39">Ctrl + ,</code> on PC) dictates the foundational behavior of the software. <strong data-path-to-node="4" data-index-in-node="107">MadMapper 6</strong> splits these preferences into two distinct tabs: <strong data-path-to-node="4" data-index-in-node="168">Application</strong> (global settings that affect the software overall) and <strong data-path-to-node="4" data-index-in-node="235">Project</strong> (settings saved specifically to the <code data-path-to-node="4" data-index-in-node="279">.mad</code> file you currently have open).</p>
 <p><img class="retina" src="MadMapper Preferences.png" width="932" height="640" data-media-id="IGtQZiA92P"></p>
-<h4 data-path-to-node="5">Application Tab</h4>
-<p data-path-to-node="6">These settings govern how the MadMapper application behaves on your specific computer, regardless of which project file is open.</p>
-<ul data-path-to-node="7">
+<h2 data-path-to-node="4">Application Tab</h2>
+<p data-path-to-node="5">These settings govern how the MadMapper application behaves on your specific computer, regardless of which project file is open.</p>
+<h4 data-path-to-node="4">Startup</h4>
+<p data-path-to-node="5">Configure the initial User Interface state upon launch. Options include Always Minimize at startup, enabling Silent Mode (which suppresses user prompts&mdash;highly recommended for permanent installations), and toggling the Open Project dialog at startup.</p>
+<h4 data-path-to-node="6">General</h4>
+<p data-path-to-node="7">Manage your safety net and UI features.</p>
+<ul data-path-to-node="8">
 <li>
-<p data-path-to-node="7,0,0"><strong data-path-to-node="7,0,0" data-index-in-node="0">Startup:</strong> Configure the initial User Interface state upon launch. Options include minimizing the application on startup, enabling <strong data-path-to-node="7,0,0" data-index-in-node="129">Silent Mode</strong> (which suppresses user prompts&mdash;highly recommended for permanent installations), and toggling the "Open Project" dialog box.</p>
+<p data-path-to-node="8,0,0"><strong data-path-to-node="8,0,0" data-index-in-node="0">AutoSave &amp; Backups:</strong> Enable AutoSave and define its interval (in minutes), and set the maximum number of automatic Project Backups.</p>
 </li>
 <li>
-<p data-path-to-node="7,1,0"><strong data-path-to-node="7,1,0" data-index-in-node="0">General:</strong> Manage your safety net and UI features. Here you can enable <strong data-path-to-node="7,1,0" data-index-in-node="69">AutoSave</strong> and define its interval, set the maximum number of <strong data-path-to-node="7,1,0" data-index-in-node="129">Project Backups</strong>, toggle <strong data-path-to-node="7,1,0" data-index-in-node="153">Expert Mode</strong> in the UI, and enable automatic thumbnail updates for Mad AI resources.</p>
+<p data-path-to-node="8,1,0"><strong data-path-to-node="8,1,0" data-index-in-node="0">Master:</strong> Choose whether to Reset Master settings on new project.</p>
 </li>
 <li>
-<p data-path-to-node="7,2,0"><strong data-path-to-node="7,2,0" data-index-in-node="0">Devices:</strong> The control center for external hardware.</p>
-<ul data-path-to-node="7,2,1">
-<li>
-<p data-path-to-node="7,2,1,0,0"><em data-path-to-node="7,2,1,0,0" data-index-in-node="0">Video Input:</em> Enable native support for Blackmagic capture devices, Canon EDSDK cameras, Kinect ONE depth sensors, and Intel RealSense.</p>
+<p data-path-to-node="8,2,0"><strong data-path-to-node="8,2,0" data-index-in-node="0">User Interface:</strong> Toggle Enable Expert Mode to expose advanced routing and programming features throughout the software.</p>
 </li>
 <li>
-<p data-path-to-node="7,2,1,1,0"><em data-path-to-node="7,2,1,1,0" data-index-in-node="0">Controls:</em> Toggle support for external control peripherals including Stream Decks, GamePads, and Makey Makey forwarding.</p>
-</li>
-</ul>
-</li>
-<li>
-<p data-path-to-node="7,3,0"><strong data-path-to-node="7,3,0" data-index-in-node="0">DMX:</strong> Adjust how lighting fixtures are handled in the interface. You can choose to show Master DMX color, force MadMapper to always draw fixture pixels (even when unselected), and enable automatic DMX addressing when duplicating or pasting fixtures.</p>
-</li>
-<li>
-<p data-path-to-node="7,4,0"><strong data-path-to-node="7,4,0" data-index-in-node="0">Audio &amp; Engine:</strong> Manage global audio routing and backend rendering behaviors.</p>
-</li>
-<li>
-<p data-path-to-node="7,5,0"><strong data-path-to-node="7,5,0" data-index-in-node="0">Laser:</strong> Enable global hardware protocols, such as Audio Laser over AVB/Dante networks.</p>
+<p data-path-to-node="8,3,0"><strong data-path-to-node="8,3,0" data-index-in-node="0">MadAI:</strong> Enable Update Resource Thumbnail on Edition to automatically refresh generated previews.</p>
 </li>
 </ul>
-<hr>
-<p data-path-to-node="8"><img class="retina" src="Project Tab Preferences.png" width="932" height="640" data-media-id="OJm89ijmUl"></p>
-<h4 data-path-to-node="8">Project Tab</h4>
-<p data-path-to-node="9">These settings are saved directly into your current <code data-path-to-node="9" data-index-in-node="52">.mad</code> file and will travel with the project if you move it to another computer.</p>
-<ul data-path-to-node="10">
+<h4 data-path-to-node="9">Devices</h4>
+<p data-path-to-node="10">The control center for external hardware inputs.</p>
+<ul data-path-to-node="11">
 <li>
-<p data-path-to-node="10,0,0"><strong data-path-to-node="10,0,0" data-index-in-node="0">Startup:</strong> Automate actions that should happen the moment this specific project is opened. You can set the project to automatically enter <strong data-path-to-node="10,0,0" data-index-in-node="136">Fullscreen</strong> video mode, or automatically <strong data-path-to-node="10,0,0" data-index-in-node="176">Arm Lasers</strong>.</p>
+<p data-path-to-node="11,0,0"><strong data-path-to-node="11,0,0" data-index-in-node="0">Video Input:</strong> Automatically check for connected devices, and enable native support for Blackmagic capture cards (including options to show all system-compliant devices and display outdated driver warnings), Canon EDSDK cameras, Kinect ONE depth sensors, and Intel RealSense.</p>
 </li>
 <li>
-<p data-path-to-node="10,1,0"><strong data-path-to-node="10,1,0" data-index-in-node="0">General / MIDI / OSC / DMX / Engine:</strong> Configure project-specific network addresses, engine frame-rates, and control routing.</p>
-</li>
-<li>
-<p data-path-to-node="10,2,0"><strong data-path-to-node="10,2,0" data-index-in-node="0">Timelines:</strong> Manage timeline playback and storage behaviors. Options include stopping timelines when switching Banks, and defining whether DMX Fixtures and Surface Output Geometries should be stored inside legacy Scenes.</p>
-</li>
-<li>
-<p data-path-to-node="10,3,0"><strong data-path-to-node="10,3,0" data-index-in-node="0">Laser:</strong> This sub-menu contains critical safety and visualization settings for your laser outputs.</p>
-<ul data-path-to-node="10,3,1">
-<li>
-<p data-path-to-node="10,3,1,0,0"><em data-path-to-node="10,3,1,0,0" data-index-in-node="0">Security:</em> Unlock advanced security features, define the <strong data-path-to-node="10,3,1,0,0" data-index-in-node="56">Maximum non-moving Beam Intensity</strong> (a critical safety parameter for live audiences), and enable Expert Mode settings.</p>
-</li>
-<li>
-<p data-path-to-node="10,3,1,1,0"><em data-path-to-node="10,3,1,1,0" data-index-in-node="0">Visualisation:</em> Route laser data to external visualizers like Capture.</p>
-</li>
-<li>
-<p data-path-to-node="10,3,1,2,0"><em data-path-to-node="10,3,1,2,0" data-index-in-node="0">Beam Preview:</em> Adjust the internal rendering of the laser preview, including Beam Level, Origin parameters, path endings, and simulated Fog visibility.</p>
+<p data-path-to-node="11,1,0"><strong data-path-to-node="11,1,0" data-index-in-node="0">Controls:</strong> Toggle support for external control peripherals, including Stream Decks, GamePads, and Makey Makey forwarding (which maps external inputs to arrow keys and other software triggers).</p>
 </li>
 </ul>
+<h4 data-path-to-node="12">DMX</h4>
+<p data-path-to-node="13">Adjust how lighting fixtures are handled in the user interface. You can choose to Show Master DMX Color, force MadMapper to Always draw fixtures pixels (even when unselected), and enable Automatically choose DMX address for duplicated / pasted fixture.</p>
+<h4 data-path-to-node="14">Audio</h4>
+<p data-path-to-node="15">Manage your global audio routing.</p>
+<ul data-path-to-node="16">
+<li>
+<p data-path-to-node="16,0,0"><strong data-path-to-node="16,0,0" data-index-in-node="0">Audio Settings:</strong> Select your specific Audio Input, Audio Analysis Channels, Audio Output, Sample Rate, and Buffer Size.</p>
+</li>
+<li>
+<p data-path-to-node="16,1,0"><strong data-path-to-node="16,1,0" data-index-in-node="0">Audio Data:</strong> A read-only diagnostic window that provides a live status report of your active audio devices, channels, mixdown levels, and individual channel levels.</p>
+</li>
+</ul>
+<h4 data-path-to-node="17">Engine</h4>
+<p data-path-to-node="18">Manage backend rendering behaviors and preview quality.</p>
+<ul data-path-to-node="19">
+<li>
+<p data-path-to-node="19,0,0"><strong data-path-to-node="19,0,0" data-index-in-node="0">Rendering:</strong> Displays your active GPU. You can toggle Use Double-Buffered Previews (which prevents screen tearing but impacts overall performance) and enable high-quality previews for Retina displays.</p>
+</li>
+<li>
+<p data-path-to-node="19,1,0"><strong data-path-to-node="19,1,0" data-index-in-node="0">Media:</strong> Choose to enable audio playback by default, and define the default rendering resolution and frame rate for Image Folders.</p>
+</li>
+</ul>
+<h4 data-path-to-node="20">Laser</h4>
+<p>See <a class="int-link" href="madlaser-preferences" data-page-suid="voKJvIStfJ" data-product-slug="madmapper" data-product-version="6">MadLaser Preferences</a> for more details.</p>
+<p data-path-to-node="21">Enable global hardware protocols for your laser projectors.</p>
+<ul data-path-to-node="22">
+<li>
+<p data-path-to-node="22,0,0"><strong data-path-to-node="22,0,0" data-index-in-node="0">Enable Audio Laser (AVB / Dante):</strong> Checking this box unlocks the ability to control laser projectors through audio output via an AVB or Dante network. Instead of using a standard ILDA DAC, MadMapper sends the X, Y, Red, Green, and Blue positional and color data directly to an AVB audio card as if it were an audio stream. This requires a compatible AVB network switch to guarantee bandwidth and an AVB audio interface (such as the RME Digiface AVB). Using AVB provides highly reliable signal transmission and allows for the perfect synchronization of multiple laser devices on the network.</p>
+</li>
+<li>
+<p data-path-to-node="22,1,0"><strong data-path-to-node="22,1,0" data-index-in-node="0">Audio Device:</strong> Select your specific AVB or Dante network audio card. Note: On Windows, enabling AVB will force MadMapper to switch the audio driver type to ASIO and will require an application restart.</p>
+</li>
+<li>
+<p data-path-to-node="22,2,0"><strong data-path-to-node="22,2,0" data-index-in-node="0">Sample Rate:</strong> Defines the transmission speed (e.g., 48000Hz or 96000Hz). You must ensure this exactly matches the sample rate set on your physical AVB / laser projector hardware.</p>
+</li>
+<li>
+<p data-path-to-node="22,3,0"><strong data-path-to-node="22,3,0" data-index-in-node="0">Buffer Size:</strong> Set the network audio buffer (e.g., 192 samples).</p>
+</li>
+<li>
+<p data-path-to-node="22,4,0"><strong data-path-to-node="22,4,0" data-index-in-node="0">Device Count:</strong> Allows you to choose the number of virtual AVB outputs you want to create, enabling you to drive multiple separate lasers from a single audio interface.</p>
+</li>
+<li>
+<p data-path-to-node="22,5,0"><strong data-path-to-node="22,5,0" data-index-in-node="0">Audio Channels per Unit:</strong> Defines the number of audio channels dedicated to a single laser. This is typically set to 5 channels, representing the physical electrical signals required for X, Y, Red, Green, and Blue.</p>
+</li>
+<li>
+<p data-path-to-node="22,6,0"><strong data-path-to-node="22,6,0" data-index-in-node="0">Enable Scene Markers:</strong> Toggle visibility for audio timeline markers.</p>
+</li>
+<li>
+<p data-path-to-node="22,7,0"><strong data-path-to-node="22,7,0" data-index-in-node="0">Status Box:</strong> Provides a live diagnostic readout to confirm if the audio device is running properly and how many audio channels have been successfully started by the software.</p>
+</li>
+</ul>
+<div class="alert-banner-notes">
+<p data-path-to-node="22,7,0"><strong data-path-to-node="23,0" data-index-in-node="0">Note:</strong> For a comprehensive guide on setting up your network switch, audio card, and hardware routing, the official MadLaser AVB Support guide can be found directly inside the software by navigating to the top menu and selecting Help &gt; MadLaser User Guides &gt; Mad Laser AVB Output.</p>
+</div>
+<h2 data-path-to-node="8">Project Tab</h2>
+<p>These settings are saved directly into your current project workspace and will travel with the project if you move the project file to another computer.</p>
+<p><img class="retina" src="Project Tab Preferences.png" width="932" height="640" data-media-id="OJm89ijmUl"></p>
+<h4 data-path-to-node="4">Startup</h4>
+<p data-path-to-node="5">Automate actions that should occur the moment this specific project is opened. Options include forcing the project into Fullscreen video mode upon opening, or automatically arming connected Laser projectors.</p>
+<h4 data-path-to-node="6">General</h4>
+<p data-path-to-node="7">Manage project-level master recall behaviors.</p>
+<ul data-path-to-node="8">
+<li>
+<p data-path-to-node="8,0,0"><strong data-path-to-node="8,0,0" data-index-in-node="0">Master:</strong> Choose whether to Restore Master Settings from Project when the file is loaded.</p>
+</li>
+</ul>
+<h4 data-path-to-node="9">MIDI</h4>
+<p data-path-to-node="10">Configure your project-specific MIDI routing and feedback.</p>
+<ul data-path-to-node="11">
+<li>
+<p data-path-to-node="11,0,0"><strong data-path-to-node="11,0,0" data-index-in-node="0">MIDI Inputs:</strong> Select specific Input Devices and their corresponding Feedback Devices to keep MIDI controllers (like motorized faders or LED buttons) in sync with MadMapper. You can also choose to use note velocity when mapping.</p>
+</li>
+<li>
+<p data-path-to-node="11,1,0"><strong data-path-to-node="11,1,0" data-index-in-node="0">MIDI Outputs:</strong> Define dedicated outgoing MIDI devices and names to trigger external hardware or software.</p>
+</li>
+</ul>
+<h4 data-path-to-node="12">OSC</h4>
+<p data-path-to-node="13">Manage incoming and outgoing Open Sound Control network data.</p>
+<ul data-path-to-node="14">
+<li>
+<p data-path-to-node="14,0,0"><strong data-path-to-node="14,0,0" data-index-in-node="0">OSC Input:</strong> Set your listening Input Port (default 8010) and Feedback Port (default 9000). You can toggle Enable Bonjour Discovery for automatic network configuration and define a custom Feedback IP.</p>
+</li>
+<li>
+<p data-path-to-node="14,1,0"><strong data-path-to-node="14,1,0" data-index-in-node="0">OSC Outputs:</strong> Create and manage a list of targeted outgoing OSC connections by defining their Name, IP, Port, and Bonjour status.</p>
+</li>
+</ul>
+<h4 data-path-to-node="15">DMX</h4>
+<p data-path-to-node="16">Configure incoming and outgoing lighting control data. MadMapper natively supports network protocols like Art-Net and sACN, as well as physical USB DMX interfaces (including the official MadMapper/GarageCube USB DMX controller, ShowJockey, Enttec DMX USB Pro, Enttec DMX USB Pro MK2, and any Enttec Pro compatible USB DMX device such as the DMX King eDMX2 Pro).</p>
+<ul data-path-to-node="17">
+<li>
+<p data-path-to-node="17,0,0"><strong data-path-to-node="17,0,0" data-index-in-node="0">DMX Input:</strong> Define your listening device (e.g., ArtNet In), select the specific network interface, and set the listening universe.</p>
+</li>
+<li>
+<p data-path-to-node="17,1,0"><strong data-path-to-node="17,1,0" data-index-in-node="0">DMX Output:</strong> Select your output protocol or physical device and target network interface. You can cap the Maximum FPS to optimize network traffic, enable Unicast routing, toggle Universe Synchronization, and utilize the built-in node scanner to auto-poll for active Art-Net devices on your network.</p>
+</li>
+</ul>
+<h4 data-path-to-node="18">Engine</h4>
+<p data-path-to-node="19">Project-specific rendering parameters for playback and media processing.</p>
+<ul data-path-to-node="20">
+<li>
+<p data-path-to-node="20,0,0"><strong data-path-to-node="20,0,0" data-index-in-node="0">Rendering:</strong> Lock the Engine FPS to a specific frame rate or leave it on Auto to match your display.</p>
+</li>
+<li>
+<p data-path-to-node="20,1,0"><strong data-path-to-node="20,1,0" data-index-in-node="0">Media:</strong> Globally toggle the Media Anti Aliasing filter for the project.</p>
+</li>
+</ul>
+<h4 data-path-to-node="21">Timelines</h4>
+<p data-path-to-node="22">Manage timeline playback conditions and legacy storage behaviors.</p>
+<ul data-path-to-node="23">
+<li>
+<p data-path-to-node="23,0,0"><strong data-path-to-node="23,0,0" data-index-in-node="0">Playback &amp; Storage:</strong> Options include automatically stopping active timelines when switching to a different Bank, and defining whether DMX Fixtures and Surface Output Geometries should be explicitly stored when recording legacy Scenes.</p>
+</li>
+</ul>
+<h4 data-path-to-node="24">Laser</h4>
+<p>See <a class="int-link" href="madlaser-preferences" data-page-suid="voKJvIStfJ" data-product-slug="madmapper" data-product-version="6">MadLaser Preferences</a> for more details.</p>
+<p data-path-to-node="25">This sub-menu contains critical safety and visualization settings for your project's laser outputs.</p>
+<ul data-path-to-node="26">
+<li>
+<p data-path-to-node="26,0,0"><strong data-path-to-node="26,0,0" data-index-in-node="0">Security:</strong> Unlock Security Features to define the Max non-moving Beam Intensity (a critical safety parameter to prevent hardware damage or audience hazards) and enable Expert Mode Settings for advanced laser routing.</p>
+</li>
+<li>
+<p data-path-to-node="26,1,0"><strong data-path-to-node="26,1,0" data-index-in-node="0">Visualisation:</strong> Route laser data over the network to supported external 3D visualizers like Capture.</p>
+</li>
+<li>
+<p data-path-to-node="26,2,0"><strong data-path-to-node="26,2,0" data-index-in-node="0">Beam Preview:</strong> Adjust the internal rendering of the laser preview within the software UI. Options include setting the Beam Level (brightness), adjusting the Beam Origin X/Y coordinates to simulate the physical projector's location, toggling End Beam on path, and enabling a simulated Fog effect for accurate 3D previewing.</p>
 </li>
 </ul>
 <hr>
