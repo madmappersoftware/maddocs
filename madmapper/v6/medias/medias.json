@@ -68,5 +68,145 @@
         "pageSlug": "video-engine-and-codecs"
       }
     ]
+  },
+  {
+    "mediaId": "A4NeY0bGDB",
+    "filename": "Media Info Pop Up.png",
+    "imgName": "Media Info Pop Up",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Media Info Pop Up.png",
+    "captions": {
+      "en": "Media info pop up"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-18T21:16:43.039Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-bin"
+      }
+    ]
+  },
+  {
+    "mediaId": "ZqtTt6ID66",
+    "filename": "Movie Player Inspector.png",
+    "imgName": "Movie Player Inspector",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Movie Player Inspector.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-18T21:20:34.473Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-bin"
+      }
+    ]
+  },
+  {
+    "mediaId": "3GH8TPemUY",
+    "filename": "Image Player Inspector.png",
+    "imgName": "Image Player Inspector",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Image Player Inspector.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-18T21:21:20.249Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-bin"
+      }
+    ]
+  },
+  {
+    "mediaId": "dxliNURcAv",
+    "filename": "ISF Inspector.png",
+    "imgName": "ISF Inspector",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/ISF Inspector.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-18T21:22:05.681Z",
+    "pages": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageSlug": "media-bin"
+      }
+    ]
   }
 ]
