@@ -520,5 +520,36 @@
         "pageSlug": "project-backup-and-recovery"
       }
     ]
+  },
+  {
+    "mediaId": "7NQbg4QhE7",
+    "filename": "Add Vertex Shader Code Editor.png",
+    "imgName": "Add Vertex Shader Code Editor",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Add Vertex Shader Code Editor.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T22:19:56.657Z",
+    "pages": [
+      {
+        "pageSuid": "JlnYYvfMmj",
+        "pageSlug": "online-material-library"
+      }
+    ]
   }
 ]
