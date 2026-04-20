@@ -113,7 +113,17 @@
         "pageSlug": "outputs",
         "pageType": "empty",
         "minorVersion": "0",
-        "subpage": [],
+        "subpage": [
+          {
+            "pageSuid": "VmE4U2hLeB",
+            "pageTitle": "Loopback & Advanced Output Techniques",
+            "pageSlug": "loopback-and-advanced-output-techniques",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          }
+        ],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface"
       },
@@ -368,6 +378,42 @@
     "minorVersion": "0",
     "subpage": [
       {
+        "pageSuid": "Dqo3es5ZOo",
+        "pageTitle": "Mad AI Extension",
+        "pageSlug": "mad-ai-extension",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "QuoOTFz6Dy",
+        "pageTitle": "MadProjectorControl",
+        "pageSlug": "madprojectorcontrol",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "2TAm9uScmI",
+        "pageTitle": "Performance Optimization",
+        "pageSlug": "performance-optimization",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "Gr0Qi79QHf",
+        "pageTitle": "Project Backup & Recovery",
+        "pageSlug": "project-backup-and-recovery",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
         "pageSuid": "tMnKdgps9e",
         "pageTitle": "Media Formats & Video Codecs",
         "pageSlug": "media-formats-and-video-codecs",
@@ -425,6 +471,15 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
+      },
+      {
+        "pageSuid": "yXlYudB3cb",
+        "pageTitle": "Arduino & Firmata Integration",
+        "pageSlug": "arduino-and-firmata-integration",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
       }
     ],
     "publish": false,

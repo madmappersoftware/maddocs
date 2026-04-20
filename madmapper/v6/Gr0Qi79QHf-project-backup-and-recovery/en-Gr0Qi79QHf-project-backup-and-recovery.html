@@ -1,0 +1,38 @@
+<h2 data-path-to-node="2">Project Backup &amp; Recovery</h2>
+<p data-path-to-node="3">MadMapper features robust integrated tools to protect complex mapping data, hardware routing, and generative programming from accidental loss.</p>
+<h3 data-path-to-node="4">AutoSave System</h3>
+<p><img class="retina" src="MadMapper Auto Save Toggle.png" width="400" height="47" data-media-id="undefined"></p>
+<p data-path-to-node="5">MadMapper operates a background AutoSave mechanism that routinely creates recovery snapshots of your workspace. Because AutoSave does not overwrite your actual project file, you can always reload the project to the exact state you manually saved it.</p>
+<ul data-path-to-node="6">
+<li>
+<p data-path-to-node="6,0,0"><strong data-path-to-node="6,0,0" data-index-in-node="0">Configuration:</strong> You can enable this feature and set the save interval (e.g., every 5 minutes) by navigating to <strong data-path-to-node="6,0,0" data-index-in-node="110">Preferences &gt; General</strong>.</p>
+</li>
+<li>
+<p data-path-to-node="6,1,0"><strong data-path-to-node="6,1,0" data-index-in-node="0">File Location:</strong> When AutoSave is on and the project is modified, the current state is saved to an autosave file located in the <code data-path-to-node="6,1,0" data-index-in-node="126">MadMapperProjectData/</code> sub-folder.</p>
+</li>
+<li>
+<p data-path-to-node="6,2,0"><strong data-path-to-node="6,2,0" data-index-in-node="0">The 10-Second Countdown:</strong> A countdown will appear 10 seconds before the AutoSave triggers. This gives you time to disable it in case you are live and want to preserve your project's saved state, or if you simply don't want the background save process to cause a dip in the application framerate.</p>
+</li>
+<li>
+<p data-path-to-node="6,3,0"><strong data-path-to-node="6,3,0" data-index-in-node="0">Toolbar Control:</strong> When enabled in Preferences, the feature is active by default, but you can temporarily deactivate it until the application quits by clicking the AutoSave button in the toolbar. (If AutoSave is completely disabled in Preferences, this toolbar button will be greyed out).</p>
+</li>
+<li>
+<p data-path-to-node="6,4,0"><strong data-path-to-node="6,4,0" data-index-in-node="0">Crash Recovery:</strong> If your computer or the application unexpectedly quits, the next time you launch it, MadMapper will propose you to recover the AutoSave state.</p>
+</li>
+</ul>
+<p><img class="retina" src="AutoSave Preferences.png" width="800" height="185" data-media-id="NoxvROFoAj"></p>
+<h3 data-path-to-node="7">Project Backup</h3>
+<p data-path-to-node="8">In addition to the automated background snapshots, MadMapper maintains a localized history of your manual saves.</p>
+<ul data-path-to-node="9">
+<li>
+<p data-path-to-node="9,0,0"><strong data-path-to-node="9,0,0" data-index-in-node="0">Version History:</strong> When saving a project, MadMapper will automatically backup the <em data-path-to-node="9,0,0" data-index-in-node="80">previous</em> version in the <code data-path-to-node="9,0,0" data-index-in-node="104">MadMapperProjectData/</code> sub-folder.</p>
+</li>
+<li>
+<p data-path-to-node="9,1,0"><strong data-path-to-node="9,1,0" data-index-in-node="0">Max Backup Count:</strong> Located in <strong data-path-to-node="9,1,0" data-index-in-node="29">Preferences &gt; General</strong> right beneath the AutoSave settings, this setting controls the maximum number of backups stored for the current project.</p>
+</li>
+</ul>
+<p><img class="retina" src="Project Backup Count.png" width="300" height="95" data-media-id="05JxOTvW0b"></p>
+<h3 data-path-to-node="10">Workspaces &amp; File Collect</h3>
+<p data-path-to-node="11">Large projection mapping projects often rely on hundreds of scattered media files, custom shaders, and 3D models. You can define a specific global folder as your Workspace. When archiving or moving to a show computer, use the <strong data-path-to-node="11" data-index-in-node="226">File Collect</strong> feature to automatically gather and package every piece of media referenced in your project into one consolidated directory. This prevents "Missing File" errors and makes it easy to back up the entire installation to an external drive or cloud-sync service.</p>
+<p data-path-to-node="11">&nbsp;</p>
+<p data-path-to-node="11"><img class="retina" src="File Collect External Resources.png" width="400" height="200" data-media-id="GEtBgTeeqL"></p>

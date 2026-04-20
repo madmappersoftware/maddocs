@@ -1,0 +1,50 @@
+<h2 data-path-to-node="21">Performance Optimization (Large Installations)</h2>
+<p data-path-to-node="22">When pushing millions of pixels to multiple outputs, balancing your CPU, GPU, and internal storage bandwidth is critical.</p>
+<h3 data-path-to-node="23">GPU Tuning &amp; The Frame Tearing Problem</h3>
+<ul data-path-to-node="24">
+<li>
+<p data-path-to-node="24,0,0"><strong data-path-to-node="24,0,0" data-index-in-node="0">macOS:</strong> Modern Apple Silicon (M-Series) machines utilize unified memory, making them exceptionally efficient for large-scale video processing, especially when utilizing native ProRes hardware acceleration to bypass CPU bottlenecks.</p>
+</li>
+<li>
+<p data-path-to-node="24,1,0"><strong data-path-to-node="24,1,0" data-index-in-node="0">Windows (PC):</strong> A dedicated, high-end NVIDIA GPU is heavily recommended. However, simply plugging four projectors into the four ports of a standard consumer NVIDIA RTX card will almost always result in <strong data-path-to-node="24,1,0" data-index-in-node="200">frame tearing</strong>. Because consumer cards cannot perfectly synchronize the refresh cycles of multiple independent display heads, fast-moving horizontal visuals will look fractured across your projectors.</p>
+</li>
+<li>
+<p data-path-to-node="24,2,0"><strong data-path-to-node="24,2,0" data-index-in-node="0">The Media Server Solution:</strong> To achieve true, genlocked frame synchronization across multiple GPU outputs on a PC, you must use a professional-grade NVIDIA Quadro card paired with a dedicated <strong data-path-to-node="24,2,0" data-index-in-node="190">Quadro Sync II</strong> card to lock the outputs to a master timing signal.</p>
+</li>
+</ul>
+<h3 data-path-to-node="25">The Hardware Splitter Strategy</h3>
+<p data-path-to-node="26">To guarantee perfect frame sync without building a highly complex Quadro Sync media server, the industry-standard approach is to utilize external display controllers.</p>
+<ul data-path-to-node="27">
+<li>
+<p data-path-to-node="27,0,0"><strong data-path-to-node="27,0,0" data-index-in-node="0">How it Works:</strong> You drive a single, massive 4K or 8K output from your computer's GPU. Because the computer only sees one physical display, frame tearing is impossible. That single high-resolution signal is then routed into a hardware splitter, which physically divides the raster into multiple independent 1080p or 4K feeds for your projectors.</p>
+</li>
+<li>
+<p data-path-to-node="27,1,0"><strong data-path-to-node="27,1,0" data-index-in-node="0">Industry Standards:</strong> Devices like the <strong data-path-to-node="27,1,0" data-index-in-node="37">Datapath Fx4</strong> (or Fx4-HDR) can take a single 4K60 signal over DisplayPort and flawlessly slice it into four synchronized HD outputs. Other reliable alternatives include the <strong data-path-to-node="27,1,0" data-index-in-node="209">Matrox QuadHead2Go</strong>, or utilizing PCIe capture/playback cards like the <strong data-path-to-node="27,1,0" data-index-in-node="279">Blackmagic DeckLink 8K Pro</strong> configured for quad-split output.</p>
+</li>
+</ul>
+<h3 data-path-to-node="28">Storage Bandwidth &amp; The HAP Codec</h3>
+<p data-path-to-node="29">For large installations, relying on highly compressed delivery formats (like H.264 or HEVC) will instantly bottleneck your CPU as it struggles to decode the math in real-time, resulting in stuttering playback.</p>
+<ul data-path-to-node="30">
+<li>
+<p data-path-to-node="30,0,0"><strong data-path-to-node="30,0,0" data-index-in-node="0">The HAP Strategy:</strong> You must render your installation media using the HAP codec family (HAP for standard playback, HAP Alpha for transparency, or HAP Q for higher visual fidelity). HAP bypasses the CPU entirely and sends the video decompression workload straight to the GPU.</p>
+</li>
+<li>
+<p data-path-to-node="30,1,0"><strong data-path-to-node="30,1,0" data-index-in-node="0">The NVMe Bottleneck:</strong> The trade-off for zero CPU load is massive file sizes. Standard 5400RPM or 7200RPM spinning hard drives cannot read data fast enough to play multiple HAP files. You must use high-speed internal <strong data-path-to-node="30,1,0" data-index-in-node="215">PCIe NVMe M.2 SSDs</strong> (capable of 3,000 to 7,000 MB/s read speeds) or high-bandwidth Thunderbolt RAID arrays.</p>
+</li>
+<li>
+<p data-path-to-node="30,2,0"><strong data-path-to-node="30,2,0" data-index-in-node="0">Benchmarking:</strong> Always benchmark your storage drives using tools like the <strong data-path-to-node="30,2,0" data-index-in-node="72">Blackmagic Disk Speed Test</strong>. You must mathematically ensure that the sustained read speed of your drive heavily exceeds the combined total megabytes-per-second of all the video files playing in your timeline simultaneously.</p>
+</li>
+</ul>
+<h3 data-path-to-node="31">Network Bandwidth &amp; NDI Stream Management</h3>
+<p data-path-to-node="32">If you are routing live generative video between computers (e.g., from a dedicated TouchDesigner PC into a MadMapper Mac) using NDI, you must carefully manage your network topology.</p>
+<ul data-path-to-node="33">
+<li>
+<p data-path-to-node="33,0,0"><strong data-path-to-node="33,0,0" data-index-in-node="0">Bandwidth Math:</strong> A single 1080p 60fps <strong data-path-to-node="33,0,0" data-index-in-node="37">NDI High Bandwidth</strong> stream consumes roughly 125 to 150 Mbps of network data.</p>
+</li>
+<li>
+<p data-path-to-node="33,1,0"><strong data-path-to-node="33,1,0" data-index-in-node="0">Gigabit Limitations:</strong> Sending multiple uncompressed NDI streams will quickly saturate a standard 1-Gigabit (1,000 Mbps) network switch. Network engineers strongly recommend leaving 25% to 30% of your network as "headroom" to prevent packet loss. If your NDI traffic exceeds 750 Mbps, your streams will begin to stutter and drop frames.</p>
+</li>
+<li>
+<p data-path-to-node="33,2,0"><strong data-path-to-node="33,2,0" data-index-in-node="0">10GbE Infrastructure:</strong> For large-scale installations requiring multiple 4K NDI feeds, upgrading your infrastructure to a <strong data-path-to-node="33,2,0" data-index-in-node="120">10-Gigabit (10GbE)</strong> managed network switch and utilizing Cat6a ethernet cabling is strictly required to ensure stable, zero-latency transmission.</p>
+</li>
+</ul>

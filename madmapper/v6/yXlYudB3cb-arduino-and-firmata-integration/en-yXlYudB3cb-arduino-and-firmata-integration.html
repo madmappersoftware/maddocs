@@ -1,0 +1,113 @@
+<h1 data-path-to-node="3">Arduino &amp; Firmata Integration</h1>
+<p data-path-to-node="4">MadMapper supports direct, bidirectional communication with physical microcontrollers using the Firmata protocol. This allows you to easily route physical sensors, buttons, and potentiometers directly into MadMapper as control inputs, or send data out from MadMapper to trigger physical hardware like LEDs, motors, and relays.</p>
+<p data-path-to-node="4">&nbsp;</p>
+<div class="alert-banner-notes">
+<h4 data-path-to-node="1">Arduino Software &amp; Guides</h4>
+<ul data-path-to-node="2">
+<li>
+<p data-path-to-node="2,0,0"><strong data-path-to-node="2,0,0" data-index-in-node="0">Arduino IDE Download:</strong> <a class="ng-star-inserted" href="https://www.arduino.cc/en/software" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwj_1ZemxfqTAxUAAAAAHQAAAAAQpQc">https://www.arduino.cc/en/software</a></p>
+</li>
+<li>
+<p data-path-to-node="2,1,0"><strong data-path-to-node="2,1,0" data-index-in-node="0">Arduino Official Documentation &amp; Tutorials:</strong> <a class="ng-star-inserted" href="https://docs.arduino.cc/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwj_1ZemxfqTAxUAAAAAHQAAAAAQpgc">https://docs.arduino.cc/</a></p>
+</li>
+</ul>
+<h4 data-path-to-node="3">Firmata Protocol</h4>
+<ul data-path-to-node="4">
+<li>
+<p data-path-to-node="4,0,0"><strong data-path-to-node="4,0,0" data-index-in-node="0">Firmata Official Website:</strong> <a class="ng-star-inserted" href="https://firmata.org/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwj_1ZemxfqTAxUAAAAAHQAAAAAQpwc">https://firmata.org/</a></p>
+</li>
+<li>
+<p data-path-to-node="4,1,0"><strong data-path-to-node="4,1,0" data-index-in-node="0">Firmata Protocol Documentation (GitHub):</strong> <a class="ng-star-inserted" href="https://github.com/firmata/protocol" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwj_1ZemxfqTAxUAAAAAHQAAAAAQqAc">https://github.com/firmata/protocol</a></p>
+</li>
+<li>
+<p data-path-to-node="4,2,0"><strong data-path-to-node="4,2,0" data-index-in-node="0">Arduino Firmata Library Repository:</strong> <a class="ng-star-inserted" href="https://github.com/firmata/arduino" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwj_1ZemxfqTAxUAAAAAHQAAAAAQqQc">https://github.com/firmata/arduino</a></p>
+</li>
+</ul>
+</div>
+<h2 data-path-to-node="5">Supported Boards &amp; Hardware</h2>
+<ul data-path-to-node="6">
+<li>
+<p data-path-to-node="6,0,0"><strong data-path-to-node="6,0,0" data-index-in-node="0">Universal Compatibility:</strong> While the MadMapper interface explicitly highlights popular boards such as the Arduino Uno, Arduino Mega, and Teensy, the software does not check VendorID or ProductID. Therefore, any connected microcontroller that registers as a valid serial port on your computer will appear as an option.</p>
+</li>
+<li>
+<p data-path-to-node="6,1,0"><strong data-path-to-node="6,1,0" data-index-in-node="0">The Rule of Thumb:</strong> If you can successfully upload the Standard Firmata sketch to your board via the Arduino IDE, you can use it to communicate with MadMapper.</p>
+</li>
+</ul>
+<h2 data-path-to-node="7">Preparing the Microcontroller (Arduino IDE 2.x)</h2>
+<p data-path-to-node="8">Before MadMapper can see your board, you must install the Firmata library onto it.</p>
+<ol start="1" data-path-to-node="9">
+<li>
+<p data-path-to-node="9,0,0">Download and open the latest version of the official <strong data-path-to-node="9,0,0" data-index-in-node="53">Arduino IDE</strong> (Version 2.x or newer).</p>
+</li>
+<li>
+<p data-path-to-node="9,1,0">Connect your Arduino or microcontroller to your computer via USB.</p>
+</li>
+<li>
+<p data-path-to-node="9,2,0">In the new Arduino IDE, look at the top toolbar. Click the <strong data-path-to-node="9,2,0" data-index-in-node="59">Board Selection Dropdown</strong> and select your connected board and its corresponding serial port. <em data-path-to-node="9,2,0" data-index-in-node="151">(Note: Many official Arduino boards will be automatically detected and selected here).</em></p>
+</li>
+<li>
+<p data-path-to-node="9,3,0">Navigate to the top menu and click <strong data-path-to-node="9,3,0" data-index-in-node="35">File &gt; Examples &gt; Firmata &gt; StandardFirmata</strong>.</p>
+<ul data-path-to-node="9,3,1">
+<li>
+<p data-path-to-node="9,3,1,0,0"><em data-path-to-node="9,3,1,0,0" data-index-in-node="0">(Note: If you are using an Arduino Mega or a Teensy, you must select <strong data-path-to-node="9,3,1,0,0" data-index-in-node="69">StandardFirmataPlus</strong> instead)</em>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="9,4,0">Click the <strong data-path-to-node="9,4,0" data-index-in-node="10">Upload</strong> button (the right-pointing arrow in the top-left corner of the toolbar).</p>
+</li>
+<li>
+<p data-path-to-node="9,5,0">Wait for the terminal at the bottom of the screen to display the "Done uploading" message. Once successful, close the Arduino IDE completely.</p>
+</li>
+</ol>
+<h2 data-path-to-node="10">Connecting to MadMapper</h2>
+<p data-path-to-node="11">Once the board is flashed with Firmata, you can connect it to your MadMapper project:</p>
+<ol start="1" data-path-to-node="12">
+<li>
+<p data-path-to-node="12,0,0">Open the <strong data-path-to-node="12,0,0" data-index-in-node="9">Modules</strong> tab (accessible from the top left of the main interface).</p>
+</li>
+<li>
+<p data-path-to-node="12,1,0">Click the <strong data-path-to-node="12,1,0" data-index-in-node="10">+ (Plus)</strong> icon to add a new module and select <strong data-path-to-node="12,1,0" data-index-in-node="55">Firmata</strong>.</p>
+</li>
+<li>
+<p data-path-to-node="12,2,0">In the Firmata module's Configuration settings, use the <strong data-path-to-node="12,2,0" data-index-in-node="56">Port</strong> dropdown to select your board's serial connection (e.g., <code data-path-to-node="12,2,0" data-index-in-node="118">/dev/cu.usbmodem...</code> on Mac or <code data-path-to-node="12,2,0" data-index-in-node="148">COM3</code> on Windows).</p>
+</li>
+<li>
+<p data-path-to-node="12,3,0">Select your exact <strong data-path-to-node="12,3,0" data-index-in-node="18">Model</strong> (e.g., Arduino UNO) from the dropdown.</p>
+</li>
+</ol>
+<h2 data-path-to-node="13">Working with Pins and Modes</h2>
+<p data-path-to-node="14">Once connected, the module will display a list of all available Analog and Digital pins on your board. You can configure each pin's <strong data-path-to-node="14" data-index-in-node="132">Mode</strong> based on what physical component is wired to it:</p>
+<ul data-path-to-node="15">
+<li>
+<p data-path-to-node="15,0,0"><strong data-path-to-node="15,0,0" data-index-in-node="0">Analog Mode:</strong> Use this for variable physical sensors, such as photo-resistors or knobs. Any changes in voltage will instantly reflect in MadMapper as a continuous value.</p>
+</li>
+<li>
+<p data-path-to-node="15,1,0"><strong data-path-to-node="15,1,0" data-index-in-node="0">Input Mode:</strong> Use this for simple digital switches and buttons (e.g., pressed vs. unpressed).</p>
+</li>
+<li>
+<p data-path-to-node="15,2,0"><strong data-path-to-node="15,2,0" data-index-in-node="0">Output Mode:</strong> Use this to send a basic On/Off signal from MadMapper to trigger external hardware (like a relay or a simple LED).</p>
+</li>
+<li>
+<p data-path-to-node="15,3,0"><strong data-path-to-node="15,3,0" data-index-in-node="0">PWM Mode (Pulse Width Modulation):</strong> Use this to send variable data out of MadMapper, such as smoothly dimming an LED's brightness intensity using a slider. <em data-path-to-node="15,3,0" data-index-in-node="155">(Note: On the Arduino UNO specifically, you cannot properly use PWM and Servo modes simultaneously due to hardware timer limitations)</em>.</p>
+</li>
+<li>
+<p data-path-to-node="15,4,0"><strong data-path-to-node="15,4,0" data-index-in-node="0">Servo Mode:</strong> Use this to convert data from MadMapper into physical movement, driving the angle of a connected servo motor.</p>
+</li>
+</ul>
+<h2 data-path-to-node="16">Mapping Firmata Controls</h2>
+<p data-path-to-node="17">You can map any parameter in MadMapper directly to your physical Arduino sensors or actuators using the Control List.</p>
+<ol start="1" data-path-to-node="18">
+<li>
+<p data-path-to-node="18,0,0">Right-click the parameter you want to link in MadMapper, and select <strong data-path-to-node="18,0,0" data-index-in-node="68">Add Control &gt; MadMapper &gt; Firmata</strong>.</p>
+</li>
+<li>
+<p data-path-to-node="18,1,0">Set the <strong data-path-to-node="18,1,0" data-index-in-node="8">Source Device</strong> to Firmata.</p>
+</li>
+<li>
+<p data-path-to-node="18,2,0">Select the specific <strong data-path-to-node="18,2,0" data-index-in-node="20">Channel</strong> that corresponds to your pin (e.g., <code data-path-to-node="18,2,0" data-index-in-node="64">D7 State</code> for a digital button, or <code data-path-to-node="18,2,0" data-index-in-node="98">A0</code> for an analog photo-resistor).</p>
+</li>
+<li>
+<p data-path-to-node="18,3,0">Use the <strong data-path-to-node="18,3,0" data-index-in-node="8">Source Range</strong> and <strong data-path-to-node="18,3,0" data-index-in-node="25">Target Range</strong> sliders to scale the behavior. For example, you can map the <code data-path-to-node="18,3,0" data-index-in-node="98">true/false</code> state of a physical button press to drive a value from <code data-path-to-node="18,3,0" data-index-in-node="164">0</code> to <code data-path-to-node="18,3,0" data-index-in-node="169">255</code>, which could trigger an LED or rotate a servo motor exactly 180 degrees.</p>
+</li>
+</ol>

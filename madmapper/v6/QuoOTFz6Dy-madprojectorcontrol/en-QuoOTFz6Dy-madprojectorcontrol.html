@@ -1,0 +1,43 @@
+<h2 data-path-to-node="10">MadProjectorControl</h2>
+<p data-path-to-node="11">The MadProjectorControl extension allows you to control your video-projectors remotely through the network using the PJLink protocol. You can remotely power your PJLink-enabled projectors on and off, as well as mute their video and audio signal at will. With the help of MadMapper's Calendar Scheduler &amp; Cue Scheduler, you can fully automate your installation, removing the need for a dedicated operator.</p>
+<h3 data-path-to-node="12">Installation &amp; Setup</h3>
+<ul data-path-to-node="13">
+<li>
+<p data-path-to-node="13,0,0"><strong data-path-to-node="13,0,0" data-index-in-node="0">Authorisation:</strong> Within MadMapper, click on the <strong data-path-to-node="13,0,0" data-index-in-node="46">Account</strong> menu in the top bar, then select <strong data-path-to-node="13,0,0" data-index-in-node="87">Manage Authorisations</strong>. Select MadProjector Control and follow the procedure. The admin password of your computer will be asked before restarting.</p>
+</li>
+<li>
+<p data-path-to-node="13,1,0"><strong data-path-to-node="13,1,0" data-index-in-node="0">Adding the Module:</strong> Go to the <strong data-path-to-node="13,1,0" data-index-in-node="29">Modules</strong> tab accessible from the top left of the interface. Click on the icon at the left of the Modules list to add a module and select <strong data-path-to-node="13,1,0" data-index-in-node="165">PJLink</strong>. You must add a PJLink module instance for each projector you want to control.</p>
+</li>
+<li>
+<p data-path-to-node="13,2,0"><strong data-path-to-node="13,2,0" data-index-in-node="0">Network Prerequisites:</strong> For power saving reasons, the projector's network interface may be disabled when the projector is turned off. You may want to disable this power saving feature if MadMapper is supposed to turn on the projector. Once the green LED on the projector's Ethernet connector is lit, you can test connectivity by pinging the projector on the network.</p>
+</li>
+</ul>
+<h3 data-path-to-node="14">Target Configuration</h3>
+<p data-path-to-node="15">Once connected to the same ethernet network, you must setup the <strong data-path-to-node="15" data-index-in-node="64">Target</strong> fields of the module first.</p>
+<ul data-path-to-node="16">
+<li>
+<p data-path-to-node="16,0,0"><strong data-path-to-node="16,0,0" data-index-in-node="0">Device Selection:</strong> Relying on the PJLink discovery protocol, all supported-devices IP addresses will appear in the <strong data-path-to-node="16,0,0" data-index-in-node="114">Device</strong> dropdown list, which can take up to 30 seconds after MadMapper has started.</p>
+</li>
+<li>
+<p data-path-to-node="16,1,0"><strong data-path-to-node="16,1,0" data-index-in-node="0">Manual Setup:</strong> Since the protocol is not supported by all PJLink-enabled devices, you can otherwise manually input the projector IP by selecting <strong data-path-to-node="16,1,0" data-index-in-node="144">Custom Device</strong>.</p>
+</li>
+<li>
+<p data-path-to-node="16,2,0"><strong data-path-to-node="16,2,0" data-index-in-node="0">Security:</strong> Depending on the projector's model and configuration, you may need to enter a password to connect to the device.</p>
+</li>
+</ul>
+<h3 data-path-to-node="17">Controls &amp; Info</h3>
+<p data-path-to-node="18">Once the status becomes connected, you will get access to the Power and Mute Controls.</p>
+<ul data-path-to-node="19">
+<li>
+<p data-path-to-node="19,0,0"><strong data-path-to-node="19,0,0" data-index-in-node="0">Power Behavior:</strong> When changed, the Power button represents the desired power state of the projector. The desired state may not be reached immediately; for example, if the projector is still cooling down, the order will be delayed until it is enabled to be powered on again.</p>
+</li>
+<li>
+<p data-path-to-node="19,1,0"><strong data-path-to-node="19,1,0" data-index-in-node="0">Mute Behavior:</strong> Click the Mute button to mute or unmute both the audio and video of the projector. Video mute can have different effects depending on the projector's technology, such as engaging a motorized physical shutter on older models, or instantly cutting the light-source on newer models. The projector's Mute status will remain blank until the device gets powered on.</p>
+</li>
+<li>
+<p data-path-to-node="19,2,0"><strong data-path-to-node="19,2,0" data-index-in-node="0">Bidirectional Feedback:</strong> In the absence of control changes in the module, the Power and Mute button states will match the actual state of the projector. If the projector gets powered off or muted using the device's physical remote, the PJLink module will eventually update to reflect the new state.</p>
+</li>
+<li>
+<p data-path-to-node="19,3,0"><strong data-path-to-node="19,3,0" data-index-in-node="0">Projector Info:</strong> The Info section will display the projector's Name, Model, Brand, Serial, and Format once the Status becomes connected. The projector's Format will remain blank until the projector is turned on and receives a signal.</p>
+</li>
+</ul>

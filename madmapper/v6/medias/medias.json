@@ -1,11 +1,11 @@
 [
   {
-    "mediaId": "naTB4FiDDs",
-    "filename": "Image Player Example.png",
-    "imgName": "Image Player Example",
+    "mediaId": "EBX5IbZLc4",
+    "filename": "SoftEdge Blending Example.png",
+    "imgName": "SoftEdge Blending Example",
     "ext": "png",
     "mimetype": "",
-    "url": "/Image Player Example.png",
+    "url": "/SoftEdge Blending Example.png",
     "captions": {
       "en": ""
     },
@@ -26,196 +26,21 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-04-17T19:27:17.614Z",
+    "date": "2026-04-20T21:12:23.325Z",
     "pages": [
       {
-        "pageSuid": "tMnKdgps9e",
-        "pageSlug": "video-engine-and-codecs"
+        "pageSuid": "VmE4U2hLeB",
+        "pageSlug": "loopback-and-advanced-output-techniques"
       }
     ]
   },
   {
-    "mediaId": "HQfs7u3skH",
-    "filename": "Hardware Acceleration.png",
-    "imgName": "Hardware Acceleration",
+    "mediaId": "JMytjs2YcY",
+    "filename": "SoftEdge Template Loopback Example.png",
+    "imgName": "SoftEdge Template Loopback Example",
     "ext": "png",
     "mimetype": "",
-    "url": "/Hardware Acceleration.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-17T19:27:54.662Z",
-    "pages": [
-      {
-        "pageSuid": "tMnKdgps9e",
-        "pageSlug": "video-engine-and-codecs"
-      }
-    ]
-  },
-  {
-    "mediaId": "A4NeY0bGDB",
-    "filename": "Media Info Pop Up.png",
-    "imgName": "Media Info Pop Up",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Media Info Pop Up.png",
-    "captions": {
-      "en": "Media info pop up"
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-18T21:16:43.039Z",
-    "pages": [
-      {
-        "pageSuid": "5QNKvdWAvv",
-        "pageSlug": "media-bin"
-      }
-    ]
-  },
-  {
-    "mediaId": "ZqtTt6ID66",
-    "filename": "Movie Player Inspector.png",
-    "imgName": "Movie Player Inspector",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Movie Player Inspector.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-18T21:20:34.473Z",
-    "pages": [
-      {
-        "pageSuid": "5QNKvdWAvv",
-        "pageSlug": "media-bin"
-      }
-    ]
-  },
-  {
-    "mediaId": "3GH8TPemUY",
-    "filename": "Image Player Inspector.png",
-    "imgName": "Image Player Inspector",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Image Player Inspector.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-18T21:21:20.249Z",
-    "pages": [
-      {
-        "pageSuid": "5QNKvdWAvv",
-        "pageSlug": "media-bin"
-      }
-    ]
-  },
-  {
-    "mediaId": "dxliNURcAv",
-    "filename": "ISF Inspector.png",
-    "imgName": "ISF Inspector",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/ISF Inspector.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-18T21:22:05.681Z",
-    "pages": [
-      {
-        "pageSuid": "5QNKvdWAvv",
-        "pageSlug": "media-bin"
-      }
-    ]
-  },
-  {
-    "mediaId": "xDgHqFvi4g",
-    "filename": "Control List.png",
-    "imgName": "Control List",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Control List.png",
+    "url": "/SoftEdge Template Loopback Example.png",
     "captions": {
       "en": ""
     },
@@ -244,21 +69,21 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-04-18T23:54:53.067Z",
+    "date": "2026-04-20T21:14:07.863Z",
     "pages": [
       {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
+        "pageSuid": "VmE4U2hLeB",
+        "pageSlug": "loopback-and-advanced-output-techniques"
       }
     ]
   },
   {
-    "mediaId": "ofdEKmL9x7",
-    "filename": "Control List Top Tool Bar.png",
-    "imgName": "Control List Top Tool Bar",
+    "mediaId": "92x7UYMe5N",
+    "filename": "Loopback Example 2.png",
+    "imgName": "Loopback Example 2",
     "ext": "png",
     "mimetype": "",
-    "url": "/Control List Top Tool Bar.png",
+    "url": "/Loopback Example 2.png",
     "captions": {
       "en": ""
     },
@@ -279,130 +104,21 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-04-18T23:55:56.732Z",
+    "date": "2026-04-20T21:16:19.281Z",
     "pages": [
       {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
+        "pageSuid": "VmE4U2hLeB",
+        "pageSlug": "loopback-and-advanced-output-techniques"
       }
     ]
   },
   {
-    "mediaId": "qD0SCUhAIg",
-    "filename": "MIDI Device Connected Preferences.png",
-    "imgName": "MIDI Device Connected Preferences",
+    "mediaId": "LQVAgUlZFZ",
+    "filename": "MadAI Library.png",
+    "imgName": "MadAI Library",
     "ext": "png",
     "mimetype": "",
-    "url": "/MIDI Device Connected Preferences.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "large",
-        "dimension": 1440
-      },
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-19T18:03:33.201Z",
-    "pages": [
-      {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
-      }
-    ]
-  },
-  {
-    "mediaId": "RU9Dcqi2p1",
-    "filename": "MIDI Device Feedback Preferences.png",
-    "imgName": "MIDI Device Feedback Preferences",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/MIDI Device Feedback Preferences.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-19T18:06:04.050Z",
-    "pages": [
-      {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
-      }
-    ]
-  },
-  {
-    "mediaId": "4AW1XHmfgT",
-    "filename": "MIDI FEEDBACK LOOP.png",
-    "imgName": "MIDI FEEDBACK LOOP",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/MIDI FEEDBACK LOOP.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-19T18:08:35.803Z",
-    "pages": [
-      {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
-      }
-    ]
-  },
-  {
-    "mediaId": "YnBnWRpElE",
-    "filename": "Xbox Game Controller .png",
-    "imgName": "Xbox Game Controller ",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Xbox Game Controller .png",
+    "url": "/MadAI Library.png",
     "captions": {
       "en": ""
     },
@@ -431,161 +147,21 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-04-19T22:56:49.613Z",
+    "date": "2026-04-20T21:24:37.257Z",
     "pages": [
       {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
+        "pageSuid": "Dqo3es5ZOo",
+        "pageSlug": "mad-ai-extension"
       }
     ]
   },
   {
-    "mediaId": "cRQnIl8ymg",
-    "filename": "Assigned MIDI slider.png",
-    "imgName": "Assigned MIDI slider",
+    "mediaId": "V8o5RuQTcm",
+    "filename": "Mad AI Prompting.png",
+    "imgName": "Mad AI Prompting",
     "ext": "png",
     "mimetype": "",
-    "url": "/Assigned MIDI slider.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-19T23:00:03.878Z",
-    "pages": [
-      {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
-      }
-    ]
-  },
-  {
-    "mediaId": "Q1UY7y9i1y",
-    "filename": "Add Control MIDI.png",
-    "imgName": "Add Control MIDI",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Add Control MIDI.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-19T23:01:28.866Z",
-    "pages": [
-      {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
-      }
-    ]
-  },
-  {
-    "mediaId": "rOTD93TFHf",
-    "filename": "MadMapper Learn Mode.png",
-    "imgName": "MadMapper Learn Mode",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/MadMapper Learn Mode.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-19T23:03:05.526Z",
-    "pages": [
-      {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
-      }
-    ]
-  },
-  {
-    "mediaId": "zjO5BzfrTn",
-    "filename": "MadMapper MIDI Preferences.png",
-    "imgName": "MadMapper MIDI Preferences",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/MadMapper MIDI Preferences.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "large",
-        "dimension": 1440
-      },
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-19T23:04:18.016Z",
-    "pages": [
-      {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
-      }
-    ]
-  },
-  {
-    "mediaId": "ZHvWklLytY",
-    "filename": "Keyboard Control.png",
-    "imgName": "Keyboard Control",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Keyboard Control.png",
+    "url": "/Mad AI Prompting.png",
     "captions": {
       "en": ""
     },
@@ -614,56 +190,21 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-04-19T23:25:22.134Z",
+    "date": "2026-04-20T21:25:03.102Z",
     "pages": [
       {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
+        "pageSuid": "Dqo3es5ZOo",
+        "pageSlug": "mad-ai-extension"
       }
     ]
   },
   {
-    "mediaId": "ZeQP3wA5iM",
-    "filename": "Copy OSC Address.png",
-    "imgName": "Copy OSC Address",
+    "mediaId": "0AKvuwamQr",
+    "filename": "MadAI Prompting 2.png",
+    "imgName": "MadAI Prompting 2",
     "ext": "png",
     "mimetype": "",
-    "url": "/Copy OSC Address.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-19T23:26:54.870Z",
-    "pages": [
-      {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
-      }
-    ]
-  },
-  {
-    "mediaId": "stpcZgQrnZ",
-    "filename": "OSC Address Settings.png",
-    "imgName": "OSC Address Settings",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/OSC Address Settings.png",
+    "url": "/MadAI Prompting 2.png",
     "captions": {
       "en": ""
     },
@@ -692,106 +233,21 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-04-19T23:27:16.840Z",
+    "date": "2026-04-20T21:25:30.568Z",
     "pages": [
       {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
+        "pageSuid": "Dqo3es5ZOo",
+        "pageSlug": "mad-ai-extension"
       }
     ]
   },
   {
-    "mediaId": "A8ccDpTtLC",
-    "filename": "Advanced Controls MadMapper.png",
-    "imgName": "Advanced Controls MadMapper",
+    "mediaId": "bihYVSnl4h",
+    "filename": "MadAI New Material.png",
+    "imgName": "MadAI New Material",
     "ext": "png",
     "mimetype": "",
-    "url": "/Advanced Controls MadMapper.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-20T15:45:05.991Z",
-    "pages": [
-      {
-        "pageSuid": "XsSfxYXbiN",
-        "pageSlug": "interface-overview"
-      }
-    ]
-  },
-  {
-    "mediaId": "jRa6Fm8rOF",
-    "filename": "Advanced Controls Updated.png",
-    "imgName": "Advanced Controls Updated",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Advanced Controls Updated.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-20T15:45:52.939Z",
-    "pages": [
-      {
-        "pageSuid": "XsSfxYXbiN",
-        "pageSlug": "interface-overview"
-      }
-    ]
-  },
-  {
-    "mediaId": "NZs5FQ9NPb",
-    "filename": "TouchDesigner TOP Syphon Spout.png",
-    "imgName": "TouchDesigner TOP Syphon Spout",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/TouchDesigner TOP Syphon Spout.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-04-20T15:49:19.762Z",
-    "pages": [
-      {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
-      }
-    ]
-  },
-  {
-    "mediaId": "kSLbFW5X2j",
-    "filename": "SyphoneSpoutOutTOP.png",
-    "imgName": "SyphoneSpoutOutTOP",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/SyphoneSpoutOutTOP.png",
+    "url": "/MadAI New Material.png",
     "captions": {
       "en": ""
     },
@@ -812,21 +268,91 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-04-20T15:49:52.295Z",
+    "date": "2026-04-20T21:27:19.920Z",
     "pages": [
       {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
+        "pageSuid": "Dqo3es5ZOo",
+        "pageSlug": "mad-ai-extension"
       }
     ]
   },
   {
-    "mediaId": "yq9crDZiVO",
-    "filename": "Syphon TouchDesigner MadMapper.png",
-    "imgName": "Syphon TouchDesigner MadMapper",
+    "mediaId": "FwsJS4Fk2z",
+    "filename": "MadAI Code Editor.png",
+    "imgName": "MadAI Code Editor",
     "ext": "png",
     "mimetype": "",
-    "url": "/Syphon TouchDesigner MadMapper.png",
+    "url": "/MadAI Code Editor.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T21:28:23.617Z",
+    "pages": [
+      {
+        "pageSuid": "Dqo3es5ZOo",
+        "pageSlug": "mad-ai-extension"
+      }
+    ]
+  },
+  {
+    "mediaId": "4XY1lr9JHe",
+    "filename": "MadAI Credits.png",
+    "imgName": "MadAI Credits",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadAI Credits.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T21:29:02.100Z",
+    "pages": [
+      {
+        "pageSuid": "Dqo3es5ZOo",
+        "pageSlug": "mad-ai-extension"
+      }
+    ]
+  },
+  {
+    "mediaId": "OuarUec5NY",
+    "filename": "AutoSave UI Menu Toggle.png",
+    "imgName": "AutoSave UI Menu Toggle",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/AutoSave UI Menu Toggle.png",
     "captions": {
       "en": ""
     },
@@ -847,21 +373,21 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-04-20T15:50:20.679Z",
+    "date": "2026-04-20T22:02:31.197Z",
     "pages": [
       {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
+        "pageSuid": "Gr0Qi79QHf",
+        "pageSlug": "project-backup-and-recovery"
       }
     ]
   },
   {
-    "mediaId": "owWdsjH90k",
-    "filename": "TouchDesigner NDI to MadMapper.png",
-    "imgName": "TouchDesigner NDI to MadMapper",
+    "mediaId": "OPQYld5Jpw",
+    "filename": "MadMapper Auto Save Toggle.png",
+    "imgName": "MadMapper Auto Save Toggle",
     "ext": "png",
     "mimetype": "",
-    "url": "/TouchDesigner NDI to MadMapper.png",
+    "url": "/MadMapper Auto Save Toggle.png",
     "captions": {
       "en": ""
     },
@@ -882,21 +408,91 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-04-20T16:02:05.740Z",
+    "date": "2026-04-20T22:04:13.900Z",
     "pages": [
       {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
+        "pageSuid": "Gr0Qi79QHf",
+        "pageSlug": "project-backup-and-recovery"
       }
     ]
   },
   {
-    "mediaId": "AwTL7haIZ3",
-    "filename": "TouchDesigner NDI Out.png",
-    "imgName": "TouchDesigner NDI Out",
+    "mediaId": "NoxvROFoAj",
+    "filename": "AutoSave Preferences.png",
+    "imgName": "AutoSave Preferences",
     "ext": "png",
     "mimetype": "",
-    "url": "/TouchDesigner NDI Out.png",
+    "url": "/AutoSave Preferences.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T22:04:42.886Z",
+    "pages": [
+      {
+        "pageSuid": "Gr0Qi79QHf",
+        "pageSlug": "project-backup-and-recovery"
+      }
+    ]
+  },
+  {
+    "mediaId": "05JxOTvW0b",
+    "filename": "Project Backup Count.png",
+    "imgName": "Project Backup Count",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Project Backup Count.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T22:05:56.267Z",
+    "pages": [
+      {
+        "pageSuid": "Gr0Qi79QHf",
+        "pageSlug": "project-backup-and-recovery"
+      }
+    ]
+  },
+  {
+    "mediaId": "GEtBgTeeqL",
+    "filename": "File Collect External Resources.png",
+    "imgName": "File Collect External Resources",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/File Collect External Resources.png",
     "captions": {
       "en": ""
     },
@@ -917,11 +513,11 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-04-20T16:02:50.157Z",
+    "date": "2026-04-20T22:06:58.022Z",
     "pages": [
       {
-        "pageSuid": "ucH56kc8cM",
-        "pageSlug": "live-performance-and-control"
+        "pageSuid": "Gr0Qi79QHf",
+        "pageSlug": "project-backup-and-recovery"
       }
     ]
   }
