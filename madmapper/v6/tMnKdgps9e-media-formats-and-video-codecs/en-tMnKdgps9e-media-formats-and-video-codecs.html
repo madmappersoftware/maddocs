@@ -91,8 +91,17 @@
 </ul>
 <p><img class="retina" src="Image Player Example.png" width="311" height="608" data-media-id="naTB4FiDDs"></p>
 <h2 data-path-to-node="37">Advanced Image Formats</h2>
-<h3 data-path-to-node="38">EXR (32-bit Floating Point)</h3>
-<p data-path-to-node="39">MadMapper fully supports EXR image files. The software utilizes the FreeImage library to parse the EXR and converts it directly into a 32-bit floating-point format (either Red channel only, or full RGBA 32-bit float). This allows for massive dynamic range and precision, making EXR files exceptionally useful for driving custom shaders or high-end displacement maps.</p>
+<h3 data-path-to-node="4">EXR (32-bit Floating Point)</h3>
+<p data-path-to-node="5">MadMapper fully supports high-dynamic-range EXR image files. The software utilizes the FreeImage library to parse the EXR and converts the data directly into a 32-bit floating-point format for internal rendering. This massive dynamic range and precision makes EXR files exceptionally useful for driving custom shaders, creating high-end displacement maps, or precisely controlling laser variables.</p>
+<p data-path-to-node="6"><strong data-path-to-node="6" data-index-in-node="0">Supported Channels &amp; Conversion:</strong> Depending on your export settings from other software, MadMapper processes EXR files into the following formats:</p>
+<ul data-path-to-node="7">
+<li>
+<p data-path-to-node="7,0,0"><strong data-path-to-node="7,0,0" data-index-in-node="0">Single Channel (Red):</strong> If the EXR is exported as a 64-bit IEEE floating point (<code data-path-to-node="7,0,0" data-index-in-node="78">FIT_DOUBLE</code>), MadMapper will convert and optimize it into a 1-channel, 32-bit float Red image.</p>
+</li>
+<li>
+<p data-path-to-node="7,1,0"><strong data-path-to-node="7,1,0" data-index-in-node="0">Multi-Channel (RGBA):</strong> If the EXR is exported as a 96-bit RGB float (<code data-path-to-node="7,1,0" data-index-in-node="68">FIT_RGBF</code>) or 128-bit RGBA float (<code data-path-to-node="7,1,0" data-index-in-node="101">FIT_RGBAF</code>), MadMapper will convert it directly into a standard 4-channel RGBA 32-bit float image.</p>
+</li>
+</ul>
 <h3 data-path-to-node="40">SVG (Scalable Vector Graphics)</h3>
 <p data-path-to-node="41">MadMapper supports direct SVG imports.</p>
 <ul data-path-to-node="42">

@@ -13,7 +13,7 @@
 <p data-path-to-node="6,1,0"><strong data-path-to-node="6,1,0" data-index-in-node="0">Export Loop section:</strong> Renders only the specific segment of time defined by the active loop brackets on your Conductor timeline.</p>
 </li>
 </ul>
-<p data-path-to-node="7"><strong>Export Video Outputs</strong></p>
+<h4 data-path-to-node="7"><strong>Export Video Outputs</strong></h4>
 <p data-path-to-node="8">This section allows you to render your mapped video outputs into standard video files or image sequences.</p>
 <ul data-path-to-node="9">
 <li>
@@ -42,17 +42,36 @@
 <p data-path-to-node="12,3,0"><strong data-path-to-node="12,3,0" data-index-in-node="0">Image Sequence:</strong> Exports every single frame of your timeline as an individual image file.</p>
 </li>
 </ul>
-<p data-path-to-node="13"><strong>Export Laser &amp; DMX Outputs</strong></p>
-<p data-path-to-node="14">If your project contains hardware control data, you can export these specialized streams alongside your video.</p>
-<ul data-path-to-node="15">
+<h4 data-path-to-node="12">Export Laser &amp; DMX Outputs</h4>
+<p data-path-to-node="13">If your project contains hardware control data, you can export these specialized streams alongside your video.</p>
+<ul data-path-to-node="14">
 <li>
-<p data-path-to-node="15,0,0"><strong data-path-to-node="15,0,0" data-index-in-node="0">Export Laser Outputs:</strong> Bounces your programmed laser paths and generative animations into standard ILDA files for laser playback devices.</p>
+<p data-path-to-node="14,0,0"><strong data-path-to-node="14,0,0" data-index-in-node="0">ILDA Export (Laser Data):</strong> Bounces your programmed laser paths and generative animations into a standard ILDA movie file.</p>
+<ul data-path-to-node="14,0,1">
+<li>
+<p data-path-to-node="14,0,1,0,0"><strong data-path-to-node="14,0,1,0,0" data-index-in-node="0">Compatibility:</strong> Because it writes to the universal ILDA standard, this exported file is fully compatible with any third-party laser control software that supports ILDA movies (such as Pangolin BEYOND or standard show controllers).</p>
 </li>
 <li>
-<p data-path-to-node="15,1,0"><strong data-path-to-node="15,1,0" data-index-in-node="0">Export DMX Output:</strong> Renders your lighting programming into a new MadLight Recorder Sequence. You also have the option to include a synced audio reference track directly with this data.</p>
+<p data-path-to-node="14,0,1,1,0"><strong data-path-to-node="14,0,1,1,0" data-index-in-node="0">High-Resolution Vectorization:</strong> As noted in the Expert Mode settings, utilizing the Timeline export allows you to bypass real-time hardware limitations, enabling you to process massive video vectorization tasks (up to 16k resolution) into flawless ILDA sequences.</p>
 </li>
 </ul>
-<p data-path-to-node="16"><strong>Export Audio Output</strong></p>
+</li>
+<li>
+<p data-path-to-node="14,1,0"><strong data-path-to-node="14,1,0" data-index-in-node="0">DMX Export (Lighting Data):</strong> Renders your lighting programming into a highly optimized, proprietary MadLight Sequence. <em data-path-to-node="14,1,0" data-index-in-node="118">(Note: Because this is a proprietary format, these files cannot be imported into third-party lighting consoles).</em></p>
+<ul data-path-to-node="14,1,1">
+<li>
+<p data-path-to-node="14,1,1,0,0"><strong data-path-to-node="14,1,1,0,0" data-index-in-node="0">Delta Compression:</strong> To keep file sizes highly efficient, the export stores all of your DMX universes together but only records the <em data-path-to-node="14,1,1,0,0" data-index-in-node="130">changes</em> in value over time. The data is then automatically zipped.</p>
+</li>
+<li>
+<p data-path-to-node="14,1,1,1,0"><strong data-path-to-node="14,1,1,1,0" data-index-in-node="0">File Chunking:</strong> The software automatically cuts the export into smaller file chunks. This prevents the export from hitting the standard 32-bit file size limits found on FAT32-formatted USB drives.</p>
+</li>
+<li>
+<p data-path-to-node="14,1,1,2,0"><strong data-path-to-node="14,1,1,2,0" data-index-in-node="0">Optimized Scrubbing:</strong> By splitting the export into smaller files, the time-offset index is built directly into the filenames rather than requiring a massive index at the beginning of a single file. This allows for incredibly fast timeline scrubbing and ensures smooth, low-overhead playback on lightweight standalone hardware (such as Raspberry Pi-based media players).</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 data-path-to-node="13"><strong>Export Audio Output</strong></h4>
 <p data-path-to-node="17">If you need an isolated audio mixdown of your timeline, enable the audio export section.</p>
 <p data-path-to-node="18"><code data-path-to-node="18" data-index-in-node="0"><img class="retina" src="Export Timeline Audio Settings.png" width="667" height="141" data-media-id="JvetMKMYTB"></code></p>
 <ul data-path-to-node="19">
@@ -66,8 +85,8 @@
 <p data-path-to-node="19,2,0"><strong data-path-to-node="19,2,0" data-index-in-node="0">Sample Rate:</strong> Define the audio resolution (e.g., 44100 Hz for standard CD quality).</p>
 </li>
 </ul>
-<p data-path-to-node="20"><strong>Setting the Destination</strong></p>
-<p data-path-to-node="21">At the bottom of the window, verify the <strong data-path-to-node="21" data-index-in-node="40">Export Folder</strong> path.&nbsp;This is the directory on your hard drive where all selected video, audio, ILDA, and DMX files will be generated once you click <strong data-path-to-node="21" data-index-in-node="187">OK</strong>. You can use the browse button on the right to designate a specific folder, or click the reset icon to return to the default MadMapper workspace directory.</p>
+<h4 data-path-to-node="18">Setting the Destination</h4>
+<p data-path-to-node="19">At the bottom of the window, verify the <strong data-path-to-node="19" data-index-in-node="40">Export Folder</strong> path. This is the directory on your hard drive where all selected video, audio, ILDA, and DMX files will be generated once you click OK. You can use the browse button on the right to designate a specific folder, or click the reset icon to return to the default MadMapper workspace directory.</p>
 <figure class="image" contenteditable="false"><img class="retina" src="Export Browse Button.png" width="50" height="62" data-media-id="6Alg0Cfxej">
 <figcaption contenteditable="true">Export Browse Button</figcaption>
 </figure>

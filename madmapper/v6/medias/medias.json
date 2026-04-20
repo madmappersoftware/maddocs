@@ -208,5 +208,721 @@
         "pageSlug": "media-bin"
       }
     ]
+  },
+  {
+    "mediaId": "xDgHqFvi4g",
+    "filename": "Control List.png",
+    "imgName": "Control List",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Control List.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-18T23:54:53.067Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "ofdEKmL9x7",
+    "filename": "Control List Top Tool Bar.png",
+    "imgName": "Control List Top Tool Bar",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Control List Top Tool Bar.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-18T23:55:56.732Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "qD0SCUhAIg",
+    "filename": "MIDI Device Connected Preferences.png",
+    "imgName": "MIDI Device Connected Preferences",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MIDI Device Connected Preferences.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T18:03:33.201Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "RU9Dcqi2p1",
+    "filename": "MIDI Device Feedback Preferences.png",
+    "imgName": "MIDI Device Feedback Preferences",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MIDI Device Feedback Preferences.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T18:06:04.050Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "4AW1XHmfgT",
+    "filename": "MIDI FEEDBACK LOOP.png",
+    "imgName": "MIDI FEEDBACK LOOP",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MIDI FEEDBACK LOOP.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T18:08:35.803Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "YnBnWRpElE",
+    "filename": "Xbox Game Controller .png",
+    "imgName": "Xbox Game Controller ",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Xbox Game Controller .png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T22:56:49.613Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "cRQnIl8ymg",
+    "filename": "Assigned MIDI slider.png",
+    "imgName": "Assigned MIDI slider",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Assigned MIDI slider.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T23:00:03.878Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "Q1UY7y9i1y",
+    "filename": "Add Control MIDI.png",
+    "imgName": "Add Control MIDI",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Add Control MIDI.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T23:01:28.866Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "rOTD93TFHf",
+    "filename": "MadMapper Learn Mode.png",
+    "imgName": "MadMapper Learn Mode",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Learn Mode.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T23:03:05.526Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "zjO5BzfrTn",
+    "filename": "MadMapper MIDI Preferences.png",
+    "imgName": "MadMapper MIDI Preferences",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper MIDI Preferences.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T23:04:18.016Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "ZHvWklLytY",
+    "filename": "Keyboard Control.png",
+    "imgName": "Keyboard Control",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Keyboard Control.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T23:25:22.134Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "ZeQP3wA5iM",
+    "filename": "Copy OSC Address.png",
+    "imgName": "Copy OSC Address",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Copy OSC Address.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T23:26:54.870Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "stpcZgQrnZ",
+    "filename": "OSC Address Settings.png",
+    "imgName": "OSC Address Settings",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/OSC Address Settings.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-19T23:27:16.840Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "A8ccDpTtLC",
+    "filename": "Advanced Controls MadMapper.png",
+    "imgName": "Advanced Controls MadMapper",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Advanced Controls MadMapper.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T15:45:05.991Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "jRa6Fm8rOF",
+    "filename": "Advanced Controls Updated.png",
+    "imgName": "Advanced Controls Updated",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Advanced Controls Updated.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T15:45:52.939Z",
+    "pages": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageSlug": "interface-overview"
+      }
+    ]
+  },
+  {
+    "mediaId": "NZs5FQ9NPb",
+    "filename": "TouchDesigner TOP Syphon Spout.png",
+    "imgName": "TouchDesigner TOP Syphon Spout",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/TouchDesigner TOP Syphon Spout.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T15:49:19.762Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "kSLbFW5X2j",
+    "filename": "SyphoneSpoutOutTOP.png",
+    "imgName": "SyphoneSpoutOutTOP",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/SyphoneSpoutOutTOP.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T15:49:52.295Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "yq9crDZiVO",
+    "filename": "Syphon TouchDesigner MadMapper.png",
+    "imgName": "Syphon TouchDesigner MadMapper",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Syphon TouchDesigner MadMapper.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T15:50:20.679Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "owWdsjH90k",
+    "filename": "TouchDesigner NDI to MadMapper.png",
+    "imgName": "TouchDesigner NDI to MadMapper",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/TouchDesigner NDI to MadMapper.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T16:02:05.740Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
+  },
+  {
+    "mediaId": "AwTL7haIZ3",
+    "filename": "TouchDesigner NDI Out.png",
+    "imgName": "TouchDesigner NDI Out",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/TouchDesigner NDI Out.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-20T16:02:50.157Z",
+    "pages": [
+      {
+        "pageSuid": "ucH56kc8cM",
+        "pageSlug": "live-performance-and-control"
+      }
+    ]
   }
 ]

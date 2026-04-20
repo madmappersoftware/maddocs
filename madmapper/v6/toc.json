@@ -246,7 +246,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": true
+        "publish": false
       },
       {
         "pageSuid": "0yIEG8azhm",
@@ -342,6 +342,25 @@
     "breadcrumb": "Introduction > Discover the Interface > What's New"
   },
   {
+    "pageSuid": "ucH56kc8cM",
+    "pageTitle": "Live Performance & Control",
+    "pageSlug": "live-performance-and-control",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [
+      {
+        "pageSuid": "qmigp9hU0x",
+        "pageTitle": "OSC Commands & Channels List",
+        "pageSlug": "osc-commands-and-channels-list",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      }
+    ],
+    "publish": false
+  },
+  {
     "pageSuid": "r79I9iCia8",
     "pageTitle": "Advanced",
     "pageSlug": "advanced",
@@ -406,15 +425,6 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
-      },
-      {
-        "pageSuid": "qmigp9hU0x",
-        "pageTitle": "OSC Commands & Channels List",
-        "pageSlug": "osc-commands-and-channels-list",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false
       }
     ],
     "publish": false,
