@@ -113,7 +113,17 @@
         "pageSlug": "outputs",
         "pageType": "empty",
         "minorVersion": "0",
-        "subpage": [],
+        "subpage": [
+          {
+            "pageSuid": "VmE4U2hLeB",
+            "pageTitle": "Loopback & Advanced Output Techniques",
+            "pageSlug": "loopback-and-advanced-output-techniques",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          }
+        ],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface"
       },
@@ -246,7 +256,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": true
+        "publish": false
       },
       {
         "pageSuid": "0yIEG8azhm",
@@ -342,12 +352,67 @@
     "breadcrumb": "Introduction > Discover the Interface > What's New"
   },
   {
+    "pageSuid": "ucH56kc8cM",
+    "pageTitle": "Live Performance & Control",
+    "pageSlug": "live-performance-and-control",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [
+      {
+        "pageSuid": "qmigp9hU0x",
+        "pageTitle": "OSC Commands & Channels List",
+        "pageSlug": "osc-commands-and-channels-list",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      }
+    ],
+    "publish": false
+  },
+  {
     "pageSuid": "r79I9iCia8",
     "pageTitle": "Advanced",
     "pageSlug": "advanced",
     "pageType": "empty",
     "minorVersion": "0",
     "subpage": [
+      {
+        "pageSuid": "Dqo3es5ZOo",
+        "pageTitle": "Mad AI Extension",
+        "pageSlug": "mad-ai-extension",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "QuoOTFz6Dy",
+        "pageTitle": "MadProjectorControl",
+        "pageSlug": "madprojectorcontrol",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "2TAm9uScmI",
+        "pageTitle": "Performance Optimization",
+        "pageSlug": "performance-optimization",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "Gr0Qi79QHf",
+        "pageTitle": "Project Backup & Recovery",
+        "pageSlug": "project-backup-and-recovery",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
       {
         "pageSuid": "tMnKdgps9e",
         "pageTitle": "Media Formats & Video Codecs",
@@ -408,9 +473,9 @@
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
       },
       {
-        "pageSuid": "qmigp9hU0x",
-        "pageTitle": "OSC Commands & Channels List",
-        "pageSlug": "osc-commands-and-channels-list",
+        "pageSuid": "yXlYudB3cb",
+        "pageTitle": "Arduino & Firmata Integration",
+        "pageSlug": "arduino-and-firmata-integration",
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
