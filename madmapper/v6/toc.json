@@ -1,12 +1,205 @@
 [
   {
-    "pageSuid": "f3UoO6jWFz",
-    "pageTitle": "The History of Mapping",
-    "pageSlug": "the-history-of-mapping",
-    "pageType": "empty",
+    "pageSuid": "whyBgY7VF1",
+    "pageTitle": "Introduction",
+    "pageSlug": "introduction",
+    "pageType": "card",
     "minorVersion": "0",
-    "subpage": [],
-    "publish": true
+    "subpage": [
+      {
+        "pageSuid": "fGXMx4IhnL",
+        "pageTitle": "MadMapper at a Glance",
+        "pageSlug": "madmapper-at-a-glance",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction"
+      },
+      {
+        "pageSuid": "MCCPIumwP7",
+        "pageTitle": "Extensions & Companions",
+        "pageSlug": "extensions-and-companions",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction"
+      },
+      {
+        "pageSuid": "3HP0yeywsY",
+        "pageTitle": "Sample Projects & Tutorials",
+        "pageSlug": "sample-projects-and-tutorials",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction"
+      },
+      {
+        "pageSuid": "f3UoO6jWFz",
+        "pageTitle": "The History of Mapping",
+        "pageSlug": "the-history-of-mapping",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction"
+      }
+    ],
+    "publish": false,
+    "breadcrumb": ""
+  },
+  {
+    "pageSuid": "XRAg1d7EWb",
+    "pageTitle": "Discover the Interface",
+    "pageSlug": "discover-the-interface",
+    "pageType": "card",
+    "minorVersion": "6",
+    "subpage": [
+      {
+        "pageSuid": "XsSfxYXbiN",
+        "pageTitle": "Interface Overview",
+        "pageSlug": "interface-overview",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
+      },
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageTitle": "Media Bin",
+        "pageSlug": "media-bin",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
+      },
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageTitle": "Video Surfaces",
+        "pageSlug": "video-surfaces",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true,
+        "breadcrumb": "What's New > Getting Started > Discover the interface"
+      },
+      {
+        "pageSuid": "1YGq30hgJF",
+        "pageTitle": "Laser surfaces",
+        "pageSlug": "laser-surfaces",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
+      },
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageTitle": "DMX Fixtures",
+        "pageSlug": "dmx-fixtures",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
+      },
+      {
+        "pageSuid": "WwXLi7xy0e",
+        "pageTitle": "Outputs",
+        "pageSlug": "outputs",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
+      },
+      {
+        "pageSuid": "Zu9lM5wmy5",
+        "pageTitle": "Modules",
+        "pageSlug": "modules",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
+      },
+      {
+        "pageSuid": "T8NLmL3QvA",
+        "pageTitle": "Master Settings",
+        "pageSlug": "master-settings",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": true
+      },
+      {
+        "pageSuid": "Ud4azT40ng",
+        "pageTitle": "Keyboard Shortcuts",
+        "pageSlug": "keyboard-shortcuts",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
+      },
+      {
+        "pageSuid": "JRpYYgJibn",
+        "pageTitle": "MadMapper Preferences",
+        "pageSlug": "madmapper-preferences",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [
+          {
+            "pageSuid": "vmdcYrOGSL",
+            "pageTitle": "Expert Mode",
+            "pageSlug": "expert-mode",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false,
+            "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
+          },
+          {
+            "pageSuid": "voKJvIStfJ",
+            "pageTitle": "MadLaser Preferences",
+            "pageSlug": "madlaser-preferences",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false,
+            "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
+          }
+        ],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
+      },
+      {
+        "pageSuid": "zh2cdkGNYK",
+        "pageTitle": "MadMapper Project File Structure",
+        "pageSlug": "madmapper-project-file-structure",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
+      },
+      {
+        "pageSuid": "qok6q3e9JR",
+        "pageTitle": "Merging Projects",
+        "pageSlug": "merging-projects",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
+      }
+    ],
+    "publish": true,
+    "breadcrumb": "What's New > About MadMapper > Before You Start"
   },
   {
     "pageSuid": "MG8sM211wn",
@@ -41,8 +234,8 @@
   },
   {
     "pageSuid": "VItu9oKKNm",
-    "pageTitle": "Getting Started",
-    "pageSlug": "getting-started",
+    "pageTitle": "Setup, Installation & Technical Notes",
+    "pageSlug": "setup-installation-and-technical-notes",
     "pageType": "card",
     "minorVersion": "6",
     "subpage": [
@@ -99,7 +292,7 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": true
           },
           {
             "pageSuid": "B7iL0PtpSL",
@@ -145,88 +338,117 @@
         "breadcrumb": "What's New > About MadMapper > Getting Started"
       }
     ],
-    "publish": true,
-    "breadcrumb": "What's New > About MadMapper"
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface > What's New"
   },
   {
-    "pageSuid": "XRAg1d7EWb",
-    "pageTitle": "Discover the interface",
-    "pageSlug": "discover-the-interface",
-    "pageType": "card",
-    "minorVersion": "6",
+    "pageSuid": "r79I9iCia8",
+    "pageTitle": "Advanced",
+    "pageSlug": "advanced",
+    "pageType": "empty",
+    "minorVersion": "0",
     "subpage": [
       {
-        "pageSuid": "XsSfxYXbiN",
-        "pageTitle": "Interface Overview",
-        "pageSlug": "interface-overview",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > Getting Started > Discover the interface"
-      },
-      {
-        "pageSuid": "5QNKvdWAvv",
-        "pageTitle": "Media Bin",
-        "pageSlug": "media-bin",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
-      },
-      {
-        "pageSuid": "7Wad2UTltR",
-        "pageTitle": "Video Surfaces",
-        "pageSlug": "video-surfaces",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > Getting Started > Discover the interface"
-      },
-      {
-        "pageSuid": "cyHfGqwmSP",
-        "pageTitle": "DMX Fixtures",
-        "pageSlug": "dmx-fixtures",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
-      },
-      {
-        "pageSuid": "1YGq30hgJF",
-        "pageTitle": "Laser surfaces",
-        "pageSlug": "laser-surfaces",
+        "pageSuid": "tMnKdgps9e",
+        "pageTitle": "Media Formats & Video Codecs",
+        "pageSlug": "media-formats-and-video-codecs",
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > Getting Started > Discover the interface"
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
       },
       {
-        "pageSuid": "Zu9lM5wmy5",
-        "pageTitle": "Modules",
-        "pageSlug": "modules",
+        "pageSuid": "pXmh5m3VrT",
+        "pageTitle": "GLSL Shader Functions Reference",
+        "pageSlug": "glsl-shader-functions-reference",
         "pageType": "empty",
-        "minorVersion": "6",
+        "minorVersion": "0",
         "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
       },
       {
-        "pageSuid": "T8NLmL3QvA",
-        "pageTitle": "Master Settings",
-        "pageSlug": "master-settings",
+        "pageSuid": "4PzWJjlTxq",
+        "pageTitle": "DMX Fixture Definitions",
+        "pageSlug": "dmx-fixture-definitions",
         "pageType": "empty",
-        "minorVersion": "6",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
+      },
+      {
+        "pageSuid": "AF72MZ0gEb",
+        "pageTitle": "DMX: Import / Export from SVG",
+        "pageSlug": "dmx:-import-export-from-svg",
+        "pageType": "empty",
+        "minorVersion": "0",
         "subpage": [],
         "publish": true
+      },
+      {
+        "pageSuid": "JlnYYvfMmj",
+        "pageTitle": "Online Material Library",
+        "pageSlug": "online-material-library",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
+      },
+      {
+        "pageSuid": "eK1P14xklL",
+        "pageTitle": "Timeline Export",
+        "pageSlug": "timeline-export",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
+      },
+      {
+        "pageSuid": "qmigp9hU0x",
+        "pageTitle": "OSC Commands & Channels List",
+        "pageSlug": "osc-commands-and-channels-list",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
       }
     ],
-    "publish": true,
-    "breadcrumb": "What's New > About MadMapper > Before You Start"
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes"
+  },
+  {
+    "pageSuid": "nVh3znXLrj",
+    "pageTitle": "Troubleshooting",
+    "pageSlug": "troubleshooting",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [
+      {
+        "pageSuid": "9ltSMj3Lbn",
+        "pageTitle": "Getting Support",
+        "pageSlug": "getting-support",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced > Troubleshooting"
+      },
+      {
+        "pageSuid": "7voYoNLUQW",
+        "pageTitle": "Updating from MadMapper 5",
+        "pageSlug": "updating-from-madmapper-5",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced > Troubleshooting"
+      }
+    ],
+    "publish": true
   },
   {
     "pageSuid": "adDlVVcHKA",
@@ -239,31 +461,12 @@
     "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
   },
   {
-    "pageSuid": "nVh3znXLrj",
-    "pageTitle": "Troubleshooting",
-    "pageSlug": "troubleshooting",
-    "pageType": "empty",
-    "minorVersion": "0",
-    "subpage": [],
-    "publish": true
-  },
-  {
     "pageSuid": "SHnUKVrkbF",
     "pageTitle": "About MadMapper",
     "pageSlug": "about-madmapper",
     "pageType": "card",
     "minorVersion": "6",
     "subpage": [
-      {
-        "pageSuid": "fGXMx4IhnL",
-        "pageTitle": "Meet MadMapper",
-        "pageSlug": "meet-madmapper",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > MadMapper Legacy"
-      },
       {
         "pageSuid": "hY3zyDQlLz",
         "pageTitle": "MadMapper History",
