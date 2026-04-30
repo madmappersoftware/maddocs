@@ -551,5 +551,2055 @@
         "pageSlug": "online-material-library"
       }
     ]
+  },
+  {
+    "mediaId": "TY1gyATnf5",
+    "filename": "Scenes and Cues.png",
+    "imgName": "Scenes and Cues",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Scenes and Cues.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-28T20:02:12.730Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "vEpFBrQvlv",
+    "filename": "Right-Click on a Scene Options.png",
+    "imgName": "Right-Click on a Scene Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Right-Click on a Scene Options.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:30:42.672Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "DNdIPiZONA",
+    "filename": "Right-Click on a Cue Options.png",
+    "imgName": "Right-Click on a Cue Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Right-Click on a Cue Options.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:31:18.206Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "xfdsV3lKrh",
+    "filename": "Scenes and Cues.png",
+    "imgName": "Scenes and Cues",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Scenes and Cues.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:33:20.097Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "VC4gnkStWR",
+    "filename": "Scenes and Cues Layout Example.png",
+    "imgName": "Scenes and Cues Layout Example",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Scenes and Cues Layout Example.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:34:12.695Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "IYE4hqgO4n",
+    "filename": "Scene Three Dots Settings.png",
+    "imgName": "Scene Three Dots Settings",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Scene Three Dots Settings.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:37:23.010Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "btG4WxfEpN",
+    "filename": "Scene Three Dots Settings.png",
+    "imgName": "Scene Three Dots Settings",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Scene Three Dots Settings.png",
+    "captions": {
+      "en": "Individual Scene Settings"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:39:34.123Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "MfuWdLrOID",
+    "filename": "Cue Three Dots Settings.png",
+    "imgName": "Cue Three Dots Settings",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Cue Three Dots Settings.png",
+    "captions": {
+      "en": "Individual Cue Settings"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:39:55.763Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "2MJtObq5Ep",
+    "filename": "Scenes and Cues Inspector Options.png",
+    "imgName": "Scenes and Cues Inspector Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Scenes and Cues Inspector Options.png",
+    "captions": {
+      "en": "Scenes and Cues Inspector Options"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:41:29.906Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "IVfmwEAwBP",
+    "filename": "Scenes and Cues Edit Options.png",
+    "imgName": "Scenes and Cues Edit Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Scenes and Cues Edit Options.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:42:33.600Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "WR4xx7Tzkg",
+    "filename": "Scenes and Cues Edit Button.png",
+    "imgName": "Scenes and Cues Edit Button",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Scenes and Cues Edit Button.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:44:32.202Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "Ta8U3v2WPj",
+    "filename": "Scenes And Cues Timeline Track Edit.png",
+    "imgName": "Scenes And Cues Timeline Track Edit",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Scenes And Cues Timeline Track Edit.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:46:03.445Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "usFPdNWVp5",
+    "filename": "Toggle Inspector Timeline Button.png",
+    "imgName": "Toggle Inspector Timeline Button",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Toggle Inspector Timeline Button.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:49:36.227Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "BuL4S9Gi3j",
+    "filename": "Selected Track Inspector Values.png",
+    "imgName": "Selected Track Inspector Values",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Selected Track Inspector Values.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T00:50:29.973Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "tkxTnd647L",
+    "filename": "Animate Timeline Button.png",
+    "imgName": "Animate Timeline Button",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Animate Timeline Button.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:00:15.651Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "mRm97CkIiE",
+    "filename": "New Scene Cue Timeline.png",
+    "imgName": "New Scene Cue Timeline",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/New Scene Cue Timeline.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:01:51.864Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "XFyfxUFVzq",
+    "filename": "Timeline Size Adjustment.png",
+    "imgName": "Timeline Size Adjustment",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline Size Adjustment.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:09:44.220Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "THaUhkoYGs",
+    "filename": "Timeline Track Filters.png",
+    "imgName": "Timeline Track Filters",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline Track Filters.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:11:47.980Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "E6fntxmkpx",
+    "filename": "Timeline Setting Options (three dots).png",
+    "imgName": "Timeline Setting Options (three dots)",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline Setting Options (three dots).png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:12:22.956Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "2aB4CIxXBX",
+    "filename": "Timeline View Time Options.png",
+    "imgName": "Timeline View Time Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline View Time Options.png",
+    "captions": {
+      "en": "Timeline View Time Options"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:13:37.860Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "yQWPd1trxH",
+    "filename": "Timeline Settings Options (...).png",
+    "imgName": "Timeline Settings Options (...)",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline Settings Options (...).png",
+    "captions": {
+      "en": "Timeline Settings Options (three dots)"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:14:33.793Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "vD1wT98O4z",
+    "filename": "Right-Click on Timeline for more options..png",
+    "imgName": "Right-Click on Timeline for more options.",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Right-Click on Timeline for more options..png",
+    "captions": {
+      "en": "Right Click Timeline For More Options"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:16:12.903Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "ndF4Kt9iBj",
+    "filename": "Selecting Keyframe interpolation options.png",
+    "imgName": "Selecting Keyframe interpolation options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Selecting Keyframe interpolation options.png",
+    "captions": {
+      "en": "Keyframe Interpolation Options"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:17:08.505Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "BKOHloo5PI",
+    "filename": "Timeline New Track Options.png",
+    "imgName": "Timeline New Track Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline New Track Options.png",
+    "captions": {
+      "en": "Timeline New Track Options"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:17:59.163Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "kl8Wqq4afl",
+    "filename": "Right-Click on TimelineClip Scene or Cue Options.png",
+    "imgName": "Right-Click on TimelineClip Scene or Cue Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Right-Click on TimelineClip Scene or Cue Options.png",
+    "captions": {
+      "en": "Right-Click on TimelineClip Scene or Cue Options"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:19:18.683Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "HNLjFmkuvd",
+    "filename": "Timeline Player Scenes.png",
+    "imgName": "Timeline Player Scenes",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline Player Scenes.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:21:57.708Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "wIFkGRO4ZA",
+    "filename": "Timeline Player Scenes and Cues Add.png",
+    "imgName": "Timeline Player Scenes and Cues Add",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline Player Scenes and Cues Add.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-29T01:24:33.098Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "K4Hp2fhFgI",
+    "filename": "MadMapper Keyframes and Track.png",
+    "imgName": "MadMapper Keyframes and Track",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Keyframes and Track.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:01:56.803Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "1FbTxsXU21",
+    "filename": "Record Keyframe Button.png",
+    "imgName": "Record Keyframe Button",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Record Keyframe Button.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:02:27.015Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "YWQw1ZfwVh",
+    "filename": "Add Keyframe.png",
+    "imgName": "Add Keyframe",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Add Keyframe.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:02:59.088Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "MANXBlZFQ0",
+    "filename": "Double Click to Add Keyframe Point.png",
+    "imgName": "Double Click to Add Keyframe Point",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Double Click to Add Keyframe Point.png",
+    "captions": {
+      "en": "Double Click to Add Keyframe Point"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:03:46.057Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "MyYCZRWJt9",
+    "filename": "Keyframe Curves and Bezier.png",
+    "imgName": "Keyframe Curves and Bezier",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Keyframe Curves and Bezier.png",
+    "captions": {
+      "en": "Keyframe Curves and Bezier"
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:06:22.298Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "GYWMyDNJNk",
+    "filename": "Right-Click Select Montage Options.png",
+    "imgName": "Right-Click Select Montage Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Right-Click Select Montage Options.png",
+    "captions": {
+      "en": "Right-Click Select Montage Options"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:08:41.401Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "LyDinHHjfT",
+    "filename": "Right-Click on Movie Clip Options.png",
+    "imgName": "Right-Click on Movie Clip Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Right-Click on Movie Clip Options.png",
+    "captions": {
+      "en": "Right-Click Select Movie Clip Options"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:09:11.730Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "7vk5vkWxsg",
+    "filename": "Montage Track Inspector Options.png",
+    "imgName": "Montage Track Inspector Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Montage Track Inspector Options.png",
+    "captions": {
+      "en": "Montage Track Inspector Options"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:10:32.245Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "Qk2xUKEeDo",
+    "filename": "Montage Track Example.png",
+    "imgName": "Montage Track Example",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Montage Track Example.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:14:25.574Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "dnxOUuURWz",
+    "filename": "Clip Cross Fade Icon.png",
+    "imgName": "Clip Cross Fade Icon",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Clip Cross Fade Icon.png",
+    "captions": {
+      "en": "Clip Cross Fade Icon"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:16:47.146Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "abyCCJuofQ",
+    "filename": "Right-Click Create Clip.png",
+    "imgName": "Right-Click Create Clip",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Right-Click Create Clip.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:27:39.157Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "LcIgtwvRgM",
+    "filename": "Clip Inspector.png",
+    "imgName": "Clip Inspector",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Clip Inspector.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:28:26.432Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "Rg4ZhhmPOr",
+    "filename": "Audio Tracks in MadMapper.png",
+    "imgName": "Audio Tracks in MadMapper",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Audio Tracks in MadMapper.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:34:26.746Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "XCpUK6WMsL",
+    "filename": "Right-Click on Audio File Options.png",
+    "imgName": "Right-Click on Audio File Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Right-Click on Audio File Options.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:35:12.738Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "iqJXZriHJQ",
+    "filename": "Audio Spectrum as Background.png",
+    "imgName": "Audio Spectrum as Background",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Audio Spectrum as Background.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:39:40.066Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "8w54W9jh3I",
+    "filename": "Audio Waveform.png",
+    "imgName": "Audio Waveform",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Audio Waveform.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:40:36.191Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "DA78B6QJpH",
+    "filename": "Audio Spectrum.png",
+    "imgName": "Audio Spectrum",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Audio Spectrum.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:40:36.203Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "hGyXMRcv3Q",
+    "filename": "Audio Spectrum .png",
+    "imgName": "Audio Spectrum ",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Audio Spectrum .png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:41:16.232Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "5EkGToinLR",
+    "filename": "Timeline Audio Clip Inspector.png",
+    "imgName": "Timeline Audio Clip Inspector",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline Audio Clip Inspector.png",
+    "captions": {
+      "en": "Timeline Audio Clip Inspector"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:41:55.106Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "OMoroMTrVg",
+    "filename": "Audio Track Inspector Options and Routing as well as background preview.png",
+    "imgName": "Audio Track Inspector Options and Routing as well as background preview",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Audio Track Inspector Options and Routing as well as background preview.png",
+    "captions": {
+      "en": "Audio Track Inspector"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:42:56.571Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "8WcVQbg7nF",
+    "filename": "Track Inspector Location.png",
+    "imgName": "Track Inspector Location",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Track Inspector Location.png",
+    "captions": {
+      "en": "Track Inspector Location"
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:45:09.066Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "RdMYaJ4sw5",
+    "filename": "Timeline New OSC Track Options.png",
+    "imgName": "Timeline New OSC Track Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline New OSC Track Options.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:46:10.546Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "PmReNWIVQt",
+    "filename": "OSC Track Inspector Options.png",
+    "imgName": "OSC Track Inspector Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/OSC Track Inspector Options.png",
+    "captions": {
+      "en": "OSC Track Inspector"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:47:15.658Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "SZ87BP0Nzr",
+    "filename": "Timeline New MIDI Track Options.png",
+    "imgName": "Timeline New MIDI Track Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline New MIDI Track Options.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:47:53.251Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "VW3QVrzX50",
+    "filename": "MIDI Track Inspector Options.png",
+    "imgName": "MIDI Track Inspector Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MIDI Track Inspector Options.png",
+    "captions": {
+      "en": "MIDI Track Inspector"
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:48:24.532Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "8gmnUpCEiO",
+    "filename": "Marker Three Dots Time Display.png",
+    "imgName": "Marker Three Dots Time Display",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Marker Three Dots Time Display.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:49:26.570Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "yCbrxPepuS",
+    "filename": "Marker Options.png",
+    "imgName": "Marker Options",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Marker Options.png",
+    "captions": {
+      "en": "Marker / Flag options"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:50:05.789Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "JnVhhyicGP",
+    "filename": "Marker Default Actions.png",
+    "imgName": "Marker Default Actions",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Marker Default Actions.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:51:21.719Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "dMLOXX58sv",
+    "filename": "Marker Follow Actions.png",
+    "imgName": "Marker Follow Actions",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Marker Follow Actions.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:51:43.304Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "cDEpyvuUa0",
+    "filename": "Types of Marker Actions.png",
+    "imgName": "Types of Marker Actions",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Types of Marker Actions.png",
+    "captions": {
+      "en": "Types of Marker Actions"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:53:34.781Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "H5VWLhhyR8",
+    "filename": "Add Marker Icon.png",
+    "imgName": "Add Marker Icon",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Add Marker Icon.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-04-30T22:59:40.384Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
   }
 ]

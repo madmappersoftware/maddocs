@@ -1,0 +1,38 @@
+<h2><span class="md-plain md-expand">Loopbacks and Advanced Techniques</span></h2>
+<p class="md-end-block md-p"><span class="md-plain">In MadMapper, you can use internal loopbacks to build an advanced visual pipeline for more complex setups. This approach is especially useful when you want to reuse rendered output, chain multiple processing stages, or create layered cueing systems for live playback.</span></p>
+<p class="md-end-block md-p md-focus"><span class="md-plain">The process of creating loopbacks is relatively straightforward, but the techniques below can help streamline your projects and simplify more advanced cueing and timeline-based workflows.</span></p>
+<h3><span class="md-plain">Suggested examples to follow</span></h3>
+<ul class="ul-list" data-mark="-">
+<li class="md-list-item">
+<p class="md-end-block md-p"><span class="md-plain">Building a multi-stage projection mapping chain.</span></p>
+</li>
+<li class="md-list-item"><span class="md-plain">Video mixing between different sources (Live Input, Cameras, Multimedia, Generators).</span></li>
+<li class="md-list-item">
+<p class="md-end-block md-p"><span class="md-plain">Reusing one mapped surface as the source for another.</span></p>
+</li>
+<li class="md-list-item">
+<p class="md-end-block md-p"><span class="md-plain">Creating recursive or feedback-style visuals.</span></p>
+</li>
+<li class="md-list-item">
+<p class="md-end-block md-p"><span class="md-plain">Organizing a cue-based playback system with layered outputs.</span></p>
+</li>
+<li class="md-list-item">
+<p class="md-end-block md-p"><span class="md-plain">Adding processing steps between content playback and final output.</span></p>
+</li>
+</ul>
+<h3><span class="md-plain">Why use loopbacks</span></h3>
+<p class="md-end-block md-p"><span class="md-plain">Loopbacks are most useful when a simple source-to-output path is not enough. They let you treat MadMapper more like a modular pipeline, where each stage can be processed, remapped, or repurposed before reaching the final display.</span></p>
+<p class="md-end-block md-p">&nbsp;</p>
+<p class="md-end-block md-p"><span class="md-plain">Video Loopback Template Example:</span></p>
+<p class="md-end-block md-p"><span class="md-plain">Let's say you are distributing a single video between four projectors. You could have the output mapping for each projector pull directly from a single video source, but if you change the source media to something with a different aspect ratio or using the same layers, you might see the clip jump from one source to another, or part of the image may be off screen. By using an intermediary source layer (loopback) to send to your projectors, you can blend multiple videos or sources and publish them to the same output. Add fades, and layer changes to the video buffer layer, all while locking to make sure that your output Mapping to the four projectors remains unchanged.</span></p>
+<p class="md-end-block md-p">&nbsp;</p>
+<p class="md-end-block md-p"><span class="md-plain">Here are the steps below to create this pipeline example.</span></p>
+<p class="md-end-block md-p">&nbsp;</p>
+<p class="md-end-block md-p"><span class="md-plain">Start by creating a new project and select From Template &gt; SoftEdge Blending 4 Outputs Example.</span></p>
+<p class="md-end-block md-p"><span class="md-plain"><img class="retina" src="SoftEdge Blending Example.png" width="400" height="289" data-media-id="EBX5IbZLc4"></span></p>
+<p class="md-end-block md-p"><span class="md-plain">From here, you can see an example of a loopback being used to split a single source image and split to four different outputs (projectors).</span></p>
+<p class="md-end-block md-p"><span class="md-plain"><img class="retina" src="SoftEdge Template Loopback Example.png" width="800" height="357" data-media-id="JMytjs2YcY"></span></p>
+<p class="md-end-block md-p">&nbsp;</p>
+<p class="md-end-block md-p"><span class="md-plain">If I trigger a different cue, the media is changing, but the projector input &amp; output mapping remains the same.</span></p>
+<p class="md-end-block md-p"><span class="md-plain"><img class="retina" src="Loopback Example 2.png" width="800" height="669" data-media-id="92x7UYMe5N"></span></p>
+<p class="md-end-block md-p">&nbsp;</p>
