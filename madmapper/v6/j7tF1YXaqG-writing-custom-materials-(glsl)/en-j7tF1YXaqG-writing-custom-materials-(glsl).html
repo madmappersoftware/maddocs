@@ -1,0 +1,120 @@
+<h1 data-path-to-node="2">Writing Custom Materials (GLSL)</h1>
+<p data-path-to-node="3">MadMapper Materials are generative, animated visuals rendered directly on the screen by your computer's GPU. While you can use the Mad AI extension to generate materials using text prompts, you also have the ability to write or modify the raw GLSL (OpenGL Shading Language) code yourself.</p>
+<p data-path-to-node="4">MadMapper Materials are based on the standard ISF (Interactive Shader Format) specification. However, because they are rendered directly onto MadMapper's output surfaces (Quads, 3D Surfaces, Lines, Fixtures) rather than just a flat texture, MadMapper utilizes a specific boilerplate and offers several powerful custom extensions.</p>
+<p data-path-to-node="4">&nbsp;</p>
+<div class="alert-banner-notes">
+<p data-path-to-node="4">See the <a class="int-link" href="glsl-shader-functions-reference" data-page-suid="undefined" data-product-slug="madmapper" data-product-version="6">GLSL Shader Functions Reference</a> for more code examples.</p>
+</div>
+<h2 data-path-to-node="5">Accessing the Code Editor</h2>
+<p data-path-to-node="6">Writing code in the editor is very similar to using Mad AI to create a new shader.</p>
+<ol start="1" data-path-to-node="7">
+<li>
+<p data-path-to-node="7,0,0">Navigate to the Media Bin and open the Materials section.</p>
+</li>
+<li>
+<p data-path-to-node="7,1,0">Click the + (Plus) button to create a new material.</p>
+</li>
+<li>
+<p data-path-to-node="7,2,0">You can either start with a blank material, or if you are using Mad AI, you can toggle directly from the AI interface over to the raw Code Editor to manually tweak the math the AI generated.</p>
+</li>
+</ol>
+<div class="alert-banner-tips">
+<p>Check out the <a class="int-link" href="advanced">MadAI Extension documentation</a> to get up and running quickly.</p>
+</div>
+<h2 data-path-to-node="8">The Basic Boilerplate</h2>
+<p data-path-to-node="9">Unlike a standard GLSL shader that uses a "void main" function, MadMapper fragment shaders require you to implement a specific function called "materialColorForPixel". This function must return a vec4 color based on a 2D texture coordinate.</p>
+<p data-path-to-node="10">Here is the most basic boilerplate for a MadMapper material:</p>
+<p></p>
+<div class="code-block ng-tns-c3933017335-84 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQqgE">
+<div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-84 ng-star-inserted"><span class="ng-tns-c3933017335-84">OpenGL Shading Language</span>
+<div class="buttons ng-tns-c3933017335-84 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-84 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-84 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+</div>
+
+<div class="formatted-code-block-internal-container ng-tns-c3933017335-84">
+<div class="animated-opacity ng-tns-c3933017335-84">
+<pre class="ng-tns-c3933017335-84"><code class="code-container formatted ng-tns-c3933017335-84" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
+    "CREDIT": "Your Name",
+    "TAGS": "Generative, Custom",
+    "INPUTS": []
+}*/</span>
+
+<span class="hljs-comment">// texCoord is the texture coordinate (position in the input media for this pixel)</span>
+<span class="hljs-type">vec4</span> materialColorForPixel(<span class="hljs-type">vec2</span> texCoord) {
+    <span class="hljs-comment">// Returns a solid red color (Red, Green, Blue, Alpha)</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-type">vec4</span>(<span class="hljs-number">1.0</span>, <span class="hljs-number">0.0</span>, <span class="hljs-number">0.0</span>, <span class="hljs-number">1.0</span>); 
+}
+</code></pre>
+</div>
+</div>
+</div>
+<p></p>
+<h2 data-path-to-node="12">Exposing UI Parameters (Inputs)</h2>
+<p data-path-to-node="13">To control your shader live, you can declare INPUTS inside the JSON header block at the top of your file. MadMapper will automatically read this JSON and build the corresponding sliders, buttons, and color pickers in the Inspector.</p>
+<ul data-path-to-node="14">
+<li>
+<p data-path-to-node="14,0,0">Naming Convention: Always start your variable names with "mat_" (e.g., mat_speed or mat_color). This prevents your variables from conflicting with MadMapper's internal Surface FX code.</p>
+</li>
+<li>
+<p data-path-to-node="14,1,0">Supported Types: You can create parameters of type float, int, bool (checkbox), color, and floatRange (a min/max slider).</p>
+</li>
+<li>
+<p data-path-to-node="14,2,0">UI Flags: You can alter how the UI looks using the FLAGS parameter. For example, assigning "FLAGS": "button" to a boolean turns the checkbox into a push-button. Assigning "FLAGS": "no_alpha" to a color input removes the transparency slider.</p>
+</li>
+<li>
+<p data-path-to-node="14,3,0">Grouping: You can organize your parameters into clean folders in the Inspector by adding a forward slash to the LABEL. For example, "LABEL": "Noise/Speed" will put the Speed slider inside a "Noise" group.</p>
+</li>
+</ul>
+<p data-path-to-node="15">Example of an Input Variable:</p>
+<p></p>
+<div class="code-block ng-tns-c3933017335-85 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQqwE">
+<div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-85 ng-star-inserted"><span class="ng-tns-c3933017335-85">JSON</span>
+<div class="buttons ng-tns-c3933017335-85 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-85 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-85 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+</div>
+
+<div class="formatted-code-block-internal-container ng-tns-c3933017335-85">
+<div class="animated-opacity ng-tns-c3933017335-85">
+<pre class="ng-tns-c3933017335-85"><code class="code-container formatted ng-tns-c3933017335-85" role="text" data-test-id="code-content">{
+    <span class="hljs-attr">"LABEL"</span>: <span class="hljs-string">"Global/My Speed"</span>,
+    <span class="hljs-attr">"NAME"</span>: <span class="hljs-string">"mat_speed"</span>,
+    <span class="hljs-attr">"TYPE"</span>: <span class="hljs-string">"float"</span>,
+    <span class="hljs-attr">"MIN"</span>: <span class="hljs-number">0.0</span>,
+    <span class="hljs-attr">"MAX"</span>: <span class="hljs-number">1.0</span>,
+    <span class="hljs-attr">"DEFAULT"</span>: <span class="hljs-number">0.5</span>
+}
+</code></pre>
+</div>
+</div>
+</div>
+<p></p>
+<h2 data-path-to-node="17">Built-In Variables &amp; Macros</h2>
+<p data-path-to-node="18">MadMapper automatically provides several global variables to your shader, following the ISF specification:</p>
+<ul data-path-to-node="19">
+<li>
+<p data-path-to-node="19,0,0">TIME: The elapsed time in seconds.</p>
+</li>
+<li>
+<p data-path-to-node="19,1,0">TIMEDELTA: The time passed since the last frame.</p>
+</li>
+<li>
+<p data-path-to-node="19,2,0">RENDERSIZE: The dimensions of the output (Note: this is only valid if you enable "Render to Texture" in the material settings, as standard materials do not have a fixed pixel resolution).</p>
+</li>
+</ul>
+<h3 data-path-to-node="20">Audio Reactivity</h3>
+<p data-path-to-node="21">You can easily pass audio data directly into your shader code using the audioFFT (spectrum) or audio (waveform) input types. MadMapper allows you to define the SIZE of the frequency bands and apply internal ATTACK, DECAY, and RELEASE smoothing filters directly in the JSON header.</p>
+<h2 data-path-to-node="22">Generators (Solving the "TIME" Problem)</h2>
+<p data-path-to-node="23">If you animate a shape by multiplying TIME by a user-controlled mat_speed slider, changing the speed live will cause the animation to jump wildly (because the total multiplier suddenly shifts).</p>
+<p data-path-to-node="24">To solve this, MadMapper introduced Generators. Instead of doing the math in GLSL, you declare a time_base generator in your JSON header. MadMapper will calculate a smooth, continuously increasing value based on your speed, and pass that perfect value into your shader as a variable.</p>
+<p data-path-to-node="25">Generators can also be synced perfectly to the application's global tempo by setting "bpm_sync": true.</p>
+<h2 data-path-to-node="26">Included Libraries</h2>
+<p data-path-to-node="27">MadMapper bundles highly optimized open-source math libraries directly into the software. You do not need to write complex noise algorithms from scratch; simply include them at the top of your shader code (after the JSON header) using standard include statements.</p>
+<ul data-path-to-node="28">
+<li>
+<p data-path-to-node="28,0,0">MadCommon: Provides constants like PI, and essential color conversion functions like rgb2hsv and hsv2rgb.</p>
+</li>
+<li>
+<p data-path-to-node="28,1,0">MadNoise: Provides incredibly powerful 2D and 3D noises, including vnoise, simplex noise, worleyNoise, flowNoise, fBm (Fractal Brownian Motion), and curlNoise.</p>
+</li>
+<li>
+<p data-path-to-node="28,2,0">MadSDF: Provides a library of Signed Distance Field math, making it exceptionally easy to draw crisp 2D shapes mathematically.</p>
+</li>
+</ul>

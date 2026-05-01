@@ -2601,5 +2601,292 @@
         "pageSlug": "timelines"
       }
     ]
+  },
+  {
+    "mediaId": "Qfxrciqe2d",
+    "filename": "Editing Scenes and Cues.png",
+    "imgName": "Editing Scenes and Cues",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Editing Scenes and Cues.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-01T19:11:49.715Z",
+    "pages": [
+      {
+        "pageSuid": "zsu3iPADLl",
+        "pageSlug": "timelines"
+      }
+    ]
+  },
+  {
+    "mediaId": "kQ5e1jPaNn",
+    "filename": "MadProjectorControl.png",
+    "imgName": "MadProjectorControl",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadProjectorControl.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-01T19:29:42.167Z",
+    "pages": [
+      {
+        "pageSuid": "QuoOTFz6Dy",
+        "pageSlug": "madprojectorcontrol"
+      }
+    ]
+  },
+  {
+    "mediaId": "zxGov4Q8nG",
+    "filename": "Authorizing MadProjector Control.png",
+    "imgName": "Authorizing MadProjector Control",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Authorizing MadProjector Control.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-01T19:31:01.859Z",
+    "pages": [
+      {
+        "pageSuid": "QuoOTFz6Dy",
+        "pageSlug": "madprojectorcontrol"
+      }
+    ]
+  },
+  {
+    "mediaId": "cx4YQ5lUQ6",
+    "filename": "Manage Authorisations.png",
+    "imgName": "Manage Authorisations",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Manage Authorisations.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-01T19:31:52.999Z",
+    "pages": [
+      {
+        "pageSuid": "QuoOTFz6Dy",
+        "pageSlug": "madprojectorcontrol"
+      }
+    ]
+  },
+  {
+    "mediaId": "Jiv6sUmrmG",
+    "filename": "MadProjectorControl Authorised.png",
+    "imgName": "MadProjectorControl Authorised",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadProjectorControl Authorised.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-01T19:33:00.053Z",
+    "pages": [
+      {
+        "pageSuid": "QuoOTFz6Dy",
+        "pageSlug": "madprojectorcontrol"
+      }
+    ]
+  },
+  {
+    "mediaId": "oTYM12aZvq",
+    "filename": "MadProjector Control Module.png",
+    "imgName": "MadProjector Control Module",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadProjector Control Module.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-01T19:34:13.377Z",
+    "pages": [
+      {
+        "pageSuid": "QuoOTFz6Dy",
+        "pageSlug": "madprojectorcontrol"
+      }
+    ]
+  },
+  {
+    "mediaId": "3cBZyIzTq6",
+    "filename": "Auth Projector Control.png",
+    "imgName": "Auth Projector Control",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Auth Projector Control.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-01T19:35:19.525Z",
+    "pages": [
+      {
+        "pageSuid": "QuoOTFz6Dy",
+        "pageSlug": "madprojectorcontrol"
+      }
+    ]
+  },
+  {
+    "mediaId": "fUBo76fJAc",
+    "filename": "MadProjectorControl Website.png",
+    "imgName": "MadProjectorControl Website",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadProjectorControl Website.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-01T19:37:59.008Z",
+    "pages": [
+      {
+        "pageSuid": "QuoOTFz6Dy",
+        "pageSlug": "madprojectorcontrol"
+      }
+    ]
   }
 ]

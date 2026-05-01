@@ -121,7 +121,8 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": false,
+            "breadcrumb": "Introduction > Discover the Interface > Outputs"
           }
         ],
         "publish": false,
@@ -135,7 +136,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
+        "breadcrumb": "Introduction > Discover the Interface > Outputs"
       },
       {
         "pageSuid": "T8NLmL3QvA",
@@ -154,7 +155,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
+        "breadcrumb": "Introduction > Discover the Interface > Outputs"
       },
       {
         "pageSuid": "JRpYYgJibn",
@@ -171,7 +172,7 @@
             "minorVersion": "0",
             "subpage": [],
             "publish": false,
-            "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
+            "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
           },
           {
             "pageSuid": "voKJvIStfJ",
@@ -181,11 +182,11 @@
             "minorVersion": "0",
             "subpage": [],
             "publish": false,
-            "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
+            "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
           }
         ],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
+        "breadcrumb": "Introduction > Discover the Interface > Outputs"
       },
       {
         "pageSuid": "zh2cdkGNYK",
@@ -195,7 +196,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
+        "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
       },
       {
         "pageSuid": "qok6q3e9JR",
@@ -205,7 +206,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > MadMapper Preferences"
+        "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
       }
     ],
     "publish": true,
@@ -256,7 +257,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes"
       },
       {
         "pageSuid": "0yIEG8azhm",
@@ -365,10 +367,12 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
       }
     ],
-    "publish": false
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes"
   },
   {
     "pageSuid": "zsu3iPADLl",
@@ -377,7 +381,8 @@
     "pageType": "empty",
     "minorVersion": "0",
     "subpage": [],
-    "publish": false
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
   },
   {
     "pageSuid": "r79I9iCia8",
@@ -393,7 +398,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
         "pageSuid": "QuoOTFz6Dy",
@@ -402,7 +408,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
         "pageSuid": "2TAm9uScmI",
@@ -411,7 +418,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
         "pageSuid": "Gr0Qi79QHf",
@@ -420,7 +428,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
         "pageSuid": "tMnKdgps9e",
@@ -430,7 +439,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
         "pageSuid": "pXmh5m3VrT",
@@ -440,7 +449,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
         "pageSuid": "4PzWJjlTxq",
@@ -450,7 +459,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
         "pageSuid": "AF72MZ0gEb",
@@ -469,7 +478,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
         "pageSuid": "eK1P14xklL",
@@ -479,7 +488,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced"
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
         "pageSuid": "yXlYudB3cb",
@@ -488,11 +497,21 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "j7tF1YXaqG",
+        "pageTitle": "Writing Custom Materials (GLSL)",
+        "pageSlug": "writing-custom-materials-(glsl)",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
         "publish": false
       }
     ],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes"
+    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
   },
   {
     "pageSuid": "nVh3znXLrj",
@@ -509,7 +528,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced > Troubleshooting"
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced > Troubleshooting"
       },
       {
         "pageSuid": "7voYoNLUQW",
@@ -519,7 +538,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Advanced > Troubleshooting"
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced > Troubleshooting"
       }
     ],
     "publish": true
