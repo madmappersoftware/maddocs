@@ -1,4 +1,4 @@
-<h1 data-path-to-node="2">Writing Custom Materials (GLSL)</h1>
+<h1 data-path-to-node="2">Writing Custom Materials GLSL</h1>
 <p><img class="retina" src="Writing Custom GLSL Materials.png" width="800" height="435" data-media-id="UF4qCWHCbL"></p>
 <p data-path-to-node="3">MadMapper Materials are generative, animated visuals rendered directly on the screen by your computer's GPU. While you can use the Mad AI extension to generate materials using text prompts, you also have the ability to write or modify the raw GLSL (OpenGL Shading Language) code yourself.</p>
 <p data-path-to-node="4">MadMapper Materials are based on the standard ISF (Interactive Shader Format) specification. However, because they are rendered directly onto MadMapper's output surfaces (Quads, 3D Surfaces, Lines, Fixtures) rather than just a flat texture, MadMapper utilizes a specific boilerplate and offers several powerful custom extensions.</p>
@@ -106,12 +106,11 @@
 </ul>
 <hr>
 <p data-path-to-node="2"><strong data-path-to-node="2" data-index-in-node="0">Example:</strong> Using <code data-path-to-node="2" data-index-in-node="15">TIME</code> for animation and <code data-path-to-node="2" data-index-in-node="38">RENDERSIZE</code> for pixel-perfect math.</p>
-<p></p>
+<p>&nbsp;</p>
 <div class="code-block ng-tns-c3933017335-102 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQxgE">
 <div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-102 ng-star-inserted"><span class="ng-tns-c3933017335-102">OpenGL Shading Language</span>
-<div class="buttons ng-tns-c3933017335-102 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-102 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-102 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+<div class="buttons ng-tns-c3933017335-102 ng-star-inserted">&nbsp;</div>
 </div>
-
 <div class="formatted-code-block-internal-container ng-tns-c3933017335-102">
 <div class="animated-opacity ng-tns-c3933017335-102">
 <pre class="ng-tns-c3933017335-102"><code class="code-container formatted ng-tns-c3933017335-102" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
@@ -137,18 +136,17 @@
 </div>
 </div>
 </div>
-<p></p>
+<p>&nbsp;</p>
 <hr>
 <h3 data-path-to-node="20">Audio Reactivity</h3>
 <p data-path-to-node="21">You can easily pass audio data directly into your shader code using the audioFFT (spectrum) or audio (waveform) input types. MadMapper allows you to define the SIZE of the frequency bands and apply internal ATTACK, DECAY, and RELEASE smoothing filters directly in the JSON header.</p>
 <hr>
 <p data-path-to-node="5"><strong data-path-to-node="5" data-index-in-node="0">Example:</strong> Creating a 16-band spectrum analyzer with built-in attack/decay smoothing.</p>
-<p data-path-to-node="21"></p>
+<p data-path-to-node="21">&nbsp;</p>
 <div class="code-block ng-tns-c3933017335-103 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQxwE">
 <div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-103 ng-star-inserted"><span class="ng-tns-c3933017335-103">OpenGL Shading Language</span>
-<div class="buttons ng-tns-c3933017335-103 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-103 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-103 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+<div class="buttons ng-tns-c3933017335-103 ng-star-inserted">&nbsp;</div>
 </div>
-
 <div class="formatted-code-block-internal-container ng-tns-c3933017335-103">
 <div class="animated-opacity ng-tns-c3933017335-103">
 <pre class="ng-tns-c3933017335-103"><code class="code-container formatted ng-tns-c3933017335-103" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
@@ -187,12 +185,11 @@
 <p data-path-to-node="25">Generators can also be synced perfectly to the application's global tempo by setting "bpm_sync": true.</p>
 <hr>
 <p data-path-to-node="8"><strong data-path-to-node="8" data-index-in-node="0">Example:</strong> Using a <code data-path-to-node="8" data-index-in-node="17">time_base</code> generator synced to the global BPM to drive a smooth animation, rather than directly multiplying <code data-path-to-node="8" data-index-in-node="124">TIME</code>.</p>
-<p data-path-to-node="25"></p>
+<p data-path-to-node="25">&nbsp;</p>
 <div class="code-block ng-tns-c3933017335-104 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQyAE">
 <div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-104 ng-star-inserted"><span class="ng-tns-c3933017335-104">OpenGL Shading Language</span>
-<div class="buttons ng-tns-c3933017335-104 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-104 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-104 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+<div class="buttons ng-tns-c3933017335-104 ng-star-inserted">&nbsp;</div>
 </div>
-
 <div class="formatted-code-block-internal-container ng-tns-c3933017335-104">
 <div class="animated-opacity ng-tns-c3933017335-104">
 <pre class="ng-tns-c3933017335-104"><code class="code-container formatted ng-tns-c3933017335-104" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
@@ -231,7 +228,7 @@
 </div>
 </div>
 </div>
-<p data-path-to-node="25"></p>
+<p data-path-to-node="25">&nbsp;</p>
 <hr>
 <h2 data-path-to-node="26">Included Libraries</h2>
 <p data-path-to-node="27">MadMapper bundles highly optimized open-source math libraries directly into the software. You do not need to write complex noise algorithms from scratch; simply include them at the top of your shader code (after the JSON header) using standard include statements.</p>
@@ -248,12 +245,11 @@
 </ul>
 <hr>
 <p data-path-to-node="11"><strong data-path-to-node="11" data-index-in-node="0">Example:</strong> Using <code data-path-to-node="11" data-index-in-node="15">MadNoise</code> for generative textures and <code data-path-to-node="11" data-index-in-node="52">MadCommon</code> to convert Hue, Saturation, and Value into an RGB color.</p>
-<p></p>
+<p>&nbsp;</p>
 <div class="code-block ng-tns-c3933017335-105 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQyQE">
 <div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-105 ng-star-inserted"><span class="ng-tns-c3933017335-105">OpenGL Shading Language</span>
-<div class="buttons ng-tns-c3933017335-105 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-105 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-105 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+<div class="buttons ng-tns-c3933017335-105 ng-star-inserted">&nbsp;</div>
 </div>
-
 <div class="formatted-code-block-internal-container ng-tns-c3933017335-105">
 <div class="animated-opacity ng-tns-c3933017335-105">
 <pre class="ng-tns-c3933017335-105"><code class="code-container formatted ng-tns-c3933017335-105" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
@@ -283,12 +279,11 @@
 <hr data-path-to-node="1">
 <h2 data-path-to-node="2">Complete Example: The Dunes Shader</h2>
 <p data-path-to-node="3">Below is a complete, real-world example of a MadMapper Material. This shader creates a flowing, wavy dune pattern. We have heavily commented the code so you can see exactly how the JSON header, custom math functions, and the main <code data-path-to-node="3" data-index-in-node="230">materialColorForPixel</code> function work together to create the final visual.</p>
-<p></p>
+<p>&nbsp;</p>
 <div class="code-block ng-tns-c3933017335-118 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQ4QE">
 <div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-118 ng-star-inserted"><span class="ng-tns-c3933017335-118">OpenGL Shading Language</span>
-<div class="buttons ng-tns-c3933017335-118 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-118 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-118 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+<div class="buttons ng-tns-c3933017335-118 ng-star-inserted">&nbsp;</div>
 </div>
-
 <div class="formatted-code-block-internal-container ng-tns-c3933017335-118">
 <div class="animated-opacity ng-tns-c3933017335-118">
 <pre class="ng-tns-c3933017335-118"><code class="code-container formatted ng-tns-c3933017335-118" role="text" data-test-id="code-content"><span class="hljs-comment">/*{

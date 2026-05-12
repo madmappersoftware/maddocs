@@ -85,7 +85,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "What's New > Getting Started > Discover the interface"
+        "breadcrumb": "Introduction > Discover the Interface"
       },
       {
         "pageSuid": "1YGq30hgJF",
@@ -502,8 +502,8 @@
       },
       {
         "pageSuid": "j7tF1YXaqG",
-        "pageTitle": "Writing Custom Materials (GLSL)",
-        "pageSlug": "writing-custom-materials-(glsl)",
+        "pageTitle": "Writing Custom Materials GLSL",
+        "pageSlug": "writing-custom-materials-glsl",
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
@@ -517,7 +517,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       }
     ],
     "publish": false,
