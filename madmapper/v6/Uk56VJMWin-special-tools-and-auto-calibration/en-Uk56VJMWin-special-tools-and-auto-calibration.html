@@ -1,0 +1,28 @@
+<h1 data-path-to-node="2">Special Tools &amp; Auto-Calibration</h1>
+<p data-path-to-node="3">When dealing with highly complex stages, scattered LED installations, or intricate architectural mappings, manual calibration can become incredibly time-consuming. MadMapper provides three powerful auto-calibration tools to speed up these advanced workflows.</p>
+<p data-path-to-node="4">These features can be accessed from the top menu bar under <strong data-path-to-node="4" data-index-in-node="59">Tools</strong> -&gt; <strong data-path-to-node="4" data-index-in-node="68">Scanners</strong>: Space Scanner, LED Scanner, and Laser Scanner.</p>
+<h2 data-path-to-node="5">Space Scanner</h2>
+<p data-path-to-node="6"><em data-path-to-node="6" data-index-in-node="0">(Formerly the Spatial Scanner)</em></p>
+<p data-path-to-node="7">If you do not have a pre-built 3D model of your stage or building, you can capture it yourself using the Space Scanner.</p>
+<p data-path-to-node="8">Using a built-in web camera, an external USB web camera, or a supported Canon DSLR (via the Canon ESDK integration) connected to your computer, MadMapper will project a rapid sequence of structured light patterns (black and white stripes) from your projector onto the physical scene.</p>
+<p data-path-to-node="9">The camera photographs these patterns as they shift over the physical contours of your stage. MadMapper then triangulates the data between the camera's lens and the projector's lens to generate a pixel-perfect, warped mapping mesh or "calibration map" automatically. This effectively turns your projector into a high-resolution 3D scanner, allowing you to instantly map complex geometry without placing a single manual warping point.</p>
+<h2 data-path-to-node="10">LED Scanner</h2>
+<p data-path-to-node="11">When building custom LED installations, placing physical light tubes or pixel tape rarely results in a perfect geometric grid. Trying to manually arrange dozens of virtual DMX fixtures in MadMapper to match their scattered real-world positions is notoriously difficult. The LED Scanner automates this entirely.</p>
+<ol start="1" data-path-to-node="12">
+<li>
+<p data-path-to-node="12,0,0"><strong data-path-to-node="12,0,0" data-index-in-node="0">Setup:</strong> Position a camera (webcam or DSLR) so it has a clear view of your entire physical LED installation.</p>
+</li>
+<li>
+<p data-path-to-node="12,1,0"><strong data-path-to-node="12,1,0" data-index-in-node="0">Configure:</strong> Open the LED Scanner, select your camera input, and select the specific DMX fixtures/universes you want to map.</p>
+</li>
+<li>
+<p data-path-to-node="12,2,0"><strong data-path-to-node="12,2,0" data-index-in-node="0">The Scan:</strong> When you start the scan, MadMapper will sequentially flash every single LED pixel in your physical installation one by one.</p>
+</li>
+<li>
+<p data-path-to-node="12,3,0"><strong data-path-to-node="12,3,0" data-index-in-node="0">The Result:</strong> The camera tracks these flashes in real-time. Once finished, MadMapper automatically arranges all of your virtual DMX fixtures in your MadLight workspace to perfectly mirror their exact physical coordinates in the real world. You can immediately drop a video texture across your workspace and it will map flawlessly across your physical LEDs.</p>
+</li>
+</ol>
+<h2 data-path-to-node="13">Laser Scanner</h2>
+<p data-path-to-node="14">Introduced in MadMapper 5.5, the Laser Scanner brings the power of auto-calibration to the MadLaser extension.</p>
+<p data-path-to-node="15">Because laser hardware utilizes high-speed mechanical galvanometers (mirrors) rather than pixel grids, aligning laser paths to physical architecture or syncing them perfectly over a video projection traditionally requires intensive, manual bezier warping.</p>
+<p data-path-to-node="16">By utilizing the Laser Scanner, a connected camera reads calibration patterns drawn by your physical laser projector. The software calculates the exact physical distortion, angle, and distance of the laser beam, and automatically generates a corrected mapping. This ensures that your vector paths, ILDA files, and laser materials hit your physical targets with absolute precision.</p>

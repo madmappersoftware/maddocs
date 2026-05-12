@@ -84,7 +84,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": true,
+        "publish": false,
         "breadcrumb": "What's New > Getting Started > Discover the interface"
       },
       {
@@ -504,6 +504,16 @@
         "pageSuid": "j7tF1YXaqG",
         "pageTitle": "Writing Custom Materials (GLSL)",
         "pageSlug": "writing-custom-materials-(glsl)",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "Uk56VJMWin",
+        "pageTitle": "Special Tools & Auto-Calibration",
+        "pageSlug": "special-tools-and-auto-calibration",
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],

@@ -1,4 +1,5 @@
 <h1 data-path-to-node="2">Writing Custom Materials (GLSL)</h1>
+<p><img class="retina" src="Writing Custom GLSL Materials.png" width="800" height="435" data-media-id="UF4qCWHCbL"></p>
 <p data-path-to-node="3">MadMapper Materials are generative, animated visuals rendered directly on the screen by your computer's GPU. While you can use the Mad AI extension to generate materials using text prompts, you also have the ability to write or modify the raw GLSL (OpenGL Shading Language) code yourself.</p>
 <p data-path-to-node="4">MadMapper Materials are based on the standard ISF (Interactive Shader Format) specification. However, because they are rendered directly onto MadMapper's output surfaces (Quads, 3D Surfaces, Lines, Fixtures) rather than just a flat texture, MadMapper utilizes a specific boilerplate and offers several powerful custom extensions.</p>
 <p data-path-to-node="4">&nbsp;</p>
@@ -18,18 +19,21 @@
 <p data-path-to-node="7,2,0">You can either start with a blank material, or if you are using Mad AI, you can toggle directly from the AI interface over to the raw Code Editor to manually tweak the math the AI generated.</p>
 </li>
 </ol>
+<p><img class="retina" src="MadAI New Material.png" width="623" height="155" data-media-id="bihYVSnl4h"></p>
 <div class="alert-banner-tips">
 <p>Check out the <a class="int-link" href="advanced">MadAI Extension documentation</a> to get up and running quickly.</p>
 </div>
 <h2 data-path-to-node="8">The Basic Boilerplate</h2>
 <p data-path-to-node="9">Unlike a standard GLSL shader that uses a "void main" function, MadMapper fragment shaders require you to implement a specific function called "materialColorForPixel". This function must return a vec4 color based on a 2D texture coordinate.</p>
+<p data-path-to-node="9"><img class="retina" src="MadMapper Material Return ColorForPixel.png" width="400" height="116" data-media-id="yJAutG5SuF"></p>
+<p data-path-to-node="9">&nbsp;</p>
 <p data-path-to-node="10">Here is the most basic boilerplate for a MadMapper material:</p>
-<p></p>
+<hr>
+<p>&nbsp;</p>
 <div class="code-block ng-tns-c3933017335-84 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQqgE">
 <div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-84 ng-star-inserted"><span class="ng-tns-c3933017335-84">OpenGL Shading Language</span>
-<div class="buttons ng-tns-c3933017335-84 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-84 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-84 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+<div class="buttons ng-tns-c3933017335-84 ng-star-inserted">&nbsp;</div>
 </div>
-
 <div class="formatted-code-block-internal-container ng-tns-c3933017335-84">
 <div class="animated-opacity ng-tns-c3933017335-84">
 <pre class="ng-tns-c3933017335-84"><code class="code-container formatted ng-tns-c3933017335-84" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
@@ -47,7 +51,7 @@
 </div>
 </div>
 </div>
-<p></p>
+<hr>
 <h2 data-path-to-node="12">Exposing UI Parameters (Inputs)</h2>
 <p data-path-to-node="13">To control your shader live, you can declare INPUTS inside the JSON header block at the top of your file. MadMapper will automatically read this JSON and build the corresponding sliders, buttons, and color pickers in the Inspector.</p>
 <ul data-path-to-node="14">
@@ -64,13 +68,14 @@
 <p data-path-to-node="14,3,0">Grouping: You can organize your parameters into clean folders in the Inspector by adding a forward slash to the LABEL. For example, "LABEL": "Noise/Speed" will put the Speed slider inside a "Noise" group.</p>
 </li>
 </ul>
+<p>&nbsp;</p>
+<hr>
 <p data-path-to-node="15">Example of an Input Variable:</p>
-<p></p>
+<p>&nbsp;</p>
 <div class="code-block ng-tns-c3933017335-85 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQqwE">
 <div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-85 ng-star-inserted"><span class="ng-tns-c3933017335-85">JSON</span>
-<div class="buttons ng-tns-c3933017335-85 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-85 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-85 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+<div class="buttons ng-tns-c3933017335-85 ng-star-inserted">&nbsp;</div>
 </div>
-
 <div class="formatted-code-block-internal-container ng-tns-c3933017335-85">
 <div class="animated-opacity ng-tns-c3933017335-85">
 <pre class="ng-tns-c3933017335-85"><code class="code-container formatted ng-tns-c3933017335-85" role="text" data-test-id="code-content">{
@@ -85,7 +90,7 @@
 </div>
 </div>
 </div>
-<p></p>
+<hr>
 <h2 data-path-to-node="17">Built-In Variables &amp; Macros</h2>
 <p data-path-to-node="18">MadMapper automatically provides several global variables to your shader, following the ISF specification:</p>
 <ul data-path-to-node="19">
@@ -99,12 +104,135 @@
 <p data-path-to-node="19,2,0">RENDERSIZE: The dimensions of the output (Note: this is only valid if you enable "Render to Texture" in the material settings, as standard materials do not have a fixed pixel resolution).</p>
 </li>
 </ul>
+<hr>
+<p data-path-to-node="2"><strong data-path-to-node="2" data-index-in-node="0">Example:</strong> Using <code data-path-to-node="2" data-index-in-node="15">TIME</code> for animation and <code data-path-to-node="2" data-index-in-node="38">RENDERSIZE</code> for pixel-perfect math.</p>
+<p></p>
+<div class="code-block ng-tns-c3933017335-102 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQxgE">
+<div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-102 ng-star-inserted"><span class="ng-tns-c3933017335-102">OpenGL Shading Language</span>
+<div class="buttons ng-tns-c3933017335-102 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-102 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-102 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+</div>
+
+<div class="formatted-code-block-internal-container ng-tns-c3933017335-102">
+<div class="animated-opacity ng-tns-c3933017335-102">
+<pre class="ng-tns-c3933017335-102"><code class="code-container formatted ng-tns-c3933017335-102" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
+    "CREDIT": "MadMapper User",
+    "TAGS": "Variables",
+    "INPUTS": []
+}*/</span>
+
+<span class="hljs-type">vec4</span> materialColorForPixel(<span class="hljs-type">vec2</span> texCoord) {
+    <span class="hljs-comment">// 1. TIME: Create a pulsing value between 0.0 and 1.0</span>
+    <span class="hljs-type">float</span> pulse = (<span class="hljs-built_in">sin</span>(TIME * <span class="hljs-number">3.0</span>) + <span class="hljs-number">1.0</span>) * <span class="hljs-number">0.5</span>;
+    
+    <span class="hljs-comment">// 2. RENDERSIZE: Get the exact pixel coordinate </span>
+    <span class="hljs-comment">// (Note: "Render to Texture" MUST be enabled for this to work!)</span>
+    <span class="hljs-type">vec2</span> pixelCoord = texCoord * RENDERSIZE;
+    
+    <span class="hljs-comment">// Draw a color that shifts based on the pulse</span>
+    <span class="hljs-type">vec3</span> color = <span class="hljs-type">vec3</span>(texCoord.x, texCoord.y, pulse);
+    
+    <span class="hljs-keyword">return</span> <span class="hljs-type">vec4</span>(color, <span class="hljs-number">1.0</span>);
+}
+</code></pre>
+</div>
+</div>
+</div>
+<p></p>
+<hr>
 <h3 data-path-to-node="20">Audio Reactivity</h3>
 <p data-path-to-node="21">You can easily pass audio data directly into your shader code using the audioFFT (spectrum) or audio (waveform) input types. MadMapper allows you to define the SIZE of the frequency bands and apply internal ATTACK, DECAY, and RELEASE smoothing filters directly in the JSON header.</p>
+<hr>
+<p data-path-to-node="5"><strong data-path-to-node="5" data-index-in-node="0">Example:</strong> Creating a 16-band spectrum analyzer with built-in attack/decay smoothing.</p>
+<p data-path-to-node="21"></p>
+<div class="code-block ng-tns-c3933017335-103 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQxwE">
+<div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-103 ng-star-inserted"><span class="ng-tns-c3933017335-103">OpenGL Shading Language</span>
+<div class="buttons ng-tns-c3933017335-103 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-103 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-103 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+</div>
+
+<div class="formatted-code-block-internal-container ng-tns-c3933017335-103">
+<div class="animated-opacity ng-tns-c3933017335-103">
+<pre class="ng-tns-c3933017335-103"><code class="code-container formatted ng-tns-c3933017335-103" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
+    "CREDIT": "MadMapper User",
+    "TAGS": "Audio Reactive",
+    "INPUTS": [
+        {
+            "NAME": "mat_spectrum",
+            "TYPE": "audioFFT",
+            "SIZE": 16,
+            "ATTACK": 0.05,
+            "DECAY": 0.2,
+            "RELEASE": 0.1
+        }
+    ]
+}*/</span>
+
+<span class="hljs-type">vec4</span> materialColorForPixel(<span class="hljs-type">vec2</span> texCoord) {
+    <span class="hljs-comment">// Audio textures are 1D (height is always 1 pixel).</span>
+    <span class="hljs-comment">// We sample the spectrum using the built-in IMG_NORM_PIXEL macro.</span>
+    <span class="hljs-comment">// We use texCoord.x to sweep across the frequency bands.</span>
+    <span class="hljs-type">float</span> audioValue = IMG_NORM_PIXEL(mat_spectrum, <span class="hljs-type">vec2</span>(texCoord.x, <span class="hljs-number">0.5</span>)).r;
+    
+    <span class="hljs-comment">// If our Y coordinate is below the audio volume, draw green. Otherwise, draw black.</span>
+    <span class="hljs-type">vec3</span> color = texCoord.y &lt; audioValue ? <span class="hljs-type">vec3</span>(<span class="hljs-number">0.0</span>, <span class="hljs-number">1.0</span>, <span class="hljs-number">0.5</span>) : <span class="hljs-type">vec3</span>(<span class="hljs-number">0.0</span>, <span class="hljs-number">0.0</span>, <span class="hljs-number">0.0</span>);
+    
+    <span class="hljs-keyword">return</span> <span class="hljs-type">vec4</span>(color, <span class="hljs-number">1.0</span>);
+}</code></pre>
+</div>
+</div>
+</div>
+<hr>
 <h2 data-path-to-node="22">Generators (Solving the "TIME" Problem)</h2>
 <p data-path-to-node="23">If you animate a shape by multiplying TIME by a user-controlled mat_speed slider, changing the speed live will cause the animation to jump wildly (because the total multiplier suddenly shifts).</p>
 <p data-path-to-node="24">To solve this, MadMapper introduced Generators. Instead of doing the math in GLSL, you declare a time_base generator in your JSON header. MadMapper will calculate a smooth, continuously increasing value based on your speed, and pass that perfect value into your shader as a variable.</p>
 <p data-path-to-node="25">Generators can also be synced perfectly to the application's global tempo by setting "bpm_sync": true.</p>
+<hr>
+<p data-path-to-node="8"><strong data-path-to-node="8" data-index-in-node="0">Example:</strong> Using a <code data-path-to-node="8" data-index-in-node="17">time_base</code> generator synced to the global BPM to drive a smooth animation, rather than directly multiplying <code data-path-to-node="8" data-index-in-node="124">TIME</code>.</p>
+<p data-path-to-node="25"></p>
+<div class="code-block ng-tns-c3933017335-104 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQyAE">
+<div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-104 ng-star-inserted"><span class="ng-tns-c3933017335-104">OpenGL Shading Language</span>
+<div class="buttons ng-tns-c3933017335-104 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-104 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-104 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+</div>
+
+<div class="formatted-code-block-internal-container ng-tns-c3933017335-104">
+<div class="animated-opacity ng-tns-c3933017335-104">
+<pre class="ng-tns-c3933017335-104"><code class="code-container formatted ng-tns-c3933017335-104" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
+    "CREDIT": "MadMapper User",
+    "TAGS": "Generators",
+    "INPUTS": [
+        {
+            "LABEL": "Animation Speed",
+            "NAME": "mat_speed",
+            "TYPE": "float",
+            "MIN": 0.0,
+            "MAX": 2.0,
+            "DEFAULT": 1.0
+        }
+    ],
+    "GENERATORS": [
+        {
+            "NAME": "mat_anim_time",
+            "TYPE": "time_base",
+            "PARAMS": {
+                "speed": "mat_speed",
+                "bpm_sync": true
+            }
+        }
+    ]
+}*/</span>
+
+<span class="hljs-type">vec4</span> materialColorForPixel(<span class="hljs-type">vec2</span> texCoord) {
+    <span class="hljs-comment">// Instead of doing: sin(TIME * mat_speed)</span>
+    <span class="hljs-comment">// We use the perfectly generated 'mat_anim_time' variable!</span>
+    <span class="hljs-type">float</span> smoothAnimation = (<span class="hljs-built_in">sin</span>(mat_anim_time) + <span class="hljs-number">1.0</span>) * <span class="hljs-number">0.5</span>;
+    
+    <span class="hljs-keyword">return</span> <span class="hljs-type">vec4</span>(<span class="hljs-type">vec3</span>(smoothAnimation), <span class="hljs-number">1.0</span>);
+}
+</code></pre>
+</div>
+</div>
+</div>
+<p data-path-to-node="25"></p>
+<hr>
 <h2 data-path-to-node="26">Included Libraries</h2>
 <p data-path-to-node="27">MadMapper bundles highly optimized open-source math libraries directly into the software. You do not need to write complex noise algorithms from scratch; simply include them at the top of your shader code (after the JSON header) using standard include statements.</p>
 <ul data-path-to-node="28">
@@ -118,3 +246,180 @@
 <p data-path-to-node="28,2,0">MadSDF: Provides a library of Signed Distance Field math, making it exceptionally easy to draw crisp 2D shapes mathematically.</p>
 </li>
 </ul>
+<hr>
+<p data-path-to-node="11"><strong data-path-to-node="11" data-index-in-node="0">Example:</strong> Using <code data-path-to-node="11" data-index-in-node="15">MadNoise</code> for generative textures and <code data-path-to-node="11" data-index-in-node="52">MadCommon</code> to convert Hue, Saturation, and Value into an RGB color.</p>
+<p></p>
+<div class="code-block ng-tns-c3933017335-105 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQyQE">
+<div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-105 ng-star-inserted"><span class="ng-tns-c3933017335-105">OpenGL Shading Language</span>
+<div class="buttons ng-tns-c3933017335-105 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-105 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-105 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+</div>
+
+<div class="formatted-code-block-internal-container ng-tns-c3933017335-105">
+<div class="animated-opacity ng-tns-c3933017335-105">
+<pre class="ng-tns-c3933017335-105"><code class="code-container formatted ng-tns-c3933017335-105" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
+    "CREDIT": "MadMapper User",
+    "TAGS": "Libraries",
+    "INPUTS": []
+}*/</span>
+
+<span class="hljs-comment">// Include statements must go AFTER the JSON header and BEFORE your functions</span>
+<span class="hljs-meta">#include "MadCommon.glsl"</span>
+<span class="hljs-meta">#include "MadNoise.glsl"</span>
+<span class="hljs-meta">#include "MadSDF.glsl"</span>
+
+<span class="hljs-type">vec4</span> materialColorForPixel(<span class="hljs-type">vec2</span> texCoord) {
+    <span class="hljs-comment">// 1. Use MadNoise to create a 3D simplex noise </span>
+    <span class="hljs-comment">// We pass it our X/Y coordinates and TIME for the Z axis so it evolves</span>
+    <span class="hljs-type">float</span> n = noise(<span class="hljs-type">vec3</span>(texCoord * <span class="hljs-number">5.0</span>, TIME * <span class="hljs-number">0.5</span>));
+    
+    <span class="hljs-comment">// 2. Use MadCommon's hsv2rgb function</span>
+    <span class="hljs-comment">// We slowly shift the Hue based on TIME, while keeping saturation and value at 1.0</span>
+    <span class="hljs-type">vec3</span> rainbowColor = hsv2rgb(<span class="hljs-type">vec3</span>(TIME * <span class="hljs-number">0.1</span>, <span class="hljs-number">1.0</span>, <span class="hljs-number">1.0</span>));
+    
+    <span class="hljs-comment">// Multiply our rainbow by our noise</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-type">vec4</span>(rainbowColor * n, <span class="hljs-number">1.0</span>);
+}</code></pre>
+<p data-path-to-node="0">Here is the fully commented code, breaking down exactly what each section of the shader is doing. I have formatted it under a new heading so you can drop it directly at the bottom of your Chapter 14 documentation page.</p>
+<hr data-path-to-node="1">
+<h2 data-path-to-node="2">Complete Example: The Dunes Shader</h2>
+<p data-path-to-node="3">Below is a complete, real-world example of a MadMapper Material. This shader creates a flowing, wavy dune pattern. We have heavily commented the code so you can see exactly how the JSON header, custom math functions, and the main <code data-path-to-node="3" data-index-in-node="230">materialColorForPixel</code> function work together to create the final visual.</p>
+<p></p>
+<div class="code-block ng-tns-c3933017335-118 ng-animate-disabled ng-trigger ng-trigger-codeBlockRevealAnimation" data-hveid="0" data-ved="0CAAQhtANahgKEwjS5M-R6JiUAxUAAAAAHQAAAAAQ4QE">
+<div class="code-block-decoration header-formatted gds-title-s ng-tns-c3933017335-118 ng-star-inserted"><span class="ng-tns-c3933017335-118">OpenGL Shading Language</span>
+<div class="buttons ng-tns-c3933017335-118 ng-star-inserted"><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger download-button ng-tns-c3933017335-118 mat-unthemed ng-star-inserted" aria-label="Download code"></button><button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger copy-button ng-tns-c3933017335-118 mat-unthemed ng-star-inserted" aria-label="Copy code"></button></div>
+</div>
+
+<div class="formatted-code-block-internal-container ng-tns-c3933017335-118">
+<div class="animated-opacity ng-tns-c3933017335-118">
+<pre class="ng-tns-c3933017335-118"><code class="code-container formatted ng-tns-c3933017335-118" role="text" data-test-id="code-content"><span class="hljs-comment">/*{
+    "CREDIT": "Mad Team",
+    "DESCRIPTION": "Dunes.",
+    "VSN": "1.0",
+    "TAGS": "graphic",
+    
+    // ---------------------------------------------------------
+    // 1. INPUTS: These create the UI controls in MadMapper
+    // ---------------------------------------------------------
+    "INPUTS": [
+        // Creates a slider for zooming in/out
+        { "LABEL": "Scale", "NAME": "scale", "TYPE": "float", "DEFAULT": 1.0, "MIN": 0.0, "MAX": 4.0 },
+        
+        // Creates a slider for animation speed
+        { "LABEL": "Speed", "NAME": "speed", "TYPE": "float", "MIN" : 0.0, "MAX" : 4.0, "DEFAULT": 1.0 },
+        
+        // Creates a push-button to reverse the animation direction
+        { "LABEL": "Reverse", "NAME": "reverse", "TYPE": "bool", "DEFAULT": false, "FLAGS": "button" },
+        
+        // Creates a color picker for the dune lines
+        { "LABEL": "Color/Front Color", "NAME": "foregroundColor", "TYPE": "color", "DEFAULT": [ 1.0, 1.0, 1.0, 1.0 ] },  
+        
+        // Creates sliders for brightness and contrast
+        { "LABEL": "Color/Brightness", "NAME": "brightness", "TYPE": "float", "MIN": -1.0, "MAX": 1.0, "DEFAULT": 0 },
+        { "LABEL": "Color/Contrast", "NAME": "contrast", "TYPE": "float", "MIN": 1.0, "MAX": 3.0, "DEFAULT": 1 },
+    ],
+    
+    // ---------------------------------------------------------
+    // 2. GENERATORS: Smoothly handling time and speed
+    // ---------------------------------------------------------
+    "GENERATORS": [
+        // This generates a variable called 'animation_time'. 
+        // It uses the 'speed' and 'reverse' inputs to calculate a smooth time value, 
+        // preventing the animation from jumping when the user drags the speed slider.
+        // It also links this animation directly to MadMapper's global BPM.
+        { "NAME": "animation_time", "TYPE": "time_base", "PARAMS": {"speed": "speed", "reverse": "reverse", "speed_curve": 3, "link_speed_to_global_bpm":true} }
+    ]
+}*/</span>
+
+<span class="hljs-comment">// ---------------------------------------------------------</span>
+<span class="hljs-comment">// 3. MATH &amp; NOISE FUNCTIONS</span>
+<span class="hljs-comment">// Because shaders calculate everything mathematically per-pixel, </span>
+<span class="hljs-comment">// we use procedural formulas to generate random numbers and noise.</span>
+<span class="hljs-comment">// ---------------------------------------------------------</span>
+
+<span class="hljs-comment">// A hashing function that takes a 2D coordinate and returns a pseudo-random 2D vector.</span>
+<span class="hljs-type">vec2</span> hash( <span class="hljs-type">vec2</span> p ) {
+  p = <span class="hljs-type">vec2</span>(<span class="hljs-built_in">dot</span>(p,<span class="hljs-type">vec2</span>(<span class="hljs-number">127.1</span>,<span class="hljs-number">311.7</span>)),
+           <span class="hljs-built_in">dot</span>(p,<span class="hljs-type">vec2</span>(<span class="hljs-number">269.5</span>,<span class="hljs-number">183.3</span>)));
+  <span class="hljs-keyword">return</span> <span class="hljs-number">-1.</span> + <span class="hljs-number">2.</span>*<span class="hljs-built_in">fract</span>(<span class="hljs-built_in">sin</span>(p+<span class="hljs-number">20.</span>)*<span class="hljs-number">53758.5453123</span>);
+}
+
+<span class="hljs-comment">// A 2D noise function based on the hash above. </span>
+<span class="hljs-comment">// It smooths out the random numbers to create organic, cloud-like values.</span>
+<span class="hljs-type">float</span> dunes_noise( <span class="hljs-keyword">in</span> <span class="hljs-type">vec2</span> x ) {
+  <span class="hljs-type">vec2</span> p = <span class="hljs-built_in">floor</span>(x);
+  <span class="hljs-type">vec2</span> f = <span class="hljs-built_in">fract</span>(x);
+  f = f*f*(<span class="hljs-number">3.0</span><span class="hljs-number">-2.0</span>*f);
+  <span class="hljs-type">vec2</span> uv = (p+<span class="hljs-type">vec2</span>(<span class="hljs-number">37.0</span>,<span class="hljs-number">17.0</span>)) + f;
+  <span class="hljs-type">vec2</span> rg = hash( uv/<span class="hljs-number">256.0</span> ).yx;
+  <span class="hljs-keyword">return</span> <span class="hljs-number">0.5</span>*<span class="hljs-built_in">mix</span>( rg.x, rg.y, <span class="hljs-number">0.5</span> );
+}
+
+<span class="hljs-comment">// A simple wrapper function to easily get a random float using two integers</span>
+<span class="hljs-type">float</span> rnd(<span class="hljs-type">int</span> i, <span class="hljs-type">int</span> j) {
+  <span class="hljs-keyword">return</span> dunes_noise(<span class="hljs-type">vec2</span>(i, j));
+}
+
+<span class="hljs-comment">// ---------------------------------------------------------</span>
+<span class="hljs-comment">// 4. THE PATTERN GENERATOR (Gabor Noise)</span>
+<span class="hljs-comment">// ---------------------------------------------------------</span>
+<span class="hljs-meta">#define GABOR_BLOBS_NB 10       // How many overlapping waves to create</span>
+<span class="hljs-meta">#define GABOR_BLOBS_SIZE 0.25   // The size of each wave</span>
+
+<span class="hljs-comment">// This function creates the actual "Dune" look by layering multiple sine waves </span>
+<span class="hljs-comment">// (blobs) moving in slightly different random directions.</span>
+<span class="hljs-type">float</span> DuneStripes (<span class="hljs-type">vec2</span> uv, <span class="hljs-type">float</span> d, <span class="hljs-type">float</span> freq, <span class="hljs-type">float</span> time) {
+  <span class="hljs-type">float</span> hv = <span class="hljs-number">0.</span>;
+  
+  <span class="hljs-comment">// Loop through and create 10 different blobs</span>
+  <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i=<span class="hljs-number">0</span>; i&lt;GABOR_BLOBS_NB; i++) {
+    <span class="hljs-comment">// Give each blob a random position and direction</span>
+    <span class="hljs-type">vec2</span> pos = <span class="hljs-type">vec2</span>(rnd(i,<span class="hljs-number">0</span>), rnd(i,<span class="hljs-number">1</span>));
+    <span class="hljs-type">vec2</span> dir = (<span class="hljs-number">.15</span>+d)*<span class="hljs-type">vec2</span>(rnd(i,<span class="hljs-number">2</span>),rnd(i,<span class="hljs-number">3</span>)) - d;
+    
+    <span class="hljs-comment">// Add this blob's mathematical wave to our total height value (hv)</span>
+    hv += GABOR_BLOBS_SIZE * <span class="hljs-built_in">sin</span>(<span class="hljs-built_in">dot</span>(uv-pos, freq*dir) * <span class="hljs-number">6.</span> + time);
+  }
+  
+  <span class="hljs-comment">// Return the final combined wave pattern</span>
+  <span class="hljs-keyword">return</span> hv;
+}
+
+<span class="hljs-comment">// ---------------------------------------------------------</span>
+<span class="hljs-comment">// 5. THE MAIN FUNCTION</span>
+<span class="hljs-comment">// This is executed for every single pixel on the surface.</span>
+<span class="hljs-comment">// ---------------------------------------------------------</span>
+<span class="hljs-type">vec4</span> materialColorForPixel(<span class="hljs-type">vec2</span> texCoord) {
+    
+  <span class="hljs-comment">// Step A: Coordinate Setup</span>
+  <span class="hljs-comment">// Center the coordinates around 0.5, apply the user's Scale slider, </span>
+  <span class="hljs-comment">// and then shift them back. This zooms the pattern in and out from the center.</span>
+  <span class="hljs-type">vec2</span> uv = <span class="hljs-type">vec2</span>(<span class="hljs-number">0.5</span>,<span class="hljs-number">0.5</span>) + (texCoord-<span class="hljs-type">vec2</span>(<span class="hljs-number">0.5</span>,<span class="hljs-number">0.5</span>)) * scale;
+  
+  <span class="hljs-comment">// Step B: Generate the Pattern</span>
+  <span class="hljs-comment">// Call our DuneStripes function using the scaled coordinates.</span>
+  <span class="hljs-comment">// We pass in our perfectly smooth 'animation_time' generator to make it move!</span>
+  <span class="hljs-type">float</span> h = DuneStripes(uv, <span class="hljs-number">-.5</span>, <span class="hljs-number">10.0</span>, <span class="hljs-number">-3.5</span> * animation_time);
+  
+  <span class="hljs-comment">// Step C: Apply Color</span>
+  <span class="hljs-comment">// Multiply the user's chosen Foreground Color by our dune pattern (h).</span>
+  <span class="hljs-comment">// clamp() ensures the brightness values don't drop below 0.0 or exceed 1.0.</span>
+  <span class="hljs-type">vec3</span> color = foregroundColor.rgb * <span class="hljs-built_in">clamp</span>(h, <span class="hljs-number">0.0</span>, <span class="hljs-number">1.0</span>);
+
+  <span class="hljs-comment">// Step D: Apply Contrast</span>
+  <span class="hljs-comment">// mix() blends between a flat gray (vec3(0.5)) and our current color based on the Contrast slider.</span>
+  color = <span class="hljs-built_in">mix</span>(<span class="hljs-type">vec3</span>(<span class="hljs-number">0.5</span>), color, contrast);
+
+  <span class="hljs-comment">// Step E: Apply Brightness</span>
+  <span class="hljs-comment">// Simply add or subtract the brightness slider value from the final color.</span>
+  color += <span class="hljs-type">vec3</span>(brightness);
+
+  <span class="hljs-comment">// Step F: Output the Pixel</span>
+  <span class="hljs-comment">// Return the final calculated color, with an Alpha (transparency) of 1.0 (fully opaque).</span>
+  <span class="hljs-keyword">return</span> <span class="hljs-type">vec4</span>(color, <span class="hljs-number">1.0</span>);
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
