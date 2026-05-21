@@ -198,7 +198,30 @@
 </tr>
 </tbody>
 </table>
+<h4 data-path-to-node="5">Mapping Modes</h4>
+<ul data-path-to-node="6">
+<li>
+<p data-path-to-node="6,0,0"><strong data-path-to-node="6,0,0" data-index-in-node="0">Fixed Size:</strong> Manually set the pixel grid dimensions (Width &times; Height). In this mode, you can customize the individual pixel patch by clicking directly on any pixel in the <strong data-path-to-node="6,0,0" data-index-in-node="169">Pixel Mapping</strong> interface to toggle it between its DMX address and <strong data-path-to-node="6,0,0" data-index-in-node="234">UNPATCHED</strong>.</p>
+</li>
+</ul>
+<p><img class="retina" src="Manual Unpatching.png" width="800" height="362" data-media-id="8jrue9fhtI"></p>
+<ul data-path-to-node="6">
+<li>
+<p data-path-to-node="6,1,0"><strong data-path-to-node="6,1,0" data-index-in-node="0">LED Strip Mode:</strong> Configure the fixture as a linear strip. Once selected, you can adjust the specific number of LED pixels directly in the <strong data-path-to-node="6,1,0" data-index-in-node="137">Fixture Inspector</strong> panel.</p>
+</li>
+</ul>
+<p><img class="retina" src="LED Strip Mode.png" width="885" height="261" data-media-id="VmfFlwsB1C"></p>
+<ul data-path-to-node="6">
+<li>
+<p data-path-to-node="6,2,0"><strong data-path-to-node="6,2,0" data-index-in-node="0">Matrix Mode:</strong> Configure the fixture as a 2D pixel grid. Similar to LED Strip Mode, you can adjust the number of matrix divisions in the <strong data-path-to-node="6,2,0" data-index-in-node="135">Fixture Inspector</strong> to match your physical hardware.</p>
+</li>
+</ul>
+<p><img class="retina" src="Matrix Strip Mode.png" width="800" height="480" data-media-id="1pUwPft4vk"></p>
+<p data-path-to-node="9">&nbsp;</p>
 </div>
+<h3 data-path-to-node="3">Fixture Properties &amp; Mapping</h3>
+<p data-path-to-node="4">The <strong data-path-to-node="4" data-index-in-node="4">Properties</strong> panel allows you to define the geometric structure of your fixture, while the <strong data-path-to-node="4" data-index-in-node="93">Pixel Mapping</strong> interface gives you granular control over individual pixel addressing.</p>
+<p data-path-to-node="4">&nbsp;</p>
 <p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Pixel Type</strong> &mdash; Select the color model for the fixture's pixels: RGB, RGBW, or Custom (for non-standard channel layouts like the IVL Dice).</p>
 <p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Pixel Size</strong> &mdash; The number of DMX channels per pixel (e.g., 3 for RGB, 4 for RGBW). Check <strong>Advanced</strong> to access per-channel type and label configuration.</p>
 <p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Assignation</strong> &mdash; Defines the pixel scanning/addressing order for LED strips and matrices. The 16 arrow pattern icons represent different ways pixels can be wired through the grid: left-to-right then top-to-bottom (Z-pattern), serpentine/zigzag, bottom-to-top, column-first, and their mirrored and reversed variants. Select the pattern that matches how your LEDs are physically wired. Click <strong>Clear</strong> to reset.</p>
@@ -453,26 +476,4 @@
 </ul>
 <h4 data-path-to-node="8">Exporting to MiniMad</h4>
 <p data-path-to-node="9">Once a sequence is recorded, you can use the <strong data-path-to-node="9" data-index-in-node="45">Export to MiniMad</strong> button to bundle your sequence and audio files for use on MiniMad players. This provides a streamlined workflow for moving from complex generative setups in MadMapper to robust, standalone playback in the field.</p>
-<h3 data-path-to-node="2">Video Wall Setup</h3>
-<p><img class="retina" src="Video Wall Example.png" width="800" height="365" data-media-id="6mYPBbgoJ1"></p>
-<p data-path-to-node="3">When working with massive LED walls powered by external processors (like Novastar) or configuring high-density pixel matrices, building the grid piece-by-piece is inefficient. MadMapper features an automated <strong data-path-to-node="3" data-index-in-node="208">Video Wall template setup</strong> tool designed specifically to streamline this process.</p>
-<h4 data-path-to-node="4">Accessing the Tool</h4>
-<p data-path-to-node="5">To begin your configuration, navigate to the top menu and select: <strong data-path-to-node="5" data-index-in-node="66">File &gt; New Project &gt; From Template &gt; Video Wall Template</strong>.</p>
-<p data-path-to-node="5"><img class="retina" src="Video Wall Template Setup.png" width="400" height="355" data-media-id="UN0V09N6p7"></p>
-<h4 data-path-to-node="6">Configuration Parameters</h4>
-<p data-path-to-node="7">Once the setup window appears, define your wall using the following settings:</p>
-<ul data-path-to-node="8">
-<li>
-<p data-path-to-node="8,0,0"><strong data-path-to-node="8,0,0" data-index-in-node="0">Number of screens:</strong> Define the grid layout by entering the horizontal and vertical screen count.</p>
-</li>
-<li>
-<p data-path-to-node="8,1,0"><strong data-path-to-node="8,1,0" data-index-in-node="0">Screen resolution:</strong> Select a standard resolution (e.g., 1080p) or define a custom pixel width and height.</p>
-</li>
-<li>
-<p data-path-to-node="8,2,0"><strong data-path-to-node="8,2,0" data-index-in-node="0">Setup bezel:</strong> Enable this if you need to account for physical gaps between your panels, then specify the <strong data-path-to-node="8,2,0" data-index-in-node="104">Image size</strong> and <strong data-path-to-node="8,2,0" data-index-in-node="119">Bezel size</strong> in cm or inches.</p>
-</li>
-<li>
-<p data-path-to-node="8,3,0"><strong data-path-to-node="8,3,0" data-index-in-node="0">Projector orientation:</strong> Choose the physical rotation of your screens (e.g., Landscape 0&deg;) to ensure the video canvas aligns correctly.</p>
-</li>
-</ul>
-<p data-path-to-node="9">Once configured, click <strong data-path-to-node="9" data-index-in-node="23">Create</strong>. MadMapper will instantly generate a perfectly aligned, scaled grid of video quads or DMX fixtures, guaranteeing your virtual canvas matches your physical LED panels flawlessly while saving hours of manual configuration.</p>
+<p data-path-to-node="9">&nbsp;</p>

@@ -871,5 +871,118 @@
         "pageSlug": "dmx-and-led-mapping"
       }
     ]
+  },
+  {
+    "mediaId": "8jrue9fhtI",
+    "filename": "Manual Unpatching.png",
+    "imgName": "Manual Unpatching",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Manual Unpatching.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-21T03:11:29.523Z",
+    "pages": [
+      {
+        "pageSuid": "XN5FxSPLGz",
+        "pageSlug": "dmx-and-led-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "VmfFlwsB1C",
+    "filename": "LED Strip Mode.png",
+    "imgName": "LED Strip Mode",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/LED Strip Mode.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-21T03:12:09.407Z",
+    "pages": [
+      {
+        "pageSuid": "XN5FxSPLGz",
+        "pageSlug": "dmx-and-led-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "1pUwPft4vk",
+    "filename": "Matrix Strip Mode.png",
+    "imgName": "Matrix Strip Mode",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Matrix Strip Mode.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-21T03:12:43.180Z",
+    "pages": [
+      {
+        "pageSuid": "XN5FxSPLGz",
+        "pageSlug": "dmx-and-led-mapping"
+      }
+    ]
   }
 ]
