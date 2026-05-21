@@ -1,0 +1,478 @@
+<h1 class="text-text-100 mt-3 -mb-1 text-[1.375rem] font-bold">DMX &amp; LED Mapping</h1>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">MadMapper is not just a video tool; its integrated MadLight engine allows you to seamlessly bridge the gap between video pixels and physical lighting. Whether you are mapping a few RGB tubes, complex architectural moving heads, or a massive pixel-mapped stage design, the DMX features allow you to translate your visual compositions directly into physical light.</p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">DMX Fundamentals</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Before patching fixtures, it is important to understand how MadMapper communicates with your physical lighting hardware.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>DMX Preferences:</strong> To route your lighting data, navigate to <strong>Preferences &gt; Project (tab) &gt; DMX</strong>. Here you can select your network interface, choose your USB DMX device, Art-Net or sACN, and define your framerate to ensure smooth playback across your rig.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>DMX512:</strong> The standard lighting control protocol. A single DMX cable can carry 512 channels of data. This bundle of 512 channels is called a Universe. For example, a standard RGB LED pixel uses 3 channels (Red, Green, Blue). Therefore, one DMX universe can control up to 170 individual RGB pixels (170 x 3 = 510). If you are controlling lights that go beyond 512 channels, then they will stretch over onto a new universe. Some external hardware devices are limited to output over a single universe, while others can output over 96 universes through a single device.</li>
+</ul>
+<p><img class="retina" src="DMX USB EnttecPro.png" width="800" height="549" data-media-id="MCS8lav7NV"></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Art-Net &amp; sACN:</strong> Because large LED installations often require tens of thousands of channels, routing physical DMX cables for every universe is impossible. Art-Net and sACN are network protocols that send massive amounts of DMX universes over standard Ethernet cables. MadMapper outputs these protocols to network nodes (like PixLite, Advatek, or Enttec boxes), which then translate the data back into physical DMX or SPI signals for your lights.</li>
+</ul>
+<p><img class="retina" src="ArtNet Controller.png" width="800" height="617" data-media-id="P2rSN2sd4Q"></p>
+<p>Current hardware supported by MadMapper are the following USB DMX Devices: <strong><a href="https://shop.garagecube.com/products/controller-usb-to-dmx" target="_blank" rel="noopener">garageCube</a>,</strong><strong id="docs-internal-guid-581c5044-7fff-3bdd-6b13-9fb67040adfe">&nbsp;ShowJockey, Enttec DMX USB Pro, Enttec DMX USB Pro MK2, and the DMX King eDMX2 Pro</strong>, and network based devices that support Art-Net or sACN.</p>
+<p>&nbsp;</p>
+<p><img class="retina" src="DMX sACN.png" width="932" height="640" data-media-id="0ETtwGr0y8"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Output Configuration:</strong> To route your lighting data, navigate to <strong>Preferences &gt; Project (tab) &gt; DMX</strong>. Here you can select your network interface, choose your USB DMX device, Art-Net or sACN, and define your framerate to ensure smooth playback across your rig.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">DMX Fixtures Basics</h3>
+<p class="p1"><strong>DMX fixtures</strong> allow you to create and manage your fixtures for your light mapping projects.</p>
+<p class="p1">By adding fixtures you will need to replicate your physical lighting installation in <strong>MadMapper</strong>.</p>
+<div class="alert-banner-notes">
+<p class="p1">Since <strong>MadMapper 6</strong>, DMX fixtures are sampling the output composition.</p>
+</div>
+<h4>Location</h4>
+<p class="p1">Access the&nbsp;<strong>DMX fixtures</strong>&nbsp;by clicking on <strong>DMX</strong> (manage <strong>DMX fixtures</strong>) at the top left of the interface:</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img class="retina" src="DMX Menu v6.png" width="400" height="60" data-media-id="GkiEgb1Hrn"></p>
+<div class="alert-banner-notes">
+<p class="p1">Keyboard shortcut: Cmd + 4</p>
+</div>
+<h4 id="rtp4">New DMX Fixture</h4>
+<p class="p1">Simply click on the <strong>DMX fixture</strong>&nbsp;of your choice to add one:</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img class="retina" src="Fixtures Menu v6.png" width="400" height="41" data-media-id="mdNFks8Z70"></p>
+<div class="alert-banner-notes">
+<p class="p1">Created fixtures retain the <strong>same profile</strong> and follow the <strong>addressing</strong>.</p>
+<p class="p1">More info below as well as in the&nbsp;<strong>MadLight Documentation</strong>.</p>
+</div>
+<h4 id="rtp5">DMX Fixtures List</h4>
+<p class="p1">Added <strong>DMX fixtures</strong> (and groups) will be listed on the left in the DMX fixtures List:</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img class="retina" src="Fixtures List v6.png" width="400" height="194" data-media-id="yAwrpQDeQC"></p>
+<div class="alert-banner-notes">
+<p class="p1">Simply double-click on a <strong>DMX fixture</strong>&nbsp;name to rename it.</p>
+</div>
+<p class="p1">&nbsp;</p>
+<p class="p1">Other options are:</p>
+<ul>
+<li class="p1">Display/Hide a DMX fixture.</li>
+<li class="p1">Lock/Unlock a DMX fixture.</li>
+</ul>
+<div class="alert-banner-tips">
+<p class="p1">Locking a <strong>DMX fixture</strong> is useful when you don&rsquo;t want to change its settings anymore&mdash;it will avoid accidents.</p>
+</div>
+<p class="p1">&nbsp;</p>
+<p class="p1"><strong>The highlighted DMX fixture or group is also the one that is selected.</strong></p>
+<div class="alert-banner-warning">
+<p class="p1">Note that <strong>DMX Fixtures</strong> can be moved around in the fixtures list, but a fixture will <strong>overwrite</strong> the one below it because there are no opacity settings for fixtures.</p>
+<p class="p1">You can&rsquo;t define two fixtures on top of each other and play with the opacity, it will overwrite it instead.</p>
+</div>
+<h4 id="rtp6">Create Groups</h4>
+<p>You can create a group with as many <strong>DMX fixtures</strong> as you want by clicking on the Groups icon at top right of the DMX fixture list:</p>
+<p>&nbsp;</p>
+<p><img class="retina" src="DMX Groups v6.png" width="400" height="237" data-media-id="JHMXE8ZiuD"></p>
+<div class="alert-banner-tips">
+<p>This is very useful for grouping your fixtures by <strong>universes</strong>.</p>
+</div>
+<div class="alert-banner-notes">
+<p class="p1">Note that you can also <strong>drag</strong> your surfaces directly into a group, no matter what type they are.</p>
+<p class="p1">Or select a group of surfaces, then click on the group icon while holding the Shift key.</p>
+<p class="p1">A group will be created with the selected surfaces in the same location.</p>
+</div>
+<div class="alert-banner-notes">
+<p>As with <a class="int-link" href="video-surfaces" data-page-suid="7Wad2UTltR" data-product-slug="madmapper" data-product-version="6"><strong>Video Surfaces</strong></a>, <strong>DMX fixtures</strong> behave as layers as well.</p>
+</div>
+<h3 id="rtp7">DMX Fixtures Types</h3>
+<h4>DMX Fixture</h4>
+<p class="p1">The classic one!</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img class="retina" src="DMX Fixture Quad v6.png" width="800" height="583" data-media-id="PemS8xQdin"></p>
+<div class="alert-banner-notes">
+<p class="p1">Note that in the example above, 0 means that we are in universe 0.</p>
+<p class="p1">1-60 means that we will address DMX channels 1 to 15.</p>
+</div>
+<h4>DMX Line</h4>
+<p class="p1">It allows you to create l<strong>ine</strong>-type fixture:</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img class="retina" src="DMX Line v6.png" width="800" height="580" data-media-id="CnU3msrcQ1"></p>
+<h4>DMX Circle</h4>
+<p class="p1">Create a <strong>circle</strong> DMX fixture:</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img class="retina" src="DMX Circle v6.png" width="800" height="581" data-media-id="jUVpjCp8Ma"></p>
+<h4>DMX B&eacute;zier</h4>
+<p class="p1">Create B&eacute;zier fixtures:</p>
+<p><img src="MadMapper dmx.png" width="800" height="209" data-media-id="GsET6M1LXN"></p>
+<div class="alert-banner-notes">
+<p><strong>Note:</strong> For a more comprehensive guide on creating custom DMX fixture definitions, see the Fixture Definitions section below.</p>
+</div>
+<h3>DMX Fixture Inspector</h3>
+<p class="p1">The <strong>DMX Fixture Inspector</strong>, below the DMX fixture list, displays the important parameters of the selected DMX fixture (highlighted in the fixtures list).</p>
+<div class="alert-banner-warning">
+<p class="p1">The settings vary depending on the <strong>type</strong> of DMX fixture.</p>
+</div>
+<div class="alert-banner-notes">
+<p class="p1">The <strong>percentage</strong> of a setting is also multiplied by the group setting.</p>
+</div>
+<h4 id="rtp16">Appearance</h4>
+<p>Access basic settings such as <strong>Opacity</strong> or <strong>Color</strong>:</p>
+<p>&nbsp;</p>
+<p><img src="MadMapper DMX Fixtures 12.png" width="400" height="154" data-media-id="5X4nnquAli"></p>
+<h4>Fixture Definition</h4>
+<p class="p1">Choose one from the <strong>Fixture library</strong> and click on Edit to open the <strong>Fixture Editor</strong> panel.</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img src="MadMapper DMX Fixtures 8.png" width="400" height="83" data-media-id="1bPVGHRDK0"></p>
+<div class="alert-banner-notes">
+<p class="p1">Once our profile is selected, the information for our fixture is <strong>updated</strong> in the fixture list.</p>
+</div>
+<div class="alert-banner-tips">
+<p class="p1">These default profiles are particularly useful, especially the native <strong>garageCube</strong> ones.<br>However, note that you can define your <strong>own</strong> custom fixtures in&nbsp;the <strong>Fixture Editor</strong>.</p>
+</div>
+<h4>Channel and DMX Dip Switch</h4>
+<p class="p1">Note that the <strong>DMX Dip Switch</strong> acts like a physical dip switch.</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img src="MadMapper DMX Fixtures 9.png" width="400" height="126" data-media-id="kY6mAw69dR"></p>
+<p class="p1"><img src="MadMapper DMX Fixtures 10.png" width="400" height="49" data-media-id="2GE4UZ4clC"></p>
+<h4>DMX Filtering</h4>
+<p class="p1">DMX Filtering controls how MadMapper samples the video content for your lighting fixtures. Applying a filter averages the surrounding pixels, which helps prevent harsh flickering when playing high-contrast video over low-resolution LEDs.</p>
+<ul>
+<li class="p1"><strong>None:</strong> Samples a single, exact pixel at the center of the fixture.</li>
+<li class="p1"><strong>Box:</strong> Averages a square grid of pixels around the sample point (defined by the Size parameter).</li>
+<li class="p1"><strong>Anamorphic:</strong> Averages an area with independent width and height parameters (X and Y), which is perfect for mapping rectangular LED strips or non-square pixels.</li>
+</ul>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img class="retina" src="DMX Filtering.png" width="400" height="96" data-media-id="0nuhKIQpMh"></p>
+<h4>Response Curve</h4>
+<p class="p1">It defines how the device <strong>luminosity</strong> responds to the value sent in DMX/Art-Net.</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img src="MadMapper DMX Fixtures 11.png" width="400" height="40" data-media-id="Zq0CWj4w2h"></p>
+<h4>Output</h4>
+<p class="p1">Manage your fixture's <strong>Output</strong> settings:</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img src="MadMapper DMX Fixtures 13.png" width="400" height="163" data-media-id="Y0xhgP1URg"></p>
+<div class="alert-banner-tips">
+<p class="p1">Much more settings and parameters are available in the&nbsp;<strong>DMX Monitor</strong> and the <strong>Fixture Editor</strong>.</p>
+</div>
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">DMX Fixture Definitions</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">A <strong>DMX Fixture Definition</strong> describes the channel layout of a DMX lighting device so MadMapper knows how to control it. MadMapper ships with a built-in library of common fixtures (generic RGB pixels, RGBW strips, etc.), but you can create custom definitions for any DMX device &mdash; moving heads, laser fixtures, LED bars, fog machines, or complex multi-channel fixtures like the Minuit Une IVL Dice.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Fixture definitions are stored as <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mmfl</code> files (MadMapper Fixture Library). These files can be imported, exported, and shared between projects and users.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><img class="retina" src="DMX Fixture Definition Library.png" width="800" height="359" data-media-id="0rMbeQs5aS"></p>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Opening the Editor</h4>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Go to the <strong>DMX Fixtures</strong> tab (Cmd+4 / Ctrl+4)</li>
+<li class="whitespace-normal break-words pl-2">Click <strong>DMX +</strong> to create a new fixture</li>
+<li class="whitespace-normal break-words pl-2">In the fixture's properties, click <strong>Edit</strong> next to <strong>Fixture Library</strong></li>
+</ol>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">This opens the <strong>Fixture Editor</strong> panel, which lists all available fixture definitions &mdash; both built-in and custom.</p>
+<div class="alert-banner-tips">
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Keyboard shortcut to open the Fixture Editor panel directly: <strong>Option+Cmd+F</strong> (Mac) / <strong>Alt+Ctrl+F</strong> (Windows)</p>
+</div>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Creating a New Fixture</h4>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">In the Fixture Editor, click the <strong>+</strong> button</li>
+<li class="whitespace-normal break-words pl-2">Set the fixture <strong>name</strong> and <strong>group</strong> (used for organization in the library)</li>
+<li class="whitespace-normal break-words pl-2">Define the <strong>pixel grid</strong> dimensions (Width &times; Height) &mdash; use 1&times;1 for non-pixel fixtures</li>
+<li class="whitespace-normal break-words pl-2">Set the <strong>Pixel Type</strong> to <strong>Custom</strong> for non-standard channel layouts</li>
+<li class="whitespace-normal break-words pl-2">Add channels in order, specifying each channel's <strong>type</strong>, <strong>label</strong>, and <strong>bit depth</strong></li>
+</ol>
+<p><strong><img class="retina" src="Fixture Editior.png" width="400" height="376" data-media-id="GQWf7QxInc"></strong></p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">LED Array Configuration &amp; Properties</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">When creating or editing a fixture in the Fixture Editor, the <strong>Properties</strong> panel provides the following options for arrays and matrices:</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><img class="retina" src="Fixture Properties.png" width="400" height="567" data-media-id="7Pf5Fzi0LB"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Size Mode</strong></p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Option</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Fixed Size</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Manually set the pixel grid dimensions (Width &times; Height)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">LED Strip Mode</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Configure as a linear strip of pixels</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Matrix Mode</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Configure as a 2D pixel grid</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Pixel Type</strong> &mdash; Select the color model for the fixture's pixels: RGB, RGBW, or Custom (for non-standard channel layouts like the IVL Dice).</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Pixel Size</strong> &mdash; The number of DMX channels per pixel (e.g., 3 for RGB, 4 for RGBW). Check <strong>Advanced</strong> to access per-channel type and label configuration.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Assignation</strong> &mdash; Defines the pixel scanning/addressing order for LED strips and matrices. The 16 arrow pattern icons represent different ways pixels can be wired through the grid: left-to-right then top-to-bottom (Z-pattern), serpentine/zigzag, bottom-to-top, column-first, and their mirrored and reversed variants. Select the pattern that matches how your LEDs are physically wired. Click <strong>Clear</strong> to reset.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Skip channels 511&ndash;512</strong> &mdash; When enabled, MadMapper will leave DMX channels 511 and 512 empty at the end of each universe. Some DMX devices reserve these channels, and enabling this avoids addressing conflicts at universe boundaries.</p>
+<h4>Channel Types</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Each channel in a fixture definition has a type that tells MadMapper how to interpret it:</p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Type</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Typical Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">R</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Red</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">RGB/RGBW color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">G</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Green</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">RGB/RGBW color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">B</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Blue</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">RGB/RGBW color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">W</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">White</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">RGBW fixtures</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">L</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Luminance</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Single-channel brightness</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">C</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Cyan</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">CMY color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">M</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Magenta</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">CMY color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Y</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Yellow</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">CMY color mixing</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Slider</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Generic DMX value (0&ndash;255)</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Dimmer, pan, tilt, speed, gobo, or any non-color channel with manual control</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Expression</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">GLSL expression</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Computed channel value driven by a formula (see Expression Channels below)</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Unused</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Empty/skipped channel</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Placeholder for reserved or unneeded channels in the fixture's DMX footprint</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Bit Depth</h4>
+<p><img class="retina" src="16 Bit LED Depth.png" width="400" height="87" data-media-id="Cmqz5ozRet"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Channels can be set to <strong>8 Bits</strong> (single channel, 0&ndash;255) or <strong>16 Bits</strong> (two channels, coarse + fine, 0&ndash;65535).&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><img class="retina" src="Slider with 16bit.png" width="400" height="87" data-media-id="HXamNIK2Tr"></p>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Expression Channels</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Expression channels let you compute a DMX value using a GLSL expression instead of a fixed slider or color input. This is useful for deriving channel values from other parameters &mdash; for example, calculating a checksum, inverting a value, or mixing multiple inputs mathematically.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The following variables are available inside an expression:</p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Variable</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold" scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">R</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">G</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">B</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Current red, green, and blue color values</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">L</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Luminance value</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">W</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">White value</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">C</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">M</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Y</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Cyan, magenta, and yellow values</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">INDEX</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">The pixel index within the fixture</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">posX</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">posY</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Normalized pixel position within the fixture grid</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">COMP</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Component index</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">time</code></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Current time value</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Slider names</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">The values of any Slider channels, referenced by their label name</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="alert-banner-notes">
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Expressions follow GLSL syntax, so standard math functions like <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">sin()</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">clamp()</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">mix()</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">step()</code>, etc. are available.</p>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Controlling Moving Lights</h3>
+<p data-path-to-node="3">MadMapper's fixture engine is not limited to LED strips; it is fully capable of driving intelligent fixtures, moving heads, and complex DMX devices (like fog machines or the Minuit Une IVL Dice), but the logic you are used to to control the devices will be slightly different from traditional DMX consoles.</p>
+<p data-path-to-node="4">Instead of relying on a traditional programmer with faders and palettes for every parameter, MadMapper drives the color and intensity of the fixture by sampling your video content, while generating custom UI sliders for the mechanical features.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">To control moving lights:</p>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Create a custom fixture definition with a <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">1x1</code> pixel grid.</li>
+<li class="whitespace-normal break-words pl-2">Set the Pixel Type to <strong>Custom</strong>.</li>
+<li class="whitespace-normal break-words pl-2">Map the manufacturer's DMX sheet to the channels. Assign the color parameters to <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">R</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">G</code>, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">B</code> types (so they sample the video map).</li>
+<li class="whitespace-normal break-words pl-2">Assign the Pan, Tilt, Strobe, and Gobo parameters to the <strong>Slider</strong> type.</li>
+<li class="whitespace-normal break-words pl-2">In your MadMapper workspace, these Sliders will now appear in the Fixture Inspector, allowing you to manually aim the moving heads while their colors dynamically react to your video content!</li>
+</ol>
+<div class="alert-banner-tips">
+<p>Tip: After you have created a slider, you can animate it with keyframes in the Timelines tab, or connect it to Oscillator modules created under the Modules tab to generate automatic, continuous movement.</p>
+</div>
+<h3 data-path-to-node="2">Real-World Example: PAR 6-Channel</h3>
+<p data-path-to-node="3">For standard pixel mapping with addressable RGB LED pixels, a fixture will not require a complex definition. But this example shows how MadMapper fixtures can be customized to work with non-standard fixtures like an LED PAR can with additional color diodes, such as Amber and UV (Ultraviolet).</p>
+<p data-path-to-node="4">This fixture is a 6-channel LED PAR. It uses a 1&times;1 pixel grid with the Pixel Type set to "Custom" and a Pixel Size of 6 channels. The first four channels are assigned to standard color types (R, G, B, and W) so they can directly sample the video map. The remaining two channels are dedicated to the Amber and UV diodes.</p>
+<p data-path-to-node="5">By setting these last two channels to the "Slider" type and labeling them "Amber" and "UV", MadMapper automatically generates dedicated sliders for them at the bottom of the Fixture Inspector. This allows the operator to manually mix in Amber and UV light independently while the main RGBW channels dynamically react to the video content.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><img class="retina" src="Custom 6 Channel Fixture.png" width="800" height="609" data-media-id="7lWjmDNoFR">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<div class="overflow-x-auto w-full px-2 mb-6">&nbsp;</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-[1.375rem] font-bold">Importing and Exporting</h3>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Import a Fixture Definition</h4>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Open the <strong>Fixture Editor</strong> (click <strong>Edit</strong> next to Fixture Library on any fixture, or use Option+Cmd+F / Alt+Ctrl+F)</li>
+<li class="whitespace-normal break-words pl-2">Click <strong>Import...</strong></li>
+<li class="whitespace-normal break-words pl-2">Select a <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mmfl</code> file</li>
+<li class="whitespace-normal break-words pl-2">The fixture appears in the library and is ready to assign</li>
+</ol>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Export a Fixture Definition</h4>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Open the <strong>Fixture Editor</strong></li>
+<li class="whitespace-normal break-words pl-2">Select the fixture you want to export</li>
+<li class="whitespace-normal break-words pl-2">Click <strong>Export...</strong></li>
+<li class="whitespace-normal break-words pl-2">Save the <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mmfl</code> file to share or back up</li>
+</ol>
+<p>&nbsp;</p>
+<p>Quick links in the Fixture Editor Toolbar:</p>
+<figure class="image" contenteditable="false"><img class="retina" src="Fixture Editor Toolbar.png" width="600" height="66" data-media-id="BKHO1VLw0d">
+<figcaption contenteditable="true">Fixture Editor Toolbar (left to right): Import Fixture, Export Fixture, Add New Fixture Definition, and Create a Group.</figcaption>
+</figure>
+<p>&nbsp;</p>
+<div class="alert-banner-notes">
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Exported <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mmfl</code> files can be shared with other MadMapper users, committed to a Git repository, or included with a project archive.</p>
+</div>
+<h4 id="rtp14" class="text-text-100 mt-2 -mb-1 text-base font-bold">Import Fixtures from CSV</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">For large installations with many fixtures, MadMapper supports&nbsp;<strong>CSV import</strong>&nbsp;to batch-create fixtures with names, groups, and DMX addresses. Since MadMapper 5.2, the CSV can include group hierarchy using&nbsp;<code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">/</code>&nbsp;notation (e.g., "Stage Fixtures/Fixture 1"). See&nbsp;<strong>File &gt; Import DMX Fixtures from CSV</strong>&nbsp;for details.</p>
+<h4 id="rtp15" class="text-text-100 mt-2 -mb-1 text-base font-bold">Import Fixtures from SVG</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">For spatial layouts, MadMapper can import fixture positions from&nbsp;<strong>SVG files</strong> created in Illustrator or similar tools. This is especially useful for complex LED installations where fixture placement and DMX patching need to match a physical design precisely.</p>
+<h4>Example</h4>
+<p class="p1">An export from <strong>MadMapper</strong> opened in InkScape :</p>
+<p class="p2">&nbsp;</p>
+<p class="p2"><img src="MadMapper svg.png" width="600" height="563" data-media-id="29VUBSqur3"></p>
+<h3 id="rtp16" class="text-text-100 mt-2 -mb-1 text-base font-bold">Tips for Custom Fixtures</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Naming conventions</strong>&nbsp;&mdash; Use clear, descriptive channel labels. Include "Fine" in the label for the LSB channel of 16-bit pairs so operators can quickly identify coarse/fine relationships.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Modes</strong>&nbsp;&mdash; Many fixtures have multiple DMX modes with different channel counts. Create a separate definition for each mode and include the mode in the product name (e.g., "Minuit Une IVL Dice Mode 1").</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Testing</strong>&nbsp;&mdash; After creating a fixture definition, use the&nbsp;<strong>DMX Monitor</strong>&nbsp;panel (Option+Cmd+M / Alt+Ctrl+M) to verify that channels are mapping correctly and values are reaching the expected DMX addresses.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Color channel types</strong>&nbsp;&mdash; Use the correct R/G/B/W/C/M/Y types for color channels rather than Slider. This allows MadMapper's color engine to properly drive them with pixel-mapped media, materials, and color pickers.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Cross-universe fixtures</strong>&nbsp;&mdash; If your fixture spans more than 512 channels or if its DMX address places it near the end of a universe, enable&nbsp;<code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">avoidCrossUniversePixels</code>&nbsp;to prevent a single pixel's channels from being split across two universes.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Backup</strong>&nbsp;&mdash; Keep your custom&nbsp;<code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mmfl</code> files in a shared location or version control. Fixture definitions are stored within MadMapper's library, but having external backups ensures you can quickly rebuild on a new machine.</p>
+<h2 data-path-to-node="10">LED Scanner</h2>
+<p><img class="retina" src="LED Scanner.png" width="800" height="377" data-media-id="eotHqzz5Fc"></p>
+<p data-path-to-node="4">When building custom LED installations, placing physical light tubes or pixel tape rarely results in a perfect geometric grid. Trying to manually arrange dozens of virtual DMX fixtures in MadMapper to match their scattered real-world positions is notoriously difficult. The LED Scanner automates this entirely.</p>
+<h4 data-path-to-node="5">Setup &amp; Configuration</h4>
+<ol start="1" data-path-to-node="6">
+<li>
+<p data-path-to-node="6,0,0"><strong data-path-to-node="6,0,0" data-index-in-node="0">Position the Camera:</strong> Position a camera (webcam or DSLR) so it has a clear view of your entire physical LED installation.</p>
+</li>
+<li>
+<p data-path-to-node="6,1,0"><strong data-path-to-node="6,1,0" data-index-in-node="0">Open the Scanner:</strong> Access the LED Scanner via <strong data-path-to-node="6,1,0" data-index-in-node="45">Tools &gt; Scanners &gt; LED Scanner</strong>.</p>
+</li>
+<li>
+<p data-path-to-node="6,2,0"><strong data-path-to-node="6,2,0" data-index-in-node="0">Configure Parameters:</strong> In the LED Scanner panel, define the following settings:</p>
+<ul data-path-to-node="6,2,1">
+<li>
+<p data-path-to-node="6,2,1,0,0"><strong data-path-to-node="6,2,1,0,0" data-index-in-node="0">Camera:</strong> Select the input device (e.g., FaceTime HD Camera).</p>
+</li>
+<li>
+<p data-path-to-node="6,2,1,1,0"><strong data-path-to-node="6,2,1,1,0" data-index-in-node="0">Fixture Definition:</strong> Choose the specific profile (e.g., GarageCube - SFX-01 RGB 1m).</p>
+</li>
+<li>
+<p data-path-to-node="6,2,1,2,0"><strong data-path-to-node="6,2,1,2,0" data-index-in-node="0">DMX Range:</strong> Define the <strong data-path-to-node="6,2,1,2,0" data-index-in-node="22">Start Universe/Channel</strong> and <strong data-path-to-node="6,2,1,2,0" data-index-in-node="49">End Universe/Channel</strong> that the scanner should monitor for your LED installation.</p>
+</li>
+<li>
+<p data-path-to-node="6,2,1,3,0"><strong data-path-to-node="6,2,1,3,0" data-index-in-node="0">Brightness &amp; Threshold:</strong> Adjust these sliders to ensure the camera can clearly distinguish the flashing LEDs from the ambient light in the room.</p>
+</li>
+<li>
+<p data-path-to-node="6,2,1,4,0"><strong data-path-to-node="6,2,1,4,0" data-index-in-node="0">Map LEDs at 0,0 if not detected:</strong> An optional safety check to catch any pixels that were missed during the scan.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="6,3,0"><strong data-path-to-node="6,3,0" data-index-in-node="0">The Scan:</strong> Click <strong data-path-to-node="6,3,0" data-index-in-node="16">Start Scan</strong>. MadMapper will sequentially flash every single LED pixel in your physical installation one by one.</p>
+</li>
+<li>
+<p data-path-to-node="6,4,0"><strong data-path-to-node="6,4,0" data-index-in-node="0">The Result:</strong> The camera tracks these flashes in real-time. Once finished, MadMapper automatically arranges all of your virtual DMX fixtures in your MadLight workspace to perfectly mirror their exact physical coordinates in the real world. You can immediately drop a video texture across your workspace, and it will map flawlessly across your physical LEDs.</p>
+</li>
+</ol>
+<div class="alert-banner-notes">
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><em>(See the <a class="int-link" href="special-tools-and-auto-calibration" data-page-suid="Uk56VJMWin" data-product-slug="madmapper" data-product-version="6"><strong>Special Tools and Auto-Calibration</strong></a> page for detailed instructions on using the <strong>LED, Space, or Laser Scanners.</strong></em></p>
+</div>
+<h3 data-path-to-node="2">MadLight Recorder</h3>
+<p><img class="retina" src="MadLight DMX Recorder.png" width="500" height="319" data-media-id="NIyVpk5bhb"></p>
+<p data-path-to-node="3">Sometimes you need to capture a complex, generative lighting look and bake it down into a static file for playback on a standalone architectural controller, for looping inside a sequence, or for export to <strong data-path-to-node="3" data-index-in-node="205">MiniMad</strong> hardware.</p>
+<p data-path-to-node="4">The <strong data-path-to-node="4" data-index-in-node="4">MadLight Recorder</strong> allows you to record the live, outgoing Art-Net or sACN streams directly from MadMapper. It captures the exact DMX values frame-by-frame and saves them into a highly optimized MadLight Sequence. This allows you to effortlessly record a live busking session or a complex generative pixel map, and play it back later, export it to the Timeline, or prepare it for deployment on dedicated hardware.</p>
+<p data-path-to-node="4">&nbsp;</p>
+<p data-path-to-node="4"><img class="retina" src="Edit Sequence MadLight Recorder.png" width="800" height="271" data-media-id="voizLcXXxq"></p>
+<h4 data-path-to-node="5">Audio &amp; Synchronization</h4>
+<p data-path-to-node="6">When an audio file is associated with a sequence, you can toggle the <strong data-path-to-node="6" data-index-in-node="69">Sync</strong> setting to control playback behavior:</p>
+<ul data-path-to-node="7">
+<li>
+<p data-path-to-node="7,0,0"><strong data-path-to-node="7,0,0" data-index-in-node="0">Sync Enabled (Checked):</strong> The audio track will stay in perfect synchronization with the lighting track.</p>
+</li>
+<li>
+<p data-path-to-node="7,1,0"><strong data-path-to-node="7,1,0" data-index-in-node="0">Sync Disabled (Unchecked):</strong> The audio will loop independently from the lighting playback.</p>
+</li>
+</ul>
+<h4 data-path-to-node="8">Exporting to MiniMad</h4>
+<p data-path-to-node="9">Once a sequence is recorded, you can use the <strong data-path-to-node="9" data-index-in-node="45">Export to MiniMad</strong> button to bundle your sequence and audio files for use on MiniMad players. This provides a streamlined workflow for moving from complex generative setups in MadMapper to robust, standalone playback in the field.</p>
+<h3 data-path-to-node="2">Video Wall Setup</h3>
+<p><img class="retina" src="Video Wall Example.png" width="800" height="365" data-media-id="6mYPBbgoJ1"></p>
+<p data-path-to-node="3">When working with massive LED walls powered by external processors (like Novastar) or configuring high-density pixel matrices, building the grid piece-by-piece is inefficient. MadMapper features an automated <strong data-path-to-node="3" data-index-in-node="208">Video Wall template setup</strong> tool designed specifically to streamline this process.</p>
+<h4 data-path-to-node="4">Accessing the Tool</h4>
+<p data-path-to-node="5">To begin your configuration, navigate to the top menu and select: <strong data-path-to-node="5" data-index-in-node="66">File &gt; New Project &gt; From Template &gt; Video Wall Template</strong>.</p>
+<p data-path-to-node="5"><img class="retina" src="Video Wall Template Setup.png" width="400" height="355" data-media-id="UN0V09N6p7"></p>
+<h4 data-path-to-node="6">Configuration Parameters</h4>
+<p data-path-to-node="7">Once the setup window appears, define your wall using the following settings:</p>
+<ul data-path-to-node="8">
+<li>
+<p data-path-to-node="8,0,0"><strong data-path-to-node="8,0,0" data-index-in-node="0">Number of screens:</strong> Define the grid layout by entering the horizontal and vertical screen count.</p>
+</li>
+<li>
+<p data-path-to-node="8,1,0"><strong data-path-to-node="8,1,0" data-index-in-node="0">Screen resolution:</strong> Select a standard resolution (e.g., 1080p) or define a custom pixel width and height.</p>
+</li>
+<li>
+<p data-path-to-node="8,2,0"><strong data-path-to-node="8,2,0" data-index-in-node="0">Setup bezel:</strong> Enable this if you need to account for physical gaps between your panels, then specify the <strong data-path-to-node="8,2,0" data-index-in-node="104">Image size</strong> and <strong data-path-to-node="8,2,0" data-index-in-node="119">Bezel size</strong> in cm or inches.</p>
+</li>
+<li>
+<p data-path-to-node="8,3,0"><strong data-path-to-node="8,3,0" data-index-in-node="0">Projector orientation:</strong> Choose the physical rotation of your screens (e.g., Landscape 0&deg;) to ensure the video canvas aligns correctly.</p>
+</li>
+</ul>
+<p data-path-to-node="9">Once configured, click <strong data-path-to-node="9" data-index-in-node="23">Create</strong>. MadMapper will instantly generate a perfectly aligned, scaled grid of video quads or DMX fixtures, guaranteeing your virtual canvas matches your physical LED panels flawlessly while saving hours of manual configuration.</p>

@@ -519,6 +519,15 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "XN5FxSPLGz",
+        "pageTitle": "DMX & LED Mapping",
+        "pageSlug": "dmx-and-led-mapping",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
       }
     ],
     "publish": false,

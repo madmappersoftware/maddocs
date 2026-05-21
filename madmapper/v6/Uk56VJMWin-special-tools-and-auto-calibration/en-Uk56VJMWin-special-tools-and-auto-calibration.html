@@ -2,27 +2,80 @@
 <p data-path-to-node="3">When dealing with highly complex stages, scattered LED installations, or intricate architectural mappings, manual calibration can become incredibly time-consuming. MadMapper provides three powerful auto-calibration tools to speed up these advanced workflows.</p>
 <p data-path-to-node="4">These features can be accessed from the top menu bar under <strong data-path-to-node="4" data-index-in-node="59">Tools</strong> -&gt; <strong data-path-to-node="4" data-index-in-node="68">Scanners</strong>: Space Scanner, LED Scanner, and Laser Scanner.</p>
 <h2 data-path-to-node="5">Space Scanner</h2>
-<p data-path-to-node="6"><em data-path-to-node="6" data-index-in-node="0">(Formerly the Spatial Scanner)</em></p>
-<p data-path-to-node="7">If you do not have a pre-built 3D model of your stage or building, you can capture it yourself using the Space Scanner.</p>
-<p data-path-to-node="8">Using a built-in web camera, an external USB web camera, or a supported Canon DSLR (via the Canon ESDK integration) connected to your computer, MadMapper will project a rapid sequence of structured light patterns (black and white stripes) from your projector onto the physical scene.</p>
-<p data-path-to-node="9">The camera photographs these patterns as they shift over the physical contours of your stage. MadMapper then triangulates the data between the camera's lens and the projector's lens to generate a pixel-perfect, warped mapping mesh or "calibration map" automatically. This effectively turns your projector into a high-resolution 3D scanner, allowing you to instantly map complex geometry without placing a single manual warping point.</p>
-<h2 data-path-to-node="10">LED Scanner</h2>
-<p data-path-to-node="11">When building custom LED installations, placing physical light tubes or pixel tape rarely results in a perfect geometric grid. Trying to manually arrange dozens of virtual DMX fixtures in MadMapper to match their scattered real-world positions is notoriously difficult. The LED Scanner automates this entirely.</p>
-<ol start="1" data-path-to-node="12">
+<p><img class="retina" src="Space Scanner Capture.png" width="800" height="566" data-media-id="rljPgdlzME"></p>
+<p data-path-to-node="4"><em data-path-to-node="4" data-index-in-node="0">(Formerly the Spatial Scanner)</em></p>
+<p data-path-to-node="5">If you do not have a pre-built 3D model of your stage or building, you can use the Space Scanner to accurately calibrate your projector's perspective relative to your physical scene.</p>
+<h4 data-path-to-node="6">Understanding the Process</h4>
+<p data-path-to-node="7">The Space Scanner does not create a 3D model. Instead, it projects a series of structured light patterns (black and white stripes) from your projector, which are captured by your camera. By analyzing how these patterns distort across your physical surfaces, MadMapper calculates the exact perspective of the projector's lens. The result is a high-resolution, pixel-perfect "calibration map" that you can use as a background layer while you work on your mappings.</p>
+<p data-path-to-node="8"><em data-path-to-node="8" data-index-in-node="0">Note: These background calibration layers are used to guide your workflow and do not have to appear in your final output.</em></p>
+<h4 data-path-to-node="9">Setup &amp; Configuration</h4>
+<ol start="1" data-path-to-node="10">
 <li>
-<p data-path-to-node="12,0,0"><strong data-path-to-node="12,0,0" data-index-in-node="0">Setup:</strong> Position a camera (webcam or DSLR) so it has a clear view of your entire physical LED installation.</p>
+<p data-path-to-node="10,0,0"><strong data-path-to-node="10,0,0" data-index-in-node="0">Open the Scanner:</strong> Access the tool via <strong data-path-to-node="10,0,0" data-index-in-node="38">Tools &gt; Scanners &gt; Space Scanner</strong>.</p>
 </li>
 <li>
-<p data-path-to-node="12,1,0"><strong data-path-to-node="12,1,0" data-index-in-node="0">Configure:</strong> Open the LED Scanner, select your camera input, and select the specific DMX fixtures/universes you want to map.</p>
+<p data-path-to-node="10,1,0"><strong data-path-to-node="10,1,0" data-index-in-node="0">Select Hardware:</strong> In the top toolbar, select your <strong data-path-to-node="10,1,0" data-index-in-node="49">Source</strong> (webcam, USB camera, or supported Canon DSLR) and the <strong data-path-to-node="10,1,0" data-index-in-node="110">Projector</strong> output.</p>
 </li>
 <li>
-<p data-path-to-node="12,2,0"><strong data-path-to-node="12,2,0" data-index-in-node="0">The Scan:</strong> When you start the scan, MadMapper will sequentially flash every single LED pixel in your physical installation one by one.</p>
+<p data-path-to-node="10,2,0"><strong data-path-to-node="10,2,0" data-index-in-node="0">Adjust Timing:</strong> Set your <strong data-path-to-node="10,2,0" data-index-in-node="24">Capture Timing</strong> to ensure the camera shutter is synchronized with the projected patterns.</p>
 </li>
 <li>
-<p data-path-to-node="12,3,0"><strong data-path-to-node="12,3,0" data-index-in-node="0">The Result:</strong> The camera tracks these flashes in real-time. Once finished, MadMapper automatically arranges all of your virtual DMX fixtures in your MadLight workspace to perfectly mirror their exact physical coordinates in the real world. You can immediately drop a video texture across your workspace and it will map flawlessly across your physical LEDs.</p>
+<p data-path-to-node="10,3,0"><strong data-path-to-node="10,3,0" data-index-in-node="0">Execute Capture:</strong> Click <strong data-path-to-node="10,3,0" data-index-in-node="23">Capture</strong> to begin the automated sequence.</p>
 </li>
 </ol>
-<h2 data-path-to-node="13">Laser Scanner</h2>
+<h4 data-path-to-node="11">Best Practices for Accuracy</h4>
+<p data-path-to-node="12">To ensure the most accurate calibration, please follow these guidelines:</p>
+<ul data-path-to-node="13">
+<li>
+<p data-path-to-node="13,0,0"><strong data-path-to-node="13,0,0" data-index-in-node="0">Lens Alignment:</strong> Place your camera lens as close to the projector's lens as possible.</p>
+</li>
+<li>
+<p data-path-to-node="13,1,0"><strong data-path-to-node="13,1,0" data-index-in-node="0">Stability:</strong> Once the process begins, do not move the camera or the projector.</p>
+</li>
+<li>
+<p data-path-to-node="13,2,0"><strong data-path-to-node="13,2,0" data-index-in-node="0">Clearance:</strong> Ensure no people or objects move in front of the projection during the scan, as any movement will skew the final image calculation.</p>
+</li>
+</ul>
+<p data-path-to-node="3"><span style="font-family: Mont-Bold; font-size: 38px;">LED Scanner</span></p>
+<p><img class="retina" src="LED Scanner.png" width="800" height="377" data-media-id="eotHqzz5Fc"></p>
+<p data-path-to-node="4">When building custom LED installations, placing physical light tubes or pixel tape rarely results in a perfect geometric grid. Trying to manually arrange dozens of virtual DMX fixtures in MadMapper to match their scattered real-world positions is notoriously difficult. The LED Scanner automates this entirely.</p>
+<h4 data-path-to-node="5">Setup &amp; Configuration</h4>
+<ol start="1" data-path-to-node="6">
+<li>
+<p data-path-to-node="6,0,0"><strong data-path-to-node="6,0,0" data-index-in-node="0">Position the Camera:</strong> Position a camera (webcam or DSLR) so it has a clear view of your entire physical LED installation.</p>
+</li>
+<li>
+<p data-path-to-node="6,1,0"><strong data-path-to-node="6,1,0" data-index-in-node="0">Open the Scanner:</strong> Access the LED Scanner via <strong data-path-to-node="6,1,0" data-index-in-node="45">Tools &gt; Scanners &gt; LED Scanner</strong>.</p>
+</li>
+<li>
+<p data-path-to-node="6,2,0"><strong data-path-to-node="6,2,0" data-index-in-node="0">Configure Parameters:</strong> In the LED Scanner panel, define the following settings:</p>
+<ul data-path-to-node="6,2,1">
+<li>
+<p data-path-to-node="6,2,1,0,0"><strong data-path-to-node="6,2,1,0,0" data-index-in-node="0">Camera:</strong> Select the input device (e.g., FaceTime HD Camera).</p>
+</li>
+<li>
+<p data-path-to-node="6,2,1,1,0"><strong data-path-to-node="6,2,1,1,0" data-index-in-node="0">Fixture Definition:</strong> Choose the specific profile (e.g., GarageCube - SFX-01 RGB 1m).</p>
+</li>
+<li>
+<p data-path-to-node="6,2,1,2,0"><strong data-path-to-node="6,2,1,2,0" data-index-in-node="0">DMX Range:</strong> Define the <strong data-path-to-node="6,2,1,2,0" data-index-in-node="22">Start Universe/Channel</strong> and <strong data-path-to-node="6,2,1,2,0" data-index-in-node="49">End Universe/Channel</strong> that the scanner should monitor for your LED installation.</p>
+</li>
+<li>
+<p data-path-to-node="6,2,1,3,0"><strong data-path-to-node="6,2,1,3,0" data-index-in-node="0">Brightness &amp; Threshold:</strong> Adjust these sliders to ensure the camera can clearly distinguish the flashing LEDs from the ambient light in the room.</p>
+</li>
+<li>
+<p data-path-to-node="6,2,1,4,0"><strong data-path-to-node="6,2,1,4,0" data-index-in-node="0">Map LEDs at 0,0 if not detected:</strong> An optional safety check to catch any pixels that were missed during the scan.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="6,3,0"><strong data-path-to-node="6,3,0" data-index-in-node="0">The Scan:</strong> Click <strong data-path-to-node="6,3,0" data-index-in-node="16">Start Scan</strong>. MadMapper will sequentially flash every single LED pixel in your physical installation one by one.</p>
+</li>
+<li>
+<p data-path-to-node="6,4,0"><strong data-path-to-node="6,4,0" data-index-in-node="0">The Result:</strong> The camera tracks these flashes in real-time. Once finished, MadMapper automatically arranges all of your virtual DMX fixtures in your MadLight workspace to perfectly mirror their exact physical coordinates in the real world. You can immediately drop a video texture across your workspace, and it will map flawlessly across your physical LEDs.</p>
+</li>
+</ol>
+<p>&nbsp;</p>
+<p data-path-to-node="11"><span style="font-family: Mont-Bold; font-size: 38px;">Laser Scanner</span></p>
 <p data-path-to-node="14">Introduced in MadMapper 5.5, the Laser Scanner brings the power of auto-calibration to the MadLaser extension.</p>
 <p data-path-to-node="15">Because laser hardware utilizes high-speed mechanical galvanometers (mirrors) rather than pixel grids, aligning laser paths to physical architecture or syncing them perfectly over a video projection traditionally requires intensive, manual bezier warping.</p>
 <p data-path-to-node="16">By utilizing the Laser Scanner, a connected camera reads calibration patterns drawn by your physical laser projector. The software calculates the exact physical distortion, angle, and distance of the laser beam, and automatically generates a corrected mapping. This ensures that your vector paths, ILDA files, and laser materials hit your physical targets with absolute precision.</p>
