@@ -98,14 +98,13 @@
         "breadcrumb": "Introduction > Discover the Interface"
       },
       {
-        "pageSuid": "cyHfGqwmSP",
-        "pageTitle": "DMX Fixtures",
-        "pageSlug": "dmx-fixtures",
+        "pageSuid": "XN5FxSPLGz",
+        "pageTitle": "DMX & LED Mapping",
+        "pageSlug": "dmx-and-led-mapping",
         "pageType": "empty",
-        "minorVersion": "6",
+        "minorVersion": "0",
         "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
+        "publish": false
       },
       {
         "pageSuid": "WwXLi7xy0e",
@@ -521,13 +520,14 @@
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
-        "pageSuid": "XN5FxSPLGz",
-        "pageTitle": "DMX & LED Mapping",
-        "pageSlug": "dmx-and-led-mapping",
+        "pageSuid": "cyHfGqwmSP",
+        "pageTitle": "DMX Fixtures",
+        "pageSlug": "dmx-fixtures",
         "pageType": "empty",
-        "minorVersion": "0",
+        "minorVersion": "6",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
       }
     ],
     "publish": false,
