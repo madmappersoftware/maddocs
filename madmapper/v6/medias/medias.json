@@ -1265,5 +1265,48 @@
         "pageSlug": "laser-(madlaser)"
       }
     ]
+  },
+  {
+    "mediaId": "UQTo1pEpWk",
+    "filename": "Laser Vectorization.png",
+    "imgName": "Laser Vectorization",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Laser Vectorization.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-22T15:47:45.932Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
   }
 ]
