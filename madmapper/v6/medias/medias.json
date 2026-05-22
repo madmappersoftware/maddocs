@@ -984,5 +984,286 @@
         "pageSlug": "dmx-and-led-mapping"
       }
     ]
+  },
+  {
+    "mediaId": "3R0It3va1Y",
+    "filename": "Mad Hand Laser.jpg",
+    "imgName": "Mad Hand Laser",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/Mad Hand Laser.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-21T23:07:52.031Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "SMXkyKzpOT",
+    "filename": "Enable Laser Visualization.png",
+    "imgName": "Enable Laser Visualization",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Enable Laser Visualization.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-22T15:22:20.726Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "wkErR3B16W",
+    "filename": "Laser Visualization Dropdown Menu.png",
+    "imgName": "Laser Visualization Dropdown Menu",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Laser Visualization Dropdown Menu.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-22T15:22:53.567Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "qq1f799TcD",
+    "filename": "MadLaser Interface.png",
+    "imgName": "MadLaser Interface",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadLaser Interface.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-22T15:25:41.062Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "DZlY7zsly5",
+    "filename": "Beam Preview Adjustments Laser.png",
+    "imgName": "Beam Preview Adjustments Laser",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Beam Preview Adjustments Laser.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-22T15:31:23.046Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "PH4yEbvEJJ",
+    "filename": "Laser Safety Masks in MadMapper.png",
+    "imgName": "Laser Safety Masks in MadMapper",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Laser Safety Masks in MadMapper.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-22T15:34:54.332Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "YhQMwNOoVS",
+    "filename": "Laser Safety Masks Updated.png",
+    "imgName": "Laser Safety Masks Updated",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Laser Safety Masks Updated.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-22T15:43:21.483Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
   }
 ]

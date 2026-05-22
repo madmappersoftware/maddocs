@@ -207,6 +207,15 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
+      },
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageTitle": "Laser (MadLaser)",
+        "pageSlug": "laser-(madlaser)",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
       }
     ],
     "publish": true,
