@@ -123,6 +123,15 @@
             "subpage": [],
             "publish": false,
             "breadcrumb": "Introduction > Discover the Interface > Outputs"
+          },
+          {
+            "pageSuid": "aCCGVvsnzB",
+            "pageTitle": "Soft Edge Blending",
+            "pageSlug": "soft-edge-blending",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
           }
         ],
         "publish": false,
@@ -245,7 +254,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": true,
+        "publish": false,
         "breadcrumb": "What's New"
       }
     ],
@@ -538,6 +547,24 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "GFZHl1whIy",
+        "pageTitle": "MiniMad",
+        "pageSlug": "minimad",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "vsJMXMbDlD",
+        "pageTitle": "Audio Routing",
+        "pageSlug": "audio-routing",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
       }
     ],
     "publish": false,

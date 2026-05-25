@@ -1,0 +1,96 @@
+<h1 class="text-text-100 mt-3 -mb-1 text-[2rem] font-bold">MiniMad User Guide</h1>
+<p><em>(This is an abbreviated online example of the official MiniMad User Guide.&nbsp; For a more comprehensive overview download the official guide from <a href="https://madmapper.com/minimad/userguides" target="_blank" rel="noopener">h</a><a href="https://madmapper.com/minimad/userguides" target="_blank" rel="noopener">ere</a>)&nbsp;</em></p>
+<p><img class="retina" src="MiniMad Black.png" width="800" height="383" data-media-id="EOsITus2K0"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The MiniMad is an all-in-one dedicated media playback device for video and LED mapping, based on the Raspberry Pi platform. Easy to use, small, and versatile, it can be a reliable replacement for a computer in audiovisual installations.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">MiniMad works with an SD-card that contains both the system and the software. It can either be installed with <strong>MiniMad Video</strong> to play video-mapping, or with <strong>MiniMad Light</strong> to play recorded DMX sequences.</p>
+<div class="alert-banner-notes">
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><em>The official MiniMad User Guide can be found online&nbsp;<a href="https://madmapper.com/minimad/userguides" target="_blank" rel="noopener">here</a>&nbsp;or from the Help menu in the MadMapper Application</em></p>
+</div>
+<div class="alert-banner-warning">
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Note: MiniMad Video and MiniMad Light cannot be installed at the same time on the same SD-card.</p>
+</div>
+<hr class="my-6 border-border-300">
+<h2 class="text-text-100 mt-6 -mb-1 text-[1.5rem] font-bold">Hardware &amp; Power Management</h2>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Turning the MiniMad On</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Turning the MiniMad on is as simple as plugging it in. To avoid physically plugging it in and out, you can use an AC power-switch.</p>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Turning the MiniMad Off</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Depending on the chosen export settings, you can either safely disconnect the MiniMad from power, or you may be required to shut it down properly to avoid data-corruption on the SD-card.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Data-corruption can happen if power is cut while the MiniMad is writing to the SD-card. This occurs:</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">When changing media (if the "start last played media" setting is checked).</li>
+<li class="whitespace-normal break-words pl-2">When changing master luminosity or audio volume.</li>
+<li class="whitespace-normal break-words pl-2">When changing the playback mode.</li>
+<li class="whitespace-normal break-words pl-2">When editing using the mapping or image control modes in MiniMad Video.</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">If you use any of these features, <strong>do not cut the power directly</strong>. Instead, perform a proper shutdown using the MiniMad buttons (Hold Red + Blue for 2.5 seconds), a USB keyboard (Q), the MiniMad Controller, or via OSC. The green LED will blink 6 successive times to indicate the device can be safely electrically powered-off.</p>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">SD-Card Management</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Activating Your SD-Card:</strong><br>If you flash your MiniMad SD-card or use an SD-card from another MiniMad unit, you must activate it. Insert the card, connect an HDMI display, plug in the power, and follow the on-screen procedure. The red LED will blink rapidly when activation is required and stop once activated.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Flashing Your SD-Card:</strong><br>Flashing is necessary if a newer system version is available, you are using a brand new SD-card, or the system suffers data corruption. Download the latest MiniMad system image from the MadMapper Downloads page and use the <strong>Etcher</strong> tool to flash the SD-card.</p>
+<hr class="my-6 border-border-300">
+<h2 class="text-text-100 mt-6 -mb-1 text-[1.5rem] font-bold">MiniMad VIDEO</h2>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Features</h3>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Surfaces:</strong> Supports Quad, Triangle, Circle, and Mask surfaces. (Lines, 3D surfaces, and FX are not currently supported).</li>
+<li class="whitespace-normal break-words pl-2"><strong>Media:</strong> Supports a single media at a time across all surfaces. Movie files are transcoded during export to maximize smoothness. The maximum file size is 4GB (FAT32 limit) for a 16GB SD-card.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Projector:</strong> Supports a single projector via HDMI up to 1080p (1920x1080).</li>
+</ul>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Exporting to MiniMad Video</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">In MadMapper, click <strong>File &gt; Export Video Mapping to MiniMad</strong>. (FFmpeg Tools installer is required). You can either insert the SD-card directly into your computer or export over the network to a remote MiniMad.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">For simple setups (like a single fullscreen quad with no color correction), MadMapper will offer to switch on <strong>Fullscreen maximum quality mode</strong> to output up to 1080p30. <em>Note: Mapping and color correction controls are disabled on the MiniMad when this mode is active.</em></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><em><img class="retina" src="MiniMad Export Settings.png" width="800" height="608" data-media-id="UeUW38BTor"></em></p>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Network Synchronisation</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Connect multiple MiniMad units to the same ethernet network (via a switch) to synchronize media playback automatically. Movie synchronization happens across units playing a movie with the exact same frame count and framerate. Any media-related action (pause, restart, mode change) made on one MiniMad happens instantly across all connected units.</p>
+<hr class="my-6 border-border-300">
+<h2 class="text-text-100 mt-6 -mb-1 text-[1.5rem] font-bold">MiniMad LIGHT</h2>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Recording &amp; Exporting</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">In MadMapper, once your DMX fixtures are set up, open <strong>Tools &gt; MadLight Recorder</strong>. Click "Start Recording" to capture your DMX output, and optionally select an audio track. You can edit the in/out frames in the sequence list.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Click <strong>Export to MiniMad</strong>. By default, MiniMad uses the same DMX interface as MadMapper, but you can select a different one. For ArtNet, sACN, or OSC control, you can choose Automatic (DHCP) or Manual network configuration.</p>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Audio Output</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">MiniMad can play audio through its mini-jack connector or via an external USB system-compliant audio device. Make sure to plug in the USB audio device <em>before</em> powering the MiniMad on. If the audio device draws too much power, use an externally-powered USB hub.</p>
+<hr class="my-6 border-border-300">
+<h2 class="text-text-100 mt-6 -mb-1 text-[1.5rem] font-bold">Controls (Video &amp; Light)</h2>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">OSC &amp; MiniMad Controller</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The MiniMad listens to OSC commands on <strong>port 1111</strong> and declares itself via Bonjour. In MadMapper, you can create a new <strong>MiniMad Controller module</strong> to get full control of the device, mapping parameters to Keyboard, MIDI, OSC, BPM, or Cues.</p>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Hardware Buttons (Media / Light Mode)</h3>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Red + Blue:</strong> Hold to shutdown.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Up:</strong> Change playback mode.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Down:</strong> Pause media / Long press to restart.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Left / Right:</strong> Previous / Next media (or sequence).</li>
+<li class="whitespace-normal break-words pl-2"><strong>Yellow + Up/Down:</strong> Control Luminosity (MiniMad Light).</li>
+<li class="whitespace-normal break-words pl-2"><strong>Yellow + Red:</strong> Toggle Blackout (MiniMad Light).</li>
+</ul>
+<p>&nbsp;</p>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Keyboard Controls</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">You can attach any USB keyboard as a remote control. Key shortcuts include:</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Q:</strong> Shutdown</li>
+<li class="whitespace-normal break-words pl-2"><strong>Space:</strong> Pause / Play</li>
+<li class="whitespace-normal break-words pl-2"><strong>Numbers (0-9):</strong> Direct access to the first 10 media/sequences.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Arrow Keys:</strong> Navigate media, adjust luminosity, or move control points (in mapping mode).</li>
+</ul>
+<hr class="my-6 border-border-300">
+<h2 class="text-text-100 mt-6 -mb-1 text-[1.5rem] font-bold">Troubleshooting &amp; Tips</h2>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">LED Status Guide</h3>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Red (Solid):</strong> Powered and running normally.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Red (Blinking Rapidly):</strong> SD-Card requires activation.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Red (Blinking Slowly/Randomly):</strong> The device is not getting enough power. Ensure you are using the official 2A power supply.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Green (Blinking):</strong> SD-card is being accessed.</li>
+</ul>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Tips and Tricks</h3>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Industrial Grade SD-Cards:</strong> For permanent installations or hot environments, we highly advise upgrading to Industrial/Military grade SD-cards to prevent data corruption.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Exporting Generators/Materials:</strong> MiniMad Video cannot natively render MadMapper Materials or Generators. To use them, record your output using Syphon/Spout, and export the resulting video file to the MiniMad.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Saving Modifications:</strong> No action is required to save. MiniMad automatically saves all mapping modifications when you exit the mapping mode (Red button).</li>
+<li class="whitespace-normal break-words pl-2"><strong>Rebooting:</strong> You can quickly reboot the MiniMad by holding all three colored buttons (Red, Yellow, Blue) at the same time.</li>
+</ul>
+<h3 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Technical Specifications</h3>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Based on Raspberry Pi 2 Model B</li>
+<li class="whitespace-normal break-words pl-2">7 buttons control panel</li>
+<li class="whitespace-normal break-words pl-2">HDMI output up to 1080p60 (1920x1080 at 60Hz)</li>
+<li class="whitespace-normal break-words pl-2">16 GB MicroSD-card included</li>
+<li class="whitespace-normal break-words pl-2">2 Amps power supply (5V dc)</li>
+</ul>

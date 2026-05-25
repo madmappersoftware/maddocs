@@ -1,0 +1,46 @@
+<h1 class="text-text-100 mt-3 -mb-1 text-[2rem] font-bold">Soft-Edge Blending</h1>
+
+<p><img class="retina" src="Soft Edge Blending Auto.png" width="800" height="375" data-media-id="7imTK6O6Xo"></p>
+
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">When you need to cover a massive physical canvas, a single projector is rarely enough. Soft-edge blending allows you to overlap the output of multiple projectors and smoothly fade their intersecting edges, creating a single, massive, seamless image.</p>
+
+<div class="alert-banner-notes">
+<p class="p1"><em><strong>Note:</strong> Soft-Edge blending only applies to Quads. Laser Soft-Edge Blending is a similar process.</em></p>
+</div>
+
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Understanding Projector Overlap</h3>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>The "Sweet Spot":</strong> For standard edge blending in MadMapper, aim for an overlap of approximately <strong>10% to 20%</strong>. If you are using MadMapper's official calibration card, this visually translates to overlapping about <strong>four grid boxes</strong> in the center.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Why Overlap Matters:</strong> Without a soft edge, the intersecting area of two projectors is twice as bright (creating a harsh "hot spot"). MadMapper uses this shared physical space to calculate a smooth gradient fade, dimming each projector's edge proportionally so the transition is invisible.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Balancing Canvas Size vs. Tolerance:</strong> A larger overlap gives you more visual tolerance if a projector vibrates or gets slightly bumped during a live event. However, keep in mind that every pixel in the overlap zone is "double-duty" data&mdash;meaning the more your projectors overlap, the smaller your total physical canvas width becomes.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Projector Stacking (100% Overlap):</strong> If your goal is not to create a wider image, but rather a <em>brighter</em> image, you can overlap the projectors 100%. MadMapper easily handles stacking by simply duplicating the output mapping across both projectors to double the luminance.</li>
+</ul>
+
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Best Practices &amp; Setup Tips</h3> 
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Match Your Hardware:</strong> Using the exact same projector model with a similar bulb life is highly recommended. Mixing models or bulb ages will cause issues with inaccurate colors, mismatched resolutions, and uneven lamp brightness that cannot be easily fixed in software.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Physical Alignment First:</strong> Before attempting software edge blending, try to physically align your projectors and mechanically adjust their keystone and lens shift as perfectly as possible to make the software process much easier.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Lens Considerations:</strong> Standard lenses are best for edge blending. Short Throw and Ultra-Short Throw (UST) lenses can be much more difficult to blend because of how drastically the extreme edges of the lens warp the image projection.</li>
+</ul>
+<div style="display: none;" aria-hidden="true">Written by ProjectileObjects</div>
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Standard Technique: Built-In Soft Edge</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The standard blending method uses MadMapper's automated soft-edge tools to feather the top, bottom, left, or right edges of your video quads.</p>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Output Setup:</strong> In the <strong>Projectors</strong> tab, ensure both projectors are enabled, set to fullscreen mode, and visually check their position by temporarily activating their built-in test patterns.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Calibration Media:</strong> Add a calibration card to your Media Bin (these can be downloaded from the MadMapper website). Assign this media to a Quad and duplicate the Quad for your second projector.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Physical Overlap:</strong> In the stage view, arrange your Quads so they overlap to form a larger rectangle. The physical projection should overlap by approximately 10% to 20% (or roughly four boxes if using a standard grid calibration card).</li>
+<li class="whitespace-normal break-words pl-2"><strong>Geometric Alignment:</strong> Adjust the four corner handles of each Quad in the output view so the overlapping grid boxes perfectly match and align in the real world.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Auto Setup:</strong> Select both Quads in your Surfaces list <strong>at the same time</strong>. In the Surface Inspector, check the <strong>Soft Edge</strong> box and click the <strong>Auto Setup</strong> button. MadMapper will automatically calculate the intersecting areas and apply a gradient fade. <em>(Note: For the "Auto Setup" calibration to work, you must select multiple surfaces simultaneously).</em></li>
+<li class="whitespace-normal break-words pl-2"><strong>Fine Tuning:</strong> Select each Quad individually and expand the Soft Edge parameters. You can manually adjust the <strong>Width</strong> and <strong>Power</strong> (gamma curve) of the blend on the overlapping side (e.g., adjust the right edge of the left projector, and the left edge of the right projector) until the seam disappears.</li>
+</ol>
+
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Advanced Technique: Blending with Surface Masks</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The built-in Soft Edge tool only works on straight, perpendicular edges (top, left, bottom, and right). However, in complex projection mapping scenarios, your projectors may be overlapping at odd angles or projecting onto non-flat architecture where simple edge blending won't do.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">For overlapping edges that are not parallel or perpendicular, you can create custom soft edges using <strong>Internal Masks</strong>:</p>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Select the Quad or Surface you need to blend.</li>
+<li class="whitespace-normal break-words pl-2">In the Surface Inspector, add a new <strong>Mask</strong> (or use the Mask tool to draw a shape over the specific area where the projectors overlap).</li>
+<li class="whitespace-normal break-words pl-2">Shape the internal mask to perfectly follow the contour of the intersecting projector light.</li>
+<li class="whitespace-normal break-words pl-2">Adjust the <strong>Feathering</strong> parameter on the mask. This will create a custom, variable gradient fade along the drawn line of the mask.</li>
+<li class="whitespace-normal break-words pl-2">Repeat this process for the intersecting surface on the second projector, and adjust both feathering values to achieve a smooth, custom edge blend.</li>
+</ol>

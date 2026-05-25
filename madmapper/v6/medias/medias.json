@@ -1308,5 +1308,391 @@
         "pageSlug": "laser-(madlaser)"
       }
     ]
+  },
+  {
+    "mediaId": "GJKkWZqiOv",
+    "filename": "Add New Laser Output Icon.png",
+    "imgName": "Add New Laser Output Icon",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Add New Laser Output Icon.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-24T00:53:13.966Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "aqUEsduy8m",
+    "filename": "Multiple MadLaser Outputs.png",
+    "imgName": "Multiple MadLaser Outputs",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Multiple MadLaser Outputs.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-24T00:54:03.842Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "IXukaQvSzV",
+    "filename": "Laser Output Destination.png",
+    "imgName": "Laser Output Destination",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Laser Output Destination.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-24T00:54:46.967Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "aFhqYOF7Hs",
+    "filename": "Laser Mesh Warping.png",
+    "imgName": "Laser Mesh Warping",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Laser Mesh Warping.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-24T01:07:58.469Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "SXq0cqvZ46",
+    "filename": "Laser Mesh Warping Wide.png",
+    "imgName": "Laser Mesh Warping Wide",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Laser Mesh Warping Wide.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-24T01:08:28.089Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "laser-(madlaser)"
+      }
+    ]
+  },
+  {
+    "mediaId": "EOsITus2K0",
+    "filename": "MiniMad Black.png",
+    "imgName": "MiniMad Black",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MiniMad Black.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-24T16:04:37.463Z",
+    "pages": [
+      {
+        "pageSuid": "GFZHl1whIy",
+        "pageSlug": "minimad"
+      }
+    ]
+  },
+  {
+    "mediaId": "UeUW38BTor",
+    "filename": "MiniMad Export Settings.png",
+    "imgName": "MiniMad Export Settings",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MiniMad Export Settings.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-24T16:14:11.713Z",
+    "pages": [
+      {
+        "pageSuid": "GFZHl1whIy",
+        "pageSlug": "minimad"
+      }
+    ]
+  },
+  {
+    "mediaId": "7imTK6O6Xo",
+    "filename": "Soft Edge Blending Auto.png",
+    "imgName": "Soft Edge Blending Auto",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Soft Edge Blending Auto.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-24T21:40:44.839Z",
+    "pages": [
+      {
+        "pageSuid": "aCCGVvsnzB",
+        "pageSlug": "soft-edge-blending"
+      }
+    ]
+  },
+  {
+    "mediaId": "eFW3FrENkD",
+    "filename": "Audio MIDI Setup Mac.png",
+    "imgName": "Audio MIDI Setup Mac",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Audio MIDI Setup Mac.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-25T00:37:24.088Z",
+    "pages": [
+      {
+        "pageSuid": "vsJMXMbDlD",
+        "pageSlug": "audio-routing"
+      }
+    ]
+  },
+  {
+    "mediaId": "zVq0hQujMv",
+    "filename": "MadMapper Audio Device Select.png",
+    "imgName": "MadMapper Audio Device Select",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Audio Device Select.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-25T00:40:50.755Z",
+    "pages": [
+      {
+        "pageSuid": "vsJMXMbDlD",
+        "pageSlug": "audio-routing"
+      }
+    ]
   }
 ]
