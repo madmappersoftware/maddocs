@@ -1780,5 +1780,83 @@
         "pageSlug": "soft-edge-blending"
       }
     ]
+  },
+  {
+    "mediaId": "cpxlep3SwZ",
+    "filename": "MadMapper 2D FX Library.png",
+    "imgName": "MadMapper 2D FX Library",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper 2D FX Library.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-25T02:23:26.342Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
+  },
+  {
+    "mediaId": "BteUQNdsQ3",
+    "filename": "MadMapper FX dropdown.png",
+    "imgName": "MadMapper FX dropdown",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper FX dropdown.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-25T02:24:00.527Z",
+    "pages": [
+      {
+        "pageSuid": "7Wad2UTltR",
+        "pageSlug": "video-surfaces"
+      }
+    ]
   }
 ]

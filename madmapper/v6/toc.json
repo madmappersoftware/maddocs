@@ -131,7 +131,8 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": false,
+            "breadcrumb": "Introduction > Discover the Interface > Outputs"
           }
         ],
         "publish": false,
@@ -224,7 +225,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
       }
     ],
     "publish": true,
@@ -255,7 +257,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "What's New"
+        "breadcrumb": "Introduction > Discover the Interface > What's New"
       }
     ],
     "publish": true,
@@ -555,7 +557,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
         "pageSuid": "vsJMXMbDlD",
@@ -564,7 +567,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       }
     ],
     "publish": false,
@@ -641,11 +645,12 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false
+            "publish": false,
+            "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced > Troubleshooting > About MadMapper > Release Notes History"
           }
         ],
         "publish": false,
-        "breadcrumb": "What's New > Release Notes"
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced > Troubleshooting > About MadMapper"
       }
     ],
     "publish": true,
