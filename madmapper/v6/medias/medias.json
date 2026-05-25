@@ -1694,5 +1694,91 @@
         "pageSlug": "audio-routing"
       }
     ]
+  },
+  {
+    "mediaId": "oqevTAmhxV",
+    "filename": "Top Soft Edge Blending.png",
+    "imgName": "Top Soft Edge Blending",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Top Soft Edge Blending.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-25T00:44:35.529Z",
+    "pages": [
+      {
+        "pageSuid": "aCCGVvsnzB",
+        "pageSlug": "soft-edge-blending"
+      }
+    ]
+  },
+  {
+    "mediaId": "suZuJkkMLz",
+    "filename": "Using Surface Masks to Edge Blend.png",
+    "imgName": "Using Surface Masks to Edge Blend",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Using Surface Masks to Edge Blend.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-25T00:46:54.072Z",
+    "pages": [
+      {
+        "pageSuid": "aCCGVvsnzB",
+        "pageSlug": "soft-edge-blending"
+      }
+    ]
   }
 ]
