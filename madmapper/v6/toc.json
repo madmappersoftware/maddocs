@@ -633,8 +633,18 @@
         "pageSlug": "release-notes-history",
         "pageType": "empty",
         "minorVersion": "3",
-        "subpage": [],
-        "publish": true,
+        "subpage": [
+          {
+            "pageSuid": "9cp3osQSr7",
+            "pageTitle": "MadMapper 5 Release Notes",
+            "pageSlug": "madmapper-5-release-notes",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          }
+        ],
+        "publish": false,
         "breadcrumb": "What's New > Release Notes"
       }
     ],
