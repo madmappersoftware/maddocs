@@ -1,11 +1,32 @@
 [
   {
     "pageSuid": "whyBgY7VF1",
-    "pageTitle": "Introduction",
-    "pageSlug": "introduction",
+    "pageTitle": "1. Introduction",
+    "pageSlug": "1.-introduction",
     "pageType": "card",
     "minorVersion": "0",
     "subpage": [
+      {
+        "pageSuid": "SHnUKVrkbF",
+        "pageTitle": "What is MadMapper?",
+        "pageSlug": "what-is-madmapper",
+        "pageType": "card",
+        "minorVersion": "6",
+        "subpage": [
+          {
+            "pageSuid": "hY3zyDQlLz",
+            "pageTitle": "MadMapper History",
+            "pageSlug": "madmapper-history",
+            "pageType": "empty",
+            "minorVersion": "6",
+            "subpage": [],
+            "publish": true,
+            "breadcrumb": "What's New > MadMapper Legacy"
+          }
+        ],
+        "publish": false,
+        "breadcrumb": "What's New"
+      },
       {
         "pageSuid": "fGXMx4IhnL",
         "pageTitle": "MadMapper at a Glance",
@@ -25,6 +46,37 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "Introduction"
+      },
+      {
+        "pageSuid": "MG8sM211wn",
+        "pageTitle": "What's New",
+        "pageSlug": "what's-new",
+        "pageType": "card",
+        "minorVersion": "0",
+        "subpage": [
+          {
+            "pageSuid": "3hgIot1RBf",
+            "pageTitle": "MadMapper v6",
+            "pageSlug": "madmapper-v6",
+            "pageType": "empty",
+            "minorVersion": "6",
+            "subpage": [],
+            "publish": true,
+            "breadcrumb": "What's New"
+          },
+          {
+            "pageSuid": "SYKeWyRxZh",
+            "pageTitle": "Release Notes v6",
+            "pageSlug": "release-notes-v6",
+            "pageType": "empty",
+            "minorVersion": "6",
+            "subpage": [],
+            "publish": false,
+            "breadcrumb": "Introduction > Discover the Interface > What's New"
+          }
+        ],
+        "publish": true,
+        "breadcrumb": ""
       },
       {
         "pageSuid": "3HP0yeywsY",
@@ -52,8 +104,8 @@
   },
   {
     "pageSuid": "XRAg1d7EWb",
-    "pageTitle": "Discover the Interface",
-    "pageSlug": "discover-the-interface",
+    "pageTitle": "2. The Interface",
+    "pageSlug": "2.-the-interface",
     "pageType": "card",
     "minorVersion": "6",
     "subpage": [
@@ -68,94 +120,13 @@
         "breadcrumb": "Introduction > Discover the Interface"
       },
       {
-        "pageSuid": "5QNKvdWAvv",
-        "pageTitle": "Media Bin",
-        "pageSlug": "media-bin",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
-      },
-      {
-        "pageSuid": "7Wad2UTltR",
-        "pageTitle": "Video Surfaces",
-        "pageSlug": "video-surfaces",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
-      },
-      {
-        "pageSuid": "1YGq30hgJF",
-        "pageTitle": "Laser surfaces",
-        "pageSlug": "laser-surfaces",
+        "pageSuid": "818ax1rXi1",
+        "pageTitle": "Toolbar & Workspace",
+        "pageSlug": "toolbar-and-workspace",
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
-      },
-      {
-        "pageSuid": "XN5FxSPLGz",
-        "pageTitle": "DMX & LED Mapping",
-        "pageSlug": "dmx-and-led-mapping",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
-      },
-      {
-        "pageSuid": "WwXLi7xy0e",
-        "pageTitle": "Outputs",
-        "pageSlug": "outputs",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [
-          {
-            "pageSuid": "VmE4U2hLeB",
-            "pageTitle": "Loopback & Advanced Output Techniques",
-            "pageSlug": "loopback-and-advanced-output-techniques",
-            "pageType": "empty",
-            "minorVersion": "0",
-            "subpage": [],
-            "publish": false,
-            "breadcrumb": "Introduction > Discover the Interface > Outputs"
-          },
-          {
-            "pageSuid": "aCCGVvsnzB",
-            "pageTitle": "Soft Edge Blending",
-            "pageSlug": "soft-edge-blending",
-            "pageType": "empty",
-            "minorVersion": "0",
-            "subpage": [],
-            "publish": false,
-            "breadcrumb": "Introduction > Discover the Interface > Outputs"
-          }
-        ],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
-      },
-      {
-        "pageSuid": "Zu9lM5wmy5",
-        "pageTitle": "Modules",
-        "pageSlug": "modules",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > Outputs"
-      },
-      {
-        "pageSuid": "T8NLmL3QvA",
-        "pageTitle": "Master Settings",
-        "pageSlug": "master-settings",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": true
+        "publish": false
       },
       {
         "pageSuid": "Ud4azT40ng",
@@ -217,56 +188,307 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
+      }
+    ],
+    "publish": false,
+    "breadcrumb": "What's New > About MadMapper > Before You Start"
+  },
+  {
+    "pageSuid": "DuSM9kcXhI",
+    "pageTitle": "3. Media",
+    "pageSlug": "3.-media",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [
+      {
+        "pageSuid": "5QNKvdWAvv",
+        "pageTitle": "Media Bin",
+        "pageSlug": "media-bin",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface"
       },
       {
-        "pageSuid": "1R0FBPg1RK",
-        "pageTitle": "Laser (MadLaser)",
-        "pageSlug": "laser-(madlaser)",
+        "pageSuid": "tMnKdgps9e",
+        "pageTitle": "Media Formats & Video Codecs",
+        "pageSlug": "media-formats-and-video-codecs",
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "j7tF1YXaqG",
+        "pageTitle": "Writing Custom GLSL Materials ",
+        "pageSlug": "writing-custom-glsl-materials",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "JlnYYvfMmj",
+        "pageTitle": "Online Material Library",
+        "pageSlug": "online-material-library",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       }
     ],
-    "publish": true,
-    "breadcrumb": "What's New > About MadMapper > Before You Start"
+    "publish": false
   },
   {
-    "pageSuid": "MG8sM211wn",
-    "pageTitle": "What's New",
-    "pageSlug": "what's-new",
-    "pageType": "card",
+    "pageSuid": "7Wad2UTltR",
+    "pageTitle": "4. Surfaces",
+    "pageSlug": "4.-surfaces",
+    "pageType": "empty",
+    "minorVersion": "6",
+    "subpage": [],
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface"
+  },
+  {
+    "pageSuid": "XN5FxSPLGz",
+    "pageTitle": "5. DMX & LED Mapping",
+    "pageSlug": "5.-dmx-and-led-mapping",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [],
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface"
+  },
+  {
+    "pageSuid": "WwXLi7xy0e",
+    "pageTitle": "6. Outputs",
+    "pageSlug": "6.-outputs",
+    "pageType": "empty",
     "minorVersion": "0",
     "subpage": [
       {
-        "pageSuid": "3hgIot1RBf",
-        "pageTitle": "MadMapper v6",
-        "pageSlug": "madmapper-v6",
+        "pageSuid": "VmE4U2hLeB",
+        "pageTitle": "Loopback & Advanced Output Techniques",
+        "pageSlug": "loopback-and-advanced-output-techniques",
         "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New"
-      },
-      {
-        "pageSuid": "SYKeWyRxZh",
-        "pageTitle": "Release Notes v6",
-        "pageSlug": "release-notes-v6",
-        "pageType": "empty",
-        "minorVersion": "6",
+        "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New"
+        "breadcrumb": "Introduction > Discover the Interface > Outputs"
+      },
+      {
+        "pageSuid": "aCCGVvsnzB",
+        "pageTitle": "Soft Edge Blending",
+        "pageSlug": "soft-edge-blending",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > Outputs"
+      },
+      {
+        "pageSuid": "eK1P14xklL",
+        "pageTitle": "Timeline Export",
+        "pageSlug": "timeline-export",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "GFZHl1whIy",
+        "pageTitle": "MiniMad",
+        "pageSlug": "minimad",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       }
     ],
-    "publish": true,
-    "breadcrumb": ""
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface"
+  },
+  {
+    "pageSuid": "1R0FBPg1RK",
+    "pageTitle": "7. Laser (MadLaser)",
+    "pageSlug": "7.-laser-(madlaser)",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [],
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
+  },
+  {
+    "pageSuid": "Zu9lM5wmy5",
+    "pageTitle": "8. Modules",
+    "pageSlug": "8.-modules",
+    "pageType": "empty",
+    "minorVersion": "6",
+    "subpage": [],
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface > Outputs"
+  },
+  {
+    "pageSuid": "T8NLmL3QvA",
+    "pageTitle": "9. Master Settings",
+    "pageSlug": "9.-master-settings",
+    "pageType": "empty",
+    "minorVersion": "6",
+    "subpage": [
+      {
+        "pageSuid": "4Y3wxYcA7m",
+        "pageTitle": "Audio Input & Beat Detection",
+        "pageSlug": "audio-input-and-beat-detection",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "A1eggXH6LJ",
+        "pageTitle": "Scheduling & Automation",
+        "pageSlug": "scheduling-and-automation",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      }
+    ],
+    "publish": false
+  },
+  {
+    "pageSuid": "zsu3iPADLl",
+    "pageTitle": "10. Timelines",
+    "pageSlug": "10.-timelines",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [],
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
+  },
+  {
+    "pageSuid": "ucH56kc8cM",
+    "pageTitle": "11. Live Performance & Control",
+    "pageSlug": "11.-live-performance-and-control",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [
+      {
+        "pageSuid": "qmigp9hU0x",
+        "pageTitle": "OSC Commands & Channels List",
+        "pageSlug": "osc-commands-and-channels-list",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
+      }
+    ],
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes"
+  },
+  {
+    "pageSuid": "r79I9iCia8",
+    "pageTitle": "12. Advanced",
+    "pageSlug": "12.-advanced",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [
+      {
+        "pageSuid": "Dqo3es5ZOo",
+        "pageTitle": "Mad AI Extension",
+        "pageSlug": "mad-ai-extension",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "QuoOTFz6Dy",
+        "pageTitle": "MadProjectorControl",
+        "pageSlug": "madprojectorcontrol",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "2TAm9uScmI",
+        "pageTitle": "Performance Optimization",
+        "pageSlug": "performance-optimization",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "Gr0Qi79QHf",
+        "pageTitle": "Project Backup & Recovery",
+        "pageSlug": "project-backup-and-recovery",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "yXlYudB3cb",
+        "pageTitle": "Arduino & Firmata Integration",
+        "pageSlug": "arduino-and-firmata-integration",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "Uk56VJMWin",
+        "pageTitle": "Special Tools & Auto-Calibration",
+        "pageSlug": "special-tools-and-auto-calibration",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      },
+      {
+        "pageSuid": "cyHfGqwmSP",
+        "pageTitle": "(old) DMX Fixtures (Delete)",
+        "pageSlug": "(old)-dmx-fixtures-(delete)",
+        "pageType": "empty",
+        "minorVersion": "6",
+        "subpage": [
+          {
+            "pageSuid": "1YGq30hgJF",
+            "pageTitle": "(old) Laser surfaces (Delete)",
+            "pageSlug": "(old)-laser-surfaces-(delete)",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false,
+            "breadcrumb": "Introduction > Discover the Interface"
+          }
+        ],
+        "publish": false,
+        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+      }
+    ],
+    "publish": false,
+    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
   },
   {
     "pageSuid": "VItu9oKKNm",
-    "pageTitle": "Setup, Installation & Technical Notes",
-    "pageSlug": "setup-installation-and-technical-notes",
+    "pageTitle": "13. Setup, Installation & Technical Notes",
+    "pageSlug": "13.-setup-installation-and-technical-notes",
     "pageType": "card",
     "minorVersion": "6",
     "subpage": [
@@ -368,111 +590,11 @@
         ],
         "publish": true,
         "breadcrumb": "What's New > About MadMapper > Getting Started"
-      }
-    ],
-    "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > What's New"
-  },
-  {
-    "pageSuid": "ucH56kc8cM",
-    "pageTitle": "Live Performance & Control",
-    "pageSlug": "live-performance-and-control",
-    "pageType": "empty",
-    "minorVersion": "0",
-    "subpage": [
-      {
-        "pageSuid": "qmigp9hU0x",
-        "pageTitle": "OSC Commands & Channels List",
-        "pageSlug": "osc-commands-and-channels-list",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
       },
       {
-        "pageSuid": "A1eggXH6LJ",
-        "pageTitle": "Scheduling & Automation",
-        "pageSlug": "scheduling-and-automation",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false
-      },
-      {
-        "pageSuid": "4Y3wxYcA7m",
-        "pageTitle": "Audio Input & Beat Detection",
-        "pageSlug": "audio-input-and-beat-detection",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false
-      }
-    ],
-    "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes"
-  },
-  {
-    "pageSuid": "zsu3iPADLl",
-    "pageTitle": "Timelines",
-    "pageSlug": "timelines",
-    "pageType": "empty",
-    "minorVersion": "0",
-    "subpage": [],
-    "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
-  },
-  {
-    "pageSuid": "r79I9iCia8",
-    "pageTitle": "Advanced",
-    "pageSlug": "advanced",
-    "pageType": "empty",
-    "minorVersion": "0",
-    "subpage": [
-      {
-        "pageSuid": "Dqo3es5ZOo",
-        "pageTitle": "Mad AI Extension",
-        "pageSlug": "mad-ai-extension",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "QuoOTFz6Dy",
-        "pageTitle": "MadProjectorControl",
-        "pageSlug": "madprojectorcontrol",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "2TAm9uScmI",
-        "pageTitle": "Performance Optimization",
-        "pageSlug": "performance-optimization",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "Gr0Qi79QHf",
-        "pageTitle": "Project Backup & Recovery",
-        "pageSlug": "project-backup-and-recovery",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "tMnKdgps9e",
-        "pageTitle": "Media Formats & Video Codecs",
-        "pageSlug": "media-formats-and-video-codecs",
+        "pageSuid": "4PzWJjlTxq",
+        "pageTitle": "DMX Fixture Definitions",
+        "pageSlug": "dmx-fixture-definitions",
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
@@ -490,9 +612,9 @@
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       },
       {
-        "pageSuid": "4PzWJjlTxq",
-        "pageTitle": "DMX Fixture Definitions",
-        "pageSlug": "dmx-fixture-definitions",
+        "pageSuid": "vsJMXMbDlD",
+        "pageTitle": "Audio Routing",
+        "pageSlug": "audio-routing",
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
@@ -507,95 +629,15 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": true
-      },
-      {
-        "pageSuid": "JlnYYvfMmj",
-        "pageTitle": "Online Material Library",
-        "pageSlug": "online-material-library",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "eK1P14xklL",
-        "pageTitle": "Timeline Export",
-        "pageSlug": "timeline-export",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "yXlYudB3cb",
-        "pageTitle": "Arduino & Firmata Integration",
-        "pageSlug": "arduino-and-firmata-integration",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "j7tF1YXaqG",
-        "pageTitle": "Writing Custom GLSL Materials ",
-        "pageSlug": "writing-custom-glsl-materials",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "Uk56VJMWin",
-        "pageTitle": "Special Tools & Auto-Calibration",
-        "pageSlug": "special-tools-and-auto-calibration",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "cyHfGqwmSP",
-        "pageTitle": "DMX Fixtures",
-        "pageSlug": "dmx-fixtures",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "GFZHl1whIy",
-        "pageTitle": "MiniMad",
-        "pageSlug": "minimad",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
-      },
-      {
-        "pageSuid": "vsJMXMbDlD",
-        "pageTitle": "Audio Routing",
-        "pageSlug": "audio-routing",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
       }
     ],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
+    "breadcrumb": "Introduction > Discover the Interface > What's New"
   },
   {
     "pageSuid": "nVh3znXLrj",
-    "pageTitle": "Troubleshooting",
-    "pageSlug": "troubleshooting",
+    "pageTitle": "14. Troubleshooting",
+    "pageSlug": "14.-troubleshooting",
     "pageType": "empty",
     "minorVersion": "0",
     "subpage": [
@@ -618,36 +660,6 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced > Troubleshooting"
-      }
-    ],
-    "publish": true
-  },
-  {
-    "pageSuid": "adDlVVcHKA",
-    "pageTitle": "FAQs",
-    "pageSlug": "faqs",
-    "pageType": "empty",
-    "minorVersion": "6",
-    "subpage": [],
-    "publish": true,
-    "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
-  },
-  {
-    "pageSuid": "SHnUKVrkbF",
-    "pageTitle": "About MadMapper",
-    "pageSlug": "about-madmapper",
-    "pageType": "card",
-    "minorVersion": "6",
-    "subpage": [
-      {
-        "pageSuid": "hY3zyDQlLz",
-        "pageTitle": "MadMapper History",
-        "pageSlug": "madmapper-history",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [],
-        "publish": true,
-        "breadcrumb": "What's New > MadMapper Legacy"
       },
       {
         "pageSuid": "985xnkp4H2",
@@ -671,7 +683,16 @@
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced > Troubleshooting > About MadMapper"
       }
     ],
+    "publish": true
+  },
+  {
+    "pageSuid": "adDlVVcHKA",
+    "pageTitle": "FAQs",
+    "pageSlug": "faqs",
+    "pageType": "empty",
+    "minorVersion": "6",
+    "subpage": [],
     "publish": true,
-    "breadcrumb": "What's New"
+    "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
   }
 ]
