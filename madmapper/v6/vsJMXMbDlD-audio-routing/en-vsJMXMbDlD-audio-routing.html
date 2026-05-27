@@ -1,11 +1,17 @@
 <h1 class="text-text-100 mt-3 -mb-1 text-[2rem] font-bold">Audio Routing &amp; Multi-Channel Sound Cards</h1>
 <p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Advanced installations often require complex audio setups, such as routing audio from MadMapper into a Digital Audio Workstation (DAW) like Ableton Live, or sending discrete multi-channel audio tracks from a single video file to an array of physical speakers. This section details how to configure multi-channel sound cards and virtual audio cables on both macOS and Windows systems.</p>
+
 <h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Multi-Channel Video Playback</h3>
-<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">If you are playing a movie file encoded with multi-channel audio (e.g., 4.0, 5.1, or 8-channel audio), MadMapper can output all discrete channels simultaneously, provided your operating system and sound card are configured correctly.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">MadMapper has no limitation on the number of audio channels it can read from a movie or audio file, and no limitation on the number of output channels it can send. If you are playing a movie file encoded with multi-channel audio (e.g., 4.0, 5.1, or 8-channel audio), MadMapper can output all discrete channels simultaneously, provided your operating system and sound card are configured correctly. <em>Note: While the channel count is unlimited, MadMapper only sends audio to a single audio interface at a time.</em></p>
+
+<h4 class="text-text-100 mt-4 -mb-1 text-[1.25rem] font-bold">Audio Routing Matrix (MadMapper 6+)</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">By default, MadMapper routes audio linearly: source channel 1 goes to output channel 1, and source channel <em>N</em> goes to output channel <em>N</em>. However, starting in MadMapper 6, you can activate advanced audio routing on movies and audio tracks. This opens a routing matrix that allows you to customize paths, such as routing a single source channel to multiple output channels simultaneously.</p>
+
 <ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
 <li class="whitespace-normal break-words pl-2"><strong>macOS Configuration:</strong> macOS handles multi-channel audio routing natively. Simply open MadMapper, navigate to <strong>Preferences &gt; Audio &gt; Audio Output</strong>, and select your multi-channel hardware interface.</li>
 <li class="whitespace-normal break-words pl-2"><strong>Windows Configuration:</strong> By default, standard Windows audio drivers (like Direct Sound) may only provide a stereo output. To enable true multi-channel support on a Windows machine, you must navigate to MadMapper's <strong>Preferences &gt; Audio</strong> and select the <strong>ASIO</strong> driver type. <em class="text-text-200">(Note: ASIO drivers require exclusive access to the audio device. Ensure no other applications or Windows system sounds are currently using the sound card, or MadMapper will fail to open the driver).</em></li>
 </ul>
+
 <h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">macOS: Virtual Routing with BlackHole</h3>
 <p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">BlackHole is a modern, zero-latency virtual audio driver for macOS that replaces older tools like Soundflower. It acts as an invisible cable, allowing you to pass audio seamlessly from MadMapper into other software.</p>
 <ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
@@ -20,6 +26,7 @@
 <ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
 <li class="whitespace-normal break-words pl-2"><strong>Receive Audio in DAW:</strong> Open your receiving software (like Ableton Live or Logic Pro), go to its audio preferences, and set the Input Device to BlackHole. You can now arm a track to receive and record audio directly from MadMapper.</li>
 </ul>
+
 <h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Windows: Virtual Routing with JACK</h3>
 <p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The JACK Audio Connection Kit is an industry-standard, professional sound server daemon that allows you to connect a myriad of different audio applications to an audio device, and to route audio between them.</p>
 <ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
