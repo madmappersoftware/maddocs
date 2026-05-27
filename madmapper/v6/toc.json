@@ -389,6 +389,24 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
+      },
+      {
+        "pageSuid": "A1eggXH6LJ",
+        "pageTitle": "Scheduling & Automation",
+        "pageSlug": "scheduling-and-automation",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "4Y3wxYcA7m",
+        "pageTitle": "Audio Input & Beat Detection",
+        "pageSlug": "audio-input-and-beat-detection",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
       }
     ],
     "publish": false,

@@ -1,0 +1,83 @@
+<h1 data-path-to-node="0">Audio Input &amp; Beat Detection</h1>
+<p data-path-to-node="1">MadMapper&rsquo;s advanced audio processing engine allows you to synchronize your visual mappings and DMX lighting with live sound environments. Audio-reactive systems use beat detection and frequency analysis to drive parameters in real time. Using sophisticated algorithms to analyze the audio spectrum, you can transform simple video loops and static lights into dynamic, organic visual performances.</p>
+<p data-path-to-node="1">&nbsp;</p>
+<p data-path-to-node="1">There are a number of ways to work with real-time audio inputs in MadMapper.</p>
+<p data-path-to-node="1">&nbsp;</p>
+<h3 data-path-to-node="3">The Conductor / Timelines</h3>
+<p>If you drag an audio clip into the conductor, MadMapper will automatically analyize the audio clip and detect a BPM.</p>
+<p>&nbsp;</p>
+<p><img class="retina" src="MadMapper Conductor BPM Detect.png" width="800" height="278" data-media-id="igB2Qn1odF"></p>
+<p>&nbsp;</p>
+<div class="alert-banner-tips">
+<p>Read more about the <a class="int-link" href="timelines" data-page-suid="zsu3iPADLl" data-product-slug="madmapper" data-product-version="6">Conductor and Timelines</a></p>
+</div>
+<p data-path-to-node="1">&nbsp;</p>
+<h3 data-path-to-node="3">Audio Configuration &amp; Setup</h3>
+<p><img class="retina" src="Audio Mapping Preferences.png" width="800" height="549" data-media-id="P9wD7kBzP2"></p>
+<p data-path-to-node="4">Before mapping parameters to sound, you must route your audio signal into MadMapper&rsquo;s engine.</p>
+<ul data-path-to-node="5">
+<li>
+<p data-path-to-node="5,0,0"><strong data-path-to-node="5,0,0" data-index-in-node="0">Select Your Interface:</strong> Navigate to <strong data-path-to-node="5,0,0" data-index-in-node="35">Preferences &gt; Audio</strong>. Here, you can select your desired physical or virtual audio interface.</p>
+</li>
+<li>
+<p data-path-to-node="5,1,0"><strong data-path-to-node="5,1,0" data-index-in-node="0">Assign Analysis Channels:</strong> Within the Audio Preferences, designate the specific "Audio Analysis Channels" you want the software to listen to. These channels act as the source for beat detection, general waveform generation, and spectrum analysis used across your project.</p>
+</li>
+</ul>
+<h3 data-path-to-node="7">Global BPM &amp; Beat Synchronization</h3>
+<p><img class="retina" src="Global BPM Detection in MadMapper.png" width="300" height="191" data-media-id="rHHdSCoOyS"></p>
+<p data-path-to-node="8">To keep your project perfectly timed to the music, MadMapper relies on a Global BPM clock located in the Master Settings tab. This tempo can be established using several methods:</p>
+<ul data-path-to-node="9">
+<li>
+<p data-path-to-node="9,0,0"><strong data-path-to-node="9,0,0" data-index-in-node="0">Audio Beat Detection:</strong> Analyzes the live incoming audio signal to automatically calculate and adjust the tempo in real time.</p>
+</li>
+<li>
+<p data-path-to-node="9,1,0"><strong data-path-to-node="9,1,0" data-index-in-node="0">Ableton Live Link:</strong> Synchronizes MadMapper perfectly over a local network with Ableton Live or any other Link-enabled software.</p>
+</li>
+<li>
+<p data-path-to-node="9,2,0"><strong data-path-to-node="9,2,0" data-index-in-node="0">MIDI Clock:</strong> Receives tempo data directly from external DJ hardware, drum machines, or controllers.</p>
+</li>
+<li>
+<p data-path-to-node="9,3,0"><strong data-path-to-node="9,3,0" data-index-in-node="0">Manual Input:</strong> Allows you to manually type the BPM or use a "Tap Tempo" function to dial in the speed.</p>
+</li>
+</ul>
+<p><img class="retina" src="MadMapper Manual BPM.png" width="300" height="193" data-media-id="aWd7oUM8EY"></p>
+<p data-path-to-node="10">Once a solid BPM is established, you can use it to automate elements of your show. For example, if you are using the Cue Scheduler or Cue auto-play settings, you can instruct MadMapper to automatically switch to the next cue after a specific duration of beats (e.g., triggering a new look exactly every 4 or 8 beats).</p>
+<p data-path-to-node="10">&nbsp;</p>
+<p data-path-to-node="10">With the Conductor &gt; Configure Timeline Settings inspector, you can set the playback of your timeline to follow the Default speed, A set speed, the Global set BPM, or External Sync (such as Ableton live, LTC, MTC, or ArtNet).</p>
+<p data-path-to-node="10">&nbsp;</p>
+<p data-path-to-node="10"><img class="retina" src="Global Speed Timeline Sync.png" width="800" height="369" data-media-id="hVftpyvzzl"></p>
+<h3 data-path-to-node="12">Audio Analysis &amp; Reactive Parameters</h3>
+<p><img class="retina" src="MadMapper Audio Parameters Adjustment.png" width="800" height="391" data-media-id="EkLaVJ41co"></p>
+<p data-path-to-node="4">Instead of just syncing to the beat, MadMapper allows for highly granular, audio-reactive control by dividing the incoming audio into distinct frequency bands (typically Low, Mid, High, plus overall response).</p>
+<ul>
+<li><strong data-path-to-node="5,0,0" data-index-in-node="0">Assigning an Audio Control:</strong> The easiest and most direct way to make a parameter react to music is to <strong data-path-to-node="5,0,0" data-index-in-node="101">right-click</strong> on virtually any slider or widget in the MadMapper interface (such as Brightness, Contrast, or a DMX fixture's intensity) and navigate to <strong data-path-to-node="5,0,0" data-index-in-node="251">Add Control &gt; Audio</strong>. From the resulting pop-out menu, you can instantly assign specific audio drivers:</li>
+</ul>
+<p>&nbsp;</p>
+<figure class="image" contenteditable="false"><img class="retina" src="Color Controls Audio Controls.png" width="800" height="391" data-media-id="7pjvElVmH8">
+<figcaption contenteditable="true">Right-Click on slider to add Audio Control</figcaption>
+</figure>
+<p>&nbsp;</p>
+<ul>
+<li><strong data-path-to-node="5,0,1,0,0" data-index-in-node="0">General Levels:</strong> <code data-path-to-node="5,0,1,0,0" data-index-in-node="16">amplitude</code></li>
+<li><strong data-path-to-node="5,0,1,1,0" data-index-in-node="0">Frequency Bands:</strong> <code data-path-to-node="5,0,1,1,0" data-index-in-node="17">bass</code>, <code data-path-to-node="5,0,1,1,0" data-index-in-node="23">medium</code>, <code data-path-to-node="5,0,1,1,0" data-index-in-node="31">treble</code></li>
+<li><strong data-path-to-node="5,0,1,2,0" data-index-in-node="0">Tempo &amp; Timing:</strong> <code data-path-to-node="5,0,1,2,0" data-index-in-node="16">bpm</code>, <code data-path-to-node="5,0,1,2,0" data-index-in-node="21">beatCount</code>, or specific divisions like <code data-path-to-node="5,0,1,2,0" data-index-in-node="59">4_beats</code>, <code data-path-to-node="5,0,1,2,0" data-index-in-node="68">8_beats</code>, etc.</li>
+</ul>
+<p>&nbsp;</p>
+<p data-path-to-node="5,1,0"><strong data-path-to-node="5,1,0" data-index-in-node="0">Refining the Reaction:</strong> Once assigned, this allows you to bind a heavy kick drum (<code data-path-to-node="5,1,0" data-index-in-node="81">bass</code>) to the scale of a geometric shape, while a high-hat (<code data-path-to-node="5,1,0" data-index-in-node="140">treble</code>) triggers a strobe effect on a specific LED wash.</p>
+<p data-path-to-node="5,2,0"><strong data-path-to-node="5,2,0" data-index-in-node="0">Advanced Audio Control Settings:</strong> By opening the <strong data-path-to-node="5,2,0" data-index-in-node="48">Control List</strong> and navigating to the Audio tab, you unlock deeper customization for how the mapped parameter responds to the audio signal:</p>
+<ul>
+<li style="list-style-type: none;">
+<ul data-path-to-node="5,2,1">
+<li>
+<p data-path-to-node="5,2,1,0,0"><strong data-path-to-node="5,2,1,0,0" data-index-in-node="0">Source and Target Ranges:</strong> Map the incoming audio level (Source) to a constrained or inverted parameter output (Target). For example, you can translate a standard 0 to 1 audio spike into a broader -1 to 1 visual oscillation range.</p>
+</li>
+<li>
+<p data-path-to-node="5,2,1,1,0"><strong data-path-to-node="5,2,1,1,0" data-index-in-node="0">Filters:</strong> Apply mathematical algorithms to manage the incoming audio signal over a specified duration (in seconds). Options include <strong data-path-to-node="5,2,1,1,0" data-index-in-node="131">Average</strong>, <strong data-path-to-node="5,2,1,1,0" data-index-in-node="140">Weighted Average</strong>, <strong data-path-to-node="5,2,1,1,0" data-index-in-node="158">Pulse Detection</strong>, <strong data-path-to-node="5,2,1,1,0" data-index-in-node="175">Attack Release</strong>, and <strong data-path-to-node="5,2,1,1,0" data-index-in-node="195">Damper</strong>. These tools allow you to prevent visual flickering, smooth out erratic volume spikes, or dial in precise peak responsiveness.</p>
+</li>
+<li>
+<p data-path-to-node="5,2,1,2,0"><strong data-path-to-node="5,2,1,2,0" data-index-in-node="0">Curves:</strong> Toggle response curves to dictate exactly how the visual parameter scales against the audio volume. Available interpolation methods include <strong data-path-to-node="5,2,1,2,0" data-index-in-node="148">None</strong>, <strong data-path-to-node="5,2,1,2,0" data-index-in-node="154">Linear</strong>, <strong data-path-to-node="5,2,1,2,0" data-index-in-node="162">Hermite</strong>, and <strong data-path-to-node="5,2,1,2,0" data-index-in-node="175">Catmull Rom</strong>. Selecting a curve opens an interactive graph where you can add points and sculpt the exact reactivity profile, giving you ultimate control over the behavior at different volume thresholds.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img class="retina" src="Advanced Audio Analysis Adjustments.png" width="800" height="459" data-media-id="zsx97clBwe"></p>

@@ -1858,5 +1858,691 @@
         "pageSlug": "video-surfaces"
       }
     ]
+  },
+  {
+    "mediaId": "J1gvYSHjgT",
+    "filename": "Timeline Automation.png",
+    "imgName": "Timeline Automation",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline Automation.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T17:43:03.663Z",
+    "pages": [
+      {
+        "pageSuid": "A1eggXH6LJ",
+        "pageSlug": "scheduling-and-automation"
+      }
+    ]
+  },
+  {
+    "mediaId": "DQcT0Cimby",
+    "filename": "Startup Timeline Module.png",
+    "imgName": "Startup Timeline Module",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Startup Timeline Module.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T17:43:33.926Z",
+    "pages": [
+      {
+        "pageSuid": "A1eggXH6LJ",
+        "pageSlug": "scheduling-and-automation"
+      }
+    ]
+  },
+  {
+    "mediaId": "3h5jFE2XyY",
+    "filename": "Calendar Schedule Module.png",
+    "imgName": "Calendar Schedule Module",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Calendar Schedule Module.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T17:58:06.156Z",
+    "pages": [
+      {
+        "pageSuid": "A1eggXH6LJ",
+        "pageSlug": "scheduling-and-automation"
+      }
+    ]
+  },
+  {
+    "mediaId": "QFcZNd2Ja6",
+    "filename": "Timeline Scheduler MadMapper.png",
+    "imgName": "Timeline Scheduler MadMapper",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Timeline Scheduler MadMapper.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T18:02:55.614Z",
+    "pages": [
+      {
+        "pageSuid": "A1eggXH6LJ",
+        "pageSlug": "scheduling-and-automation"
+      }
+    ]
+  },
+  {
+    "mediaId": "R4vXTySvJm",
+    "filename": "Google Calendar Automation.png",
+    "imgName": "Google Calendar Automation",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Google Calendar Automation.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T18:06:34.969Z",
+    "pages": [
+      {
+        "pageSuid": "A1eggXH6LJ",
+        "pageSlug": "scheduling-and-automation"
+      }
+    ]
+  },
+  {
+    "mediaId": "I6iRDrcCC6",
+    "filename": "Calendar Scheduler Example 2.png",
+    "imgName": "Calendar Scheduler Example 2",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Calendar Scheduler Example 2.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T18:11:49.196Z",
+    "pages": [
+      {
+        "pageSuid": "A1eggXH6LJ",
+        "pageSlug": "scheduling-and-automation"
+      }
+    ]
+  },
+  {
+    "mediaId": "igB2Qn1odF",
+    "filename": "MadMapper Conductor BPM Detect.png",
+    "imgName": "MadMapper Conductor BPM Detect",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Conductor BPM Detect.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T20:41:24.692Z",
+    "pages": [
+      {
+        "pageSuid": "4Y3wxYcA7m",
+        "pageSlug": "audio-input-and-beat-detection"
+      }
+    ]
+  },
+  {
+    "mediaId": "P9wD7kBzP2",
+    "filename": "Audio Mapping Preferences.png",
+    "imgName": "Audio Mapping Preferences",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Audio Mapping Preferences.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T20:43:16.695Z",
+    "pages": [
+      {
+        "pageSuid": "4Y3wxYcA7m",
+        "pageSlug": "audio-input-and-beat-detection"
+      }
+    ]
+  },
+  {
+    "mediaId": "rHHdSCoOyS",
+    "filename": "Global BPM Detection in MadMapper.png",
+    "imgName": "Global BPM Detection in MadMapper",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Global BPM Detection in MadMapper.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T20:45:47.440Z",
+    "pages": [
+      {
+        "pageSuid": "4Y3wxYcA7m",
+        "pageSlug": "audio-input-and-beat-detection"
+      }
+    ]
+  },
+  {
+    "mediaId": "aWd7oUM8EY",
+    "filename": "MadMapper Manual BPM.png",
+    "imgName": "MadMapper Manual BPM",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Manual BPM.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T20:47:03.978Z",
+    "pages": [
+      {
+        "pageSuid": "4Y3wxYcA7m",
+        "pageSlug": "audio-input-and-beat-detection"
+      }
+    ]
+  },
+  {
+    "mediaId": "hVftpyvzzl",
+    "filename": "Global Speed Timeline Sync.png",
+    "imgName": "Global Speed Timeline Sync",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Global Speed Timeline Sync.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T20:51:12.643Z",
+    "pages": [
+      {
+        "pageSuid": "4Y3wxYcA7m",
+        "pageSlug": "audio-input-and-beat-detection"
+      }
+    ]
+  },
+  {
+    "mediaId": "EkLaVJ41co",
+    "filename": "MadMapper Audio Parameters Adjustment.png",
+    "imgName": "MadMapper Audio Parameters Adjustment",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Audio Parameters Adjustment.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T20:53:09.146Z",
+    "pages": [
+      {
+        "pageSuid": "4Y3wxYcA7m",
+        "pageSlug": "audio-input-and-beat-detection"
+      }
+    ]
+  },
+  {
+    "mediaId": "7pjvElVmH8",
+    "filename": "Color Controls Audio Controls.png",
+    "imgName": "Color Controls Audio Controls",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Color Controls Audio Controls.png",
+    "captions": {
+      "en": "Right-Click on slider to add Audio Control"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T20:59:47.758Z",
+    "pages": [
+      {
+        "pageSuid": "4Y3wxYcA7m",
+        "pageSlug": "audio-input-and-beat-detection"
+      }
+    ]
+  },
+  {
+    "mediaId": "zsx97clBwe",
+    "filename": "Advanced Audio Analysis Adjustments.png",
+    "imgName": "Advanced Audio Analysis Adjustments",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Advanced Audio Analysis Adjustments.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T21:01:41.086Z",
+    "pages": [
+      {
+        "pageSuid": "4Y3wxYcA7m",
+        "pageSlug": "audio-input-and-beat-detection"
+      }
+    ]
+  },
+  {
+    "mediaId": "bbyrpHpUv2",
+    "filename": "MadMapper Export Project To.png",
+    "imgName": "MadMapper Export Project To",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Export Project To.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T21:09:55.399Z",
+    "pages": [
+      {
+        "pageSuid": "Gr0Qi79QHf",
+        "pageSlug": "project-backup-and-recovery"
+      }
+    ]
+  },
+  {
+    "mediaId": "ylWS9Qsota",
+    "filename": "Laser Scanner Background.png",
+    "imgName": "Laser Scanner Background",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Laser Scanner Background.png",
+    "captions": {
+      "en": "The Laser Scanner Background Image"
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-26T21:39:05.752Z",
+    "pages": [
+      {
+        "pageSuid": "Uk56VJMWin",
+        "pageSlug": "special-tools-and-auto-calibration"
+      }
+    ]
+  },
+  {
+    "mediaId": "1CeWQhTNAI",
+    "filename": "Laser Scanner Image.png",
+    "imgName": "Laser Scanner Image",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Laser Scanner Image.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-27T02:43:04.510Z",
+    "pages": [
+      {
+        "pageSuid": "Uk56VJMWin",
+        "pageSlug": "special-tools-and-auto-calibration"
+      }
+    ]
+  },
+  {
+    "mediaId": "OMKVcwq1h9",
+    "filename": "Laser Scanner Capture Brighter.png",
+    "imgName": "Laser Scanner Capture Brighter",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Laser Scanner Capture Brighter.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-05-27T02:44:24.805Z",
+    "pages": [
+      {
+        "pageSuid": "Uk56VJMWin",
+        "pageSlug": "special-tools-and-auto-calibration"
+      }
+    ]
   }
 ]
