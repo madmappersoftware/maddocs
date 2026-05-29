@@ -25,7 +25,7 @@
           }
         ],
         "publish": false,
-        "breadcrumb": "What's New"
+        "breadcrumb": "1. Introduction"
       },
       {
         "pageSuid": "fGXMx4IhnL",
@@ -35,7 +35,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction"
+        "breadcrumb": "1. Introduction > What is MadMapper?"
       },
       {
         "pageSuid": "MCCPIumwP7",
@@ -45,7 +45,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction"
+        "breadcrumb": "1. Introduction > What is MadMapper?"
       },
       {
         "pageSuid": "MG8sM211wn",
@@ -72,7 +72,7 @@
             "minorVersion": "6",
             "subpage": [],
             "publish": false,
-            "breadcrumb": "Introduction > Discover the Interface > What's New"
+            "breadcrumb": "1. Introduction > What is MadMapper? > What's New"
           }
         ],
         "publish": true,
@@ -86,7 +86,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction"
+        "breadcrumb": "1. Introduction > What is MadMapper? > What's New"
       },
       {
         "pageSuid": "f3UoO6jWFz",
@@ -96,7 +96,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction"
+        "breadcrumb": "1. Introduction > What is MadMapper? > What's New"
       }
     ],
     "publish": false,
@@ -117,7 +117,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
+        "breadcrumb": "1. Introduction > 2. The Interface"
       },
       {
         "pageSuid": "818ax1rXi1",
@@ -126,7 +126,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "1. Introduction > 2. The Interface"
       },
       {
         "pageSuid": "Ud4azT40ng",
@@ -136,7 +137,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > Outputs"
+        "breadcrumb": "1. Introduction > 2. The Interface"
       },
       {
         "pageSuid": "JRpYYgJibn",
@@ -153,7 +154,7 @@
             "minorVersion": "0",
             "subpage": [],
             "publish": false,
-            "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
+            "breadcrumb": "1. Introduction > 2. The Interface > MadMapper Preferences"
           },
           {
             "pageSuid": "voKJvIStfJ",
@@ -163,11 +164,11 @@
             "minorVersion": "0",
             "subpage": [],
             "publish": false,
-            "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
+            "breadcrumb": "1. Introduction > 2. The Interface > MadMapper Preferences"
           }
         ],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > Outputs"
+        "breadcrumb": "1. Introduction > 2. The Interface"
       },
       {
         "pageSuid": "zh2cdkGNYK",
@@ -177,7 +178,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
+        "breadcrumb": "1. Introduction > 2. The Interface > MadMapper Preferences"
       },
       {
         "pageSuid": "qok6q3e9JR",
@@ -187,11 +188,11 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
+        "breadcrumb": "1. Introduction > 2. The Interface > MadMapper Preferences"
       }
     ],
     "publish": false,
-    "breadcrumb": "What's New > About MadMapper > Before You Start"
+    "breadcrumb": "1. Introduction"
   },
   {
     "pageSuid": "DuSM9kcXhI",
@@ -208,7 +209,7 @@
         "minorVersion": "6",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
       },
       {
         "pageSuid": "tMnKdgps9e",
@@ -218,7 +219,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
       },
       {
         "pageSuid": "j7tF1YXaqG",
@@ -228,7 +229,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
       },
       {
         "pageSuid": "JlnYYvfMmj",
@@ -238,10 +239,11 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
       }
     ],
-    "publish": false
+    "publish": false,
+    "breadcrumb": "1. Introduction > 2. The Interface"
   },
   {
     "pageSuid": "7Wad2UTltR",
@@ -251,7 +253,7 @@
     "minorVersion": "6",
     "subpage": [],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface"
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
   },
   {
     "pageSuid": "XN5FxSPLGz",
@@ -261,7 +263,7 @@
     "minorVersion": "0",
     "subpage": [],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface"
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
   },
   {
     "pageSuid": "WwXLi7xy0e",
@@ -278,7 +280,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > Outputs"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs"
       },
       {
         "pageSuid": "aCCGVvsnzB",
@@ -288,7 +290,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > Outputs"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs"
       },
       {
         "pageSuid": "eK1P14xklL",
@@ -298,7 +300,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs"
       },
       {
         "pageSuid": "GFZHl1whIy",
@@ -308,11 +310,11 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs"
       }
     ],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface"
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
   },
   {
     "pageSuid": "1R0FBPg1RK",
@@ -322,7 +324,7 @@
     "minorVersion": "0",
     "subpage": [],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > Outputs > MadMapper Preferences"
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs"
   },
   {
     "pageSuid": "Zu9lM5wmy5",
@@ -332,7 +334,7 @@
     "minorVersion": "6",
     "subpage": [],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > Outputs"
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs"
   },
   {
     "pageSuid": "T8NLmL3QvA",
@@ -348,7 +350,8 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings"
       },
       {
         "pageSuid": "A1eggXH6LJ",
@@ -357,10 +360,12 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false
+        "publish": false,
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings"
       }
     ],
-    "publish": false
+    "publish": false,
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs"
   },
   {
     "pageSuid": "zsu3iPADLl",
@@ -370,7 +375,7 @@
     "minorVersion": "0",
     "subpage": [],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings"
   },
   {
     "pageSuid": "ucH56kc8cM",
@@ -387,11 +392,11 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control"
       }
     ],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes"
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings"
   },
   {
     "pageSuid": "r79I9iCia8",
@@ -408,7 +413,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
       },
       {
         "pageSuid": "QuoOTFz6Dy",
@@ -418,7 +423,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
       },
       {
         "pageSuid": "2TAm9uScmI",
@@ -428,7 +433,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
       },
       {
         "pageSuid": "Gr0Qi79QHf",
@@ -438,7 +443,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
       },
       {
         "pageSuid": "yXlYudB3cb",
@@ -448,7 +453,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
       },
       {
         "pageSuid": "Uk56VJMWin",
@@ -458,7 +463,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
       },
       {
         "pageSuid": "cyHfGqwmSP",
@@ -475,15 +480,15 @@
             "minorVersion": "0",
             "subpage": [],
             "publish": false,
-            "breadcrumb": "Introduction > Discover the Interface"
+            "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > (old) DMX Fixtures (Delete)"
           }
         ],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
       }
     ],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control"
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control"
   },
   {
     "pageSuid": "VItu9oKKNm",
@@ -500,7 +505,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes"
       },
       {
         "pageSuid": "0yIEG8azhm",
@@ -599,7 +604,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > Software Installation"
       },
       {
         "pageSuid": "pXmh5m3VrT",
@@ -609,7 +614,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > Software Installation"
       },
       {
         "pageSuid": "vsJMXMbDlD",
@@ -619,7 +624,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > Software Installation"
       },
       {
         "pageSuid": "AF72MZ0gEb",
@@ -632,7 +637,7 @@
       }
     ],
     "publish": false,
-    "breadcrumb": "Introduction > Discover the Interface > What's New"
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
   },
   {
     "pageSuid": "nVh3znXLrj",
@@ -649,7 +654,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced > Troubleshooting"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > 14. Troubleshooting"
       },
       {
         "pageSuid": "7voYoNLUQW",
@@ -659,7 +664,7 @@
         "minorVersion": "0",
         "subpage": [],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced > Troubleshooting"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > 14. Troubleshooting"
       },
       {
         "pageSuid": "985xnkp4H2",
@@ -676,11 +681,11 @@
             "minorVersion": "0",
             "subpage": [],
             "publish": false,
-            "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced > Troubleshooting > About MadMapper > Release Notes History"
+            "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > 14. Troubleshooting > Release Notes History"
           }
         ],
         "publish": false,
-        "breadcrumb": "Introduction > Discover the Interface > What's New > Setup, Installation & Technical Notes > Live Performance & Control > Advanced > Troubleshooting > About MadMapper"
+        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > 14. Troubleshooting"
       }
     ],
     "publish": true
