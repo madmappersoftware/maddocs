@@ -1,0 +1,16 @@
+<h3 data-path-to-node="2">Surface Groups &amp; Masks</h3>
+<p data-path-to-node="3"><strong data-path-to-node="3" data-index-in-node="0">Layer Ordering</strong> MadMapper uses a top-down layer stack, much like traditional design software. The surface at the top of your Surfaces list will appear in the foreground, while the surfaces below it will sit in the background.</p>
+<p data-path-to-node="4"><strong data-path-to-node="4" data-index-in-node="0">Grouping</strong> You can organize your workspace by selecting multiple surfaces and putting them into a Group. Grouping layers together allows you to move, scale, rotate, and adjust the opacity of the entire collection as a single unit, without affecting their relative positions to one another.</p>
+<p data-path-to-node="5"><strong data-path-to-node="5" data-index-in-node="0">Shadow Groups</strong> By utilizing group hierarchies, you can isolate how masks and blend modes interact with the rest of your composition. Putting surfaces into a specific group ensures that the effects or masks applied within that folder only interact with the contents of that group, shielding the rest of your workspace from unwanted shadows or cutouts.</p>
+<p data-path-to-node="6"><strong data-path-to-node="6" data-index-in-node="0">Masking Techniques</strong> Masks are essential tools used to hide specific parts of your composition from the projector, ensuring light doesn't spill onto areas where it shouldn't.</p>
+<ul data-path-to-node="7">
+<li>
+<p data-path-to-node="7,0,0"><strong data-path-to-node="7,0,0" data-index-in-node="0">Individual Layer Masks (Internal Masks):</strong> You can apply a mask directly to a single surface (like a Quad or Triangle) via the Surface Inspector. This internal mask will only cut out parts of that specific layer.</p>
+</li>
+<li>
+<p data-path-to-node="7,1,0"><strong data-path-to-node="7,1,0" data-index-in-node="0">Global Masks:</strong> If you want to cut out an area across multiple surfaces at once, create a standalone Mask surface and place it above your other layers in the Surfaces list. Because of the top-down layer ordering, this standalone mask will punch a hole through everything beneath it.</p>
+</li>
+<li>
+<p data-path-to-node="7,2,0"><strong data-path-to-node="7,2,0" data-index-in-node="0">Bezier Masking:</strong> For complex, organic shapes, you can enable Bezier points on your masks. This allows you to pull bezier handles to curve and bow the mask edges, making it easy to perfectly trace around physical architecture, arched windows, or set pieces.</p>
+</li>
+</ul>

@@ -251,7 +251,98 @@
     "pageSlug": "4.-surfaces",
     "pageType": "empty",
     "minorVersion": "6",
-    "subpage": [],
+    "subpage": [
+      {
+        "pageSuid": "jy4bq5u72Q",
+        "pageTitle": "Surface Types",
+        "pageSlug": "surface-types",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "e0U2OB2oDu",
+        "pageTitle": "Surface Inspector",
+        "pageSlug": "surface-inspector",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "fLdwrclUPZ",
+        "pageTitle": "Assigning Content to Surfaces",
+        "pageSlug": "assigning-content-to-surfaces",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "zpKm5EDYQL",
+        "pageTitle": "Surface Groups & Masks",
+        "pageSlug": "surface-groups-and-masks",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "3vK4ekIr97",
+        "pageTitle": "Warping & Geometry",
+        "pageSlug": "warping-and-geometry",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "pUYRGnAdTP",
+        "pageTitle": "FreeDraw & madLine",
+        "pageSlug": "freedraw-and-madline",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "xKcEyus4H4",
+        "pageTitle": "SVG Import & Animation",
+        "pageSlug": "svg-import-and-animation",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "bwdcFx1hFo",
+        "pageTitle": "Advanced 3D & Scanning",
+        "pageSlug": "advanced-3d-and-scanning",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "HwFnZu0RSI",
+        "pageTitle": "Tools: Spacial Scanner",
+        "pageSlug": "tools-spacial-scanner",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "Pvs2jNq7YB",
+        "pageTitle": "Video Wall Setup",
+        "pageSlug": "video-wall-setup",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      }
+    ],
     "publish": false,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
   },
@@ -699,5 +790,32 @@
     "subpage": [],
     "publish": true,
     "breadcrumb": "What's New > About MadMapper > Getting Started > Learn the Fundamentals"
+  },
+  {
+    "pageSuid": "m6t2CrgtyY",
+    "pageTitle": "Appendices",
+    "pageSlug": "appendices",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [],
+    "publish": false
+  },
+  {
+    "pageSuid": "9F1vHQYWB0",
+    "pageTitle": "Glossary of Terms",
+    "pageSlug": "glossary-of-terms",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [],
+    "publish": false
+  },
+  {
+    "pageSuid": "Iouq0xhqBG",
+    "pageTitle": "Index",
+    "pageSlug": "index",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [],
+    "publish": false
   }
 ]
