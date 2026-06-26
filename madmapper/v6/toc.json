@@ -352,7 +352,53 @@
     "pageSlug": "5.-dmx-and-led-mapping",
     "pageType": "empty",
     "minorVersion": "0",
-    "subpage": [],
+    "subpage": [
+      {
+        "pageSuid": "4JdBEqNexg",
+        "pageTitle": "DMX Fundamentals",
+        "pageSlug": "dmx-fundamentals",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "ydD1luFlke",
+        "pageTitle": "DMX Fixtures",
+        "pageSlug": "dmx-fixtures",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "IcDDTb6k9R",
+        "pageTitle": "Tools: LED Scanner",
+        "pageSlug": "tools-led-scanner",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "wJrJgolhPD",
+        "pageTitle": "Controlling Moving Lights",
+        "pageSlug": "controlling-moving-lights",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "bJBV6HCFx0",
+        "pageTitle": "MadLight Recorder",
+        "pageSlug": "madlight-recorder",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      }
+    ],
     "publish": false,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
   },
@@ -413,7 +459,71 @@
     "pageSlug": "7.-laser-madlaser",
     "pageType": "empty",
     "minorVersion": "0",
-    "subpage": [],
+    "subpage": [
+      {
+        "pageSuid": "kUUpsZhh1t",
+        "pageTitle": "Getting Started with MadLaser",
+        "pageSlug": "getting-started-with-madlaser",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "kcVniK6UbI",
+        "pageTitle": "ILDA Files",
+        "pageSlug": "ilda-files",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "opF2BZT8bB",
+        "pageTitle": "Real-Time Video Vectorization",
+        "pageSlug": "real-time-video-vectorization",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "mVBaTt6sEc",
+        "pageTitle": "3D Object Rendering for Laser",
+        "pageSlug": "3d-object-rendering-for-laser",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "mCuNDQQLHa",
+        "pageTitle": "Laser Warping & Soft Edge",
+        "pageSlug": "laser-warping-and-soft-edge",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "rejcoTo6mU",
+        "pageTitle": "Tools: Laser Scanner",
+        "pageSlug": "tools-laser-scanner",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "PTPLLvLwGr",
+        "pageTitle": "Laser Visualization & Safety",
+        "pageSlug": "laser-visualization-and-safety",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      }
+    ],
     "publish": false,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs"
   },
@@ -464,7 +574,71 @@
     "pageSlug": "10.-timelines",
     "pageType": "empty",
     "minorVersion": "0",
-    "subpage": [],
+    "subpage": [
+      {
+        "pageSuid": "A0DzizI01t",
+        "pageTitle": "Timelines Overview & The Conductor",
+        "pageSlug": "timelines-overview-and-the-conductor",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "f89QlK5FO1",
+        "pageTitle": "Scenes & Cues",
+        "pageSlug": "scenes-and-cues",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "i6LwvsxoZj",
+        "pageTitle": "Creating & Editing Timelines",
+        "pageSlug": "creating-and-editing-timelines",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "LizEOOiZSZ",
+        "pageTitle": "Track Types & Inspectors",
+        "pageSlug": "track-types-and-inspectors",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "DzHyL1b51X",
+        "pageTitle": "Time Markers & Follow Actions",
+        "pageSlug": "time-markers-and-follow-actions",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "FOkfKwyhdv",
+        "pageTitle": "Clips",
+        "pageSlug": "clips",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      },
+      {
+        "pageSuid": "6NrTCrgS0h",
+        "pageTitle": "Exporting a Timeline from the Conductor",
+        "pageSlug": "exporting-a-timeline-from-the-conductor",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
+      }
+    ],
     "publish": false,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings"
   },
@@ -555,27 +729,6 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
-      },
-      {
-        "pageSuid": "cyHfGqwmSP",
-        "pageTitle": "(old) DMX Fixtures (Delete)",
-        "pageSlug": "(old)-dmx-fixtures-(delete)",
-        "pageType": "empty",
-        "minorVersion": "6",
-        "subpage": [
-          {
-            "pageSuid": "1YGq30hgJF",
-            "pageTitle": "(old) Laser surfaces (Delete)",
-            "pageSlug": "(old)-laser-surfaces-(delete)",
-            "pageType": "empty",
-            "minorVersion": "0",
-            "subpage": [],
-            "publish": false,
-            "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > (old) DMX Fixtures (Delete)"
-          }
-        ],
-        "publish": false,
-        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
       }
     ],
     "publish": false,
@@ -583,8 +736,8 @@
   },
   {
     "pageSuid": "VItu9oKKNm",
-    "pageTitle": "13. Setup, Installation & Technical Notes",
-    "pageSlug": "13.-setup-installation-and-technical-notes",
+    "pageTitle": "13. Setup & Installation",
+    "pageSlug": "13.-setup-and-installation",
     "pageType": "card",
     "minorVersion": "6",
     "subpage": [
@@ -684,9 +837,20 @@
             "breadcrumb": "What's New > Getting Started > Software Installation"
           }
         ],
-        "publish": true,
+        "publish": false,
         "breadcrumb": "What's New > About MadMapper > Getting Started"
-      },
+      }
+    ],
+    "publish": false,
+    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
+  },
+  {
+    "pageSuid": "RKPXx8RrrV",
+    "pageTitle": "14. Technical Notes",
+    "pageSlug": "14.-technical-notes",
+    "pageType": "empty",
+    "minorVersion": "0",
+    "subpage": [
       {
         "pageSuid": "4PzWJjlTxq",
         "pageTitle": "DMX Fixture Definitions",
@@ -708,6 +872,15 @@
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > Software Installation"
       },
       {
+        "pageSuid": "AF72MZ0gEb",
+        "pageTitle": "DMX: Import / Export from SVG",
+        "pageSlug": "dmx:-import-export-from-svg",
+        "pageType": "empty",
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": true
+      },
+      {
         "pageSuid": "vsJMXMbDlD",
         "pageTitle": "Audio Routing",
         "pageSlug": "audio-routing",
@@ -716,24 +889,13 @@
         "subpage": [],
         "publish": false,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > Software Installation"
-      },
-      {
-        "pageSuid": "AF72MZ0gEb",
-        "pageTitle": "DMX: Import / Export from SVG",
-        "pageSlug": "dmx:-import-export-from-svg",
-        "pageType": "empty",
-        "minorVersion": "0",
-        "subpage": [],
-        "publish": true
       }
-    ],
-    "publish": false,
-    "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced"
+    ]
   },
   {
     "pageSuid": "nVh3znXLrj",
-    "pageTitle": "14. Troubleshooting",
-    "pageSlug": "14.-troubleshooting",
+    "pageTitle": "15. Troubleshooting",
+    "pageSlug": "15.-troubleshooting",
     "pageType": "empty",
     "minorVersion": "0",
     "subpage": [
@@ -758,25 +920,13 @@
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > 14. Troubleshooting"
       },
       {
-        "pageSuid": "985xnkp4H2",
-        "pageTitle": "Release Notes History",
-        "pageSlug": "release-notes-history",
+        "pageSuid": "1XogvJyyhh",
+        "pageTitle": "MadMapper Release Notes History",
+        "pageSlug": "madmapper-release-notes-history",
         "pageType": "empty",
-        "minorVersion": "3",
-        "subpage": [
-          {
-            "pageSuid": "9cp3osQSr7",
-            "pageTitle": "MadMapper 5 Release Notes",
-            "pageSlug": "madmapper-5-release-notes",
-            "pageType": "empty",
-            "minorVersion": "0",
-            "subpage": [],
-            "publish": false,
-            "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > 14. Troubleshooting > Release Notes History"
-          }
-        ],
-        "publish": false,
-        "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 6. Outputs > 9. Master Settings > 11. Live Performance & Control > 12. Advanced > 13. Setup, Installation & Technical Notes > 14. Troubleshooting"
+        "minorVersion": "0",
+        "subpage": [],
+        "publish": false
       }
     ],
     "publish": true

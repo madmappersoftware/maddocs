@@ -1,0 +1,75 @@
+<h2 data-path-to-node="3">Timelines Overview &amp; The Conductor</h2>
+<p data-path-to-node="4">MadMapper 6 introduces a monumental shift in how you program and execute shows: the native Timeline system. Previously, complex projects relied entirely on state-based logic, where you triggered isolated snapshots and let the software crossfade between them. With the introduction of Timelines, MadMapper steps into the role of a centralized, non-linear show control system.</p>
+<p data-path-to-node="5"><strong data-path-to-node="5" data-index-in-node="0">The Conductor</strong> acts as your Master Timeline. This is where you can build out a linear sequence that controls almost all aspects of your project simultaneously. Within the Conductor, you can create interactive flags (Markers) to pause, loop, or jump through the sequence. You can drop entire Scenes and Cues directly into a Timeline Player track, while simultaneously controlling non-linear montage tracks, routing video and audio sources, driving geometric surfaces, firing lasers, running DMX lighting sequences, and outputting MIDI/OSC commands to external systems.</p>
+<div class="alert-banner-tips">
+<p data-path-to-node="4">Use the shortcut <code data-path-to-node="8,2,0" data-index-in-node="38">Cmd + Shift + C</code> (Mac) or <code data-path-to-node="8,2,0" data-index-in-node="63">Ctrl + Shift + C</code> (Windows) to instantly access Edit Mode for The Scenes and Cues.</p>
+</div>
+<h2 data-path-to-node="26">Timeline Navigation &amp; UI Controls</h2>
+<p data-path-to-node="27"><img class="retina" src="Timeline Size Adjustment.png" width="800" height="451" data-media-id="XFyfxUFVzq"></p>
+<p data-path-to-node="27">Navigating complex timelines requires efficient zooming and track management. MadMapper provides several shortcuts and UI toggles to speed up your workflow:</p>
+<ul data-path-to-node="28">
+<li>
+<p data-path-to-node="28,0,0"><strong data-path-to-node="28,0,0" data-index-in-node="0">Horizontal Zoom:</strong> Hold <code data-path-to-node="28,0,0" data-index-in-node="22">Option</code> + Scroll Up/Down to shrink or expand the timeline horizontally.</p>
+</li>
+<li>
+<p data-path-to-node="28,1,0"><strong data-path-to-node="28,1,0" data-index-in-node="0">Vertical Track Zoom:</strong> Hold <code data-path-to-node="28,1,0" data-index-in-node="26">Command</code> + Scroll Up/Down to expand or collapse the tracks vertically.</p>
+</li>
+<li>
+<p data-path-to-node="28,2,0"><strong data-path-to-node="28,2,0" data-index-in-node="0">Clip Navigation:</strong> Press <code data-path-to-node="28,2,0" data-index-in-node="23">Tab</code> to jump the playhead to the next clip on the track. Press <code data-path-to-node="28,2,0" data-index-in-node="85">Shift + Tab</code> to move to the previous clip.</p>
+</li>
+</ul>
+<p>Filters:</p>
+<ul data-path-to-node="28">
+<li>
+<p data-path-to-node="28,3,0"><strong data-path-to-node="28,3,0" data-index-in-node="0">Track Pinning:</strong> Click the <strong data-path-to-node="28,3,0" data-index-in-node="25">Pin</strong> icon to isolate and show only the tracks you have actively pinned. Pinned tracks will also show their respective keyframes.</p>
+</li>
+<li>
+<p data-path-to-node="28,4,0"><strong data-path-to-node="28,4,0" data-index-in-node="0">Show Animated Tracks:</strong> Click the stopwatch icon to filter the view, showing only tracks that contain active keyframes.</p>
+</li>
+<li>
+<p data-path-to-node="28,5,0"><strong data-path-to-node="28,5,0" data-index-in-node="0">Search:</strong> Use the search bar to instantly locate a specific element or parameter track by name.</p>
+</li>
+</ul>
+<p><img class="retina" src="Timeline Track Filters.png" width="300" height="37" data-media-id="THaUhkoYGs"></p>
+<h3 data-path-to-node="29">Timeline Settings &amp; Time Formatting</h3>
+<figure class="image" contenteditable="false"><img class="retina" src="Timeline Settings Options (...).png" width="300" height="292" data-media-id="yQWPd1trxH">
+<figcaption contenteditable="true">Timeline Settings Options (three dots)</figcaption>
+</figure>
+<p data-path-to-node="30">&nbsp;</p>
+<p data-path-to-node="30">&nbsp;</p>
+<p data-path-to-node="31">You can customize how time is calculated and displayed across your sequence. By clicking the <strong data-path-to-node="31" data-index-in-node="93">Three Dots (...)</strong> icon in the upper timeline toolbar, you can access the core settings:</p>
+<ul data-path-to-node="32">
+<li>
+<p data-path-to-node="32,0,0"><strong data-path-to-node="32,0,0" data-index-in-node="0">FPS &rarr; BPM Setup:</strong> Define the relationship between your frame rate and musical tempo by setting your target <strong data-path-to-node="32,0,0" data-index-in-node="106">FPS</strong>, master <strong data-path-to-node="32,0,0" data-index-in-node="118">BPM</strong>, and musical <strong data-path-to-node="32,0,0" data-index-in-node="135">Signature</strong> (e.g., 4/4 time).</p>
+</li>
+<li>
+<p data-path-to-node="32,1,0"><strong data-path-to-node="32,1,0" data-index-in-node="0">Playback Mode:</strong> Choose how the timeline advances. Options include <strong data-path-to-node="32,1,0" data-index-in-node="65">Default</strong> (internal clock), <strong data-path-to-node="32,1,0" data-index-in-node="91">Controlled Speed</strong> (variable playback rate), <strong data-path-to-node="32,1,0" data-index-in-node="134">Global BPM</strong> (locked to the main MadMapper tempo), or <strong data-path-to-node="32,1,0" data-index-in-node="186">External Sync</strong> (driven by incoming timecode).</p>
+</li>
+<li>
+<p data-path-to-node="32,2,0"><strong data-path-to-node="32,2,0" data-index-in-node="0">Ruler Formatting:</strong> Change the visual increments on your timeline ruler by selecting the dropdown next to the time display. View your timeline in <strong data-path-to-node="32,2,0" data-index-in-node="144">Seconds</strong>, exact <strong data-path-to-node="32,2,0" data-index-in-node="159">Frames</strong>, or musical beat divisions ranging from <strong data-path-to-node="32,2,0" data-index-in-node="206">1/32 notes</strong> up to <strong data-path-to-node="32,2,0" data-index-in-node="223">4 bars</strong> (or turn it <strong data-path-to-node="32,2,0" data-index-in-node="242">Off</strong>).</p>
+</li>
+</ul>
+<figure class="image" contenteditable="false"><img class="retina" src="Timeline View Time Options.png" width="82" height="265" data-media-id="2aB4CIxXBX">
+<figcaption contenteditable="true">Timeline View Time Options</figcaption>
+</figure>
+<h3 data-path-to-node="33">Timeline Right-Click Operations</h3>
+<p data-path-to-node="34">&nbsp;</p>
+<p data-path-to-node="35">Right-clicking directly on the timeline ruler or an empty track space provides high-level arrangement tools:</p>
+<figure class="image" contenteditable="false"><img class="retina" src="Right-Click on Timeline for more options..png" width="300" height="222" data-media-id="vD1wT98O4z">
+<figcaption contenteditable="true">Right Click Timeline For More Options</figcaption>
+</figure>
+<ul data-path-to-node="36">
+<li>
+<p data-path-to-node="36,0,0"><strong data-path-to-node="36,0,0" data-index-in-node="0">Display:</strong> A quick toggle to switch the ruler formatting between Time, Time/Frames, or Time/Bars.</p>
+</li>
+<li>
+<p data-path-to-node="36,1,0"><strong data-path-to-node="36,1,0" data-index-in-node="0">Add Keyframes:</strong> Instantly drop keyframes across all tracks or only modified tracks at the playhead.</p>
+</li>
+<li>
+<p data-path-to-node="36,2,0"><strong data-path-to-node="36,2,0" data-index-in-node="0">Insert / Delete Time:</strong> Opens a dialog to shift the entire arrangement forward or backward by a specific duration.</p>
+</li>
+<li>
+<p data-path-to-node="36,3,0"><strong data-path-to-node="36,3,0" data-index-in-node="0">Loop Controls:</strong> Rapidly define the active loop bracket by selecting <strong data-path-to-node="36,3,0" data-index-in-node="67">Set as Loop Start</strong>, <strong data-path-to-node="36,3,0" data-index-in-node="86">Set as Loop End</strong>, or <strong data-path-to-node="36,3,0" data-index-in-node="106">Move Loop here</strong>.</p>
+</li>
+</ul>
+<h2 data-path-to-node="37">&nbsp;</h2>

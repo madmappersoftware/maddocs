@@ -1,0 +1,93 @@
+<h1 data-path-to-node="0">Exporting a Timeline from the Conductor</h1>
+<p data-path-to-node="1">MadMapper allows you to render and export your fully programmed timeline directly from the Conductor. This feature lets you bounce your synchronized video, audio, laser, and DMX sequences into standard files for playback on other systems, archiving, or sharing with clients.</p>
+<p data-path-to-node="2">To access these settings, navigate to your Conductor timeline and select the export option.</p>
+<p data-path-to-node="2"><img class="retina" src="Export Conductor Option.png" width="443" height="122" data-media-id="fD40CNxCJl"></p>
+<h3 data-path-to-node="4">Export Dialogue Box</h3>
+<p><img class="retina" src="Export Timeline.png" width="782" height="726" data-media-id="OdHMOqQRY1"></p>
+<p data-path-to-node="5">At the very top of the Export Timeline dialog, you must choose how much of your timeline you want to render:</p>
+<ul data-path-to-node="6">
+<li>
+<p data-path-to-node="6,0,0"><strong data-path-to-node="6,0,0" data-index-in-node="0">Export until last key frame / marker:</strong>&nbsp;Renders the timeline from the very beginning up to the exact moment of the final programmed event, keyframe, or marker.</p>
+</li>
+<li>
+<p data-path-to-node="6,1,0"><strong data-path-to-node="6,1,0" data-index-in-node="0">Export Loop section:</strong>&nbsp;Renders only the specific segment of time defined by the active loop brackets on your Conductor timeline.</p>
+</li>
+</ul>
+<h4 data-path-to-node="7"><strong>Export Video Outputs</strong></h4>
+<p data-path-to-node="8">This section allows you to render your mapped video outputs into standard video files or image sequences.</p>
+<ul data-path-to-node="9">
+<li>
+<p data-path-to-node="9,0,0"><strong data-path-to-node="9,0,0" data-index-in-node="0">Target Outputs:</strong>&nbsp;Select exactly which video outputs you want to render by checking their respective boxes (e.g.,&nbsp;<code data-path-to-node="9,0,0" data-index-in-node="112">Video-Output-1</code>).</p>
+</li>
+<li>
+<p data-path-to-node="9,1,0"><strong data-path-to-node="9,1,0" data-index-in-node="0">Include Audio:</strong>&nbsp;Check this box next to an output to embed the timeline's audio mix directly into that resulting video file.</p>
+</li>
+<li>
+<p data-path-to-node="9,2,0"><strong data-path-to-node="9,2,0" data-index-in-node="0">Quality Slider:</strong>&nbsp;Use this to balance file size and visual fidelity when using compressed formats like H.264.</p>
+</li>
+</ul>
+<p data-path-to-node="10"><code data-path-to-node="10" data-index-in-node="0"><img class="retina" src="Export Timeline Codecs.png" width="668" height="231" data-media-id="Rlpqu8dSut"></code></p>
+<p data-path-to-node="11"><strong data-path-to-node="11" data-index-in-node="0">Available Video Codecs:</strong></p>
+<ul data-path-to-node="12">
+<li>
+<p data-path-to-node="12,0,0"><strong data-path-to-node="12,0,0" data-index-in-node="0">H264 &amp; HEVC:</strong>&nbsp;Standard compressed formats, ideal for sharing previews or web delivery.</p>
+</li>
+<li>
+<p data-path-to-node="12,1,0"><strong data-path-to-node="12,1,0" data-index-in-node="0">ProRes:</strong>&nbsp;High-quality Apple codec, excellent for visually lossless editing and playback on macOS.</p>
+</li>
+<li>
+<p data-path-to-node="12,2,0"><strong data-path-to-node="12,2,0" data-index-in-node="0">Hap, HapAlpha, HapQ:</strong>&nbsp;GPU-accelerated formats optimized for multi-layer live performance software.</p>
+</li>
+<li>
+<p data-path-to-node="12,3,0"><strong data-path-to-node="12,3,0" data-index-in-node="0">Image Sequence:</strong>&nbsp;Exports every single frame of your timeline as an individual image file.</p>
+</li>
+</ul>
+<h4 data-path-to-node="12">Export Laser &amp; DMX Outputs</h4>
+<p data-path-to-node="13">If your project contains hardware control data, you can export these specialized streams alongside your video.</p>
+<ul data-path-to-node="14">
+<li>
+<p data-path-to-node="14,0,0"><strong data-path-to-node="14,0,0" data-index-in-node="0">ILDA Export (Laser Data):</strong>&nbsp;Bounces your programmed laser paths and generative animations into a standard ILDA movie file.</p>
+<ul data-path-to-node="14,0,1">
+<li>
+<p data-path-to-node="14,0,1,0,0"><strong data-path-to-node="14,0,1,0,0" data-index-in-node="0">Compatibility:</strong>&nbsp;Because it writes to the universal ILDA standard, this exported file is fully compatible with any third-party laser control software that supports ILDA movies (such as Pangolin BEYOND or standard show controllers).</p>
+</li>
+<li>
+<p data-path-to-node="14,0,1,1,0"><strong data-path-to-node="14,0,1,1,0" data-index-in-node="0">High-Resolution Vectorization:</strong>&nbsp;As noted in the Expert Mode settings, utilizing the Timeline export allows you to bypass real-time hardware limitations, enabling you to process massive video vectorization tasks (up to 16k resolution) into flawless ILDA sequences.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="14,1,0"><strong data-path-to-node="14,1,0" data-index-in-node="0">DMX Export (Lighting Data):</strong>&nbsp;Renders your lighting programming into a highly optimized, proprietary MadLight Sequence.&nbsp;<em data-path-to-node="14,1,0" data-index-in-node="118">(Note: Because this is a proprietary format, these files cannot be imported into third-party lighting consoles).</em></p>
+<ul data-path-to-node="14,1,1">
+<li>
+<p data-path-to-node="14,1,1,0,0"><strong data-path-to-node="14,1,1,0,0" data-index-in-node="0">Delta Compression:</strong>&nbsp;To keep file sizes highly efficient, the export stores all of your DMX universes together but only records the&nbsp;<em data-path-to-node="14,1,1,0,0" data-index-in-node="130">changes</em>&nbsp;in value over time. The data is then automatically zipped.</p>
+</li>
+<li>
+<p data-path-to-node="14,1,1,1,0"><strong data-path-to-node="14,1,1,1,0" data-index-in-node="0">File Chunking:</strong>&nbsp;The software automatically cuts the export into smaller file chunks. This prevents the export from hitting the standard 32-bit file size limits found on FAT32-formatted USB drives.</p>
+</li>
+<li>
+<p data-path-to-node="14,1,1,2,0"><strong data-path-to-node="14,1,1,2,0" data-index-in-node="0">Optimized Scrubbing:</strong>&nbsp;By splitting the export into smaller files, the time-offset index is built directly into the filenames rather than requiring a massive index at the beginning of a single file. This allows for incredibly fast timeline scrubbing and ensures smooth, low-overhead playback on lightweight standalone hardware (such as Raspberry Pi-based media players).</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 data-path-to-node="13"><strong>Export Audio Output</strong></h4>
+<p data-path-to-node="17">If you need an isolated audio mixdown of your timeline, enable the audio export section.</p>
+<p data-path-to-node="18"><code data-path-to-node="18" data-index-in-node="0"><img class="retina" src="Export Timeline Audio Settings.png" width="667" height="141" data-media-id="JvetMKMYTB"></code></p>
+<ul data-path-to-node="19">
+<li>
+<p data-path-to-node="19,0,0"><strong data-path-to-node="19,0,0" data-index-in-node="0">Audio Codec:</strong>&nbsp;Choose between uncompressed&nbsp;<strong data-path-to-node="19,0,0" data-index-in-node="41">WAV</strong>&nbsp;for the highest fidelity, or compressed&nbsp;<strong data-path-to-node="19,0,0" data-index-in-node="85">MP3</strong>&nbsp;and&nbsp;<strong data-path-to-node="19,0,0" data-index-in-node="93">M4A</strong>&nbsp;formats for smaller file sizes.</p>
+</li>
+<li>
+<p data-path-to-node="19,1,0"><strong data-path-to-node="19,1,0" data-index-in-node="0">Audio Channels:</strong>&nbsp;Select the number of audio channels (e.g., 2 for a standard stereo mix).</p>
+</li>
+<li>
+<p data-path-to-node="19,2,0"><strong data-path-to-node="19,2,0" data-index-in-node="0">Sample Rate:</strong>&nbsp;Define the audio resolution (e.g., 44100 Hz for standard CD quality).</p>
+</li>
+</ul>
+<h4 data-path-to-node="18">Setting the Destination</h4>
+<p data-path-to-node="19">At the bottom of the window, verify the&nbsp;<strong data-path-to-node="19" data-index-in-node="40">Export Folder</strong>&nbsp;path. This is the directory on your hard drive where all selected video, audio, ILDA, and DMX files will be generated once you click OK. You can use the browse button on the right to designate a specific folder, or click the reset icon to return to the default MadMapper workspace directory.</p>
+<figure class="image" contenteditable="false"><img class="retina" src="Export Browse Button.png" width="50" height="62" data-media-id="6Alg0Cfxej">
+<figcaption contenteditable="true">Export Browse Button</figcaption>
+</figure>
+<p>&nbsp;</p>

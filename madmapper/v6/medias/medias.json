@@ -1,13 +1,13 @@
 [
   {
-    "mediaId": "L2na5ffY55",
-    "filename": "Drag and Drop Content.png",
-    "imgName": "Drag and Drop Content",
-    "ext": "png",
+    "mediaId": "45IYC0mImO",
+    "filename": "MadLaser Tower.jpg",
+    "imgName": "MadLaser Tower",
+    "ext": "jpg",
     "mimetype": "",
-    "url": "/Drag and Drop Content.png",
+    "url": "/MadLaser Tower.jpg",
     "captions": {
-      "en": "Drag and Drop from Finder or Explorer directly into MadMapper"
+      "en": ""
     },
     "size": [
       {
@@ -31,26 +31,69 @@
         "dimension": 256
       }
     ],
-    "retina": true,
+    "retina": false,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-06-25T23:48:22.681Z",
+    "date": "2026-06-26T17:21:06.065Z",
     "pages": [
       {
-        "pageSuid": "fLdwrclUPZ",
-        "pageSlug": "assigning-content-to-surfaces"
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "7.-laser-madlaser"
       }
     ]
   },
   {
-    "mediaId": "FBX3idWEUE",
-    "filename": "Media Pop-Up Window.png",
-    "imgName": "Media Pop-Up Window",
+    "mediaId": "pL8sAgO42k",
+    "filename": "MadLaser HandLaser Image.jpg",
+    "imgName": "MadLaser HandLaser Image",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/MadLaser HandLaser Image.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-26T17:26:38.389Z",
+    "pages": [
+      {
+        "pageSuid": "1R0FBPg1RK",
+        "pageSlug": "7.-laser-madlaser"
+      }
+    ]
+  },
+  {
+    "mediaId": "bc1y92JdyC",
+    "filename": "Video Output Settings 2.png",
+    "imgName": "Video Output Settings 2",
     "ext": "png",
     "mimetype": "",
-    "url": "/Media Pop-Up Window.png",
+    "url": "/Video Output Settings 2.png",
     "captions": {
-      "en": "Click on Media Window to Reveal Pop-up"
+      "en": ""
     },
     "size": [
       {
@@ -69,109 +112,21 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-06-25T23:50:08.122Z",
+    "date": "2026-06-26T17:32:58.861Z",
     "pages": [
       {
-        "pageSuid": "fLdwrclUPZ",
-        "pageSlug": "assigning-content-to-surfaces"
+        "pageSuid": "WwXLi7xy0e",
+        "pageSlug": "6.-outputs"
       }
     ]
   },
   {
-    "mediaId": "3sUA7TY88q",
-    "filename": "Media Bin Icons Select.png",
-    "imgName": "Media Bin Icons Select",
+    "mediaId": "bpUv4wlKDJ",
+    "filename": "Moving Head Light Controller.png",
+    "imgName": "Moving Head Light Controller",
     "ext": "png",
     "mimetype": "",
-    "url": "/Media Bin Icons Select.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T15:19:31.678Z",
-    "pages": [
-      {
-        "pageSuid": "fLdwrclUPZ",
-        "pageSlug": "assigning-content-to-surfaces"
-      }
-    ]
-  },
-  {
-    "mediaId": "qcFzbrfJQf",
-    "filename": "Target Layer Icon.png",
-    "imgName": "Target Layer Icon",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Target Layer Icon.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T15:21:54.224Z",
-    "pages": [
-      {
-        "pageSuid": "fLdwrclUPZ",
-        "pageSlug": "assigning-content-to-surfaces"
-      }
-    ]
-  },
-  {
-    "mediaId": "7rfjmj44RF",
-    "filename": "Layer assignments.png",
-    "imgName": "Layer assignments",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Layer assignments.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T15:23:19.665Z",
-    "pages": [
-      {
-        "pageSuid": "fLdwrclUPZ",
-        "pageSlug": "assigning-content-to-surfaces"
-      }
-    ]
-  },
-  {
-    "mediaId": "ppMZqU2T5L",
-    "filename": "Grid Generator Example.png",
-    "imgName": "Grid Generator Example",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Grid Generator Example.png",
+    "url": "/Moving Head Light Controller.png",
     "captions": {
       "en": ""
     },
@@ -196,93 +151,23 @@
     "retina": true,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-06-26T15:39:10.479Z",
+    "date": "2026-06-26T17:49:25.214Z",
     "pages": [
       {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
+        "pageSuid": "wJrJgolhPD",
+        "pageSlug": "controlling-moving-lights"
       }
     ]
   },
   {
-    "mediaId": "pExZxY676p",
-    "filename": "MMeshWarpingGuide _003.png",
-    "imgName": "MMeshWarpingGuide _003",
-    "ext": "png",
+    "mediaId": "5Ff7JXUQ0v",
+    "filename": "MadMapper DMX Lights.jpeg",
+    "imgName": "MadMapper DMX Lights",
+    "ext": "jpeg",
     "mimetype": "",
-    "url": "/MMeshWarpingGuide _003.png",
+    "url": "/MadMapper DMX Lights.jpeg",
     "captions": {
       "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": false,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T15:57:21.771Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "YL3G5NwL2e",
-    "filename": "Heydar-Aliyev Cultural Center, Bakou.png",
-    "imgName": "Heydar-Aliyev Cultural Center, Bakou",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Heydar-Aliyev Cultural Center, Bakou.png",
-    "captions": {
-      "en": "Heydar-Aliyev Cultural Center, Bakou"
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": false,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T15:58:14.905Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "290fcDrYjl",
-    "filename": "Grid Generator Settings.png",
-    "imgName": "Grid Generator Settings",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Grid Generator Settings.png",
-    "captions": {
-      "en": "Grid Generator Settings"
     },
     "size": [
       {
@@ -302,463 +187,14 @@
         "dimension": 256
       }
     ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T15:59:46.959Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "chbfAJnLjS",
-    "filename": "Adjusting Perspective to Vanishing Lines.jpg",
-    "imgName": "Adjusting Perspective to Vanishing Lines",
-    "ext": "jpg",
-    "mimetype": "",
-    "url": "/Adjusting Perspective to Vanishing Lines.jpg",
-    "captions": {
-      "en": "Adjusting Perspective to Vanishing Lines"
-    },
-    "size": [],
     "retina": false,
     "edited": 0,
     "sourceId": null,
-    "date": "2026-06-26T16:01:47.099Z",
+    "date": "2026-06-26T17:52:33.593Z",
     "pages": [
       {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "rcy1KdS674",
-    "filename": "MeshWarping Guide Image 025.jpg",
-    "imgName": "MeshWarping Guide Image 025",
-    "ext": "jpg",
-    "mimetype": "",
-    "url": "/MeshWarping Guide Image 025.jpg",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": false,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:03:11.938Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "jE7KfCDbav",
-    "filename": "Mesh Warping Guide 026.jpg",
-    "imgName": "Mesh Warping Guide 026",
-    "ext": "jpg",
-    "mimetype": "",
-    "url": "/Mesh Warping Guide 026.jpg",
-    "captions": {
-      "en": "Try to fit the intersections of\nthe vertical lines to the bottom\none."
-    },
-    "size": [
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": false,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:04:40.643Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "8eYhP2VtwW",
-    "filename": "Mesh Warping Guide Example.jpg",
-    "imgName": "Mesh Warping Guide Example",
-    "ext": "jpg",
-    "mimetype": "",
-    "url": "/Mesh Warping Guide Example.jpg",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": false,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:06:34.636Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "NuMdvOGd6P",
-    "filename": "Show Input Mesh.png",
-    "imgName": "Show Input Mesh",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Show Input Mesh.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:08:29.350Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "d5sOFHAmj3",
-    "filename": "Masking Out a Person.jpg",
-    "imgName": "Masking Out a Person",
-    "ext": "jpg",
-    "mimetype": "",
-    "url": "/Masking Out a Person.jpg",
-    "captions": {
-      "en": ""
-    },
-    "size": [],
-    "retina": false,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:09:13.076Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "mIFsMdYdI5",
-    "filename": "Bézier Checkbox.png",
-    "imgName": "Bézier Checkbox",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Bézier Checkbox.png",
-    "captions": {
-      "en": "Bézier Curves Checkbox"
-    },
-    "size": [],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:11:43.831Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "I0zLWbTNey",
-    "filename": "Bezier Handles Building.jpg",
-    "imgName": "Bezier Handles Building",
-    "ext": "jpg",
-    "mimetype": "",
-    "url": "/Bezier Handles Building.jpg",
-    "captions": {
-      "en": "Bézier handles"
-    },
-    "size": [],
-    "retina": false,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:14:53.477Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "bqD6Y0BKHG",
-    "filename": "Unlink Tangents.jpg",
-    "imgName": "Unlink Tangents",
-    "ext": "jpg",
-    "mimetype": "",
-    "url": "/Unlink Tangents.jpg",
-    "captions": {
-      "en": ""
-    },
-    "size": [],
-    "retina": false,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:16:22.551Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "Oj377DzLao",
-    "filename": "Mesh Warping Guide Smooth.jpg",
-    "imgName": "Mesh Warping Guide Smooth",
-    "ext": "jpg",
-    "mimetype": "",
-    "url": "/Mesh Warping Guide Smooth.jpg",
-    "captions": {
-      "en": ""
-    },
-    "size": [],
-    "retina": false,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:17:02.257Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "qzS8PvPzrg",
-    "filename": "MeshWarping guide 035.jpg",
-    "imgName": "MeshWarping guide 035",
-    "ext": "jpg",
-    "mimetype": "",
-    "url": "/MeshWarping guide 035.jpg",
-    "captions": {
-      "en": ""
-    },
-    "size": [],
-    "retina": false,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:20:34.722Z",
-    "pages": [
-      {
-        "pageSuid": "3vK4ekIr97",
-        "pageSlug": "warping-and-geometry"
-      }
-    ]
-  },
-  {
-    "mediaId": "n6HcufE3Kl",
-    "filename": "MadMapper Surface Groups Ordering.png",
-    "imgName": "MadMapper Surface Groups Ordering",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/MadMapper Surface Groups Ordering.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:23:29.444Z",
-    "pages": [
-      {
-        "pageSuid": "zpKm5EDYQL",
-        "pageSlug": "surface-groups-and-masks"
-      }
-    ]
-  },
-  {
-    "mediaId": "SWdxiy9jbq",
-    "filename": "Groups and Sub Groups.png",
-    "imgName": "Groups and Sub Groups",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Groups and Sub Groups.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:24:45.448Z",
-    "pages": [
-      {
-        "pageSuid": "zpKm5EDYQL",
-        "pageSlug": "surface-groups-and-masks"
-      }
-    ]
-  },
-  {
-    "mediaId": "aHxfR5YHBf",
-    "filename": "Masks in Groups.png",
-    "imgName": "Masks in Groups",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Masks in Groups.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:26:01.157Z",
-    "pages": [
-      {
-        "pageSuid": "zpKm5EDYQL",
-        "pageSlug": "surface-groups-and-masks"
-      }
-    ]
-  },
-  {
-    "mediaId": "ljXHftpDHN",
-    "filename": "Individual Layer Mask in Groups.png",
-    "imgName": "Individual Layer Mask in Groups",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Individual Layer Mask in Groups.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:27:04.357Z",
-    "pages": [
-      {
-        "pageSuid": "zpKm5EDYQL",
-        "pageSlug": "surface-groups-and-masks"
-      }
-    ]
-  },
-  {
-    "mediaId": "deAdcf0PE1",
-    "filename": "Bezier Curve Mask Example.png",
-    "imgName": "Bezier Curve Mask Example",
-    "ext": "png",
-    "mimetype": "",
-    "url": "/Bezier Curve Mask Example.png",
-    "captions": {
-      "en": ""
-    },
-    "size": [
-      {
-        "name": "big",
-        "dimension": 600
-      },
-      {
-        "name": "small",
-        "dimension": 350
-      },
-      {
-        "name": "thumbnail",
-        "dimension": 256
-      }
-    ],
-    "retina": true,
-    "edited": 0,
-    "sourceId": null,
-    "date": "2026-06-26T16:32:13.594Z",
-    "pages": [
-      {
-        "pageSuid": "zpKm5EDYQL",
-        "pageSlug": "surface-groups-and-masks"
+        "pageSuid": "XN5FxSPLGz",
+        "pageSlug": "5.-dmx-and-led-mapping"
       }
     ]
   }

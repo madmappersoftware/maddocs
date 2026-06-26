@@ -1,0 +1,76 @@
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">DMX Fundamentals</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Before patching fixtures, it is important to understand how MadMapper communicates with your physical lighting hardware.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>DMX Preferences:</strong> To route your lighting data, navigate to <strong>Preferences &gt; Project (tab) &gt; DMX</strong>. Here you can select your network interface, choose your USB DMX device, Art-Net or sACN, and define your framerate to ensure smooth playback across your rig.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>DMX512:</strong> The standard lighting control protocol. A single DMX cable can carry 512 channels of data. This bundle of 512 channels is called a Universe. For example, a standard RGB LED pixel uses 3 channels (Red, Green, Blue). Therefore, one DMX universe can control up to 170 individual RGB pixels (170 x 3 = 510). If you are controlling lights that go beyond 512 channels, then they will stretch over onto a new universe. Some external hardware devices are limited to output over a single universe, while others can output over 96 universes through a single device.</li>
+</ul>
+<p><img class="retina" src="DMX USB EnttecPro.png" width="800" height="549" data-media-id="MCS8lav7NV"></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Art-Net &amp; sACN:</strong> Because large LED installations often require tens of thousands of channels, routing physical DMX cables for every universe is impossible. Art-Net and sACN are network protocols that send massive amounts of DMX universes over standard Ethernet cables. MadMapper outputs these protocols to network nodes (like PixLite, Advatek, or Enttec boxes), which then translate the data back into physical DMX or SPI signals for your lights.</li>
+</ul>
+<p><img class="retina" src="ArtNet Controller.png" width="800" height="617" data-media-id="P2rSN2sd4Q"></p>
+<p>Current hardware supported by MadMapper are the following USB DMX Devices: <strong><a href="https://shop.garagecube.com/products/controller-usb-to-dmx" target="_blank" rel="noopener">garageCube</a>,</strong><strong id="docs-internal-guid-581c5044-7fff-3bdd-6b13-9fb67040adfe">&nbsp;ShowJockey, Enttec DMX USB Pro, Enttec DMX USB Pro MK2, and the DMX King eDMX2 Pro</strong>, and network based devices that support Art-Net or sACN.</p>
+<p>&nbsp;</p>
+<p><img class="retina" src="DMX sACN.png" width="932" height="640" data-media-id="0ETtwGr0y8"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Output Configuration:</strong> To route your lighting data, navigate to <strong>Preferences &gt; Project (tab) &gt; DMX</strong>. Here you can select your network interface, choose your USB DMX device, Art-Net or sACN, and define your framerate to ensure smooth playback across your rig.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">DMX Fixtures Basics</h3>
+<p class="p1"><strong>DMX fixtures</strong> allow you to create and manage your fixtures for your light mapping projects.</p>
+<p class="p1">By adding fixtures you will need to replicate your physical lighting installation in <strong>MadMapper</strong>.</p>
+<div class="alert-banner-notes">
+<p class="p1">Since <strong>MadMapper 6</strong>, DMX fixtures are sampling the output composition.</p>
+</div>
+<h4>Location</h4>
+<p class="p1">Access the&nbsp;<strong>DMX fixtures</strong>&nbsp;by clicking on <strong>DMX</strong> (manage <strong>DMX fixtures</strong>) at the top left of the interface:</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img class="retina" src="DMX Menu v6.png" width="400" height="60" data-media-id="GkiEgb1Hrn"></p>
+<div class="alert-banner-notes">
+<p class="p1">Keyboard shortcut: Cmd + 4</p>
+</div>
+<h4 id="rtp4">New DMX Fixture</h4>
+<p class="p1">Simply click on the <strong>DMX fixture</strong>&nbsp;of your choice to add one:</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img class="retina" src="Fixtures Menu v6.png" width="400" height="41" data-media-id="mdNFks8Z70"></p>
+<div class="alert-banner-notes">
+<p class="p1">Created fixtures retain the <strong>same profile</strong> and follow the <strong>addressing</strong>.</p>
+<p class="p1">More info below as well as in the&nbsp;<strong>MadLight Documentation</strong>.</p>
+</div>
+<h4 id="rtp5">DMX Fixtures List</h4>
+<p class="p1">Added <strong>DMX fixtures</strong> (and groups) will be listed on the left in the DMX fixtures List:</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><img class="retina" src="Fixtures List v6.png" width="400" height="194" data-media-id="yAwrpQDeQC"></p>
+<div class="alert-banner-notes">
+<p class="p1">Simply double-click on a <strong>DMX fixture</strong>&nbsp;name to rename it.</p>
+</div>
+<p class="p1">&nbsp;</p>
+<p class="p1">Other options are:</p>
+<ul>
+<li class="p1">Display/Hide a DMX fixture.</li>
+<li class="p1">Lock/Unlock a DMX fixture.</li>
+</ul>
+<div class="alert-banner-tips">
+<p class="p1">Locking a <strong>DMX fixture</strong> is useful when you don&rsquo;t want to change its settings anymore&mdash;it will avoid accidents.</p>
+</div>
+<p class="p1">&nbsp;</p>
+<p class="p1"><strong>The highlighted DMX fixture or group is also the one that is selected.</strong></p>
+<div class="alert-banner-warning">
+<p class="p1">Note that <strong>DMX Fixtures</strong> can be moved around in the fixtures list, but a fixture will <strong>overwrite</strong> the one below it because there are no opacity settings for fixtures.</p>
+<p class="p1">You can&rsquo;t define two fixtures on top of each other and play with the opacity, it will overwrite it instead.</p>
+</div>
+<h4 id="rtp6">Create Groups</h4>
+<p>You can create a group with as many <strong>DMX fixtures</strong> as you want by clicking on the Groups icon at top right of the DMX fixture list:</p>
+<p>&nbsp;</p>
+<p><img class="retina" src="DMX Groups v6.png" width="400" height="237" data-media-id="JHMXE8ZiuD"></p>
+<div class="alert-banner-tips">
+<p>This is very useful for grouping your fixtures by <strong>universes</strong>.</p>
+</div>
+<div class="alert-banner-notes">
+<p class="p1">Note that you can also <strong>drag</strong> your surfaces directly into a group, no matter what type they are.</p>
+<p class="p1">Or select a group of surfaces, then click on the group icon while holding the Shift key.</p>
+<p class="p1">A group will be created with the selected surfaces in the same location.</p>
+</div>
+<div class="alert-banner-notes">
+<p>As with <a class="int-link" href="video-surfaces" data-page-suid="7Wad2UTltR" data-product-slug="madmapper" data-product-version="6"><strong>Video Surfaces</strong></a>, <strong>DMX fixtures</strong> behave as layers as well.</p>
+</div>

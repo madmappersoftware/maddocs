@@ -1,0 +1,122 @@
+<h2 data-path-to-node="5">Scenes &amp; Cues</h2>
+<p data-path-to-node="7"><img class="retina" src="Scenes and Cues Layout Example.png" width="800" height="366" data-media-id="VC4gnkStWR"></p>
+<p data-path-to-node="7">Before diving into timeline animation, it is important to understand MadMapper's foundational state-recall system.</p>
+<ul data-path-to-node="8">
+<li>
+<p data-path-to-node="8,0,0"><strong data-path-to-node="8,0,0" data-index-in-node="0">Scenes (Global Snapshots):</strong> A Scene acts as an absolute master snapshot of your entire project, recording the exact state of every surface, fixture, and media file.</p>
+</li>
+<li>
+<p data-path-to-node="8,1,0"><strong data-path-to-node="8,1,0" data-index-in-node="0">Cues (Granular States):</strong> Cues offer surgical precision, allowing you to store and recall only a specific selection of parameters (e.g., just the geometry of one quad) without affecting the rest of your live output.</p>
+</li>
+<li><strong data-path-to-node="8,2,0" data-index-in-node="0">Quick Fade Transitions:</strong> Underneath the name of each Scene and Cue in the grid, you can double-click on the time (default <code data-path-to-node="8,2,0" data-index-in-node="121">0s</code>) to quickly change the fade transition duration.</li>
+</ul>
+<div class="alert-banner-notes">
+<p><strong data-path-to-node="6,0" data-index-in-node="0">Operator Note:</strong> While Scenes are great, Cues are extremely powerful. They allow you to make dynamic changes to a live show or project, while keeping your main media playing continuously. While it is possible to modify a Scene to keep playing media when triggered, by default, a scene will store all aspects of your project, which can lead to media restarting, or unexpected behavior while fading between Scenes. Get to know Cues and they'll be a great tool.</p>
+</div>
+<h3 data-path-to-node="2">Editing &amp; Updating Scenes and Cues</h3>
+<p><img class="retina" src="Editing Scenes and Cues.png" width="800" height="249" data-media-id="Qfxrciqe2d"></p>
+<p>&nbsp;</p>
+<p data-path-to-node="6">If you tweak a Scene or Cue during a show, your live changes are not saved automatically. When editing parameters, keep an eye on the interface highlights: <strong data-path-to-node="6" data-index-in-node="156">Red highlights</strong> indicate that a parameter is currently editable, and a <strong data-path-to-node="6" data-index-in-node="226">red line</strong> means it has been edited. <strong data-path-to-node="6" data-index-in-node="261">Orange</strong> indicates that a parameter is currently selected (or, in batch updating, that the current values differ from the other selected Scenes and Cues).</p>
+<p data-path-to-node="7">MadMapper provides three distinct workflows to save your adjustments:</p>
+<ul data-path-to-node="8">
+<li>
+<p data-path-to-node="8,0,0"><strong data-path-to-node="8,0,0" data-index-in-node="0">The Record Button:</strong> Select the Scene or Cue, click the Record button, and edit your values as desired. Click the Record button again to stop editing and save your changes.</p>
+<ul data-path-to-node="8,0,1">
+<li>
+<p data-path-to-node="8,0,1,0,0"><em data-path-to-node="8,0,1,0,0" data-index-in-node="0">Batch Updating:</em> If you want to update values across multiple scenes simultaneously, select all the desired scenes, click Record, make your changes, and click Record again to save those new values to every selected item.</p>
+</li>
+</ul>
+</li>
+<li>
+<p data-path-to-node="8,1,0"><strong data-path-to-node="8,1,0" data-index-in-node="0">The Right-Click Method:</strong> Make your live adjustments, then right-click the specific Scene or Cue in the grid and select <strong data-path-to-node="8,1,0" data-index-in-node="118">Update Scene</strong> (or <strong data-path-to-node="8,1,0" data-index-in-node="135">Update Cue</strong>) to overwrite it with your current output.</p>
+</li>
+<li>
+<p data-path-to-node="8,2,0"><strong data-path-to-node="8,2,0" data-index-in-node="0">Drag &amp; Drop (Cues Only):</strong> For a fast, modular workflow with Cues, simply make your adjustments and drag the modified Media or Surface directly on top of the existing Cue to overwrite it (or drop it into an empty slot to create a brand new one).</p>
+</li>
+</ul>
+<p data-path-to-node="6"><span style="font-family: Mont-Bold; font-size: 32px;">Right-Click Scene &amp; Cue Options</span></p>
+<p data-path-to-node="12"><strong data-path-to-node="12" data-index-in-node="72"><img class="retina" src="Right-Click on a Scene Options.png" width="402" height="230" data-media-id="vEpFBrQvlv"><img class="retina" src="Right-Click on a Cue Options.png" width="426" height="230" data-media-id="DNdIPiZONA"></strong></p>
+<p data-path-to-node="13">Right-clicking directly on a Scene or Cue in the grid opens a context menu with several management options.</p>
+<ul data-path-to-node="14">
+<li>
+<p data-path-to-node="14,0,0"><strong data-path-to-node="14,0,0" data-index-in-node="0">Update / Update Startup Values:</strong> Instantly overwrites the saved state with your current live output parameters.</p>
+</li>
+<li>
+<p data-path-to-node="14,1,0"><strong data-path-to-node="14,1,0" data-index-in-node="0">Add To Timeline:</strong> Pushes the state directly into the Conductor. For Cues, you can choose to send all objects, or filter the push to only include specific elements like Video Surfaces, Lasers, Fixtures, or Medias.</p>
+</li>
+<li>
+<p data-path-to-node="14,2,0"><strong data-path-to-node="14,2,0" data-index-in-node="0">Layout:</strong> Allows you to insert or delete rows and columns to organize your grid.</p>
+</li>
+<li>
+<p data-path-to-node="14,3,0"><strong data-path-to-node="14,3,0" data-index-in-node="0">Add Control / Copy OSC Address:</strong> Quickly maps external triggers to fire the Scene/Cue.</p>
+</li>
+</ul>
+<div class="alert-banner-tips">
+<p data-path-to-node="4,0"><strong data-path-to-node="4,0" data-index-in-node="0">Pro-Tip: Saving Your Changes</strong> If you make live adjustments to a Scene, remember to right-click it and select <strong data-path-to-node="4,0" data-index-in-node="108">Update Scene</strong> to save your work.</p>
+<p data-path-to-node="4,1">You can do the exact same thing for Cues, but Cues also offer a faster workflow: simply make your adjustments and drag the modified Media or Surface directly over the existing Cue to overwrite it, or drop it into an empty slot to create a brand new one.</p>
+</div>
+<h3 data-path-to-node="15">Scene &amp; Cue Settings (Three Dots Menu)</h3>
+<figure class="image" contenteditable="false"><img class="retina" src="Cue Three Dots Settings.png" width="300" height="469" data-media-id="undefined">
+<figcaption contenteditable="true">Individual Cue Settings</figcaption>
+</figure>
+<p>&nbsp;</p>
+<p data-path-to-node="17">Clicking the three dots on a Scene or Cue opens its dedicated settings panel to define how it fires and looks in your grid.</p>
+<ul data-path-to-node="18">
+<li>
+<p data-path-to-node="18,0,0"><strong data-path-to-node="18,0,0" data-index-in-node="0">Launch &amp; Transition:</strong> Define the <strong data-path-to-node="18,0,0" data-index-in-node="32">Launch Quantize</strong> behavior to lock triggers to the beat, select the <strong data-path-to-node="18,0,0" data-index-in-node="98">Transition Type</strong> (e.g., Linear), and set the fade <strong data-path-to-node="18,0,0" data-index-in-node="147">Duration</strong> in seconds.</p>
+</li>
+<li>
+<p data-path-to-node="18,1,0"><strong data-path-to-node="18,1,0" data-index-in-node="0">Representation:</strong> Customize the button's appearance in the grid by assigning a specific color code, uploading a custom image (or using the media thumbnail), and writing a text Comment for your operator.</p>
+</li>
+</ul>
+<h2 data-path-to-node="3">Turning Cues into Timelines</h2>
+<p data-path-to-node="4">With MadMapper 6, Scenes and Cues are no longer just static snapshots; they can become distinct Timelines themselves. This allows you to fine-tune transitions, precisely modify parameter changes down to the millisecond, and animate elements for live busking or pre-planned shows.</p>
+<p><img class="retina" src="Scenes and Cues Edit Options.png" width="800" height="162" data-media-id="IVfmwEAwBP"></p>
+<p>&nbsp;</p>
+<h3 data-path-to-node="5">Accessing Edit Mode &amp; Animating</h3>
+<p data-path-to-node="6">To begin modifying or animating a cue, you must first enter Edit Mode. You can do this in two ways:</p>
+<ol start="1" data-path-to-node="7">
+<li>
+<p data-path-to-node="7,0,0"><strong data-path-to-node="7,0,0" data-index-in-node="0">Right-Click:</strong> Right-click an existing Scene or Cue in the grid and select <strong data-path-to-node="7,0,0" data-index-in-node="73">Edit</strong>.</p>
+</li>
+<li>
+<p data-path-to-node="7,1,0"><strong data-path-to-node="7,1,0" data-index-in-node="0">The Edit Button:</strong> Alternatively, you can click the <strong data-path-to-node="7,1,0" data-index-in-node="50">Edit</strong> button located at the bottom right of the main Scenes &amp; Cues UI.</p>
+</li>
+</ol>
+<p><img class="retina" src="Scenes and Cues Edit Button.png" width="300" height="74" data-media-id="WR4xx7Tzkg"></p>
+<p>&nbsp;</p>
+<p>Once in Edit mode, the Scenes and Cues timeline will appear at the bottom of your screen, presenting the option to animate your parameters.</p>
+<p><img class="retina" src="Scenes And Cues Timeline Track Edit.png" width="800" height="239" data-media-id="Ta8U3v2WPj"></p>
+<p data-path-to-node="20">&nbsp;</p>
+<p>&nbsp;</p>
+<p>Clicking the <strong data-path-to-node="9" data-index-in-node="13">Animate</strong> button instantly creates a timeline track within that specific cue where you can begin adding keyframes or recording new elements.</p>
+<p><img class="retina" src="Animate Timeline Button.png" width="300" height="146" data-media-id="tkxTnd647L"></p>
+<p>&nbsp;</p>
+<p>After clicking Animate, you will be given a timeline track for the specific scene or cue that you have selected. From here you can animate your sequences using the same timeline editing logic (see below).</p>
+<p>&nbsp;</p>
+<p><img class="retina" src="New Scene Cue Timeline.png" width="800" height="357" data-media-id="mRm97CkIiE"></p>
+<h3 data-path-to-node="5">The Scenes &amp; Cues Inspector</h3>
+<p data-path-to-node="11">To view and modify the deep settings of your cues and tracks, you need to utilize the Inspector panel.</p>
+<ul data-path-to-node="12">
+<li>
+<p data-path-to-node="12,0,0"><strong data-path-to-node="12,0,0" data-index-in-node="0">Toggling the Inspector:</strong> When you select a track value or cue, you can toggle the inspector panel open using the Inspector button on the far right of the interface.&nbsp;</p>
+</li>
+</ul>
+<p data-path-to-node="12,0,0"><img class="retina" src="Toggle Inspector Timeline Button.png" width="300" height="101" data-media-id="usFPdNWVp5"></p>
+<div class="alert-banner-notes">
+<p data-path-to-node="12,1,0"><em data-path-to-node="12,1,0" data-index-in-node="0">(Note: You will simply see "No Selection" displayed in the panel if a track or cue is not actively selected).</em>&nbsp;</p>
+</div>
+<p data-path-to-node="13">When you select an active Scene or Cue, the Inspector reveals how it interacts with the timeline:</p>
+<figure class="image" contenteditable="false"><img class="retina" src="Scenes and Cues Inspector Options.png" width="268" height="194" data-media-id="2MJtObq5Ep">
+<figcaption contenteditable="true">Scenes and Cues Inspector Options</figcaption>
+</figure>
+<ul data-path-to-node="15">
+<li>
+<p data-path-to-node="15,0,0"><strong data-path-to-node="15,0,0" data-index-in-node="0">Update from current values:</strong> A prominent button to quickly overwrite the stored state with your current live output.</p>
+</li>
+<li>
+<p data-path-to-node="15,1,0"><strong data-path-to-node="15,1,0" data-index-in-node="0">Track Transition:</strong> When this cue is dropped into a master timeline, you can define how this clip transitions. You can choose <strong data-path-to-node="15,1,0" data-index-in-node="124">No transition</strong>, <strong data-path-to-node="15,1,0" data-index-in-node="139">Use timeline transition settings</strong> (inheriting global rules), or <strong data-path-to-node="15,1,0" data-index-in-node="202">Use local transition settings</strong> (allowing you to set a custom duration in seconds just for this instance).</p>
+</li>
+</ul>
+<p><img class="retina" src="Selected Track Inspector Values.png" width="800" height="198" data-media-id="BuL4S9Gi3j"></p>
+<h2 data-path-to-node="26">&nbsp;</h2>

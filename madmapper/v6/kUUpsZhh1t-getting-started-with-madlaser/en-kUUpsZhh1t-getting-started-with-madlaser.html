@@ -1,0 +1,96 @@
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Getting Started with MadLaser</h3>
+<p><img class="retina" src="MadLaser Interface.png" width="800" height="467" data-media-id="qq1f799TcD"></p>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">MadLaser Preferences</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The foundational settings for laser output and safety are managed within the main MadMapper Preferences menu (<code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Cmd + ,</code> on Mac / <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Ctrl + ,</code> on PC). Because lasers involve physical hardware and strict safety protocols, these settings are split between global application routing and project-specific safety limits.</p>
+<div class="alert-banner-notes">
+<p class="p1"><strong>Important Note:</strong> The settings detailed in the Laser tabs below are exclusive to the <strong>MadLaser</strong> extension. These menus and options will only appear in your preferences if the MadLaser extension is currently licensed and activated on your system.</p>
+</div>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Application Tab &gt; Laser</h4>
+<p class="p1"><img class="retina" src="MadLaser Application Dante Preferences.png" width="932" height="640" data-media-id="CSGAiKhOAQ"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">These settings govern global audio-to-laser network protocols on your specific computer, regardless of which project file is open.</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Enable Audio Laser (AVB / Dante):</strong> Check this box to allow MadMapper to send laser control data over standard audio network protocols.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Audio Device &amp; Channels:</strong> Select your target network audio interface (e.g., NDI Audio, Dante Virtual Soundcard) and configure the Sample Rate, Buffer Size, and Audio Channels per Unit.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Enable Scene Markers:</strong> Toggles the transmission of scene markers over the audio network.</li>
+</ul>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Project Tab &gt; Laser</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">These settings contain critical safety and visualization parameters. Because they directly affect the physical output of the laser hardware, they are saved directly into your current <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">.mad</code> project file.</p>
+<p class="p1"><img class="retina" src="Laser Project Settings.png" width="932" height="640" data-media-id="k3yTW5jOhu"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Security Settings</strong><br>By default, MadMapper limits certain laser parameters to protect both your audience and your hardware.</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Unlock Security Features:</strong> Checking this box prompts a warning regarding the dangers of high-intensity beams. Unlocking this allows you to bypass the default safety constraints.<br><br><img class="retina" src="Unlock Project Laser Features Warning Box.png" width="532" height="349" data-media-id="RZ5KmoFaQj"></li>
+<li class="whitespace-normal break-words pl-2"><strong>Max non-moving Beam Intensity:</strong> MadMapper natively prevents static (non-moving) beams from outputting at full power. This slider dictates the maximum brightness allowed when the scanners stop moving.<br><br><img class="retina" src="Non-moving Beam Warning.png" width="960" height="293" data-media-id="2tJnKm8ZXm"></li>
+</ul>
+<div class="alert-banner-warning">
+<p class="p1"><em>Safety Warning:</em> A full-power, static beam from a professional laser can easily ignite fires or burn skin. Never increase this limit unless you are absolutely certain the beam path is safely terminated and clear of the audience.</p>
+</div>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Enable Expert Mode Settings</strong><br>Enabling Expert Mode in your Project Preferences unlocks advanced, under-the-hood parameters designed specifically for complex installations and high-end hardware.</p>
+<p class="p1"><img class="retina" src="Laser Expert Mode Warning.png" width="960" height="321" data-media-id="3WqwLmHrEd"></p>
+<h4 class="text-text-100 mt-4 -mb-1 text-base font-bold">Arming the Laser &amp; Output Preparation</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">While you can design and preview your laser surfaces within the software workspace, no physical light will be emitted from your hardware until the system is armed. To see your image in the real world, you must <strong>arm the laser</strong> by toggling the Laser Output icon located in the upper right corner of the main MadMapper application window.</p>
+<p class="p1"><img class="retina" src="Laser Arming Output.png" width="300" height="58" data-media-id="4FBzLDYtmZ"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>The Arming Warning:</strong> The first time you arm the laser output during a session, MadMapper will present a mandatory safety acknowledgment:</p>
+<p class="p1"><img class="retina" src="Laser Armed Safety Warning.png" width="912" height="340" data-media-id="Co1AYuyfQp"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Please read this carefully. As the software explicitly states, you must not shoot rays towards your audience, you must comply with local regulations, and you should always use a physical safety switch (e-stop) on your hardware. Once you accept the prompt and the laser icon is activated, MadMapper will begin sending live vector data to your connected hardware.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<h3 data-path-to-node="2">Laser Outputs</h3>
+<p data-path-to-node="3">With MadLaser you can create a large number of laser outputs and route them to multiple projectors in various ways. Using a form of Laser Dispatch you can spread complex content over multiple lasers with up to 100 kpps scanners for rendering high definition graphics.</p>
+<p data-path-to-node="3"><img class="retina" src="Multiple MadLaser Outputs.png" width="311" height="155" data-media-id="aqUEsduy8m"></p>
+<p data-path-to-node="3">&nbsp;</p>
+<p data-path-to-node="3">Add laser icon:</p>
+<p data-path-to-node="3"><img class="retina" src="Add New Laser Output Icon.png" width="400" height="43" data-media-id="GJKkWZqiOv"></p>
+<p>To configure your laser, navigate to the&nbsp;<strong data-path-to-node="4" data-index-in-node="41">Outputs</strong> tab and add a new laser. View the laser output inspector to configure the destination of your laser from the dropdown list.</p>
+<p><img class="retina" src="Laser Output Destination.png" width="400" height="602" data-media-id="IXukaQvSzV"></p>
+<p data-path-to-node="6">Supported devices should automatically appear in the dropdown menu. These include:</p>
+<ul data-path-to-node="7">
+<li>
+<p data-path-to-node="7,0,0"><strong data-path-to-node="7,0,0" data-index-in-node="0">ShowNET:</strong> The most seamless, plug-and-play integration. Lasers with a built-in ShowNET mainboard (such as models from the Laserworld Diode, Laserworld Purelight, Tarm, and Ray Technologies/RTI series) can connect directly via a standard LAN cable.</p>
+</li>
+<li>
+<p data-path-to-node="7,1,0"><strong data-path-to-node="7,1,0" data-index-in-node="0">LaserCube:</strong> Recognized as one of the best and most portable plug-and-play options.</p>
+</li>
+<li>
+<p data-path-to-node="7,2,0"><strong data-path-to-node="7,2,0" data-index-in-node="0">EtherDream:</strong> Highly supported for its 16-bit X/Y precision and network capabilities.</p>
+</li>
+<li>
+<p data-path-to-node="7,3,0"><strong data-path-to-node="7,3,0" data-index-in-node="0">Helios USB:</strong> A popular, budget-friendly USB DAC.</p>
+</li>
+<li>
+<p data-path-to-node="7,4,0"><strong data-path-to-node="7,4,0" data-index-in-node="0">FB3 / FB4 (Pangolin):</strong> Supported on Windows, though this requires an active Pangolin Beyond license.</p>
+</li>
+<li>
+<p data-path-to-node="7,5,0"><strong data-path-to-node="7,5,0" data-index-in-node="0">AVB / Dante &amp; IDN:</strong> Supported for networked environments and multi-projector setups.</p>
+</li>
+</ul>
+<h4 class="text-text-100 mt-4 -mb-1 text-base font-bold">Laser Surface Basics</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Laser surfaces allow you to create and manage your laser outputs for your mapping projects. By adding laser surfaces, you define how shapes, generative content, or video textures are translated into real-time laser trajectories on your physical installation. Unlike standard video projection, MadMapper handles laser content in two distinct ways:</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Native Laser Materials:</strong> Generative, shader-based materials (GLSL) that natively output mathematical vector data directly to the laser hardware. This circumvents the need for pixel-tracing, resulting in the sharpest, most scanner-efficient rendering possible.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Image Vectorization (Tracing):</strong> A GPU-accelerated, custom OpenCV engine that analyzes pixel-based media in real time. This allows you to trace contours and paths from movies, live camera inputs, or by sampling directly from your active video composition.</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Location &amp; Creation</strong><br>Access the Laser surfaces by clicking on <strong>Laser</strong> at the top left of the interface (Shortcut: <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Cmd + 3</code>). Simply click on the Laser surface of your choice in the top bar to add one.</p>
+<p class="p1"><img class="retina" src="Laser Surface Menu.png" width="380" height="49" data-media-id="hcQzAa445G"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Laser Surfaces List &amp; Groups</strong><br>Added Laser surfaces and groups will be listed on the left. You can toggle visibility, lock surfaces to prevent accidental edits, and drag surfaces into Groups to organize them by physical laser projectors.</p>
+<p class="p1"><img class="retina" src="Laser Fixture List.png" width="380" height="222" data-media-id="vWTjYsU27k"></p>
+<p class="p1"><img class="retina" src="Laser On Toggle Unlock.png" width="380" height="69" data-media-id="lqeg9l5mgA"></p>
+<p class="p1"><img class="retina" src="Laser Groups.png" width="380" height="207" data-media-id="sLRGfdbRer"></p>
+<p>&nbsp;</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<h4><strong>Basic Surface Types</strong></h4>
+<p><strong>Laser Quad</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">This allows you to map vector graphics or vectorize video content within a four-point warped surface similar to a Video surface.</p>
+<p class="p1"><img class="retina" src="Laser Quad.png" width="540" height="300" data-media-id="XqUbzyo83U"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<p><strong>Laser Lines:</strong> Create precise, path-based line surfaces, perfect for tracing physical architecture. You can draw straight lines, Bezier curves, and split or link tangents for advanced point editing.<br><img class="retina" src="Laser Lines.png" width="540" height="286" data-media-id="Ug4ybh1UYM"><br><img class="retina" src="Continue from path.png" width="248" height="90" data-media-id="v8yBntM4Qg"> <img class="retina" src="Laser Line Point adjustment.png" width="151" height="90" data-media-id="Yv6ZEOXXv6"><br><br><img class="retina" src="Laser Lines Inspector.png" width="300" height="289" data-media-id="eY2912SNIg"></p>
+<p><strong>Laser Circle:</strong> Add circles, scale, and rotate them directly in the Stage View. Ideal for rounded architectural elements or geometric tunnels.<br><img class="retina" src="Laser Circle.png" width="540" height="286" data-media-id="rqDzw1Xl4t"></p>
+<p><strong>Laser Text:</strong> Create sharp, legible text generated as laser-optimized vector paths. Stick Fonts are highly recommended for laser use, as they trace a single line to reduce scanner flicker.<br><img class="retina" src="Mad Laser Text.png" width="540" height="285" data-media-id="p23klXpO59"><br><br><img class="retina" src="Laser Text Inspector.png" width="293" height="359" data-media-id="gHHyJYKOyd"></p>
+<h4 class="text-text-100 mt-4 -mb-1 text-base font-bold">Laser Render Inspector</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">These are the advanced controls dictating how the software translates visual data into physical scanner movements.</p>
+<p class="p1"><img class="retina" src="Laser Rendering Inspector.png" width="300" height="297" data-media-id="xoSfzCtlUw"></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Scan &amp; Beam Mode:</strong> Set to Auto or manually configure.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Max Speed:</strong> Defines the maximum drawing speed of the laser.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Optimize Angles:</strong> When activated, utilizes the Angle Min, Angle Delay, and End Repeat parameters to instruct the laser scanners to dwell slightly on sharp corners, ensuring crisp geometry instead of rounded edges.</li>
+<li class="whitespace-normal break-words pl-2"><strong>In Fade / Out Fade / Soft Close:</strong> Controls the blanking (turning the laser diode on/off) at the start and end of drawing paths to prevent visible tails or connecting lines.</li>
+</ul>
+<p class="p1">&nbsp;</p>

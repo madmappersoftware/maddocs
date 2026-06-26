@@ -1,0 +1,28 @@
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Real-Time Video Vectorization</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">One of MadMapper's most powerful features is its ability to convert standard, pixel-based video content into physical laser vectors in real-time. This is handled primarily through the <strong>Laser Quad</strong> surface.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><img class="retina" src="Laser Vectorization.png" width="800" height="441" data-media-id="UQTo1pEpWk"></p>
+<p class="p1">&nbsp;</p>
+<h4 class="text-text-100 mt-4 -mb-1 text-base font-bold">Process Inspector</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">This panel dictates how standard video is broken down and traced by the computer vision engine.</p>
+<p class="p1"><img class="retina" src="Process Inspector for Quads and Circles.png" width="300" height="197" data-media-id="T1ChCvvRwN"></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Set the Mode (e.g., <em>Find Paths</em> or <em>Find Contours</em>).</li>
+<li class="whitespace-normal break-words pl-2">Adjust the tracing <strong>Threshold</strong> and toggle <strong>Use Color</strong>.</li>
+<li class="whitespace-normal break-words pl-2">Refine the trace using <strong>Thickness</strong>, <strong>Denoizing</strong>, and <strong>Max Res</strong> to balance visual detail against the physical workload of the laser scanners.</li>
+</ul>
+<h4 class="text-text-100 mt-4 -mb-1 text-base font-bold">Path Filtering &amp; Limits</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">These are critical safety and optimization tools to prevent overwhelming the laser scanners with too much complex geometry.</p>
+<p class="p1"><img class="retina" src="Laser Path Filtering.png" width="300" height="97" data-media-id="2lc38GJT2J"></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Min / Max Length:</strong> Defines length limits as a percentage. Setting Min Length to 10% will automatically hide any generated polylines that are shorter than roughly 11 pixels&mdash;excellent for instantly removing visual noise from traced video.</li>
+</ul>
+<p class="p1"><img class="retina" src="Laser Path Limits Inspector.png" width="300" height="98" data-media-id="HvTVFpVs4m"></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Count:</strong> Defines the absolute maximum number of polylines to keep and send to the laser.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Mode:</strong> If the vectorization exceeds the maximum Count limit, this parameter defines which paths to prioritize and keep (e.g., <em>Keep Longest</em> or <em>Keep Shortest</em>).</li>
+</ul>
+<h4 class="text-text-100 mt-4 -mb-1 text-base font-bold">Display &amp; Monitor Diagnostics</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Use the Display mode to switch the workspace preview between different stages of the rendering pipeline (e.g., Output Polylines vs. Processed Image). This helps you understand how the engine is breaking down the pixels.</p>
+<p class="p1"><img class="retina" src="Laser Display Mode List.png" width="300" height="224" data-media-id="yA3nLwMM0s"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The <strong>Monitor</strong> displays real-time errors and statistical information about the vectorization process. Use this panel to keep an eye on the internal math to ensure your composition isn't generating an unsafe amount of geometry for the hardware scanners to process.</p>
+<p class="p1"><img class="retina" src="Laser Monitor.png" width="300" height="154" data-media-id="gaX3v0pmiC"></p>

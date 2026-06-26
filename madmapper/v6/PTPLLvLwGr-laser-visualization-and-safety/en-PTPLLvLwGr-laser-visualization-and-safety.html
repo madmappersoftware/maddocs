@@ -1,0 +1,74 @@
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Laser Visualization &amp; Safety</h3>
+<h4 data-path-to-node="2">Beam Preview</h4>
+<p><img class="retina" src="Beam Preview Adjustments Laser.png" width="800" height="196" data-media-id="DZlY7zsly5"></p>
+<p data-path-to-node="3">Under the <strong data-path-to-node="3" data-index-in-node="10">Preferences &gt; Project &gt; Laser</strong> tab, you can customize the internal <strong data-path-to-node="3" data-index-in-node="76">Beam Preview</strong>. It is important to note that this preview does not affect the physical output of your actual laser projector. However, it is an incredibly powerful feature because this simulation can be outputted onto standard video projectors or LED screens if desired, allowing you to seamlessly blend real lasers with simulated ones.</p>
+<p data-path-to-node="4">You can adjust the following parameters to customize the simulation:</p>
+<ul data-path-to-node="5">
+<li>
+<p data-path-to-node="5,0,0"><strong data-path-to-node="5,0,0" data-index-in-node="0">Level:</strong> Adjusts the overall brightness and intensity of the simulated beam.</p>
+</li>
+<li>
+<p data-path-to-node="5,1,0"><strong data-path-to-node="5,1,0" data-index-in-node="0">Beam Origin:</strong> Click and drag the node on the X/Y grid to simulate the physical placement of the laser projector relative to your output surface.</p>
+</li>
+<li>
+<p data-path-to-node="5,2,0"><strong data-path-to-node="5,2,0" data-index-in-node="0">End Beam on path:</strong> Toggles whether the simulated beam visually stops exactly where it hits the drawing surface or continues passing through.</p>
+</li>
+<li>
+<p data-path-to-node="5,3,0"><strong data-path-to-node="5,3,0" data-index-in-node="0">Enable Fog:</strong> Activates a volumetric atmospheric effect in the preview window, making it easier to visualize the "mid-air" trajectory of your beams.</p>
+</li>
+<li>
+<p data-path-to-node="5,4,0"><strong data-path-to-node="5,4,0" data-index-in-node="0">Reset to Defaults:</strong> A quick button to revert all preview settings back to their standard state.</p>
+</li>
+</ul>
+<h4 data-path-to-node="4">Laser Safety Zones &amp; Masks</h4>
+<p><img class="retina" src="Laser Safety Masks Updated.png" width="800" height="507" data-media-id="YhQMwNOoVS"></p>
+<p data-path-to-node="5">When working with high-power lasers, safety must be the primary concern. MadMapper allows you to configure area limitations or <strong data-path-to-node="5" data-index-in-node="127">"safety masks"</strong> within the Laser Output menu. These masks are designed to physically block the software from drawing beams in designated unsafe areas (such as the audience or performer eye-lines).</p>
+<p data-path-to-node="6">These masks can be configured under the <strong data-path-to-node="6" data-index-in-node="40">Outputs</strong> tab. Open Outputs, select your laser(s), and scroll down to the mask section associated with your layer. From here, you can create a final output mask that will be applied broadly to anything that passes through that specific projector's placement. If you are using multiple lasers, you may need to configure separate laser masks for each device to ensure that your laser beams are terminating in safe locations and not directly on your audience, live performers and dancers, or dangerous surfaces (flammable, reflective, etc.). When configuring your laser, ensure that these safety masks are created first and enabled so that they remain intact from the beginning to the end of your laser's operation.</p>
+<p data-path-to-node="7">However, <strong data-path-to-node="7" data-index-in-node="9">software masks should never be your only line of defense.</strong> Most laser safety experts strongly advise using physical blocks (such as black foil or metal plating attached to the physical projector) to protect crowds and safety zones. A software crash or accidental parameter shift could bypass a digital mask, whereas a physical block guarantees the beam cannot hit a restricted area.</p>
+<div class="alert-banner-warning">
+<p class="p1"><strong>⚠️ CRITICAL LASER SAFETY WARNING ⚠️</strong> High-power lasers can cause permanent eye damage, skin burns, and fire. You are strictly responsible for complying with all local, regional, and national laser safety laws in your country. Always ensure beam paths are safely terminated, use a physical safety switch (e-stop) on your hardware, and never operate without appropriate hardware safety monitoring systems engaged. Use at your own risk.</p>
+</div>
+<h4 data-path-to-node="2">Previsualization Setup (Capture / Depence / WYSIWYG / LA.preview)</h4>
+<p data-path-to-node="3">Because laser data is output via Art-Net, you can send your laser paths to 3D simulation software on the same computer to visualize your show before arming the physical hardware.</p>
+<p data-path-to-node="4">Before configuring your network, go into <strong data-path-to-node="4" data-index-in-node="41">MadMapper Preferences &gt; Project &gt; Laser</strong> and check the box to enable <strong data-path-to-node="4" data-index-in-node="109">External Visualisation</strong>. Use the dropdown menu to select your specific previsualization software: <strong data-path-to-node="4" data-index-in-node="206">Capture</strong>, <strong data-path-to-node="4" data-index-in-node="215">Wysiwyg</strong>, <strong data-path-to-node="4" data-index-in-node="224">Depence</strong>, or <strong data-path-to-node="4" data-index-in-node="236">LA.preview</strong>.</p>
+<p data-path-to-node="4"><img class="retina" src="Enable Laser Visualization.png" width="800" height="549" data-media-id="SMXkyKzpOT"></p>
+<p data-path-to-node="5">However, an issue often arises where MadMapper and the visualizer (like Capture) attempt to use the same Art-Net port (6454) on the <code data-path-to-node="5" data-index-in-node="132">localhost</code>, causing a conflict. To solve this, you must create a Virtual Network Interface.</p>
+<p data-path-to-node="7"><em data-path-to-node="7" data-index-in-node="0"><img class="retina" src="Laser Visualization Dropdown Menu.png" width="400" height="156" data-media-id="wkErR3B16W"></em></p>
+<h4 class="text-text-100 mt-4 -mb-1 text-base font-bold">Creating a Virtual Network (macOS 14+)</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">On newer versions of macOS, creating a virtual interface through System Settings prompts you to select a "device interface" to combine physical network cards. Since we want a purely virtual network, you must use Terminal.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Step 1: Create the Virtual Network</strong></p>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Open Terminal (Applications &rarr; Utilities &rarr; Terminal).</li>
+<li class="whitespace-normal break-words pl-2">Copy and paste the following command: <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">sudo ifconfig lo0 alias 2.0.0.2 255.0.0.0</code></li>
+<li class="whitespace-normal break-words pl-2">Press Enter and type your Mac password (it will remain hidden while typing).</li>
+<li class="whitespace-normal break-words pl-2">Press Enter again. <em>(Note: This Terminal command is temporary. You will need to run it again after restarting your Mac).</em></li>
+</ol>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Step 2: Configure MadMapper</strong></p>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Open MadMapper and go to <strong>Preferences &rarr; Project &rarr; DMX Output</strong>.</li>
+<li class="whitespace-normal break-words pl-2">Set <strong>Protocol</strong> to Art-Net.</li>
+<li class="whitespace-normal break-words pl-2">Set <strong>Network Interface</strong> to <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">2.0.0.2</code>.</li>
+<li class="whitespace-normal break-words pl-2">Turn <strong>OFF</strong> <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">Use Unicast</code> (Output Mode must be Broadcast).</li>
+<li class="whitespace-normal break-words pl-2">Note your Start Universe (e.g., <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">0</code>).</li>
+</ol>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Step 3: Configure Capture</strong></p>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Open Capture and go to <strong>Project &rarr; External Universes</strong>.</li>
+<li class="whitespace-normal break-words pl-2">Enable Art-Net.</li>
+<li class="whitespace-normal break-words pl-2">Set the Universe to <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">1</code>. <em>(Important: MadMapper's Universe 0 = Capture's Universe 1).</em></li>
+<li class="whitespace-normal break-words pl-2">If the connection fails, check your Mac's firewall settings to ensure Capture and MadMapper are allowed to communicate.</li>
+</ol>
+<h4 class="text-text-100 mt-4 -mb-1 text-base font-bold">Creating a Virtual Network (Windows)</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Step 1: Create a Loopback Adapter</strong></p>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Open the <strong>Device Manager</strong>.</li>
+<li class="whitespace-normal break-words pl-2">Go to <strong>Action &gt; Add legacy hardware</strong>.</li>
+<li class="whitespace-normal break-words pl-2">Select "Install the hardware that I manually select from a list (Advanced)".</li>
+<li class="whitespace-normal break-words pl-2">Choose <strong>Network adapters</strong>, then select <strong>Microsoft</strong> as the manufacturer, and choose <strong>Microsoft KM-TEST Loopback Adapter</strong>.</li>
+<li class="whitespace-normal break-words pl-2">Once installed, assign it a static IP address (e.g., <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">192.168.1.50</code>, subnet mask <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">255.255.255.0</code>) in your Windows Network Connections settings.</li>
+</ol>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Step 2: Configure MadMapper and Capture</strong></p>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">In MadMapper, set your Art-Net output to the static IP address you just created (e.g., <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">192.168.1.50</code>). Turn <strong>OFF</strong> Unicast.</li>
+<li class="whitespace-normal break-words pl-2">In Capture, enable Art-Net and match the universe numbers <em>(Remember: MadMapper's Universe 0 = Capture's Universe 1)</em>.</li>
+</ol>
