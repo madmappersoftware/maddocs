@@ -919,7 +919,8 @@
         "publish": false,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation > 14. Technical Notes"
       }
-    ]
+    ],
+    "publish": false
   },
   {
     "pageSuid": "nVh3znXLrj",

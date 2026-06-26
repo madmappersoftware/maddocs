@@ -1,23 +1,352 @@
 <h1 class="text-text-100 mt-3 -mb-1 text-[2rem] font-bold">Glossary of Terms</h1>
 <p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">A quick reference guide for common terminology used in projection mapping, live audiovisual performance, and stage lighting.</p>
 <p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
-<div>Art-Net / sACN</div>
-<div>Network protocols used to transmit DMX lighting data over standard ethernet cables. Essential for controlling large arrays of modular LED installations without relying on heavy DMX cables.</div>
-<div>&nbsp;</div>
-<div>Conductor</div>
-<div>MadMapper&rsquo;s grid-based cueing system, allowing operators to trigger coordinated scenes, lighting changes, and audio tracks simultaneously during a live show.</div>
-<div>&nbsp;</div>
-<div>DMX512</div>
-<div>The standard digital communication network used to control stage lighting and effects. A single DMX universe contains 512 channels.</div>
-<div>&nbsp;</div>
-<div>Generative Light</div>
-<div>Lighting or video patterns created in real-time by algorithms or code (such as GLSL shaders) rather than pre-rendered video files, allowing for infinite variations and audio-reactivity.</div>
-<div>&nbsp;</div>
-<div>ILDA</div>
-<div>The International Laser Display Association. Often refers to the standard analog connection type (DB25 cable) used to transmit vector imagery from a DAC to a laser projector.</div>
-<div>&nbsp;</div>
-<div>Projection Mapping</div>
-<div>The technique of using specialized software to warp and blend projected video onto complex physical geometry, turning everyday objects or buildings into display surfaces. Also known as Spacial Augmented Reality.</div>
-<div>&nbsp;</div>
-<div>Quad</div>
-<div>A four-sided polygon surface in MadMapper. The foundational building block for mapping flat rectangular surfaces like screens, windows, or building facades.</div>
+<div>
+<div id="model-response-message-contentr_af5f6c48397cf53b" class="markdown markdown-main-panel tutor-markdown-rendering enable-luminous-fast-follows stronger enable-updated-hr-color" dir="ltr" aria-live="polite" aria-busy="false">
+<p data-path-to-node="1"><strong data-path-to-node="1" data-index-in-node="0">A</strong></p>
+<ul data-path-to-node="2">
+<li>
+<p data-path-to-node="2,0,0"><strong data-path-to-node="2,0,0" data-index-in-node="0">Alpha Channel:</strong> The portion of a digital image or video file that determines its transparency, allowing background layers to show through.</p>
+</li>
+<li>
+<p data-path-to-node="2,1,0"><strong data-path-to-node="2,1,0" data-index-in-node="0">Ambient Color:</strong> In 3D lighting, the baseline illumination applied to the shadows of a calibrated 3D object.</p>
+</li>
+<li>
+<p data-path-to-node="2,2,0"><strong data-path-to-node="2,2,0" data-index-in-node="0">Art-Net:</strong> A network protocol used to transmit DMX512 lighting data over standard Ethernet cables, essential for controlling large modular LED installations without relying on heavy DMX cables.</p>
+</li>
+<li>
+<p data-path-to-node="2,3,0"><strong data-path-to-node="2,3,0" data-index-in-node="0">Attenuation:</strong> The rate at which digital light falls off or decays over a distance in a 3D scene (e.g., Quadratic falloff).</p>
+</li>
+<li>
+<p data-path-to-node="2,4,0"><strong data-path-to-node="2,4,0" data-index-in-node="0">Audio Routing Matrix:</strong> A tool within MadMapper used to assign multi-channel audio inputs and outputs to specific sound cards or software protocols (like BlackHole or JACK).</p>
+</li>
+<li>
+<p data-path-to-node="2,5,0"><strong data-path-to-node="2,5,0" data-index-in-node="0">Auto-Calibration:</strong> Using camera-based computer vision to automatically calculate the relationship between a projector&rsquo;s lens and a physical surface, generating a precise map.</p>
+</li>
+<li>
+<p data-path-to-node="2,6,0"><strong data-path-to-node="2,6,0" data-index-in-node="0">AVB / Dante:</strong> Audio Video Bridging and Dante are network protocols for sending high-fidelity, low-latency audio across a local network.</p>
+</li>
+</ul>
+<p data-path-to-node="3"><strong data-path-to-node="3" data-index-in-node="0">B</strong></p>
+<ul data-path-to-node="4">
+<li>
+<p data-path-to-node="4,0,0"><strong data-path-to-node="4,0,0" data-index-in-node="0">Beat Detection:</strong> An audio analysis tool that listens to an incoming sound source and automatically generates triggers synchronized to the tempo.</p>
+</li>
+<li>
+<p data-path-to-node="4,1,0"><strong data-path-to-node="4,1,0" data-index-in-node="0">Bezier Curve:</strong> A mathematical curve defined by control points and handles, used in MadMapper for smooth surface warping and complex masking around organic architectural shapes.</p>
+</li>
+<li>
+<p data-path-to-node="4,2,0"><strong data-path-to-node="4,2,0" data-index-in-node="0">Bezier Handle (Tangent):</strong> An adjustable control point that dictates the arc and trajectory of a Bezier curve.</p>
+</li>
+<li>
+<p data-path-to-node="4,3,0"><strong data-path-to-node="4,3,0" data-index-in-node="0">Blanking:</strong> In laser projection, the rapid turning off of the laser diode as the mirrors move from one shape to another, preventing unwanted "tail" lines between separate graphics.</p>
+</li>
+<li>
+<p data-path-to-node="4,4,0"><strong data-path-to-node="4,4,0" data-index-in-node="0">Blend Mode:</strong> The mathematical calculation (like Additive, Multiply, or Screen) determining how a top layer interacts with the colors and light of the layers beneath it.</p>
+</li>
+<li>
+<p data-path-to-node="4,5,0"><strong data-path-to-node="4,5,0" data-index-in-node="0">BPM (Beats Per Minute):</strong> The master tempo clock that drives audio-reactive animations, timelines, and automated light pulses.</p>
+</li>
+</ul>
+<p data-path-to-node="5"><strong data-path-to-node="5" data-index-in-node="0">C</strong></p>
+<ul data-path-to-node="6">
+<li>
+<p data-path-to-node="6,0,0"><strong data-path-to-node="6,0,0" data-index-in-node="0">Calibration Map:</strong> A high-resolution, pixel-perfect map generated by spatial scanners to guide projection mapping workflows without remaining in the final output.</p>
+</li>
+<li>
+<p data-path-to-node="6,1,0"><strong data-path-to-node="6,1,0" data-index-in-node="0">Circle Surface:</strong> A geometric video surface defined by a central scale point and four outer handles, ideal for mapping round architectural features.</p>
+</li>
+<li>
+<p data-path-to-node="6,2,0"><strong data-path-to-node="6,2,0" data-index-in-node="0">Conductor:</strong> MadMapper&rsquo;s grid-based cueing system, allowing operators to trigger coordinated scenes, lighting changes, and audio tracks simultaneously during a live show.</p>
+</li>
+<li>
+<p data-path-to-node="6,3,0"><strong data-path-to-node="6,3,0" data-index-in-node="0">Coordinate-based Mapping:</strong> Mapping surfaces using precise X, Y, and Z spatial coordinates rather than just relative 2D pixel positions.</p>
+</li>
+<li>
+<p data-path-to-node="6,4,0"><strong data-path-to-node="6,4,0" data-index-in-node="0">Corner Pinning:</strong> A foundational mapping technique that warps a surface by manipulating its four corner points to mimic the projector&rsquo;s 3D perspective.</p>
+</li>
+<li>
+<p data-path-to-node="6,5,0"><strong data-path-to-node="6,5,0" data-index-in-node="0">Crop:</strong> The act of isolating a specific region of a source media file using the Input Rectangle.</p>
+</li>
+</ul>
+<p data-path-to-node="7"><strong data-path-to-node="7" data-index-in-node="0">D</strong></p>
+<ul data-path-to-node="8">
+<li>
+<p data-path-to-node="8,0,0"><strong data-path-to-node="8,0,0" data-index-in-node="0">DAC (Digital-to-Analog Converter):</strong> The hardware interface that translates digital vector data from a computer into the analog ILDA signals required by a laser projector.</p>
+</li>
+<li>
+<p data-path-to-node="8,1,0"><strong data-path-to-node="8,1,0" data-index-in-node="0">Dimmer:</strong> The DMX channel specifically assigned to control the overall brightness or intensity of a lighting fixture.</p>
+</li>
+<li>
+<p data-path-to-node="8,2,0"><strong data-path-to-node="8,2,0" data-index-in-node="0">DMX512:</strong> The industry-standard digital communication network used to control stage lighting and effects.</p>
+</li>
+<li>
+<p data-path-to-node="8,3,0"><strong data-path-to-node="8,3,0" data-index-in-node="0">DMX Addressing:</strong> The process of assigning a unique starting channel number to a physical lighting fixture so the software can communicate with it independently.</p>
+</li>
+<li>
+<p data-path-to-node="8,4,0"><strong data-path-to-node="8,4,0" data-index-in-node="0">DMX Node:</strong> A hardware device that translates network-based DMX (Art-Net/sACN) into physical 5-pin or 3-pin DMX cables.</p>
+</li>
+</ul>
+<p data-path-to-node="9"><strong data-path-to-node="9" data-index-in-node="0">E</strong></p>
+<ul data-path-to-node="10">
+<li>
+<p data-path-to-node="10,0,0"><strong data-path-to-node="10,0,0" data-index-in-node="0">EDID (Extended Display Identification Data):</strong> The data signal a monitor or projector sends to a computer's GPU to communicate its supported resolutions and refresh rates.</p>
+</li>
+<li>
+<p data-path-to-node="10,1,0"><strong data-path-to-node="10,1,0" data-index-in-node="0">Edge Blending:</strong> The technique of overlapping the edges of multiple projectors and applying a luminance gradient to hide the seams, creating a seamless, panoramic image.</p>
+</li>
+<li>
+<p data-path-to-node="10,2,0"><strong data-path-to-node="10,2,0" data-index-in-node="0">EtherDream:</strong> A popular brand of laser DAC supported natively by MadLaser.</p>
+</li>
+<li>
+<p data-path-to-node="10,3,0"><strong data-path-to-node="10,3,0" data-index-in-node="0">Exposure:</strong> A setting in 3D lighting that dictates the overall brightness and intensity of a digital spotlight.</p>
+</li>
+</ul>
+<p data-path-to-node="11"><strong data-path-to-node="11" data-index-in-node="0">F</strong></p>
+<ul data-path-to-node="12">
+<li>
+<p data-path-to-node="12,0,0"><strong data-path-to-node="12,0,0" data-index-in-node="0">Feathering:</strong> A parameter used to soften the hard edges of a mask or surface, allowing it to blend smoothly into the physical background.</p>
+</li>
+<li>
+<p data-path-to-node="12,1,0"><strong data-path-to-node="12,1,0" data-index-in-node="0">Firmata:</strong> A generic protocol for communicating with microcontrollers (like Arduino) from software on a host computer.</p>
+</li>
+<li>
+<p data-path-to-node="12,2,0"><strong data-path-to-node="12,2,0" data-index-in-node="0">Fixture Profile (Definition):</strong> A digital file that tells the software how a specific DMX fixture works, mapping channels to functions like Red, Green, Blue, Dimmer, or Strobe.</p>
+</li>
+<li>
+<p data-path-to-node="12,3,0"><strong data-path-to-node="12,3,0" data-index-in-node="0">FreeDraw Tool:</strong> A MadMapper tool allowing users to click and drag to organically draw paths, which are instantly converted to smooth Bezier lines.</p>
+</li>
+<li>
+<p data-path-to-node="12,4,0"><strong data-path-to-node="12,4,0" data-index-in-node="0">Full Screen Mode:</strong> The command to dispatch the MadMapper output directly to the connected projector or secondary display.</p>
+</li>
+</ul>
+<p data-path-to-node="13"><strong data-path-to-node="13" data-index-in-node="0">G</strong></p>
+<ul data-path-to-node="14">
+<li>
+<p data-path-to-node="14,0,0"><strong data-path-to-node="14,0,0" data-index-in-node="0">Generative Light:</strong> Lighting or video patterns created in real-time by algorithms or code (GLSL) rather than pre-rendered video files, allowing for infinite variations.</p>
+</li>
+<li>
+<p data-path-to-node="14,1,0"><strong data-path-to-node="14,1,0" data-index-in-node="0">GLSL (OpenGL Shading Language):</strong> The code language used to write custom generative materials and shaders.</p>
+</li>
+<li>
+<p data-path-to-node="14,2,0"><strong data-path-to-node="14,2,0" data-index-in-node="0">Grid Generator:</strong> A built-in MadMapper test pattern used as a visual aid to align architectural features during mesh warping.</p>
+</li>
+<li>
+<p data-path-to-node="14,3,0"><strong data-path-to-node="14,3,0" data-index-in-node="0">Grouping:</strong> Organizing multiple surfaces into a single folder, allowing the operator to scale, move, or apply opacity changes to the entire collection at once.</p>
+</li>
+</ul>
+<p data-path-to-node="15"><strong data-path-to-node="15" data-index-in-node="0">H</strong></p>
+<ul data-path-to-node="16">
+<li>
+<p data-path-to-node="16,0,0"><strong data-path-to-node="16,0,0" data-index-in-node="0">Helios USB:</strong> A compact, low-cost laser DAC supported natively by MadLaser.</p>
+</li>
+<li>
+<p data-path-to-node="16,1,0"><strong data-path-to-node="16,1,0" data-index-in-node="0">High-Density Pixel Matrix:</strong> A large-scale arrangement of thousands of individual LED pixels, often configured using the Video Wall Template.</p>
+</li>
+</ul>
+<p data-path-to-node="17"><strong data-path-to-node="17" data-index-in-node="0">I</strong></p>
+<ul data-path-to-node="18">
+<li>
+<p data-path-to-node="18,0,0"><strong data-path-to-node="18,0,0" data-index-in-node="0">ICS (Internet Calendar Scheduling):</strong> A master setting feature that uses standard calendar files to automate the triggering of projects, system power, or lighting states at specific dates and times.</p>
+</li>
+<li>
+<p data-path-to-node="18,1,0"><strong data-path-to-node="18,1,0" data-index-in-node="0">ILDA:</strong> The International Laser Display Association standard; refers to both the analog DB25 connection type and the signal protocol used to transmit vector imagery.</p>
+</li>
+<li>
+<p data-path-to-node="18,2,0"><strong data-path-to-node="18,2,0" data-index-in-node="0">Input Mesh:</strong> The grid on the source media side; linking the input mesh to the output mesh ensures that physical warping applied to the projector output does not distort the source video content.</p>
+</li>
+<li>
+<p data-path-to-node="18,3,0"><strong data-path-to-node="18,3,0" data-index-in-node="0">Input Rectangle:</strong> The specific boundary hovering over a source media file that dictates exactly which part of the video will be sampled for the mapped surface.</p>
+</li>
+<li>
+<p data-path-to-node="18,4,0"><strong data-path-to-node="18,4,0" data-index-in-node="0">Inspector (Surface Inspector):</strong> The UI panel that displays all adjustable parameters (media, FX, warping, opacity) for the currently selected surface.</p>
+</li>
+</ul>
+<p data-path-to-node="19"><strong data-path-to-node="19" data-index-in-node="0">L</strong></p>
+<ul data-path-to-node="20">
+<li>
+<p data-path-to-node="20,0,0"><strong data-path-to-node="20,0,0" data-index-in-node="0">Laser Dispatch:</strong> A MadLaser feature that intelligently spreads complex, high-point-count laser content across multiple laser projectors to maintain smooth frame rates and prevent flickering.</p>
+</li>
+<li>
+<p data-path-to-node="20,1,0"><strong data-path-to-node="20,1,0" data-index-in-node="0">Laser Safety Zone:</strong> A defined physical area where the laser beam is blocked or intensity-dimmed to ensure audience and camera safety, configured using Bezier masks.</p>
+</li>
+<li>
+<p data-path-to-node="20,2,0"><strong data-path-to-node="20,2,0" data-index-in-node="0">Laser Scanner:</strong> An auto-calibration tool that utilizes the laser projector itself to trace and map the physical environment.</p>
+</li>
+<li>
+<p data-path-to-node="20,3,0"><strong data-path-to-node="20,3,0" data-index-in-node="0">LED Scanner:</strong> An auto-calibration tool that uses a camera to map individual DMX pixels in physical space by flashing them sequentially.</p>
+</li>
+<li>
+<p data-path-to-node="20,4,0"><strong data-path-to-node="20,4,0" data-index-in-node="0">Line Surface (madLine):</strong> A versatile surface type designed for freehand drawing, interactive line animation, and ultra-precise vector paths for laser projection.</p>
+</li>
+<li>
+<p data-path-to-node="20,5,0"><strong data-path-to-node="20,5,0" data-index-in-node="0">Loopback:</strong> A technique where output data (like audio or video) is routed back into the same computer as an input source.</p>
+</li>
+</ul>
+<p data-path-to-node="21"><strong data-path-to-node="21" data-index-in-node="0">M</strong></p>
+<ul data-path-to-node="22">
+<li>
+<p data-path-to-node="22,0,0"><strong data-path-to-node="22,0,0" data-index-in-node="0">MadAI:</strong> A MadMapper extension that allows operators to generate custom 2D FX, materials, and shaders using simple text-based prompts.</p>
+</li>
+<li>
+<p data-path-to-node="22,1,0"><strong data-path-to-node="22,1,0" data-index-in-node="0">MadLaser:</strong> The official extension that enables real-time vectorization of visuals and output to laser projectors using native mapping workflows.</p>
+</li>
+<li>
+<p data-path-to-node="22,2,0"><strong data-path-to-node="22,2,0" data-index-in-node="0">MadMaterial:</strong> A proprietary format for generative GLSL shaders that can be assigned directly to surfaces as video content.</p>
+</li>
+<li>
+<p data-path-to-node="22,3,0"><strong data-path-to-node="22,3,0" data-index-in-node="0">MadProjectorControl:</strong> An advanced module that interfaces with projectors over a network to automate power states, shutter control, and input switching.</p>
+</li>
+<li>
+<p data-path-to-node="22,4,0"><strong data-path-to-node="22,4,0" data-index-in-node="0">Masking:</strong> The use of alpha shapes to hide specific parts of a composition from the projector, ensuring light doesn't spill onto unwanted areas.</p>
+</li>
+<li>
+<p data-path-to-node="22,5,0"><strong data-path-to-node="22,5,0" data-index-in-node="0">Media Bin:</strong> The UI section where all imported videos, images, generators, and 3D objects are stored and managed.</p>
+</li>
+<li>
+<p data-path-to-node="22,6,0"><strong data-path-to-node="22,6,0" data-index-in-node="0">Mesh Warping:</strong> An advanced geometry technique applying an internal grid of points to a surface, allowing it to be deformed to fit complex curves.</p>
+</li>
+<li>
+<p data-path-to-node="22,7,0"><strong data-path-to-node="22,7,0" data-index-in-node="0">MIDI (Musical Instrument Digital Interface):</strong> A standard protocol used to connect electronic musical instruments and controllers to MadMapper to trigger cues and manipulate faders.</p>
+</li>
+<li>
+<p data-path-to-node="22,8,0"><strong data-path-to-node="22,8,0" data-index-in-node="0">MiniMad:</strong> A dedicated hardware companion device designed for the standalone playback of exported MadMapper projects.</p>
+</li>
+</ul>
+<p data-path-to-node="23"><strong data-path-to-node="23" data-index-in-node="0">N</strong></p>
+<ul data-path-to-node="24">
+<li>
+<p data-path-to-node="24,0,0"><strong data-path-to-node="24,0,0" data-index-in-node="0">NDI (Network Device Interface):</strong> A high-performance protocol used to send high-quality video over an IP network, enabling zero-latency video sharing between different computers and media servers.</p>
+</li>
+</ul>
+<p data-path-to-node="25"><strong data-path-to-node="25" data-index-in-node="0">O</strong></p>
+<ul data-path-to-node="26">
+<li>
+<p data-path-to-node="26,0,0"><strong data-path-to-node="26,0,0" data-index-in-node="0">.OBJ File:</strong> A standard 3D model format that can be imported into MadMapper for 3D calibration, wireframe rendering, and digital lighting.</p>
+</li>
+<li>
+<p data-path-to-node="26,1,0"><strong data-path-to-node="26,1,0" data-index-in-node="0">OSC (Open Sound Control):</strong> A modern, high-resolution network protocol for triggering and controlling software parameters; often superior to MIDI for complex live AV setups.</p>
+</li>
+<li>
+<p data-path-to-node="26,2,0"><strong data-path-to-node="26,2,0" data-index-in-node="0">Output Perspective:</strong> The background calculation that automatically corrects 3D perspective distortion when moving the corners of a Quad surface.</p>
+</li>
+<li>
+<p data-path-to-node="26,3,0"><strong data-path-to-node="26,3,0" data-index-in-node="0">Output Window:</strong> The final rendered canvas that is sent from the computer's graphics card to the physical projector or LED processor.</p>
+</li>
+</ul>
+<p data-path-to-node="27"><strong data-path-to-node="27" data-index-in-node="0">P</strong></p>
+<ul data-path-to-node="28">
+<li>
+<p data-path-to-node="28,0,0"><strong data-path-to-node="28,0,0" data-index-in-node="0">Perspective Pinning:</strong> A technique that warps a surface by manipulating its corner points to mimic the projector&rsquo;s 3D perspective, preventing visual skewing.</p>
+</li>
+<li>
+<p data-path-to-node="28,1,0"><strong data-path-to-node="28,1,0" data-index-in-node="0">Pixel Mapping:</strong> The act of translating a 2D video canvas into specific data channels to drive physical LED modules, tubes, or fixtures.</p>
+</li>
+<li>
+<p data-path-to-node="28,2,0"><strong data-path-to-node="28,2,0" data-index-in-node="0">PJLink:</strong> A standardized network protocol used to remotely control projector power, input sources, and status monitoring across different projector brands.</p>
+</li>
+<li>
+<p data-path-to-node="28,3,0"><strong data-path-to-node="28,3,0" data-index-in-node="0">Point Cloud:</strong> A collection of data points defining the geometry of a laser shape; lasers rapidly trace these points to create persistent images.</p>
+</li>
+<li>
+<p data-path-to-node="28,4,0"><strong data-path-to-node="28,4,0" data-index-in-node="0">Projection Mapping:</strong> The technique of using specialized software to warp and blend projected video onto complex physical geometry, turning everyday objects into dynamic displays.</p>
+</li>
+</ul>
+<p data-path-to-node="29"><strong data-path-to-node="29" data-index-in-node="0">Q</strong></p>
+<ul data-path-to-node="30">
+<li>
+<p data-path-to-node="30,0,0"><strong data-path-to-node="30,0,0" data-index-in-node="0">Quad (Video Quad):</strong> A four-sided polygon surface. The foundational building block for mapping flat rectangular surfaces like screens, windows, or building facades.</p>
+</li>
+</ul>
+<p data-path-to-node="31"><strong data-path-to-node="31" data-index-in-node="0">R</strong></p>
+<ul data-path-to-node="32">
+<li>
+<p data-path-to-node="32,0,0"><strong data-path-to-node="32,0,0" data-index-in-node="0">RDM (Remote Device Management):</strong> A protocol enhancement to DMX512 that allows bi-directional communication, meaning the software can configure and monitor fixtures remotely.</p>
+</li>
+<li>
+<p data-path-to-node="32,1,0"><strong data-path-to-node="32,1,0" data-index-in-node="0">RGB / RGBW:</strong> Color mixing standards for LED fixtures representing Red, Green, Blue, and White channels.</p>
+</li>
+<li>
+<p data-path-to-node="32,2,0"><strong data-path-to-node="32,2,0" data-index-in-node="0">RMS Error (Root Mean Square):</strong> A mathematical metric displayed during 3D calibration that indicates how accurately your virtual points match the physical target.</p>
+</li>
+</ul>
+<p data-path-to-node="33"><strong data-path-to-node="33" data-index-in-node="0">S</strong></p>
+<ul data-path-to-node="34">
+<li>
+<p data-path-to-node="34,0,0"><strong data-path-to-node="34,0,0" data-index-in-node="0">sACN (Streaming ACN):</strong> A modern, multicast network protocol for transmitting DMX data over Ethernet, favored for large-scale and architectural lighting installations.</p>
+</li>
+<li>
+<p data-path-to-node="34,1,0"><strong data-path-to-node="34,1,0" data-index-in-node="0">Shadow Group:</strong> An organizational folder where masks and blend modes are isolated, ensuring effects within the group do not negatively interact with the rest of the workspace.</p>
+</li>
+<li>
+<p data-path-to-node="34,2,0"><strong data-path-to-node="34,2,0" data-index-in-node="0">ShowNET:</strong> A popular internal laser mainboard and DAC protocol supported directly by MadLaser.</p>
+</li>
+<li>
+<p data-path-to-node="34,3,0"><strong data-path-to-node="34,3,0" data-index-in-node="0">Soft-Edge Blending:</strong> The use of precise gradients to blend the output of two or more overlapping projectors into a single, seamless image.</p>
+</li>
+<li>
+<p data-path-to-node="34,4,0"><strong data-path-to-node="34,4,0" data-index-in-node="0">Spatial Scanner:</strong> A tool that projects structured light patterns captured by a camera to automatically calibrate a projector's perspective relative to the physical scene.</p>
+</li>
+<li>
+<p data-path-to-node="34,5,0"><strong data-path-to-node="34,5,0" data-index-in-node="0">Spout / Syphon:</strong> Frameworks (Spout for Windows, Syphon for macOS) used to share real-time video frames between different applications running on the same computer with zero latency.</p>
+</li>
+<li>
+<p data-path-to-node="34,6,0"><strong data-path-to-node="34,6,0" data-index-in-node="0">Stick Fonts:</strong> Single-line fonts highly optimized for laser projection, allowing for high-speed text rendering that avoids the flickering associated with standard filled fonts.</p>
+</li>
+<li>
+<p data-path-to-node="34,7,0"><strong data-path-to-node="34,7,0" data-index-in-node="0">Structured Light Patterns:</strong> The black-and-white grid patterns projected by the Spatial Scanner to calculate physical depth and geometry.</p>
+</li>
+<li>
+<p data-path-to-node="34,8,0"><strong data-path-to-node="34,8,0" data-index-in-node="0">Subdivisions:</strong> The individual rows and columns generated to create a mesh grid for advanced warping.</p>
+</li>
+<li>
+<p data-path-to-node="34,9,0"><strong data-path-to-node="34,9,0" data-index-in-node="0">Surface:</strong> A virtual digital canvas (Quad, Triangle, Line, Mask, 3D Model) within the software that holds media and receives output parameters.</p>
+</li>
+<li>
+<p data-path-to-node="34,10,0"><strong data-path-to-node="34,10,0" data-index-in-node="0">SVG Import:</strong> The ability to import Scalable Vector Graphics files, which MadMapper automatically translates into native, mathematically perfect line surfaces.</p>
+</li>
+</ul>
+<p data-path-to-node="35"><strong data-path-to-node="35" data-index-in-node="0">T</strong></p>
+<ul data-path-to-node="36">
+<li>
+<p data-path-to-node="36,0,0"><strong data-path-to-node="36,0,0" data-index-in-node="0">Tangent (Bezier):</strong> The invisible handle attached to a Bezier point that dictates the trajectory and steepness of the curve.</p>
+</li>
+<li>
+<p data-path-to-node="36,1,0"><strong data-path-to-node="36,1,0" data-index-in-node="0">Test Pattern:</strong> An inherent visual grid used to verify projector focus, color accuracy, and alignment before applying media.</p>
+</li>
+<li>
+<p data-path-to-node="36,2,0"><strong data-path-to-node="36,2,0" data-index-in-node="0">Timeline:</strong> A linear playback module used for sequencing video, DMX lighting cues, and laser actions along a time-based track.</p>
+</li>
+<li>
+<p data-path-to-node="36,3,0"><strong data-path-to-node="36,3,0" data-index-in-node="0">Triangle Surface:</strong> A three-sided geometric surface, highly effective for slicing up complex, non-rectangular objects where quads would overlap awkwardly.</p>
+</li>
+</ul>
+<p data-path-to-node="37"><strong data-path-to-node="37" data-index-in-node="0">U</strong></p>
+<ul data-path-to-node="38">
+<li>
+<p data-path-to-node="38,0,0"><strong data-path-to-node="38,0,0" data-index-in-node="0">Universe:</strong> A single DMX signal stream containing 512 addressable channels.</p>
+</li>
+<li>
+<p data-path-to-node="38,1,0"><strong data-path-to-node="38,1,0" data-index-in-node="0">Unlink Tangents:</strong> A command that breaks the continuity of a Bezier handle, allowing the operator to create sharp points and sudden architectural angles rather than smooth curves.</p>
+</li>
+</ul>
+<p data-path-to-node="39"><strong data-path-to-node="39" data-index-in-node="0">V</strong></p>
+<ul data-path-to-node="40">
+<li>
+<p data-path-to-node="40,0,0"><strong data-path-to-node="40,0,0" data-index-in-node="0">Vector Graphics:</strong> Images defined by mathematical paths (lines and curves) rather than pixels, which is exactly how laser projectors draw content.</p>
+</li>
+<li>
+<p data-path-to-node="40,1,0"><strong data-path-to-node="40,1,0" data-index-in-node="0">Video Wall Template:</strong> An automated setup tool that rapidly generates a perfectly aligned, scaled grid of video quads or DMX fixtures based on physical panel counts and bezel sizes.</p>
+</li>
+</ul>
+<p data-path-to-node="41"><strong data-path-to-node="41" data-index-in-node="0">W</strong></p>
+<ul data-path-to-node="42">
+<li>
+<p data-path-to-node="42,0,0"><strong data-path-to-node="42,0,0" data-index-in-node="0">Warping Point:</strong> An anchor point on a mesh grid that can be selected, moved, or manipulated to physically deform the shape of a surface.</p>
+</li>
+<li>
+<p data-path-to-node="42,1,0"><strong data-path-to-node="42,1,0" data-index-in-node="0">Wireframe:</strong> The raw structural lines of a 3D model (<code data-path-to-node="42,1,0" data-index-in-node="51">.OBJ</code>); MadMapper and MadLaser can render just the wireframe to create stunning, transparent geometric illusions on physical objects.</p>
+</li>
+</ul>
+</div>
+</div>

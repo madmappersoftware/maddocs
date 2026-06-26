@@ -1,10 +1,169 @@
-<h1 class="text-text-100 mt-3 -mb-1 text-[2rem] font-bold">Appendices</h1>
-
-<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The following appendices provide detailed technical references, command lists, and hardware specifications for advanced operation.</p>
-
-<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Appendix A: Complete OSC Command List</h3>
-<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">A comprehensive table of all Open Sound Control (OSC) addresses available for remote triggering in MadMapper, including timeline controls, opacity faders, and surface geometry adjustments.</p>
-<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Appendix B: Supported DMX & Art-Net Fixtures</h3>
-<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">A reference guide for patching generic and manufacturer-specific lighting fixtures, including channel breakdown charts for standard RGB, RGBW, and pixel-mapped LED strips.</p>
-<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Appendix C: Laser Hardware & ILDA Specifications</h3>
-<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Technical requirements and network setups for supported laser DACs (ShowNET, LaserCube, EtherDream, Helios, FB3/FB4).</p>
+<div id="model-response-message-contentr_2a89b89e7f6e3321" class="markdown markdown-main-panel tutor-markdown-rendering enable-luminous-fast-follows stronger enable-updated-hr-color" dir="ltr" aria-live="polite" aria-busy="false">
+<h3 data-path-to-node="0">Appendices</h3>
+<p data-path-to-node="1"><strong data-path-to-node="1" data-index-in-node="0">Appendix A: Comprehensive Keyboard &amp; Mouse Shortcuts</strong></p>
+<p data-path-to-node="1">A complete, printable cheat sheet of all global, interface, and tool-specific shortcuts for both macOS and Windows, including hidden modifier keys for precise mesh warping and masking.</p>
+<p data-path-to-node="1">&nbsp;</p>
+<p data-path-to-node="2"><strong data-path-to-node="2" data-index-in-node="0">Appendix B: Master OSC Command Directory</strong></p>
+<p data-path-to-node="2">A full table of every Open Sound Control (OSC) address available in MadMapper 6. This includes syntax examples for triggering cues, manipulating surface opacities, sending text strings to text generators, and controlling the master timeline via external software (like TouchDesigner, QLab, or Ableton Live).</p>
+<p data-path-to-node="2">&nbsp;</p>
+<p data-path-to-node="3"><strong data-path-to-node="3" data-index-in-node="0">Appendix C: Supported Media Codecs &amp; Formats</strong></p>
+<p data-path-to-node="3">A technical breakdown of recommended video codecs for performance optimization.</p>
+<ul data-path-to-node="4">
+<li>
+<p data-path-to-node="4,0,0">Includes rendering guidelines for <strong data-path-to-node="4,0,0" data-index-in-node="34">HAP / HAP-Q / HAP Alpha</strong> (for CPU/GPU efficiency).</p>
+</li>
+<li>
+<p data-path-to-node="4,1,0">Details on Apple ProRes, DXV3, and MP4 (H.264/H.265) handling.</p>
+</li>
+<li>
+<p data-path-to-node="4,2,0">Supported image formats (PNG, JPG, SVG, TIFF) and 3D object limits (.OBJ).</p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p data-path-to-node="5"><strong data-path-to-node="5" data-index-in-node="0">Appendix D: DMX Fixture Profile Creation</strong></p>
+<p data-path-to-node="5">A technical guide for writing custom <code data-path-to-node="5" data-index-in-node="78">.mmf</code> (MadMapper Fixture) files. Includes the XML schema required to build profiles for unlisted generic Chinese LED fixtures, moving heads, or custom kinetic winches.</p>
+<p data-path-to-node="5">&nbsp;</p>
+<p data-path-to-node="6"><strong data-path-to-node="6" data-index-in-node="0">Appendix E: Network Optimization for AVB, NDI, and Art-Net</strong></p>
+<p data-path-to-node="6">A deep dive into IT and network setup for massive shows.</p>
+<ul data-path-to-node="7">
+<li>
+<p data-path-to-node="7,0,0">Subnet mask and IP address configurations for isolating Art-Net/sACN traffic from NDI video traffic.</p>
+</li>
+<li>
+<p data-path-to-node="7,1,0">Recommended gigabit switch settings (IGMP Snooping, QoS).</p>
+</li>
+<li>
+<p data-path-to-node="7,2,0">Troubleshooting dropped packets and latency in pixel-mapped LED arrays.</p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p data-path-to-node="8"><strong data-path-to-node="8" data-index-in-node="0">Appendix F: MadLaser Hardware Compatibility &amp; Setup</strong></p>
+<p data-path-to-node="8">A technical lookup table of supported laser mainboards and DACs (Digital-to-Analog Converters), including setup instructions for:</p>
+<ul data-path-to-node="9">
+<li>
+<p data-path-to-node="9,0,0">EtherDream</p>
+</li>
+<li>
+<p data-path-to-node="9,1,0">ShowNET (Laserworld)</p>
+</li>
+<li>
+<p data-path-to-node="9,2,0">Helios USB</p>
+</li>
+<li>
+<p data-path-to-node="9,3,0">LaserCube (WiFi/Ethernet)</p>
+</li>
+<li>
+<p data-path-to-node="9,4,0">Pangolin FB4 (via Beyond / OSC bridge)</p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p data-path-to-node="10"><strong data-path-to-node="10" data-index-in-node="0">Appendix G: Native GLSL Shader Variables</strong></p>
+<p data-path-to-node="10">A <a class="int-link" href="glsl-shader-functions-reference" data-page-suid="pXmh5m3VrT" data-product-slug="madmapper" data-product-version="6">reference guide</a> for code artists writing interactive materials. Lists all native uniforms automatically passed by MadMapper into the shader environment (e.g., <code data-path-to-node="10" data-index-in-node="202">RENDERSIZE</code>, <code data-path-to-node="10" data-index-in-node="214">TIME</code>, <code data-path-to-node="10" data-index-in-node="220">BPM</code>, <code data-path-to-node="10" data-index-in-node="225">AUDIO_FFT</code>).</p>
+<p data-path-to-node="10">&nbsp;</p>
+<div id="model-response-message-contentr_f65cad91fda610f5" class="markdown markdown-main-panel tutor-markdown-rendering enable-luminous-fast-follows stronger enable-updated-hr-color" dir="ltr" aria-live="polite" aria-busy="false">
+<h3 data-path-to-node="0">Deep Dive: External Links &amp; Community Resources</h3>
+<p data-path-to-node="1">To ensure users have everything they need outside of the core software manual, this section provides links to essential third-party tools, drivers, and the broader projection mapping community.</p>
+<p data-path-to-node="1">&nbsp;</p>
+<p data-path-to-node="2"><strong data-path-to-node="2" data-index-in-node="0">1. Official GarageCube &amp; 1024architecture Resources</strong></p>
+<ul data-path-to-node="3">
+<li>
+<p data-path-to-node="3,0,0"><strong data-path-to-node="3,0,0" data-index-in-node="0">MadMapper User Forum:</strong> The primary hub for reporting bugs, requesting features, and sharing custom setups with the developers.</p>
+<p data-path-to-node="3,0,0"><a class="ng-star-inserted" href="https://forum.garagecube.com/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQtwc">https://forum.garagecube.com/</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul data-path-to-node="3">
+<li>
+<p data-path-to-node="3,1,0"><strong data-path-to-node="4,1,0" data-index-in-node="0">MadMapper Account Portal:</strong> Create an account on madmapper.com to manage or upgrade your license, import your serial number, and download software versions (including v5 with MadLaser). Note: This replaces the legacy "Yourspace" portal. <a class="ng-star-inserted" href="https://madmapper.com/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQkgg">https://madmapper.com/</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul data-path-to-node="3">
+<li>
+<p data-path-to-node="3,2,0"><strong data-path-to-node="3,2,0" data-index-in-node="0">MadMapper Video Tutorials:</strong> The official YouTube playlist featuring step-by-step visual guides.</p>
+<p data-path-to-node="3,2,0"><a class="ng-star-inserted" href="https://www.youtube.com/@madmapperthemappingsoftwar9943" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQuQc">https://www.youtube.com/@madmapperthemappingsoftwar9943</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p data-path-to-node="4"><strong data-path-to-node="4" data-index-in-node="0">2. Essential Third-Party Drivers &amp; Codecs</strong></p>
+<ul data-path-to-node="5">
+<li>
+<p data-path-to-node="5,0,0"><strong data-path-to-node="5,0,0" data-index-in-node="0">HAP Codec Installers:</strong> Essential for smooth playback of massive video files.</p>
+<p data-path-to-node="5,0,0"><a class="ng-star-inserted" href="https://hap.video/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQugc">https://hap.video/</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul data-path-to-node="5">
+<li>
+<p data-path-to-node="5,1,0"><strong data-path-to-node="5,1,0" data-index-in-node="0">NDI Tools:</strong> Download the free NDI Core Suite (NDI Virtual Input, Studio Monitor, Test Pattern) to send and receive video over IP.</p>
+<p data-path-to-node="5,1,0"><a class="ng-star-inserted" href="https://ndi.video/tools/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQuwc">https://ndi.video/tools/</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul data-path-to-node="5">
+<li>
+<p data-path-to-node="5,2,0"><strong data-path-to-node="5,2,0" data-index-in-node="0">BlackHole Audio (macOS):</strong> Free virtual audio driver for routing multi-channel audio from DAWs directly into MadMapper.</p>
+<p data-path-to-node="5,2,0"><a class="ng-star-inserted" href="https://existential.audio/blackhole/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQvAc">https://existential.audio/blackhole/</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul data-path-to-node="5">
+<li>
+<p data-path-to-node="5,3,0"><strong data-path-to-node="5,3,0" data-index-in-node="0">JACK Audio:</strong> Cross-platform audio routing matrix.</p>
+<p data-path-to-node="5,3,0"><a class="ng-star-inserted" href="https://jackaudio.org/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQvQc">https://jackaudio.org/</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul data-path-to-node="5">
+<li>
+<p data-path-to-node="5,4,0"><strong data-path-to-node="5,4,0" data-index-in-node="0">Syphon (macOS) &amp; Spout (Windows):</strong> Frameworks for sharing zero-latency video frames between MadMapper and other visual software.</p>
+<p data-path-to-node="5,4,0"><a class="ng-star-inserted" href="https://www.google.com/search?q=http://syphon.v002.info/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQvgc">http://syphon.v002.info/</a> | <a class="ng-star-inserted" href="https://spout.zeal.co/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQvwc">https://spout.zeal.co/</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p data-path-to-node="6"><strong data-path-to-node="6" data-index-in-node="0">3. Hardware &amp; Controller Partners</strong></p>
+<ul>
+<li data-path-to-node="6"><strong data-path-to-node="6" data-index-in-node="0">MadMapper Store: </strong><a href="https://shop.garagecube.com/&#96;" target="_blank" rel="noopener">https://shop.garagecube.com/</a></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>
+<p data-path-to-node="7,0,0"><strong data-path-to-node="7,0,0" data-index-in-node="0">Deskontrol Electronics:</strong> Recommended hardware nodes for converting MadMapper Art-Net/sACN signals into SPI for raw addressable LED strips.</p>
+<p data-path-to-node="7,0,0"><a class="ng-star-inserted" href="https://www.deskontrol.net/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQwAc">https://www.deskontrol.net/</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul data-path-to-node="7">
+<li>
+<p data-path-to-node="7,1,0"><strong data-path-to-node="7,1,0" data-index-in-node="0">MiniMad:</strong> The official GarageCube Raspberry Pi companion hardware for standalone installations.</p>
+<p data-path-to-node="7,1,0"><a class="ng-star-inserted" href="https://madmapper.com/minimad/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQwQc">https://madmapper.com/minimad/</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul data-path-to-node="7">
+<li>
+<p data-path-to-node="7,2,0"><strong data-path-to-node="7,2,0" data-index-in-node="0">Advatek / Enttec:</strong> Industry-standard DMX and pixel-mapping hardware nodes highly compatible with MadMapper.</p>
+<p data-path-to-node="7,2,0"><a class="ng-star-inserted" href="https://www.advateklights.com/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQwgc">https://www.advateklights.com/</a> | <a class="ng-star-inserted" href="https://www.enttec.com/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQwwc">https://www.enttec.com/</a></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p data-path-to-node="8"><strong data-path-to-node="8" data-index-in-node="0">4. Educational &amp; Content Communities</strong></p>
+<ul>
+<li data-path-to-node="8"><strong>Certified Trainers:</strong> A list of MadMapper Certified Trainers around the world. <a href="https://madmapper.com/learning/certified-training" target="_blank" rel="noopener">https://madmapper.com/learning/certified-training</a></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li data-path-to-node="8"><strong>Tutorials: </strong>Discover video tutorials and latest tips &amp; tricks.<strong> </strong><a href="https://madmapper.com/learning/tutorials" target="_blank" rel="noopener">https://madmapper.com/learning/tutorials</a></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>
+<p data-path-to-node="9,0,0"><strong data-path-to-node="9,0,0" data-index-in-node="0">ISF (Interactive Shader Format):</strong> A massive open-source library of generative visuals and shaders that can be imported directly into MadMapper.&nbsp;<a class="ng-star-inserted" href="https://isf.video/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwjT--XenKWVAxUAAAAAHQAAAAAQxAc">https://isf.video/</a></p>
+<p data-path-to-node="9,0,0"></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p data-path-to-node="9,1,0">&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>
