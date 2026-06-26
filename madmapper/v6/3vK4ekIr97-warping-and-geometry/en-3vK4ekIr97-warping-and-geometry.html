@@ -1,1 +1,86 @@
-<p>Warping &amp; Geometry</p>
+<h1 class="text-text-100 mt-3 -mb-1 text-[2rem] font-bold">Warping &amp; Geometry</h1>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">In projection mapping, the physical world is rarely perfectly flat or rectangular. MadMapper provides a powerful suite of warping and geometry tools to deform your digital video canvas so it perfectly wraps around physical architecture, curved objects, and complex stage designs.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<figure class="image" contenteditable="false"><img src="Heydar-Aliyev Cultural Center, Bakou.png" width="600" height="460" data-media-id="YL3G5NwL2e">
+<figcaption contenteditable="true">Heydar-Aliyev Cultural Center, Bakou</figcaption>
+</figure>
+<p>&nbsp;</p>
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Setup &amp; Preparation: The Grid Generator</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Before manipulating complex geometry, it is highly recommended to project a visual test pattern. You can add a <strong>Grid Generator</strong> media on top of your image and adjust the columns and rows to correspond to the architectural features of the building or object you are mapping.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><img class="retina" src="Grid Generator Example.png" width="830" height="463" data-media-id="ppMZqU2T5L"></p>
+<p>&nbsp;</p>
+<div class="alert-banner-tips">
+<p class="p1"><em><strong>Tip:</strong> In the left panel, change the Grid Generator's opacity to 50% and the Blend Mode to Additive. This allows you to clearly see the physical background behind the grid, making the warping process much easier.</em></p>
+</div>
+<figure class="image" contenteditable="false"><img class="retina" src="Grid Generator Settings.png" width="300" height="698" data-media-id="290fcDrYjl">
+<figcaption contenteditable="true">Grid Generator Settings</figcaption>
+</figure>
+<p>&nbsp;</p>
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Output Perspective &amp; Corner Pinning</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Setup the output parameters of your surface, including the activation or de-activation of <strong>Perspective</strong> pinning:</p>
+<p><img src="MadMapper Surface Inspector 3.png" width="400" height="204" data-media-id="ai7pZ0eALS"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">By default, moving the four corners of a Quad surface performs a perspective distortion (often called Corner Pinning). Make sure the "Perspective" checkbox is enabled. Move every corner to fit the building's perspective by clicking and dragging them to match the physical vanishing points and horizon line. Try to fit the intersections of the vertical lines to the bottom segment of your quad before moving on to complex mesh points.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">&nbsp;</p>
+<figure class="image" contenteditable="false"><img src="Adjusting Perspective to Vanishing Lines.jpg" width="400" height="308" data-media-id="chbfAJnLjS">
+<figcaption contenteditable="true">Adjusting Perspective to Vanishing Lines</figcaption>
+</figure>
+<figure class="image" contenteditable="false"><img src="Mesh Warping Guide 026.jpg" width="400" height="73" data-media-id="jE7KfCDbav">
+<figcaption contenteditable="true">Try to fit the intersections of the vertical lines to the bottom one.</figcaption>
+</figure>
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Mesh Warping</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">When moving the four corners isn't enough, <strong>Mesh Warping</strong> is an essential technique that enables an internal grid mesh to reproduce complex architectural curves across multiple axes.</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Subdividing the Grid:</strong> In the Surface Inspector under Mesh Warping, you can generate a grid by specifying the number of horizontal and vertical subdivisions.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Adding Custom Points:</strong> You can stick to adding extra points manually exactly where you need them. Add points with <code>Alt + click</code> and drag them to your desired position.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Removing Points &amp; Lines:</strong> To remove a specific point, select it and press <code>Delete</code>. To remove an entire line, right-click on a point and select either "Remove Horizontal" or "Remove Vertical".</li>
+</ul>
+<p><img src="MadMapper Surface Inspector 5.png" width="400" height="323" data-media-id="xiUbiiZMjF"></p>
+<div class="alert-banner-tips">
+<p class="p1"><em><strong>Tip:</strong> The fewer points you add, the easier it will be to warp correctly! Sparsely add warping points only where necessary to mimic the curvature of the facade.</em></p>
+</div>
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Handle Adjustment &amp; Selection Techniques</h3>
+<p><img src="MeshWarping guide 035.jpg" width="300" height="229" data-media-id="qzS8PvPzrg"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Managing complex meshes requires precision control:</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Moving Segments &amp; Lines:</strong> You can move a specific segment between two points by clicking on it once. Click it one more time to select the entire line across the mesh. The selected segment or line will be highlighted.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Multi-Selection:</strong> Click and drag a selection box over multiple mesh points, or hold <code>Shift</code> and click to add multiple specific points to your selection. You can move them all simultaneously.</li>
+<li class="whitespace-normal break-words pl-2"><strong>Keyboard Precision:</strong> Dragging with a mouse can sometimes be too imprecise for pixel-perfect mapping. Select your point(s) and use the <strong>Arrow Keys</strong> on your keyboard to nudge them pixel by pixel. Hold <code>Shift + Arrow Keys</code> to move them in larger 10-pixel increments.</li>
+</ul>
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">B&eacute;zier Curves for Curved Architecture</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Standard mesh points create sharp, linear angles. To seamlessly map onto columns, domes, arches, or circular tables, you need smooth curves.</p>
+<div class="alert-banner-notes">
+<p class="p1">Enable them via the <strong>B&eacute;zier</strong> slider on the left panel under the mesh warping options.</p>
+</div>
+<figure class="image" contenteditable="false"><img class="retina" src="Bézier Checkbox.png" width="200" height="46" data-media-id="mIFsMdYdI5">
+<figcaption contenteditable="true">Enable B&eacute;zier Curves</figcaption>
+</figure>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7] mt-3">Once activated, clicking on a warping point will reveal two or three tangent handles. Grab them to adjust the tangents of the curves and align your grid generator to the lines of the building.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7] mt-3">&nbsp;</p>
+<figure class="image" contenteditable="false"><img src="Bezier Handles Building.jpg" width="150" height="153" data-media-id="I0zLWbTNey">
+<figcaption contenteditable="true">B&eacute;zier handles on point.</figcaption>
+</figure>
+<p>&nbsp;</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Unlinking Tangents:</strong> If you have difficulties matching a sharp architectural corner, you can right-click on a point and select "Unlink Tangents" to move the handles separately. Note that this will break the tangent continuity, creating a sharp point instead of a smooth curve.</li>
+</ul>
+<p><img src="Unlink Tangents.jpg" width="200" height="128" data-media-id="bqD6Y0BKHG"></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Mesh Precision:</strong> To add more smoothness to your surface's geometry, you can increase the "Precision" slider. This will add more polygons to your shape so your curves render softer and cleaner.</li>
+</ul>
+<p><img src="Mesh Warping Guide Smooth.jpg" width="233" height="179" data-media-id="Oj377DzLao"></p>
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Using Masks During Warping</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">If an obstacle (like a person or a structural beam) is standing just in front of the mapping area, you can mask it out to prevent projection spill.</p>
+<p><img src="Masking Out a Person.jpg" width="100" height="185" data-media-id="d5sOFHAmj3"></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">In the left panel, create a new mask by clicking the first mask icon.</li>
+<li class="whitespace-normal break-words pl-2">Click and hold on your surface to draw a mask, which will automatically add points and B&eacute;zier curves to match your drawing. Press <code>Enter</code> to close the path when finished.</li>
+<li class="whitespace-normal break-words pl-2">You can also edit the curves with the B&eacute;zier handles or quickly generate perfect shape boundaries using the square, triangle, and circle mask icons.</li>
+</ul>
+<h3 class="text-text-100 mt-6 -mb-1 text-[1.375rem] font-bold">Link Input and Output Mesh</h3>
+<p><img class="retina" src="Show Input Mesh.png" width="300" height="52" data-media-id="NuMdvOGd6P"></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">By default, the <strong>Link Input and Output Mesh</strong> is enabled. This means that if you physically drag and adjust any mesh points on the output side to match your real-world object, the input mesh will automatically mirror them, helping to keep your video undistorted.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">However, if you want to warp the output shape <em>without</em> distorting how the media is sampled from the input&mdash;or if you want to warp the input media while leaving the output geometry alone&mdash;you must disable this link.</p>
+<div class="alert-banner-notes">
+<p class="p1">To disable the link and independently edit the source geometry, you must first enable <strong>Show Input Mesh</strong>.</p>
+</div>
+<p><img src="Mesh Warping Guide Example.jpg" width="600" height="460" data-media-id="8eYhP2VtwW"></p>
