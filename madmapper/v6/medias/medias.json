@@ -197,5 +197,1009 @@
         "pageSlug": "5.-dmx-and-led-mapping"
       }
     ]
+  },
+  {
+    "mediaId": "rsGBaPi3xy",
+    "filename": "©1024ExpoElectro -JulieGuiches06_MOD.png",
+    "imgName": "©1024ExpoElectro -JulieGuiches06_MOD",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/©1024ExpoElectro -JulieGuiches06_MOD.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T20:36:30.261Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "XskInXGXWE",
+    "filename": "01 intro ui.jpg",
+    "imgName": "01 intro ui",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/01 intro ui.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T20:36:30.274Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "0XT87mowuf",
+    "filename": "02 my first mapping.jpg",
+    "imgName": "02 my first mapping",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/02 my first mapping.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T20:36:30.289Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "s5RJngLtR7",
+    "filename": "03 minimad.jpg",
+    "imgName": "03 minimad",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/03 minimad.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T20:36:30.297Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "pC67DkhAJV",
+    "filename": "InterfaceImage.jpg",
+    "imgName": "InterfaceImage",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/InterfaceImage.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T20:44:18.110Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "YOqnU69sE0",
+    "filename": "MadMapper Banner.png",
+    "imgName": "MadMapper Banner",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/MadMapper Banner.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T20:48:08.314Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "hHbuq9CURK",
+    "filename": "Mask Group 20.jpg",
+    "imgName": "Mask Group 20",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/Mask Group 20.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:00:48.790Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "cYQeEKRpbk",
+    "filename": "Mask Group 21.jpg",
+    "imgName": "Mask Group 21",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/Mask Group 21.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:00:48.847Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "nLB2RGiUt5",
+    "filename": "Mask Group 22.jpg",
+    "imgName": "Mask Group 22",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/Mask Group 22.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:00:48.873Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "gHB9EFOyU9",
+    "filename": "Mask Group 24.jpg",
+    "imgName": "Mask Group 24",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/Mask Group 24.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:00:48.883Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "NPSp28OiGM",
+    "filename": "Mask Group 25.jpg",
+    "imgName": "Mask Group 25",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/Mask Group 25.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:00:48.895Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "QsyxW6YNxJ",
+    "filename": "09 modules.jpg",
+    "imgName": "09 modules",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/09 modules.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:01:46.987Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "eiaqdcqC99",
+    "filename": "Modules Icon.png",
+    "imgName": "Modules Icon",
+    "ext": "png",
+    "mimetype": "",
+    "url": "/Modules Icon.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": true,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:02:56.326Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "PmAyt76CHk",
+    "filename": "Timelines_block_2.jpg",
+    "imgName": "Timelines_block_2",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/Timelines_block_2.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:04:00.549Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "G5RT0qjyCK",
+    "filename": "toFeatures.jpg",
+    "imgName": "toFeatures",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/toFeatures.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:04:00.594Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "0SvTGBZh0I",
+    "filename": "toFeatures.png",
+    "imgName": "toFeatures",
+    "ext": "png",
+    "mimetype": "image/png",
+    "url": "/toFeatures.png",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:04:00.635Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "dmbwqA51gj",
+    "filename": "training_pg.jpg",
+    "imgName": "training_pg",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/training_pg.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:04:00.700Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "UNOpu7Dnlr",
+    "filename": "tutorials.jpg",
+    "imgName": "tutorials",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/tutorials.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:04:00.742Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "aYhYsWqZNa",
+    "filename": "WIN_CueingsystemB02.jpg",
+    "imgName": "WIN_CueingsystemB02",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/WIN_CueingsystemB02.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:04:00.777Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "aygT4dWH3Q",
+    "filename": "WIN_pixelmapping-B01.jpg",
+    "imgName": "WIN_pixelmapping-B01",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/WIN_pixelmapping-B01.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:04:00.808Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "220VsdCvkk",
+    "filename": "worldwideProTool.jpg",
+    "imgName": "worldwideProTool",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/worldwideProTool.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:04:00.895Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "vIGgjVTKr8",
+    "filename": "M2_1024-VORTEX-2016-ThéoBaracassa-DSC_9554-MADcustom01-2000x3000.jpg",
+    "imgName": "M2_1024-VORTEX-2016-ThéoBaracassa-DSC_9554-MADcustom01-2000x3000",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/M2_1024-VORTEX-2016-ThéoBaracassa-DSC_9554-MADcustom01-2000x3000.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:09:15.138Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "yqR3clKVjg",
+    "filename": "lineDrawing.jpg",
+    "imgName": "lineDrawing",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/lineDrawing.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:09:15.171Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "sPJHighrE8",
+    "filename": "designForArtist-mobile.jpg",
+    "imgName": "designForArtist-mobile",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/designForArtist-mobile.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "full",
+        "dimension": 1920
+      },
+      {
+        "name": "large",
+        "dimension": 1440
+      },
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:09:15.185Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "rs8fqMndBH",
+    "filename": "14 ControlSurface_thumb.jpg",
+    "imgName": "14 ControlSurface_thumb",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/14 ControlSurface_thumb.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:09:15.205Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "nqJcvQJwqb",
+    "filename": "12 realtime visuals.jpg",
+    "imgName": "12 realtime visuals",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/12 realtime visuals.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:09:15.211Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "7PJRo71Zkn",
+    "filename": "04 masking.jpg",
+    "imgName": "04 masking",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/04 masking.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:09:15.215Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
+  },
+  {
+    "mediaId": "P9bJchfOYW",
+    "filename": "05 meshwarping.jpg",
+    "imgName": "05 meshwarping",
+    "ext": "jpg",
+    "mimetype": "image/jpeg",
+    "url": "/05 meshwarping.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-27T21:09:15.217Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
   }
 ]
