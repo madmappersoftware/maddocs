@@ -5930,6 +5930,10 @@
       {
         "pageSuid": "hY3zyDQlLz",
         "pageSlug": "madmapper-history"
+      },
+      {
+        "pageSuid": "RKPXx8RrrV",
+        "pageSlug": "14.-technical-notes"
       }
     ]
   },
@@ -11476,6 +11480,10 @@
       {
         "pageSuid": "VItu9oKKNm",
         "pageSlug": "13.-setup-installation-and-technical-notes"
+      },
+      {
+        "pageSuid": "RKPXx8RrrV",
+        "pageSlug": "14.-technical-notes"
       }
     ]
   },
@@ -16388,6 +16396,41 @@
       {
         "pageSuid": "f3UoO6jWFz",
         "pageSlug": "the-history-of-mapping"
+      }
+    ]
+  },
+  {
+    "mediaId": "PiwaS2JwxT",
+    "filename": "Advanced Header.jpg",
+    "imgName": "Advanced Header",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/Advanced Header.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-06-29T12:58:16.255Z",
+    "pages": [
+      {
+        "pageSuid": "r79I9iCia8",
+        "pageSlug": "12.-advanced"
       }
     ]
   }
