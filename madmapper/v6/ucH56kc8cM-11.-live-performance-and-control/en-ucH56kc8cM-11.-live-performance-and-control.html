@@ -2,12 +2,9 @@
 <p data-path-to-node="3">MadMapper is designed to act as a highly responsive live performance instrument. The software can be driven by a wide variety of external hardware and software inputs, allowing you to trigger media, adjust parameters, and synchronize visuals with audio or lighting systems in real-time.&nbsp;</p>
 <h3 data-path-to-node="2">The Control List</h3>
 <p data-path-to-node="3">The <strong data-path-to-node="3" data-index-in-node="4">Control List</strong> is the central hub for adding, configuring, and managing your external inputs according to their specific category.</p>
-<p data-path-to-node="3">&nbsp;</p>
 <p data-path-to-node="3"><img class="retina" src="Control List.png" width="800" height="226" data-media-id="xDgHqFvi4g"></p>
-<p data-path-to-node="3">&nbsp;</p>
 <p data-path-to-node="3"><strong data-path-to-node="4,1,0" data-index-in-node="0">Categories:</strong> The Control List is divided into specific tabs for different input protocols: Keyboard, MIDI, DMX, OSC, Audio, Gamepad, MadMapper, Other, and an "All" tab that displays every control currently configured on your system.</p>
 <p data-path-to-node="3"><img class="retina" src="Control List Top Tool Bar.png" width="800" height="40" data-media-id="ofdEKmL9x7"></p>
-<p data-path-to-node="3">&nbsp;</p>
 <div class="alert-banner-tips">
 <p data-path-to-node="3"><strong data-path-to-node="4,0,0" data-index-in-node="0">Accessing the List:</strong> You can open this window by navigating to <strong data-path-to-node="4,0,0" data-index-in-node="62">Tools &gt; Control List</strong> from the top menu, or by using the keyboard shortcut <code data-path-to-node="4,0,0" data-index-in-node="136">Cmd + L</code> (Mac) / <code data-path-to-node="4,0,0" data-index-in-node="152">Ctrl + L</code> (PC).</p>
 </div>
@@ -170,18 +167,15 @@
 <p data-path-to-node="2,2,0"><strong data-path-to-node="2,2,0" data-index-in-node="0">Data Routing:</strong> Simultaneously use <strong data-path-to-node="2,2,0" data-index-in-node="33">OSC</strong> to pass mathematical data, tracking coordinates, or generative variables from your coding environment into MadMapper to dynamically adjust surface geometries, laser paths, or shader parameters in real-time.</p>
 </li>
 </ul>
-<p>&nbsp;</p>
 <h3 data-path-to-node="0">TouchDesigner Setup (Syphon/Spout)</h3>
 <p>In TouchDesigner, locate the <strong data-path-to-node="6,0,0" data-index-in-node="29">Syphon Spout Out TOP</strong> operator and add it to your network to broadcast your final composition.</p>
 <p><img class="retina" src="TouchDesigner TOP Syphon Spout.png" width="163" height="74" data-media-id="NZs5FQ9NPb"></p>
 <p><img class="retina" src="SyphoneSpoutOutTOP.png" width="400" height="215" data-media-id="kSLbFW5X2j"></p>
 <p>Once the TouchDesigner output is active, MadMapper will automatically detect the Syphon or Spout source. It will appear in your Media Bin, allowing you to drag it directly onto your surfaces.</p>
 <p><img class="retina" src="Syphon TouchDesigner MadMapper.png" width="306" height="381" data-media-id="yq9crDZiVO"></p>
-<p>&nbsp;</p>
 <div class="alert-banner-notes">
 <p><strong data-path-to-node="7,0" data-index-in-node="0">Note on Resolution:</strong> Non-commercial TouchDesigner licenses are hard-capped at a maximum resolution of 1280x720. While MadMapper can scale this feed up to fit your desired physical output, you will need to upgrade to a paid TouchDesigner license if you require a higher native rendering resolution.</p>
 </div>
-<p>&nbsp;</p>
 <h4 data-path-to-node="8">TouchDesigner NDI Settings</h4>
 <p><img class="retina" src="TouchDesigner NDI Out.png" width="400" height="196" data-media-id="AwTL7haIZ3"></p>
 <p data-path-to-node="9">The process for utilizing NDI sources is similar to Syphon/Spout, but the video data travels over your local network. Active NDI streams on your local or area network will automatically appear in MadMapper's Media Bin under the&nbsp;<strong data-path-to-node="9" data-index-in-node="214">Live Inputs</strong> category.</p>
