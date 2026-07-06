@@ -16433,5 +16433,40 @@
         "pageSlug": "12.-advanced"
       }
     ]
+  },
+  {
+    "mediaId": "cyjw7o2SDo",
+    "filename": "interface.jpg",
+    "imgName": "interface",
+    "ext": "jpg",
+    "mimetype": "",
+    "url": "/interface.jpg",
+    "captions": {
+      "en": ""
+    },
+    "size": [
+      {
+        "name": "big",
+        "dimension": 600
+      },
+      {
+        "name": "small",
+        "dimension": 350
+      },
+      {
+        "name": "thumbnail",
+        "dimension": 256
+      }
+    ],
+    "retina": false,
+    "edited": 0,
+    "sourceId": null,
+    "date": "2026-07-06T13:10:16.832Z",
+    "pages": [
+      {
+        "pageSuid": "homepage",
+        "pageSlug": "homepage"
+      }
+    ]
   }
 ]
