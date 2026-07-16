@@ -24,7 +24,7 @@
             "breadcrumb": "What's New > MadMapper Legacy"
           }
         ],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction"
       },
       {
@@ -34,7 +34,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > What is MadMapper?"
       },
       {
@@ -44,7 +44,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > What is MadMapper?"
       },
       {
@@ -71,11 +71,11 @@
             "pageType": "empty",
             "minorVersion": "6",
             "subpage": [],
-            "publish": false,
+            "publish": true,
             "breadcrumb": "1. Introduction > What is MadMapper? > What's New"
           }
         ],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > What is MadMapper?"
       },
       {
@@ -85,7 +85,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > What is MadMapper? > What's New"
       },
       {
@@ -95,11 +95,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > What is MadMapper? > What's New"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": ""
   },
   {
@@ -116,7 +116,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface"
       },
       {
@@ -126,7 +126,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface"
       },
       {
@@ -136,7 +136,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface"
       },
       {
@@ -153,7 +153,7 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false,
+            "publish": true,
             "breadcrumb": "1. Introduction > 2. The Interface > MadMapper Preferences"
           },
           {
@@ -163,11 +163,11 @@
             "pageType": "empty",
             "minorVersion": "0",
             "subpage": [],
-            "publish": false,
+            "publish": true,
             "breadcrumb": "1. Introduction > 2. The Interface > MadMapper Preferences"
           }
         ],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface"
       },
       {
@@ -177,7 +177,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > MadMapper Preferences"
       },
       {
@@ -187,11 +187,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > MadMapper Preferences"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction"
   },
   {
@@ -208,7 +208,7 @@
         "pageType": "empty",
         "minorVersion": "6",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
       },
       {
@@ -218,7 +218,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
       },
       {
@@ -228,7 +228,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
       },
       {
@@ -238,11 +238,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface"
   },
   {
@@ -259,7 +259,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
       },
       {
@@ -269,7 +269,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
       },
       {
@@ -279,7 +279,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
       },
       {
@@ -289,7 +289,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
       },
       {
@@ -299,7 +299,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
       },
       {
@@ -309,7 +309,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
       },
       {
@@ -319,7 +319,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
       },
       {
@@ -329,7 +329,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
       },
       {
@@ -339,7 +339,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
       },
       {
@@ -349,11 +349,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media"
   },
   {
@@ -370,7 +370,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping"
       },
       {
@@ -380,7 +380,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping"
       },
       {
@@ -390,7 +390,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping"
       },
       {
@@ -400,7 +400,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping"
       },
       {
@@ -410,11 +410,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces"
   },
   {
@@ -431,7 +431,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs"
       },
       {
@@ -441,7 +441,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs"
       },
       {
@@ -451,7 +451,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs"
       },
       {
@@ -461,11 +461,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping"
   },
   {
@@ -482,7 +482,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser"
       },
       {
@@ -492,7 +492,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser"
       },
       {
@@ -502,7 +502,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser"
       },
       {
@@ -512,7 +512,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser"
       },
       {
@@ -522,7 +522,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser"
       },
       {
@@ -532,7 +532,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser"
       },
       {
@@ -542,11 +542,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs"
   },
   {
@@ -556,7 +556,7 @@
     "pageType": "empty",
     "minorVersion": "6",
     "subpage": [],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser"
   },
   {
@@ -573,7 +573,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings"
       },
       {
@@ -583,11 +583,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser"
   },
   {
@@ -604,7 +604,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines"
       },
       {
@@ -614,7 +614,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines"
       },
       {
@@ -624,7 +624,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines"
       },
       {
@@ -634,7 +634,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines"
       },
       {
@@ -644,7 +644,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines"
       },
       {
@@ -654,7 +654,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines"
       },
       {
@@ -664,11 +664,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings"
   },
   {
@@ -685,11 +685,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines"
   },
   {
@@ -706,7 +706,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced"
       },
       {
@@ -716,7 +716,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced"
       },
       {
@@ -726,7 +726,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced"
       },
       {
@@ -736,7 +736,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced"
       },
       {
@@ -746,7 +746,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced"
       },
       {
@@ -756,11 +756,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control"
   },
   {
@@ -777,7 +777,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation"
       },
       {
@@ -866,11 +866,11 @@
             "breadcrumb": "What's New > Getting Started > Software Installation"
           }
         ],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced"
   },
   {
@@ -887,7 +887,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation > 14. Technical Notes"
       },
       {
@@ -897,7 +897,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation > 14. Technical Notes"
       },
       {
@@ -916,11 +916,11 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation > 14. Technical Notes"
       }
     ],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation"
   },
   {
@@ -937,7 +937,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation > 14. Technical Notes > 15. Troubleshooting"
       },
       {
@@ -947,7 +947,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation > 14. Technical Notes > 15. Troubleshooting"
       },
       {
@@ -957,7 +957,7 @@
         "pageType": "empty",
         "minorVersion": "0",
         "subpage": [],
-        "publish": false,
+        "publish": true,
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation > 14. Technical Notes > 15. Troubleshooting"
       }
     ],
@@ -980,7 +980,7 @@
     "pageType": "empty",
     "minorVersion": "0",
     "subpage": [],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation > 14. Technical Notes > 15. Troubleshooting"
   },
   {
@@ -990,7 +990,7 @@
     "pageType": "empty",
     "minorVersion": "0",
     "subpage": [],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation > 14. Technical Notes > 15. Troubleshooting"
   },
   {
@@ -1000,7 +1000,7 @@
     "pageType": "empty",
     "minorVersion": "0",
     "subpage": [],
-    "publish": false,
+    "publish": true,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines > 11. Live Performance & Control > 12. Advanced > 13. Setup & Installation > 14. Technical Notes > 15. Troubleshooting"
   }
 ]
