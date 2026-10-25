@@ -1,0 +1,122 @@
+<h1>What's New in MadMapper 6.2</h1>
+<div class="alert-banner-warning">
+<p><strong>Projects saved with MadMapper 6.2 <span style="text-decoration: underline;">cannot</span> be opened with MadMapper 6.1 or older.<br></strong>Keep a copy of your project before opening it in 6.2 if you might need to go back. Projects from 6.0, 6.1 and MadMapper 5 are converted automatically when opened.</p>
+</div>
+<h3>Show Control</h3>
+<h4>Tasks and the GO button</h4>
+<p>A <strong>Task</strong> is a column of a Grid: the Scenes and Cues it contains start together. Tasks have names, durations and next-task rules (follow, jump, random), and the big <strong>GO</strong> button starts the next one, so an operator can advance a show that does not follow a fixed timeline (theatre, events, installations reacting to the audience).</p>
+<p>Tasks can also be started from Controls and OSC: <code>/show/&lt;Bank&gt;/tasks/go</code>, <code>start_next</code>, <code>start_previous</code>, <code>start_by_number</code>, <code>by_number/&lt;N&gt;/start</code>, <code>by_name/&lt;Task&gt;/start</code> and <code>by_name/&lt;Task&gt;/alternate_next/&lt;Target Task&gt;</code>.</p>
+<h4>Show Sequencer (formerly Timelines)</h4>
+<p>The Timelines editor is now called the <strong>Show Sequencer</strong>. It keeps all the concepts introduced in 6.0 (Conductor, Grid, Scenes, Cues, Timelines) and adds:</p>
+<ul>
+<li><strong>Separate banks for Conductors and Grids.</strong> Conductors and Grids now live in different banks, and a Conductor can reference Scenes and Cues from any Grid bank.</li>
+<li><strong>Equalizer on audio tracks.</strong> Each audio track of a timeline has its own equalizer, and can also host audio plugins.</li>
+<li><strong>MadLight tracks.</strong> <strong>Add MadLight Track</strong> adds a track that plays recorded DMX sequences as clips, and can record DMX (for example all incoming Art-Net) into a new clip.</li>
+<li><strong>OSC Query tracks.</strong> <span class="menu-path">Add OSC Track<span class="sep">&rsaquo;</span>OSC Query...</span> connects to an OSC Query server, lists the parameters it publishes and creates OSC tracks for them.</li>
+<li><strong>Audio level linked to opacity on Montage clips.</strong> The audio level of a movie in a Montage clip can follow the opacity of the surface (<strong>Link Audio level to surface opacity</strong>), so visual fades also fade the sound.</li>
+<li><strong>Start Point.</strong> A start marker defines where playback starts when you start a timeline, independently of its loop.</li>
+<li><strong>Grid Orientation.</strong> A Grid can be flipped to swap columns and rows.</li>
+<li><strong>Timecode monitor.</strong> When a Conductor is synchronised to an external timecode (ExtSync), the <strong>Timecode Monitor&hellip;</strong> button opens a window that shows the incoming timecode.</li>
+</ul>
+<h3>New Media Types and Integrations</h3>
+<h4 id="notch-blocks"><strong>Notch blocks (<span class="badge badge-os">Windows only)</span></strong></h4>
+<p>Load a Notch block (<strong>.dfxdll</strong> file) as a media, and control its exposed parameters from the media inspector. Windows only.</p>
+<h4 id="touchdesigner-components">TouchDesigner</h4>
+<p>Load a TouchDesigner component (<strong>.tox</strong> file) as a module: its parameters appear in the module inspector and its Out TOPs appear as media. The TouchDesigner license is checked before a .tox file is loaded.</p>
+<h4 id="webpage-media"><strong>WebPage</strong></h4>
+<p>Use any web page as an interactive media: set its URL and size, and interact with it from MadMapper.</p>
+<h4 id="window-grabber-media"><strong>Window Grabber media</strong></h4>
+<p>Capture the window of another application and use it as a media, for example a presentation, a browser or a dashboard.</p>
+<h4 id="subtitles"><strong>Subtitles</strong></h4>
+<p>When a movie contains text subtitle tracks, MadMapper can display a track over the video, or create a separate media that renders only the subtitle text (for a separate surface, an LED screen or a laser). <code>.srt</code> subtitle files can also be imported and played as media.</p>
+<h4 id="mediapipe-module"><strong>MediaPipe module</strong></h4>
+<p>The <strong>MediaPipe</strong> module tracks hands, body or face in a camera image and outputs gesture values (positions, pinch and grab levels, poses, face expressions, head orientation) for interactive installations.</p>
+<h3>Audio</h3>
+<h4 id="audio-plugins">Audio plugins</h4>
+<p>Insert audio effect plugins on the master audio output and on Show Sequencer audio tracks: VST3 on macOS and Windows, Audio Unit on macOS.</p>
+<h4 id="audio-output-level-meters">Audio output level meters</h4>
+<p>The Master tab and Show Sequencer audio tracks show an <strong>Audio Output Levels</strong> meter of their output, after the audio filters, with a clip indicator.</p>
+<h4 id="multichannel-audio-routing">Multichannel audio routing</h4>
+<p>Movies with 5.1 or 7.1 audio are now downmixed more accurately when the output is mono or stereo.</p>
+<h3 id="dmx-led-and-lighting">DMX, LED and lighting</h3>
+<h4 id="hsi-and-cie-xy-color-control">HSI and CIE xy color control</h4>
+<p>Fixture definitions can describe fixtures controlled in HSI (hue, saturation, intensity) or in CIE xy chromaticity coordinates, in addition to RGB-type color modes.</p>
+<h4 id="art-net-fps-mode">Art-Net FPS mode</h4>
+<p>A new <strong>FPS Mode</strong> option chooses between a fixed and a variable frame rate for Art-Net and sACN output. Fixed FPS is recommended for compatibility with most hardware.</p>
+<h4 id="all-rgb-orders-for-led-strips-and-matrices">All RGB orders for LED strips and matrices</h4>
+<p>Every combination of RGB order (RGB, RBG, GRB, GBR, BRG, BGR) is available by default for LED Strips and LED Matrices.</p>
+<h3 id="controls">Controls</h3>
+<h4 id="device-specific-midi-controls">Device-specific MIDI controls</h4>
+<p>A MIDI control can be tied to one MIDI device, so the same note or controller number on two devices can drive two different parameters. Set it in <span class="menu-path">Project<span class="sep">&rsaquo;</span>Project Settings</span>, <strong>MIDI</strong> tab, <strong>MIDI Input</strong> &rsaquo; <strong>Mapping Device</strong>.</p>
+<h3 id="outputs-and-surfaces">Outputs and surfaces</h3>
+<h4 id="output-buttons-in-controls-and-cues">Output buttons in Controls and Cues</h4>
+<p>The buttons of the output inspector (<strong>Desktop Window</strong>, <strong>Publish to Syphon</strong> / <strong>Publish to Spout</strong>, <strong>Publish to NDI</strong>, <strong>Show Test Pattern</strong>, <strong>Publish Internal Loopback</strong>) can be mapped to Controls and stored in Scenes and Cues.</p>
+<h4 id="black-level-compensation">Black level compensation</h4>
+<p>Soft-edge blending gains <strong>Black Level Compensation</strong>. Projectors cannot produce a true black: where two projectors overlap, their residual light adds up and the overlap looks brighter than the rest of a dark image. Black level compensation lifts the black level of the non-overlapping areas to hide this difference.</p>
+<h4 id="ascii-art-surface-fx">Ascii Art Surface FX</h4>
+<p>A new 2D Surface FX renders the surface content as characters (ASCII ramps, halftone blocks, matrix code, dot screens&hellip;), with adjustable character size, contrast, edge boost and colors.</p>
+<h4 id="destination-popups-show-screens-in-use">Destination popups show screens in use</h4>
+<p>The <strong>Destination</strong> popup of Video Outputs and Laser Outputs now shows which screens and lasers are already used by another output (shown in bold italic).</p>
+<h4 id="better-constrained-move">Better constrained move</h4>
+<p><span class="keys"><kbd>Shift</kbd><span class="plus">+</span><kbd>Drag</kbd></span> on an item in a preview constrains the move to one axis. It now works with multi-selections and with mesh warping points.</p>
+<h3 id="interface-and-projects">Interface and projects</h3>
+<h4 id="expert-mode-saved-in-the-project">Expert Mode saved in the project</h4>
+<p>Expert Mode is now saved in the project: enable it in the <strong>Expert</strong> section of Project Settings. It reveals new advanced options for media, surfaces, outputs and the Show Sequencer.</p>
+<h4 id="extract-button-in-the-editors-panel-header">Extract button in the editors panel header</h4>
+<p>The header of the editors panel has an extract button that opens the selected editor in its own window.</p>
+<h4 id="higher-interface-contrast">Higher interface contrast</h4>
+<p>The user interface uses higher contrast for better readability.</p>
+<h4 id="project-export-as-an-archive">Project export as an archive</h4>
+<p><span class="menu-path">File<span class="sep">&rsaquo;</span>Export Project To...</span> can produce a single <strong>.zip</strong> archive of the project and its resources, ready to send.</p>
+<h4 id="file-type-filters-in-the-import-media-dialog">File type filters in the Import Media dialog</h4>
+<p>The <span class="menu-path">File<span class="sep">&rsaquo;</span>Import Media...</span> dialog has one filter per media family (<strong>Images</strong>, <strong>Movies</strong>, <strong>ISF Shaders</strong>&hellip;) and an <strong>All supported formats</strong> filter.</p>
+<h4 id="saving-in-the-demo-version">Saving in the Demo version</h4>
+<p>The Demo version can now save projects, for testing purposes. Projects saved by the Demo cannot be opened by a licensed MadMapper and vice versa.</p>
+<h4 id="preferences-window-position">Preferences window position</h4>
+<p>The Preferences window reopens at its previous position and size.</p>
+<h3 id="performance">Performance</h3>
+<ul>
+<li><strong>Images are loaded only when used</strong>, asynchronously. Projects with hundreds of images use far less memory and open faster.</li>
+<li><strong>Huge projects</strong> (many surfaces, fixtures and outputs) are handled faster.</li>
+<li>The Canon EDSDK, used for Canon cameras as <a href="http://localhost:8000/media/live-inputs.html">live inputs</a> and by the <a href="http://localhost:8000/surfaces/space-scanner.html">Space Scanner</a>, is updated to version 13.20.20.0.</li>
+</ul>
+<h3 id="converting-older-madmapper-6-projects">Converting older MadMapper 6 projects</h3>
+<p>When you open a project saved with MadMapper 6.0 or 6.1, MadMapper 6.2 converts it automatically:</p>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Before 6.2</th>
+<th>In 6.2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Timelines editor</td>
+<td>Show Sequencer</td>
+</tr>
+<tr>
+<td>OSC and control addresses starting with <code>/timelines/</code></td>
+<td>Addresses starting with <code>/show/</code></td>
+</tr>
+<tr>
+<td>Grid columns and rows</td>
+<td>Tasks and lines (control addresses such as <code>/by_cell/col_1/scene_row_2</code> become <code>/by_cell/task_1/scenes_2</code>)</td>
+</tr>
+<tr>
+<td>Conductor stored in the same bank as the grid</td>
+<td>Conductor stored in its own bank, named after the grid bank with a <code>_Conductor</code> suffix (for example <code>/show/Bank-1_Conductor/&hellip;</code>)</td>
+</tr>
+<tr>
+<td><strong>Timeline Scheduler</strong>, <strong>Timeline Automation</strong>, <strong>Startup Timeline</strong>, <strong>Idle Timeline</strong> modules</td>
+<td><strong>Show Scheduler</strong>, <strong>Show Automation</strong>, <strong>Show Startup</strong>, <strong>Show Idle</strong> modules, with their parameters renamed accordingly</td>
+</tr>
+<tr>
+<td><strong>Calendar Scheduler</strong> parameter <strong>Stop on Loop End</strong></td>
+<td><strong>Pause on Loop End</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>MadLight sequences are saved in the <code>MadLightSequences</code> folder of the project, one <code>&lt;name&gt;.madlight</code> folder per sequence.</p>
+<p>Controls (MIDI, OSC, DMX, keyboard) and automation tracks that pointed to renamed items are remapped. If you control MadMapper from external software (show controllers, TouchOSC layouts, scripts), update the OSC addresses on that side.</p>

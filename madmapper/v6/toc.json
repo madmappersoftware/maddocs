@@ -55,13 +55,22 @@
         "minorVersion": "0",
         "subpage": [
           {
+            "pageSuid": "IMBSb4Ip2t",
+            "pageTitle": "MadMapper 6.2",
+            "pageSlug": "madmapper-6.2",
+            "pageType": "empty",
+            "minorVersion": "0",
+            "subpage": [],
+            "publish": false
+          },
+          {
             "pageSuid": "3hgIot1RBf",
-            "pageTitle": "MadMapper v6",
-            "pageSlug": "madmapper-v6",
+            "pageTitle": "MadMapper 6",
+            "pageSlug": "madmapper-6",
             "pageType": "empty",
             "minorVersion": "6",
             "subpage": [],
-            "publish": true,
+            "publish": false,
             "breadcrumb": "What's New"
           },
           {
@@ -592,8 +601,8 @@
   },
   {
     "pageSuid": "zsu3iPADLl",
-    "pageTitle": "10. Timelines",
-    "pageSlug": "10.-timelines",
+    "pageTitle": "Show Sequencer",
+    "pageSlug": "show-sequencer",
     "pageType": "empty",
     "minorVersion": "0",
     "subpage": [
@@ -668,7 +677,7 @@
         "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings > 10. Timelines"
       }
     ],
-    "publish": true,
+    "publish": false,
     "breadcrumb": "1. Introduction > 2. The Interface > 3. Media > 4. Surfaces > 5. DMX & LED Mapping > 6. Outputs > 7. Laser MadLaser > 9. Master Settings"
   },
   {
